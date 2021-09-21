@@ -3,11 +3,9 @@ from streamlit_folium import folium_static
 import pandas as pd
 import numpy as np
 from numpy import nan
-import re
 import numpy as np
 from datetime import timedelta
 import datetime
-import time
 import plotly.express as px
 from bson import ObjectId
 import folium
@@ -79,107 +77,6 @@ df_comparaison_94 = pd.read_csv('ressources/Fig2_94.csv')
 df_comparaison_95 = pd.read_csv('ressources/Fig2_95.csv')
 
 
-# Catégories de la base
-categories = {
-    0: "Unknowed",
-    100: "Santé",
-    101: "Addiction",
-    102: "Dépistage",
-    103: "Psychologie",
-    104: "Soins enfants",
-    105: "Généraliste",
-    106: "Dentaire",
-    107: "Suivi grossesse",
-    109: "Vaccination",
-    110: "Infirmerie",
-    111: "Vétérinaire",
-
-    200: "Formation et emploi",
-    201: "Atelier numérique",
-    202: "Formation français",
-    203: "Accompagnement à l'emploi",
-    204: "Pôle emploi",
-    205: "Chantier d'insertion",
-    206: "Soutien scolaire",
-
-    300: "Hygiène et bien-être",
-    301: "Douche",
-    302: "Laverie",
-    303: "Bien-être",
-    304: "Toilettes",
-    305: "Protections périodiques",
-    306: "Masques",
-
-    400: "Conseil",
-    401: "Conseil logement",
-    402: "Permanence juridique",
-    403: "Domiciliation",
-    404: "Accompagnement social",
-    405: "Ecrivain public",
-    406: "Conseil handicap",
-    407: "Conseil administratif",
-
-    500: "Technologie",
-    501: "Ordinateur",
-    502: "Wifi",
-    503: "Prise",
-    504: "Téléphones",
-    505: "Numérisation de documents",
-
-    600: "Alimentation",
-    601: "Distribution alimentaire",
-    602: "Restauration assise",
-    603: "Colis Alimentaire",
-    604: "Epicerie AideSociale",
-    605: "Fontaine",
-
-    700: "Accueil",
-    701: "Accueil de jour",
-    702: "Hébergement d'urgence",
-    703: "Hébergement à long terme",
-    704: "Logement bas prix",
-    705: "Espaces de repos",
-    706: "Halte de nuit",
-    707: "Garde d'enfants",
-
-    800: "Activités",
-    801: "Sport",
-    802: "Musée",
-    803: "Bibliothèque",
-    804: "Activités",
-    805: "Animations et loisirs",
-
-    900: "Matériel",
-    901: "Bagagerie",
-    902: "Magasin solidaire",
-    903: "Vêtements",
-    904: "Animaux",
-
-    1100: "Spécialistes",
-    1101: "Allergologie",
-    1102: "Cardiologie",
-    1103: "Dermatologie",
-    1104: "Echographie",
-    1105: "Endocrinologie",
-    1106: "Gastro-entérologie",
-    1107: "Gynécologie",
-    1108: "Kinésithérapie",
-    1109: "Mammographie",
-    1110: "Ophtalmologie",
-    1111: "Oto-rhino-laryngologie",
-    1112: "Nutrition",
-    1113: "Pédicure",
-    1114: "Phlébologie",
-    1115: "Pneumologie",
-    1116: "Radiologie",
-    1117: "Rhumatologie",
-    1118: "Urologie",
-    1119: "Orthophonie",
-    1120: "Stomatologie",
-    1121: "Osthéopathie",
-    1122: "Accupuncture",
-    }
-categories_df = pd.DataFrame(categories.items(), columns=['categorie', 'name'])
 
 ###############
 ##  FRANCE   ##
@@ -231,6 +128,16 @@ if categorie == 'France':
     st.plotly_chart(fig, use_container_width=True)
 
     # Donnéés traitées pour construire graph 3
+    fig = px.bar(df_stacked_per_france, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+                        margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        legend_title="Services",                     
+                        xaxis_title="",
+                        yaxis_title="",)
+
+    st.plotly_chart(fig, use_container_width=True)
+
 
 
  ###############
@@ -284,6 +191,17 @@ if categorie == 'Ile-De-France':
                         yaxis_title="Catégories",)
     st.plotly_chart(fig, use_container_width=True)
  
+   # Donnéés traitées pour construire graph 3
+    fig = px.bar(df_stacked_per_IDF, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+                        margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        legend_title="Services",                     
+                        xaxis_title="",
+                        yaxis_title="",)
+
+    st.plotly_chart(fig, use_container_width=True)
+
 
     html_string = "<h2>2 229 mails envoyés et au moins 840 appels réalisés</h2>"
 
@@ -344,7 +262,16 @@ if categorie == 'Alpes-Maritimes (06)':
                         yaxis_title="Catégories",)
     st.plotly_chart(fig, use_container_width=True)
  
+  # Donnéés traitées pour construire graph 3
+    fig = px.bar(df_stacked_per_06, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+                        margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        legend_title="Services",                     
+                        xaxis_title="",
+                        yaxis_title="",)
 
+    st.plotly_chart(fig, use_container_width=True)
 
     html_string = "<h2>2 229 mails envoyés et au moins 840 appels réalisés</h2>"
 
@@ -353,7 +280,10 @@ if categorie == 'Alpes-Maritimes (06)':
     html_string = "<h2>94 065 recherches ont été effectuées sur soliguide cette été</h2>"
 
     st.markdown(html_string, unsafe_allow_html=True)
-    
+
+ 
+
+
     
 ###############
 ##  GIRONDE  ##
@@ -404,7 +334,20 @@ if categorie == 'Gironde (33)':
                         xaxis_title="",
                         yaxis_title="Catégories",)
     st.plotly_chart(fig, use_container_width=True)
- 
+
+
+   # Donnéés traitées pour construire graph 3
+    fig = px.bar(df_stacked_per_33, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+                        margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        legend_title="Services",                     
+                        xaxis_title="",
+                        yaxis_title="",)
+
+    st.plotly_chart(fig, use_container_width=True)
+
+
 
 ########################
 ##  LOIRE ATLANTIQUE  ##
@@ -455,7 +398,21 @@ if categorie == 'Loire-Atlantique (44)':
                         xaxis_title="",
                         yaxis_title="Catégories",)
     st.plotly_chart(fig, use_container_width=True)
- 
+
+
+   # Donnéés traitées pour construire graph 3
+    fig = px.bar(df_stacked_per_44, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+                        margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        legend_title="Services",                     
+                        xaxis_title="",
+                        yaxis_title="",)
+
+    st.plotly_chart(fig, use_container_width=True)
+
+
+
 ################
 ##  BAS-RHIN  ##
 ################
@@ -505,7 +462,21 @@ if categorie == 'Bas-Rhin (67)':
                         xaxis_title="",
                         yaxis_title="Catégories",)
     st.plotly_chart(fig, use_container_width=True)
- 
+
+
+   # Donnéés traitées pour construire graph 3
+    fig = px.bar(df_stacked_per_67, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+                        margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        legend_title="Services",                     
+                        xaxis_title="",
+                        yaxis_title="",)
+
+    st.plotly_chart(fig, use_container_width=True)
+
+
+
 ################
 ##  PARIS  ##
 ################
@@ -555,7 +526,21 @@ if categorie == 'Paris (75)':
                         xaxis_title="",
                         yaxis_title="Catégories",)
     st.plotly_chart(fig, use_container_width=True)
- 
+
+
+   # Donnéés traitées pour construire graph 3
+    fig = px.bar(df_stacked_per_75, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+                        margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        legend_title="Services",                     
+                        xaxis_title="",
+                        yaxis_title="",)
+
+    st.plotly_chart(fig, use_container_width=True)
+
+
+
 ######################
 ##  SEINE-ET-MARNE  ##
 ######################
@@ -605,7 +590,21 @@ if categorie == 'Seine-et-Marne (77)':
                         xaxis_title="",
                         yaxis_title="Catégories",)
     st.plotly_chart(fig, use_container_width=True)
- 
+
+
+   # Donnéés traitées pour construire graph 3
+    fig = px.bar(df_stacked_per_77, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+                        margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        legend_title="Services",                     
+                        xaxis_title="",
+                        yaxis_title="",)
+
+    st.plotly_chart(fig, use_container_width=True)
+
+
+
 ################
 ##  YVELINES  ##
 ################
@@ -656,7 +655,21 @@ if categorie == 'Yvelines (78)':
                         xaxis_title="",
                         yaxis_title="Catégories",)
     st.plotly_chart(fig, use_container_width=True)
- 
+
+
+   # Donnéés traitées pour construire graph 3
+    fig = px.bar(df_stacked_per_78, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+                        margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        legend_title="Services",                     
+                        xaxis_title="",
+                        yaxis_title="",)
+
+    st.plotly_chart(fig, use_container_width=True)
+
+
+
 ################
 ##  ESSONNE  ##
 ################
@@ -706,6 +719,20 @@ if categorie == 'Essonne (91)':
                         xaxis_title="",
                         yaxis_title="Catégories",)
     st.plotly_chart(fig, use_container_width=True)
+
+
+   # Donnéés traitées pour construire graph 3
+    fig = px.bar(df_stacked_per_91, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+                        margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        legend_title="Services",                     
+                        xaxis_title="",
+                        yaxis_title="",)
+
+    st.plotly_chart(fig, use_container_width=True)
+
+
 
 ######################
 ##  HAUTS-DE-SEINE  ##
@@ -757,6 +784,20 @@ if categorie == 'Hauts-de-Seine (92)':
                         yaxis_title="Catégories",)
     st.plotly_chart(fig, use_container_width=True)
 
+
+   # Donnéés traitées pour construire graph 3
+    fig = px.bar(df_stacked_per_92, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+                        margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        legend_title="Services",                     
+                        xaxis_title="",
+                        yaxis_title="",)
+
+    st.plotly_chart(fig, use_container_width=True)
+
+
+
 #########################
 ##  SEINE-SAINT-DENIS  ##
 #########################
@@ -806,6 +847,19 @@ if categorie == 'Seine-Saint-Denis (93)':
                         xaxis_title="",
                         yaxis_title="Catégories",)
     st.plotly_chart(fig, use_container_width=True)
+
+
+   # Donnéés traitées pour construire graph 3
+    fig = px.bar(df_stacked_per_93, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+                        margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        legend_title="Services",                     
+                        xaxis_title="",
+                        yaxis_title="",)
+
+    st.plotly_chart(fig, use_container_width=True)
+
 
 
 ####################
@@ -860,6 +914,19 @@ if categorie == 'Val-de-Marne (94)':
     st.plotly_chart(fig, use_container_width=True)
 
 
+   # Donnéés traitées pour construire graph 3
+    fig = px.bar(df_stacked_per_94, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+                        margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        legend_title="Services",                     
+                        xaxis_title="",
+                        yaxis_title="",)
+
+    st.plotly_chart(fig, use_container_width=True)
+
+
+
 ####################
 ##  VAL-D'OISE  ##
 ####################
@@ -910,3 +977,16 @@ if categorie == 'Val-d\'Oise (95)':
                         xaxis_title="",
                         yaxis_title="Catégories",)
     st.plotly_chart(fig, use_container_width=True)
+
+
+   # Donnéés traitées pour construire graph 3
+    fig = px.bar(df_stacked_per_95, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+                        margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        legend_title="Services",                     
+                        xaxis_title="",
+                        yaxis_title="",)
+
+    st.plotly_chart(fig, use_container_width=True)
+
