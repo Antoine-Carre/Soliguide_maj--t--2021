@@ -47,19 +47,19 @@ categorie = st.sidebar.selectbox("Choisissez votre territoire :", ("France",  "I
 
 # Données pour cartes :
 df_france = pd.read_csv('ressources/df_france.csv')
-df_fiches_IDF = pd.read_csv('df_IDF.csv')
-df_fiches_06 = pd.read_csv('df_fiches_06.csv')
-df_fiches_33 = pd.read_csv('df_fiches_33.csv')
-df_fiches_44 = pd.read_csv('df_fiches_44.csv')
-df_fiches_67 = pd.read_csv('df_fiches_67.csv')
-df_fiches_75 = pd.read_csv('df_fiches_75.csv')
-df_fiches_77 = pd.read_csv('df_fiches_77.csv')
-df_fiches_78 = pd.read_csv('df_fiches_78.csv')
-df_fiches_91 = pd.read_csv('df_fiches_91.csv')
-df_fiches_92 = pd.read_csv('df_fiches_92.csv')
-df_fiches_93 = pd.read_csv('df_fiches_93.csv')
-df_fiches_94 = pd.read_csv('df_fiches_94.csv')
-df_fiches_95 = pd.read_csv('df_fiches_95.csv')
+df_fiches_IDF = pd.read_csv('ressources/df_IDF.csv')
+df_fiches_06 = pd.read_csv('ressources/df_fiches_06.csv')
+df_fiches_33 = pd.read_csv('ressources/df_fiches_33.csv')
+df_fiches_44 = pd.read_csv('ressources/df_fiches_44.csv')
+df_fiches_67 = pd.read_csv('ressources/df_fiches_67.csv')
+df_fiches_75 = pd.read_csv('ressources/df_fiches_75.csv')
+df_fiches_77 = pd.read_csv('ressources/df_fiches_77.csv')
+df_fiches_78 = pd.read_csv('ressources/df_fiches_78.csv')
+df_fiches_91 = pd.read_csv('ressources/df_fiches_91.csv')
+df_fiches_92 = pd.read_csv('ressources/df_fiches_92.csv')
+df_fiches_93 = pd.read_csv('ressources/df_fiches_93.csv')
+df_fiches_94 = pd.read_csv('ressources/df_fiches_94.csv')
+df_fiches_95 = pd.read_csv('ressources/df_fiches_95.csv')
 
 
 # Catégories de la base
