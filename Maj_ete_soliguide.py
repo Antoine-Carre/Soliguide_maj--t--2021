@@ -62,6 +62,23 @@ df_fiches_94 = pd.read_csv('ressources/df_fiches_94.csv')
 df_fiches_95 = pd.read_csv('ressources/df_fiches_95.csv')
 
 
+# Données pour le barchart horizontal:
+df_comparaison_France = pd.read_csv('ressources/Fig2.csv')
+df_comparaison_IDF = pd.read_csv('ressources/Fig2_IDF.csv')
+df_comparaison_06 = pd.read_csv('ressources/Fig2_06.csv')
+df_comparaison_33 = pd.read_csv('ressources/Fig2_33.csv')
+df_comparaison_44 = pd.read_csv('ressources/Fig2_44.csv')
+df_comparaison_67 = pd.read_csv('ressources/Fig2_67.csv')
+df_comparaison_75 = pd.read_csv('ressources/Fig2_75.csv')
+df_comparaison_77 = pd.read_csv('ressources/Fig2_77.csv')
+df_comparaison_78 = pd.read_csv('ressources/Fig2_78.csv')
+df_comparaison_91 = pd.read_csv('ressources/Fig2_91.csv')
+df_comparaison_92 = pd.read_csv('ressources/Fig2_92.csv')
+df_comparaison_93 = pd.read_csv('ressources/Fig2_93.csv')
+df_comparaison_94 = pd.read_csv('ressources/Fig2_94.csv')
+df_comparaison_95 = pd.read_csv('ressources/Fig2_95.csv')
+
+
 # Catégories de la base
 categories = {
     0: "Unknowed",
