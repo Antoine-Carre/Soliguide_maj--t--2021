@@ -156,37 +156,6 @@ if categorie == 'France':
     st.plotly_chart(fig, use_container_width=True)
 
 
-    # Recuperation des données concernant les mise à jours
-    df_history['userDatas'] = df_history.userDatas.astype(str).apply(lambda x:eval(x))
-    df_history_bis =pd.json_normalize(df_history['userDatas'])
-    df_history_bis_2 = pd.concat([df_history, df_history_bis], axis=1)
-
-    # Extraction des données nécessaire au pie chart
-    df_history_2 = df_history_bis_2[['_id','created_at','status']]
-
-    # Mise en forme de la date pour permettre le filtrage sur les donné concernant la MàJ été 2021
-    df_history_2.created_at = pd.to_datetime(df_history_2['created_at']).dt.strftime('%Y-%m-%d')
-
-    # Filtrage des données sur la période estival 2021  
-    df_history_2 = df_history_2.loc[(df_history_2['created_at']>"2021-05-31") & (df_history_2['created_at']>"2021-09-01")]
-
-    # Après vérification, on a constater que certain compte pro ont été créés comme Simple_User, rectification pour le graph
-    df_history_2.status.replace({'SIMPLE_USER': 'PRO'}, inplace=True)
-
-    # Changement des noms pour une meilleure libilité du graph
-    df_history_2.status.replace({'PRO': 'Acteurs', 'ADMIN_SOLIGUIDE': 'Soliguide'}, inplace=True)
-
-    # Comptage des modification par type de profile
-    res = pd.DataFrame(df_history_2.status.value_counts())
-
-    fig = px.pie(values=res.status, names=res.index, color_discrete_sequence=['palevioletred'])
-    fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
-
-    st.plotly_chart(fig, use_container_width=True)
-
-
     html_string = "<h2>2 229 mails envoyés et au moins 840 appels réalisés</h2>"
 
     st.markdown(html_string, unsafe_allow_html=True)
