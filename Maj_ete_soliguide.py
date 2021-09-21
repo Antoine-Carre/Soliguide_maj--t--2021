@@ -46,7 +46,7 @@ categorie = st.sidebar.selectbox("Choisissez votre territoire :", ("France",  "I
 # Importation des fichier .csv en pandas
 
 # Données pour cartes :
-df_france = pd.read_csv('df_france.csv')
+df_france = pd.read_csv('ressources/df_france.csv')
 df_fiches_IDF = pd.read_csv('df_IDF.csv')
 df_fiches_06 = pd.read_csv('df_fiches_06.csv')
 df_fiches_33 = pd.read_csv('df_fiches_33.csv')
