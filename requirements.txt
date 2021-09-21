@@ -1,0 +1,10 @@
+streamlit
+streamlit_folium
+pandas 
+numpy
+re
+datetime
+time
+plotly
+bson
+folium
