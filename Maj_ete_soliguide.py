@@ -168,7 +168,7 @@ if categorie == 'France':
     st.plotly_chart(fig, use_container_width=True)
 
 
-   st.markdown(html_string, unsafe_allow_html=True)
+    st.markdown(html_string, unsafe_allow_html=True)
 
     st.markdown(
         """
