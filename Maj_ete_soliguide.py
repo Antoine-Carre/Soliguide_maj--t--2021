@@ -76,6 +76,21 @@ df_comparaison_93 = pd.read_csv('ressources/Fig2_93.csv')
 df_comparaison_94 = pd.read_csv('ressources/Fig2_94.csv')
 df_comparaison_95 = pd.read_csv('ressources/Fig2_95.csv')
 
+# Données pour le stacked chart:
+df_stacked_per_france = pd.read_csv('Fig3.csv')
+df_stacked_per_IDF = pd.read_csv('Fig3_IDF.csv')
+df_stacked_per_06 = pd.read_csv('Fig3_06.csv')
+df_stacked_per_33 = pd.read_csv('Fig3_33.csv')
+df_stacked_per_44 = pd.read_csv('Fig3_44.csv')
+df_stacked_per_67 = pd.read_csv('Fig3_67.csv')
+df_stacked_per_75 = pd.read_csv('Fig3_75.csv')
+df_stacked_per_77 = pd.read_csv('Fig3_77.csv')
+df_stacked_per_78 = pd.read_csv('Fig3_78.csv')
+df_stacked_per_91 = pd.read_csv('Fig3_91.csv')
+df_stacked_per_92 = pd.read_csv('Fig3_92.csv')
+df_stacked_per_93 = pd.read_csv('Fig3_93.csv')
+df_stacked_per_94 = pd.read_csv('Fig3_94.csv')
+df_stacked_per_95 = pd.read_csv('Fig3_95.csv')
 
 
 ###############
