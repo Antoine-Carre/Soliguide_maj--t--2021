@@ -47,7 +47,7 @@ categorie = st.sidebar.selectbox("Choisissez votre territoire :", ("France",  "I
 
 # Données pour cartes :
 df_france = pd.read_csv('df_france.csv')
-df_IDF = pd.read_csv('df_IDF.csv')
+df_fiches_IDF = pd.read_csv('df_IDF.csv')
 df_fiches_06 = pd.read_csv('df_fiches_06.csv')
 df_fiches_33 = pd.read_csv('df_fiches_33.csv')
 df_fiches_44 = pd.read_csv('df_fiches_44.csv')
