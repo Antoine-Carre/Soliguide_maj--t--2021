@@ -3,9 +3,11 @@ from streamlit_folium import folium_static
 import pandas as pd
 import numpy as np
 from numpy import nan
+import re
 import numpy as np
 from datetime import timedelta
 import datetime
+import time
 import plotly.express as px
 from bson import ObjectId
 import folium
@@ -24,7 +26,7 @@ st.set_page_config(page_title="Soliguide 2021 - Mise à jour été",
 #############
 ## sidebar ##
 ############# 
-st.sidebar.image("https://www.solinum.org/wp-content/uploads/2020/09/Soliguide_RVB_Inline_Original_Onwhite@4x-1-1024x319.png", use_column_width=True)
+st.sidebar.image("https://s3.us-west-2.amazonaws.com/secure.notion-static.com/caeabe8c-f726-4dfe-ac9e-aaa9c4099e07/Soliguide_RVB_Original_PurpleOrange4x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210921%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210921T140607Z&X-Amz-Expires=86400&X-Amz-Signature=3021703b71b396e5cf7dc4de84318ef5df3c46df80febb9ccea6d44d255bf447&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Soliguide_RVB_Original_PurpleOrange4x.png%22", use_column_width=True)
 st.sidebar.title('Soliguide 2021')
 st.sidebar.subheader('Mise à jour été')
 
@@ -44,37 +46,37 @@ categorie = st.sidebar.selectbox("Choisissez votre territoire :", ("France",  "I
 # Importation des fichier .csv en pandas
 
 # Données pour cartes :
-df_france = pd.read_csv('ressources/df_france.csv')
-df_fiches_IDF = pd.read_csv('ressources/df_IDF.csv')
-df_fiches_06 = pd.read_csv('ressources/df_fiches_06.csv')
-df_fiches_33 = pd.read_csv('ressources/df_fiches_33.csv')
-df_fiches_44 = pd.read_csv('ressources/df_fiches_44.csv')
-df_fiches_67 = pd.read_csv('ressources/df_fiches_67.csv')
-df_fiches_75 = pd.read_csv('ressources/df_fiches_75.csv')
-df_fiches_77 = pd.read_csv('ressources/df_fiches_77.csv')
-df_fiches_78 = pd.read_csv('ressources/df_fiches_78.csv')
-df_fiches_91 = pd.read_csv('ressources/df_fiches_91.csv')
-df_fiches_92 = pd.read_csv('ressources/df_fiches_92.csv')
-df_fiches_93 = pd.read_csv('ressources/df_fiches_93.csv')
-df_fiches_94 = pd.read_csv('ressources/df_fiches_94.csv')
-df_fiches_95 = pd.read_csv('ressources/df_fiches_95.csv')
+df_france = pd.read_csv('df_france.csv')
+df_fiches_IDF = pd.read_csv('df_IDF.csv')
+df_fiches_06 = pd.read_csv('df_fiches_06.csv')
+df_fiches_33 = pd.read_csv('df_fiches_33.csv')
+df_fiches_44 = pd.read_csv('df_fiches_44.csv')
+df_fiches_67 = pd.read_csv('df_fiches_67.csv')
+df_fiches_75 = pd.read_csv('df_fiches_75.csv')
+df_fiches_77 = pd.read_csv('df_fiches_77.csv')
+df_fiches_78 = pd.read_csv('df_fiches_78.csv')
+df_fiches_91 = pd.read_csv('df_fiches_91.csv')
+df_fiches_92 = pd.read_csv('df_fiches_92.csv')
+df_fiches_93 = pd.read_csv('df_fiches_93.csv')
+df_fiches_94 = pd.read_csv('df_fiches_94.csv')
+df_fiches_95 = pd.read_csv('df_fiches_95.csv')
 
 
 # Données pour le barchart horizontal:
-df_comparaison_France = pd.read_csv('ressources/Fig2.csv')
-df_comparaison_IDF = pd.read_csv('ressources/Fig2_IDF.csv')
-df_comparaison_06 = pd.read_csv('ressources/Fig2_06.csv')
-df_comparaison_33 = pd.read_csv('ressources/Fig2_33.csv')
-df_comparaison_44 = pd.read_csv('ressources/Fig2_44.csv')
-df_comparaison_67 = pd.read_csv('ressources/Fig2_67.csv')
-df_comparaison_75 = pd.read_csv('ressources/Fig2_75.csv')
-df_comparaison_77 = pd.read_csv('ressources/Fig2_77.csv')
-df_comparaison_78 = pd.read_csv('ressources/Fig2_78.csv')
-df_comparaison_91 = pd.read_csv('ressources/Fig2_91.csv')
-df_comparaison_92 = pd.read_csv('ressources/Fig2_92.csv')
-df_comparaison_93 = pd.read_csv('ressources/Fig2_93.csv')
-df_comparaison_94 = pd.read_csv('ressources/Fig2_94.csv')
-df_comparaison_95 = pd.read_csv('ressources/Fig2_95.csv')
+df_comparaison_France = pd.read_csv('Fig2.csv')
+df_comparaison_IDF = pd.read_csv('Fig2_IDF.csv')
+df_comparaison_06 = pd.read_csv('Fig2_06.csv')
+df_comparaison_33 = pd.read_csv('Fig2_33.csv')
+df_comparaison_44 = pd.read_csv('Fig2_44.csv')
+df_comparaison_67 = pd.read_csv('Fig2_67.csv')
+df_comparaison_75 = pd.read_csv('Fig2_75.csv')
+df_comparaison_77 = pd.read_csv('Fig2_77.csv')
+df_comparaison_78 = pd.read_csv('Fig2_78.csv')
+df_comparaison_91 = pd.read_csv('Fig2_91.csv')
+df_comparaison_92 = pd.read_csv('Fig2_92.csv')
+df_comparaison_93 = pd.read_csv('Fig2_93.csv')
+df_comparaison_94 = pd.read_csv('Fig2_94.csv')
+df_comparaison_95 = pd.read_csv('Fig2_95.csv')
 
 # Données pour le stacked chart:
 df_stacked_per_france = pd.read_csv('Fig3.csv')
@@ -98,7 +100,7 @@ df_stacked_per_95 = pd.read_csv('Fig3_95.csv')
 ###############
 
 if categorie == 'France':
-    st.title('Solinum - Mise à jour été 2021')
+    st.title('Soliguide - Mise à jour été 2021')
     st.subheader("100% de la base de données mise à jour pour l'été")
 
     html_string = "<br>"
@@ -132,14 +134,14 @@ if categorie == 'France':
 
     #Affichage de la carte
     folium_static(mappy)
-    
+
     # Donnéés traitées pour construire graph 2
     
     fig = px.bar(df_comparaison_France.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
     fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         xaxis_title="",
-                        yaxis_title="Catégories",)
+                        yaxis_title="",)
     st.plotly_chart(fig, use_container_width=True)
 
     # Donnéés traitées pour construire graph 3
@@ -153,6 +155,46 @@ if categorie == 'France':
 
     st.plotly_chart(fig, use_container_width=True)
 
+
+    # Recuperation des données concernant les mise à jours
+    df_history['userDatas'] = df_history.userDatas.astype(str).apply(lambda x:eval(x))
+    df_history_bis =pd.json_normalize(df_history['userDatas'])
+    df_history_bis_2 = pd.concat([df_history, df_history_bis], axis=1)
+
+    # Extraction des données nécessaire au pie chart
+    df_history_2 = df_history_bis_2[['_id','created_at','status']]
+
+    # Mise en forme de la date pour permettre le filtrage sur les donné concernant la MàJ été 2021
+    df_history_2.created_at = pd.to_datetime(df_history_2['created_at']).dt.strftime('%Y-%m-%d')
+
+    # Filtrage des données sur la période estival 2021  
+    df_history_2 = df_history_2.loc[(df_history_2['created_at']>"2021-05-31") & (df_history_2['created_at']>"2021-09-01")]
+
+    # Après vérification, on a constater que certain compte pro ont été créés comme Simple_User, rectification pour le graph
+    df_history_2.status.replace({'SIMPLE_USER': 'PRO'}, inplace=True)
+
+    # Changement des noms pour une meilleure libilité du graph
+    df_history_2.status.replace({'PRO': 'Acteurs', 'ADMIN_SOLIGUIDE': 'Soliguide'}, inplace=True)
+
+    # Comptage des modification par type de profile
+    res = pd.DataFrame(df_history_2.status.value_counts())
+
+    fig = px.pie(values=res.status, names=res.index, color_discrete_sequence=['palevioletred'])
+    fig.update_traces(textinfo="percent+label")
+    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
+
+    st.plotly_chart(fig, use_container_width=True)
+
+
+    html_string = "<h2>2 229 mails envoyés et au moins 840 appels réalisés</h2>"
+
+    st.markdown(html_string, unsafe_allow_html=True)
+
+
+    html_string = "<h2>94 065 recherches ont été effectuées sur soliguide cette été</h2>"
+
+    st.markdown(html_string, unsafe_allow_html=True)
 
 
  ###############
@@ -206,6 +248,16 @@ if categorie == 'Ile-De-France':
                         yaxis_title="Catégories",)
     st.plotly_chart(fig, use_container_width=True)
  
+
+    html_string = "<h2>2 229 mails envoyés et au moins 840 appels réalisés</h2>"
+
+    st.markdown(html_string, unsafe_allow_html=True)
+
+
+    html_string = "<h2>94 065 recherches ont été effectuées sur soliguide cette été</h2>"
+
+    st.markdown(html_string, unsafe_allow_html=True)
+
    # Donnéés traitées pour construire graph 3
     fig = px.bar(df_stacked_per_IDF, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
@@ -217,15 +269,6 @@ if categorie == 'Ile-De-France':
 
     st.plotly_chart(fig, use_container_width=True)
 
-
-    html_string = "<h2>2 229 mails envoyés et au moins 840 appels réalisés</h2>"
-
-    st.markdown(html_string, unsafe_allow_html=True)
-
-
-    html_string = "<h2>94 065 recherches ont été effectuées sur soliguide cette été</h2>"
-
-    st.markdown(html_string, unsafe_allow_html=True)
 
 #######################
 ##  ALPES MARITIMES  ##
