@@ -143,9 +143,9 @@ if categorie == 'France':
     st.plotly_chart(fig, use_container_width=True)
 
     # Donnéés traitées pour construire graph 3
-     fig = px.bar(df_stacked_per_france, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
+    fig = px.bar(df_stacked_per_france, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
-     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Services",                     
                         xaxis_title="",
