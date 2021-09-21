@@ -203,13 +203,25 @@ if categorie == 'France':
 
     #Affichage de la carte
     folium_static(mappy)
+    
+    # Donnéés traitées pour construire graph 2
+    
+    fig = px.bar(df_comparaison_France.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
+    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        xaxis_title="",
+                        yaxis_title="Catégories",)
+    st.plotly_chart(fig, use_container_width=True)
+
+    # Donnéés traitées pour construire graph 3
+
 
  ###############
 ##  ILE DE FRANCE   ##
 ###############
 
 if categorie == 'Ile-De-France':
-    st.title('Solinum - Mise à jour été 2021 - Ile-de-France')
+    st.title('Soliguide - Mise à jour été 2021 - Ile-de-France')
     st.subheader("100% de la base de données mise à jour pour l'été")
 
     html_string = "<br>"
@@ -246,14 +258,31 @@ if categorie == 'Ile-De-France':
     folium_static(mappy)
 
 
-  
+    # Donnéés traitées pour construire graph 2
+    
+    fig = px.bar(df_comparaison_IDF.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
+    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        xaxis_title="",
+                        yaxis_title="Catégories",)
+    st.plotly_chart(fig, use_container_width=True)
+ 
+
+    html_string = "<h2>2 229 mails envoyés et au moins 840 appels réalisés</h2>"
+
+    st.markdown(html_string, unsafe_allow_html=True)
+
+
+    html_string = "<h2>94 065 recherches ont été effectuées sur soliguide cette été</h2>"
+
+    st.markdown(html_string, unsafe_allow_html=True)
 
 #######################
 ##  ALPES MARITIMES  ##
 #######################
 
 if categorie == 'Alpes-Maritimes (06)':
-    st.title('Solinum - Mise à jour été 2021 - Alpes-Maritimes')
+    st.title('Soliguide - Mise à jour été 2021 - Alpes-Maritimes')
     st.subheader("100% de la base de données mise à jour pour l'été")
 
     html_string = "<br>"
@@ -289,6 +318,24 @@ if categorie == 'Alpes-Maritimes (06)':
     #Affichage de la carte
     folium_static(mappy)
 
+    # Donnéés traitées pour construire graph 2
+    
+    fig = px.bar(df_comparaison_06.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
+    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        xaxis_title="",
+                        yaxis_title="Catégories",)
+    st.plotly_chart(fig, use_container_width=True)
+ 
+
+
+    html_string = "<h2>2 229 mails envoyés et au moins 840 appels réalisés</h2>"
+
+    st.markdown(html_string, unsafe_allow_html=True)
+
+    html_string = "<h2>94 065 recherches ont été effectuées sur soliguide cette été</h2>"
+
+    st.markdown(html_string, unsafe_allow_html=True)
     
     
 ###############
@@ -296,7 +343,7 @@ if categorie == 'Alpes-Maritimes (06)':
 ###############
 
 if categorie == 'Gironde (33)':
-    st.title('Solinum - Mise à jour été 2021 - Gironde')
+    st.title('Soliguide - Mise à jour été 2021 - Gironde')
     st.subheader("100% de la base de données mise à jour pour l'été")
 
     html_string = "<br>"
@@ -332,13 +379,22 @@ if categorie == 'Gironde (33)':
     #Affichage de la carte
     folium_static(mappy)
 
+  # Donnéés traitées pour construire graph 2
+    
+    fig = px.bar(df_comparaison_33.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
+    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        xaxis_title="",
+                        yaxis_title="Catégories",)
+    st.plotly_chart(fig, use_container_width=True)
+ 
 
 ########################
 ##  LOIRE ATLANTIQUE  ##
 ########################
 
 if categorie == 'Loire-Atlantique (44)':
-    st.title('Solinum - Mise à jour été 2021 - Loire-Atlantique')
+    st.title('Soliguide - Mise à jour été 2021 - Loire-Atlantique')
     st.subheader("100% de la base de données mise à jour pour l'été")
 
     html_string = "<br>"
@@ -374,13 +430,21 @@ if categorie == 'Loire-Atlantique (44)':
     #Affichage de la carte
     folium_static(mappy)
 
-
+  # Donnéés traitées pour construire graph 2
+    
+    fig = px.bar(df_comparaison_44.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
+    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        xaxis_title="",
+                        yaxis_title="Catégories",)
+    st.plotly_chart(fig, use_container_width=True)
+ 
 ################
 ##  BAS-RHIN  ##
 ################
 
 if categorie == 'Bas-Rhin (67)':
-    st.title('Solinum - Mise à jour été 2021 - Bas-Rhin')
+    st.title('Soliguide - Mise à jour été 2021 - Bas-Rhin')
     st.subheader("100% de la base de données mise à jour pour l'été")
 
     html_string = "<br>"
@@ -416,13 +480,21 @@ if categorie == 'Bas-Rhin (67)':
     #Affichage de la carte
     folium_static(mappy)
 
-
+  # Donnéés traitées pour construire graph 2
+    
+    fig = px.bar(df_comparaison_67.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
+    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        xaxis_title="",
+                        yaxis_title="Catégories",)
+    st.plotly_chart(fig, use_container_width=True)
+ 
 ################
 ##  PARIS  ##
 ################
 
 if categorie == 'Paris (75)':
-    st.title('Solinum - Mise à jour été 2021 - Paris')
+    st.title('Soliguide - Mise à jour été 2021 - Paris')
     st.subheader("100% de la base de données mise à jour pour l'été")
 
     html_string = "<br>"
@@ -458,12 +530,21 @@ if categorie == 'Paris (75)':
     #Affichage de la carte
     folium_static(mappy)
 
+  # Donnéés traitées pour construire graph 2
+    
+    fig = px.bar(df_comparaison_75.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
+    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        xaxis_title="",
+                        yaxis_title="Catégories",)
+    st.plotly_chart(fig, use_container_width=True)
+ 
 ######################
 ##  SEINE-ET-MARNE  ##
 ######################
 
 if categorie == 'Seine-et-Marne (77)':
-    st.title('Solinum - Mise à jour été 2021 - Seine-et-Marne ')
+    st.title('Soliguide - Mise à jour été 2021 - Seine-et-Marne ')
     st.subheader("100% de la base de données mise à jour pour l'été")
 
     html_string = "<br>"
@@ -499,12 +580,21 @@ if categorie == 'Seine-et-Marne (77)':
     #Affichage de la carte
     folium_static(mappy)
 
+  # Donnéés traitées pour construire graph 2
+    
+    fig = px.bar(df_comparaison_77.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
+    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        xaxis_title="",
+                        yaxis_title="Catégories",)
+    st.plotly_chart(fig, use_container_width=True)
+ 
 ################
 ##  YVELINES  ##
 ################
 
 if categorie == 'Yvelines (78)':
-    st.title('Solinum - Mise à jour été 2021 - Yvelines ')
+    st.title('Soliguide - Mise à jour été 2021 - Yvelines ')
     st.subheader("100% de la base de données mise à jour pour l'été")
 
     html_string = "<br>"
@@ -541,12 +631,21 @@ if categorie == 'Yvelines (78)':
     folium_static(mappy)
 
 
+  # Donnéés traitées pour construire graph 2
+    
+    fig = px.bar(df_comparaison_78.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
+    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        xaxis_title="",
+                        yaxis_title="Catégories",)
+    st.plotly_chart(fig, use_container_width=True)
+ 
 ################
 ##  ESSONNE  ##
 ################
 
 if categorie == 'Essonne (91)':
-    st.title('Solinum - Mise à jour été 2021 - Essonne')
+    st.title('Soliguide - Mise à jour été 2021 - Essonne')
     st.subheader("100% de la base de données mise à jour pour l'été")
 
     html_string = "<br>"
@@ -582,13 +681,21 @@ if categorie == 'Essonne (91)':
     #Affichage de la carte
     folium_static(mappy)
 
+  # Donnéés traitées pour construire graph 2
+    
+    fig = px.bar(df_comparaison_91.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
+    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        xaxis_title="",
+                        yaxis_title="Catégories",)
+    st.plotly_chart(fig, use_container_width=True)
 
 ######################
 ##  HAUTS-DE-SEINE  ##
 ######################
 
 if categorie == 'Hauts-de-Seine (92)':
-    st.title('Solinum - Mise à jour été 2021 - Hauts-de-Seine')
+    st.title('Soliguide - Mise à jour été 2021 - Hauts-de-Seine')
     st.subheader("100% de la base de données mise à jour pour l'été")
 
     html_string = "<br>"
@@ -624,13 +731,21 @@ if categorie == 'Hauts-de-Seine (92)':
     #Affichage de la carte
     folium_static(mappy)
 
+  # Donnéés traitées pour construire graph 2
+    
+    fig = px.bar(df_comparaison_92.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
+    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        xaxis_title="",
+                        yaxis_title="Catégories",)
+    st.plotly_chart(fig, use_container_width=True)
 
 #########################
 ##  SEINE-SAINT-DENIS  ##
 #########################
 
 if categorie == 'Seine-Saint-Denis (93)':
-    st.title('Solinum - Mise à jour été 2021 - Seine-Saint-Denis')
+    st.title('Soliguide - Mise à jour été 2021 - Seine-Saint-Denis')
     st.subheader("100% de la base de données mise à jour pour l'été")
 
     html_string = "<br>"
@@ -666,6 +781,14 @@ if categorie == 'Seine-Saint-Denis (93)':
     #Affichage de la carte
     folium_static(mappy)
 
+  # Donnéés traitées pour construire graph 2
+    
+    fig = px.bar(df_comparaison_93.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
+    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        xaxis_title="",
+                        yaxis_title="Catégories",)
+    st.plotly_chart(fig, use_container_width=True)
 
 
 ####################
@@ -673,7 +796,7 @@ if categorie == 'Seine-Saint-Denis (93)':
 ####################
 
 if categorie == 'Val-de-Marne (94)':
-    st.title('Solinum - Mise à jour été 2021 - Val-de-Marne')
+    st.title('Soliguide - Mise à jour été 2021 - Val-de-Marne')
     st.subheader("100% de la base de données mise à jour pour l'été")
 
     html_string = "<br>"
@@ -710,6 +833,14 @@ if categorie == 'Val-de-Marne (94)':
     folium_static(mappy)
 
 
+  # Donnéés traitées pour construire graph 2
+    
+    fig = px.bar(df_comparaison_94.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
+    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        xaxis_title="",
+                        yaxis_title="Catégories",)
+    st.plotly_chart(fig, use_container_width=True)
 
 
 ####################
@@ -717,7 +848,7 @@ if categorie == 'Val-de-Marne (94)':
 ####################
 
 if categorie == 'Val-d\'Oise (95)':
-    st.title('Solinum - Mise à jour été 2021 - Val-d\'Oise')
+    st.title('Soliguide - Mise à jour été 2021 - Val-d\'Oise')
     st.subheader("100% de la base de données mise à jour pour l'été")
 
     html_string = "<br>"
@@ -753,3 +884,12 @@ if categorie == 'Val-d\'Oise (95)':
     #Affichage de la carte
     folium_static(mappy)
 
+
+  # Donnéés traitées pour construire graph 2
+    
+    fig = px.bar(df_comparaison_95.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
+    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                        xaxis_title="",
+                        yaxis_title="Catégories",)
+    st.plotly_chart(fig, use_container_width=True)
