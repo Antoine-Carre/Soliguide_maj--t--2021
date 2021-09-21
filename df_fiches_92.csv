@@ -1,0 +1,1366 @@
+name,departement,region,Fermeture_Estivale,colors,longitude,latitude
+PADA 92,Hauts-de-Seine,Île-de-France,Fermé,red,2.188311800000065,48.895506
+PMI Méditerranée,Hauts-de-Seine,Île-de-France,Fermé,red,2.2893457999999782,48.7382808
+PMI Grésillons,Hauts-de-Seine,Île-de-France,Fermé,red,2.298116499999992,48.9131828
+PMI Delorme,Hauts-de-Seine,Île-de-France,Fermé,red,2.296294,48.91083219999999
+PMI Legouté,Hauts-de-Seine,Île-de-France,Fermé,red,2.2966656999999486,48.7446553
+PMI et CPEF Mourinoux,Hauts-de-Seine,Île-de-France,Fermé,red,2.275940300000002,48.9318144
+Centre de protection maternelle et infantile (PMI) de Bagneux,Hauts-de-Seine,Île-de-France,Fermé,red,2.3030710000000454,48.786671
+PMI Jean Marin Naudin,Hauts-de-Seine,Île-de-France,Fermé,red,2.320539999999937,48.8051252
+Centre de protection maternelle et infantile (PMI) de Bois Colombes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2710650000000214,48.9127188
+PMI Rochefoucauld,Hauts-de-Seine,Île-de-France,Fermé,red,2.2395850000000337,48.8462639
+Centre de protection maternelle et infantile (PMI) de Malakoff,Hauts-de-Seine,Île-de-France,Fermé,red,2.2881649999999354,48.81467730000001
+PMI Pavé blanc,Hauts-de-Seine,Île-de-France,Fermé,red,2.238979400000062,48.7817428
+PMI L'Eglise,Hauts-de-Seine,Île-de-France,Fermé,red,2.263293400000066,48.7993964
+CPEF de l'Hôpital Antoine Béclère,Hauts-de-Seine,Île-de-France,Fermé,red,2.2549008999999387,48.7885168
+PMI et CPEF Chagall Goüin,Hauts-de-Seine,Île-de-France,Fermé,red,2.3111359,48.9020292
+CMS des Quatre Chemins,Hauts-de-Seine,Île-de-France,Fermé,red,2.2275716999999986,48.9121791
+PMI Saint-Denis,Hauts-de-Seine,Île-de-France,Fermé,red,2.2709456000000046,48.9008562
+PMI Guynemer,Hauts-de-Seine,Île-de-France,Fermé,red,2.245247,48.896414
+CMS Simone Veil,Hauts-de-Seine,Île-de-France,Fermé,red,2.2879322,48.78931679999999
+PMI 4 Vents,Hauts-de-Seine,Île-de-France,Fermé,red,2.1952929,48.84731
+PMI Le Luth,Hauts-de-Seine,Île-de-France,Fermé,red,2.2850605999999516,48.9321174
+PMI Mocquard,Hauts-de-Seine,Île-de-France,Fermé,red,2.2913942,48.9238017
+PMI Palloy,Hauts-de-Seine,Île-de-France,Fermé,red,2.309167099999968,48.9029062
+PMI Guynemer,Hauts-de-Seine,Île-de-France,Modification,orange,2.2782710999999836,48.8304103
+PMI Aristide Briand,Hauts-de-Seine,Île-de-France,Fermé,red,2.257535100000041,48.82150009999999
+PMI Charles de Gaulle,Hauts-de-Seine,Île-de-France,Fermé,red,2.262062300000025,48.77985770000001
+PMI Fontaine Henri IV,Hauts-de-Seine,Île-de-France,Fermé,red,2.1924220999999307,48.8116069
+PMI Rousseau,Hauts-de-Seine,Île-de-France,Fermé,red,2.2624014,48.9320862
+Croix rouge de Coulommiers,Hauts-de-Seine,Île-de-France,Ouvert,green,3.0834969999999657,48.813071
+PMI Paul Bert,Hauts-de-Seine,Île-de-France,Fermé,red,2.2475044000000253,48.9258799
+PMI Variot,Hauts-de-Seine,Île-de-France,Fermé,red,2.302793999999949,48.8205898
+PMI et CPEF Galons,Hauts-de-Seine,Île-de-France,Fermé,red,2.24438889999999,48.81360859999999
+PMI Marx Dormoy,Hauts-de-Seine,Île-de-France,Fermé,red,2.3134150999999292,48.81042989999999
+PMI Henri Ginoux,Hauts-de-Seine,Île-de-France,Fermé,red,2.3227807000000666,48.8183346
+PMI République,Hauts-de-Seine,Île-de-France,Fermé,red,2.2087945000000673,48.9036186
+PMI Champs aux melles,Hauts-de-Seine,Île-de-France,Fermé,red,2.218239199999971,48.8881858
+PMI Qwartz,Hauts-de-Seine,Île-de-France,Modification,orange,2.194933100000071,48.8963506
+PMI Decour,Hauts-de-Seine,Île-de-France,Fermé,red,2.2246236999999383,48.8870895
+PMI et CPEF Thorez,Hauts-de-Seine,Île-de-France,Fermé,red,2.195537100000024,48.89160039999999
+PMI Pilot,Hauts-de-Seine,Île-de-France,Fermé,red,2.2777275999999347,48.8814396
+PMI Prolongée,Hauts-de-Seine,Île-de-France,Fermé,red,2.238851000000068,48.8779497
+PMI L'Arche,Hauts-de-Seine,Île-de-France,Fermé,red,2.1936957000000348,48.8630746
+PMI Desfossez,Hauts-de-Seine,Île-de-France,Fermé,red,2.220651900000007,48.8426099
+PMI Lecointre,Hauts-de-Seine,Île-de-France,Fermé,red,2.2121782000000394,48.82380329999999
+PMI Mary Besseyre,Hauts-de-Seine,Île-de-France,Fermé,red,2.290373899999963,48.82082750000001
+PMI et CPEF Debré,Hauts-de-Seine,Île-de-France,Fermé,red,2.1755193999999847,48.8801573
+PMI et CPEF Collange,Hauts-de-Seine,Île-de-France,Fermé,red,2.2928402000000006,48.8985394
+PMI Daniel-Timsit,Hauts-de-Seine,Île-de-France,Fermé,red,2.303322900000012,48.92005650000001
+PMI Colombus,Hauts-de-Seine,Île-de-France,Fermé,red,2.256038999999987,48.9055258
+PMI Pâquerettes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2147379000000456,48.9079111
+PMI Darracq,Hauts-de-Seine,Île-de-France,Fermé,red,2.2263097999999673,48.8717091
+PMI Gabriel Péri,Hauts-de-Seine,Île-de-France,Fermé,red,2.303782700000056,48.79723250000001
+Centre de protection maternelle et infantile (PMI) Châtenay-Malabry,Hauts-de-Seine,Île-de-France,Ouvert,green,2.270220600000016,48.7671112
+PMI et CPEF Zucman-Gabison,Hauts-de-Seine,Île-de-France,Fermé,red,2.2961401000000023,48.9345665
+Centre de protection maternelle et infantile (PMI) Meudon-la-Forêt,Hauts-de-Seine,Île-de-France,Fermé,red,2.2328310999999985,48.78538400000001
+Centre de protection maternelle et infantile (PMI) Sèvres,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2032791000000316,48.82051999999999
+Centre Flora et Tristan : SOS Femmes Alternative,Hauts-de-Seine,Île-de-France,Fermé,red,2.2893870000000334,48.804689
+CIDFF 92 Boulogne-Billancourt (Centre d’Information sur les Droits des Femmes et des Familles des Hauts-de-Seine à Boulogne-Billancourt),Hauts-de-Seine,Île-de-France,Fermé,red,2.243498700000032,48.83266
+CIDFF Hauts-de-Seine/Sud,Hauts-de-Seine,Île-de-France,Fermé,red,2.2657179999999926,48.80392330000001
+CIDFF Hauts-de-Seine Nord,Hauts-de-Seine,Île-de-France,Fermé,red,2.2228514999999334,48.8882923
+CIDFF Neuilly sur seine,Hauts-de-Seine,Île-de-France,Fermé,red,2.2610382999999956,48.8855502
+L'escale-Solidarité Femmes,Hauts-de-Seine,Île-de-France,Fermé,red,2.297367799999961,48.915592
+Magdalena 92,Hauts-de-Seine,Île-de-France,Fermé,red,2.2445075000000543,48.8416737
+Paroisse Saint-Joseph,Hauts-de-Seine,Île-de-France,Fermé,red,2.331655400000045,48.9364059
+Secours Catholique de Gennevilliers,Hauts-de-Seine,Île-de-France,Fermé,red,2.300098299999945,48.9171475
+Secours Catholique d'Asnières - Equipe locale,Hauts-de-Seine,Île-de-France,Fermé,red,2.291940899999986,48.911854
+Restos du Coeur de Colombes  ,Hauts-de-Seine,Île-de-France,Fermé,red,2.244664499999999,48.9208755
+Secours Catholique de Clichy,Hauts-de-Seine,Île-de-France,Fermé,red,2.313918899999976,48.9010382
+Secours Catholique La Garenne Colombes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2472543999999743,48.90847189999999
+Secours Catholique Levallois Perret,Hauts-de-Seine,Île-de-France,Fermé,red,2.2967848000000686,48.8936021
+Secours Catholique Courbevoie,Hauts-de-Seine,Île-de-France,Fermé,red,2.239435599999979,48.8976494
+Secours Catholique Nanterre,Hauts-de-Seine,Île-de-France,Ouvert,green,2.200593499999968,48.8981185
+Secours Catholique Suresnes,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2048372,48.864535
+Secours Catholique Garches,Hauts-de-Seine,Île-de-France,Fermé,red,2.1880006000000094,48.8451363
+Secours Catholique de Boulogne Billancourt - permanence,Hauts-de-Seine,Île-de-France,Fermé,red,2.2329976999999417,48.8313357
+Centre d'accueil de jour Le Rameau,Hauts-de-Seine,Île-de-France,Fermé,red,2.2445075000000543,48.8416737
+Secours Catholique Rueil Malmaison - Bienvenue @ vous,Hauts-de-Seine,Île-de-France,Fermé,red,2.1779440999999906,48.8768609
+Secours Catholique Ville d'Avray,Hauts-de-Seine,Île-de-France,Fermé,red,2.187834100000032,48.8258281
+Secours Catholique de Sèvres,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2115863999999874,48.8241169
+Secours Catholique de Meudon,Hauts-de-Seine,Île-de-France,Fermé,red,2.237577999999985,48.81322979999999
+Secours Catholique Issy les Moulineaux - Paroisse ND des Pauvres,Hauts-de-Seine,Île-de-France,Fermé,red,2.2679138999999395,48.8271744
+Secours Catholique Issy les Moulineaux - Paroisse Ste-Lucie,Hauts-de-Seine,Île-de-France,Fermé,red,2.252217299999984,48.8185065
+Secours Catholique Montrouge,Hauts-de-Seine,Île-de-France,Fermé,red,2.310114500000001,48.8146679
+Secours Catholique Châtillon,Hauts-de-Seine,Île-de-France,Fermé,red,2.292011300000013,48.80295599999999
+Secours Catholique de Bagneux,Hauts-de-Seine,Île-de-France,Fermé,red,2.3155007999999953,48.7925672
+Secours Catholique Clamart,Hauts-de-Seine,Île-de-France,Fermé,red,2.2481986000000234,48.7842869
+Secours Catholique Meudon la Forêt,Hauts-de-Seine,Île-de-France,Fermé,red,2.2368693,48.8075017
+Secours Catholique Le Plessis-Robinson,Hauts-de-Seine,Île-de-France,Modification,orange,2.2509513999999626,48.77579779999999
+Epicerie Sociale GAFIB,Hauts-de-Seine,Île-de-France,Fermé,red,2.2975891999999476,48.785346
+Secours Catholique Bourg la Reine,Hauts-de-Seine,Île-de-France,Modification,orange,2.3162366999999904,48.7789401
+Secours Catholique Antony,Hauts-de-Seine,Île-de-France,Modification,orange,2.3029249999999593,48.7615342
+Secours Catholique Châtenay Malabry,Hauts-de-Seine,Île-de-France,Fermé,red,2.2543662000000495,48.7641173
+La Rampe ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2606433999999354,48.92377699999999
+Maman Secours 92 ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2606433999999354,48.92377699999999
+Dom’Asile 92,Hauts-de-Seine,Île-de-France,Modification,orange,2.2606433999999354,48.92377699999999
+Epicerie Solidaire « La Main A La Pâte »,Hauts-de-Seine,Île-de-France,Fermé,red,2.321786599999996,48.814032
+Point d'Accès aux Droits La Ferté sous Jouarre,Hauts-de-Seine,Île-de-France,Ouvert,green,3.13005899999996,48.95050699999999
+PMI et CPEF Arnold Netter,Hauts-de-Seine,Île-de-France,Fermé,red,2.200881200000026,48.86331109999999
+PASS de l'Hôpital Ambroise-Paré,Hauts-de-Seine,Île-de-France,Fermé,red,2.236287500000003,48.8490858
+PASS Hôpital Antoine-Béclère,Hauts-de-Seine,Île-de-France,Fermé,red,2.2549008999999387,48.7885168
+PASS de l'Hôpital Beaujon,Hauts-de-Seine,Île-de-France,Fermé,red,2.308333800000014,48.90770029999999
+PASS de l'Hôpital Louis-Mourier,Hauts-de-Seine,Île-de-France,Fermé,red,2.2362505999999485,48.92462920000001
+Hôpital Raymond Poincaré,Hauts-de-Seine,Île-de-France,Fermé,red,2.1706744000000526,48.8385988
+PASS de l'Hôpital Corentin Celton ,Hauts-de-Seine,Île-de-France,Modification,orange,2.27833899999996,48.8281776
+Site Hospitalier de Neuilly-sur-Seine,Hauts-de-Seine,Île-de-France,Fermé,red,2.2622584000000643,48.89037149999999
+Centre Hospitalier Départemental Stell,Hauts-de-Seine,Île-de-France,Fermé,red,2.1866368999999395,48.8759099
+Centre Hospitalier des Quatre Villes à Saint Cloud,Hauts-de-Seine,Île-de-France,Fermé,red,2.217972599999939,48.8445455
+Etablissement public de santé ERASME,Hauts-de-Seine,Île-de-France,Fermé,red,2.318309499999941,48.74580590000001
+La Boutique SP 92,Hauts-de-Seine,Île-de-France,Fermé,red,2.2613506000000143,48.92176800000001
+CSAPA Bagneux ,Hauts-de-Seine,Île-de-France,Modification,orange,2.3149899000000005,48.7942845
+CSAPA Victor Segalen,Hauts-de-Seine,Île-de-France,Fermé,red,2.3273347,48.93474610000001
+CSAPA AGATA Gennevilliers ,Hauts-de-Seine,Île-de-France,Fermé,red,2.299036800000067,48.933564
+CSAPA AGATA Rueil-Malmaison ,Hauts-de-Seine,Île-de-France,Fermé,red,2.170083599999998,48.8847433
+Antenne du Cash de nanterre  CSAPA APORIA,Hauts-de-Seine,Île-de-France,Fermé,red,2.22250310000004,48.913632
+CSAPA APORIA Nanterre ,Hauts-de-Seine,Île-de-France,Modification,orange,2.1893373999999994,48.88915480000001
+Centre Hospitalier des Quatre Villes à Sèvres,Hauts-de-Seine,Île-de-France,Fermé,red,2.2032791000000316,48.82051999999999
+CSAPA le Trait d'Union,Hauts-de-Seine,Île-de-France,Fermé,red,2.2408812999999554,48.83124659999999
+CSAPA Chimène - Issy les Moulineaux,Hauts-de-Seine,Île-de-France,Fermé,red,2.2772388999999293,48.8274577
+CSAPA Chimène - Clamart,Hauts-de-Seine,Île-de-France,Fermé,red,2.2738798000000315,48.812698
+Vallée Sud Emploi Antony,Hauts-de-Seine,Île-de-France,Fermé,red,2.3061382999999296,48.75551029999999
+Espace Insertion - Antony,Hauts-de-Seine,Île-de-France,Fermé,red,2.3061382999999296,48.75551029999999
+Mission Locale Asnières-Villeneuve,Hauts-de-Seine,Île-de-France,Fermé,red,2.2743696999999656,48.9260655
+Espace Insertion Boulogne-Billancourt,Hauts-de-Seine,Île-de-France,Fermé,red,2.243260400000054,48.8296296
+Espace Insertion Issy-les-moulineaux,Hauts-de-Seine,Île-de-France,Fermé,red,2.265149400000041,48.82451939999999
+Espace Insertion Meudon la Forêt,Hauts-de-Seine,Île-de-France,Fermé,red,2.2343716000000313,48.78557259999999
+Mission Locale Chaville,Hauts-de-Seine,Île-de-France,Fermé,red,2.1870003000000224,48.81171080000001
+Mission Locale Clichy ,Hauts-de-Seine,Île-de-France,Fermé,red,2.3057589000000007,48.9031004
+Mission Locale Colombes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2321230000000014,48.9137442
+Mission Locale Courbevoie,Hauts-de-Seine,Île-de-France,Fermé,red,2.245404399999984,48.89949920000001
+Mission Locale Gennevilliers,Hauts-de-Seine,Île-de-France,Fermé,red,2.2919688,48.9271614
+Mission Locale Levallois,Hauts-de-Seine,Île-de-France,Fermé,red,2.2852044999999634,48.8990024
+Permanence Vallée Sud Emploi Malakoff,Hauts-de-Seine,Île-de-France,Fermé,red,2.302591600000028,48.8207225
+Mission Locale Nanterre,Hauts-de-Seine,Île-de-France,Fermé,red,2.1989169999999376,48.8875497
+Espace Insertion Nanterre,Hauts-de-Seine,Île-de-France,Fermé,red,2.1989169999999376,48.8875497
+Mission Locale Neuilly-Sur-Seine,Hauts-de-Seine,Île-de-France,Fermé,red,2.2683735000000524,48.8852823
+Mission Locale Puteaux,Hauts-de-Seine,Île-de-France,Fermé,red,2.2334375000000364,48.8866715
+Maison de l'emploi Rueil-Suresnes,Hauts-de-Seine,Île-de-France,Fermé,red,2.1810801,48.8793045
+Espace Insertion Sèvres,Hauts-de-Seine,Île-de-France,Fermé,red,2.209447100000034,48.8243907
+Mission locale Rueil Suresnes - Antenne de Suresnes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2260619999999562,48.86867099999999
+Mission Locale Villeneuve-La-Garenne,Hauts-de-Seine,Île-de-France,Fermé,red,2.332051399999955,48.9351648
+Point justice,Hauts-de-Seine,Île-de-France,Fermé,red,2.2667881,48.9318853
+PAD de Courbevoie ,Hauts-de-Seine,Île-de-France,Fermé,red,2.257106300000032,48.8940557
+PAD de Meudon,Hauts-de-Seine,Île-de-France,Fermé,red,2.2328310999999985,48.78538400000001
+Point d'accès au droit de Clichy la Garenne,Hauts-de-Seine,Île-de-France,Modification,orange,2.305794800000058,48.9037306
+Point d'accès aux droits de Nanterre,Hauts-de-Seine,Île-de-France,Fermé,red,2.1911929999999984,48.90006200000001
+PAD de Villeneuve-la-Garenne,Hauts-de-Seine,Île-de-France,Fermé,red,2.326099699999986,48.93898859999999
+Solidarité Formation Médiation Clichy,Hauts-de-Seine,Île-de-France,Fermé,red,2.3018935000000056,48.908897
+Relais d'accès au droit (RAD),Hauts-de-Seine,Île-de-France,Fermé,red,2.216856499999949,48.8973374
+CeGIDD du CMS Maurice Thorez,Hauts-de-Seine,Île-de-France,Fermé,red,2.195537100000024,48.89160039999999
+CeGIDD de l'Hôpital Ambroise-Paré,Hauts-de-Seine,Île-de-France,Fermé,red,2.236287500000003,48.8490858
+CeGIDD du CMS Chagall-Goüin,Hauts-de-Seine,Île-de-France,Fermé,red,2.3111359,48.9020292
+CeGIDD de l'Hôpital Antoine-Béclère,Hauts-de-Seine,Île-de-France,Fermé,red,2.2549008999999387,48.7885168
+CMS Louis-Pasteur,Hauts-de-Seine,Île-de-France,Fermé,red,2.3178645000000415,48.7967348
+CeGIDD de l'Hôpital Louis-Mourier,Hauts-de-Seine,Île-de-France,Fermé,red,2.2362505999999485,48.92462920000001
+CCAS Antony,Hauts-de-Seine,Île-de-France,Fermé,red,2.2968491000000313,48.7444882
+CCAS Neuilly-Sur-Seine,Hauts-de-Seine,Île-de-France,Fermé,red,2.2690399000000525,48.8846039
+CCAS Bagneux,Hauts-de-Seine,Île-de-France,Fermé,red,2.3041765000000396,48.7990556
+CCAS Bois-Colombes,Hauts-de-Seine,Île-de-France,Fermé,red,2.264120999999932,48.9154778
+CCAS Boulogne-Billancourt,Hauts-de-Seine,Île-de-France,Fermé,red,2.2412104,48.83521
+CCAS Bourg-la-Reine,Hauts-de-Seine,Île-de-France,Fermé,red,2.3162366999999904,48.7789401
+CCAS Châtenay-Malabry,Hauts-de-Seine,Île-de-France,Fermé,red,2.2776208000000224,48.76724949999999
+CCAS Châtillon,Hauts-de-Seine,Île-de-France,Fermé,red,2.2965156999999863,48.80542379999999
+CCAS Chaville,Hauts-de-Seine,Île-de-France,Fermé,red,2.188220699999988,48.8098914
+CCAS Clamart,Hauts-de-Seine,Île-de-France,Fermé,red,2.267023399999971,48.8035574
+CCAS Clichy,Hauts-de-Seine,Île-de-France,Fermé,red,2.306381500000043,48.9033519
+Secours Populaire Comité de Antony,Hauts-de-Seine,Île-de-France,Fermé,red,2.296053700000016,48.7424487
+L'Etoile Solidaire ,Hauts-de-Seine,Île-de-France,Fermé,red,2.281539000000066,48.92764899999999
+CCAS Asnières-sur-seine,Hauts-de-Seine,Île-de-France,Fermé,red,2.2835806000000503,48.9158727
+Secours Populaire Comité de Bagneux,Hauts-de-Seine,Île-de-France,Fermé,red,2.3155007999999953,48.7925672
+Boutique Solidaire Au Bonheur de Tous,Hauts-de-Seine,Île-de-France,Modification,orange,2.276897800000029,48.9156796
+Entraide d'Asnières Bois-Colombes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2713209999999435,48.9178578
+Secours Populaire Comité de Boulogne-Billancourt,Hauts-de-Seine,Île-de-France,Modification,orange,2.2437152999999626,48.83082750000001
+Restos du Coeur Boulogne Billancourt,Hauts-de-Seine,Île-de-France,Fermé,red,2.2429802999999993,48.8258738
+Entraide Familiale de Boulogne,Hauts-de-Seine,Île-de-France,Modification,orange,2.2437152999999626,48.83082750000001
+"Fédération de l'entraide protestante, Centre de Robinson",Hauts-de-Seine,Île-de-France,Ouvert,green,2.2804482000000235,48.7710456
+Secours Populaire Comité de Chaville,Hauts-de-Seine,Île-de-France,Fermé,red,2.193231100000048,48.8102259
+Centre bébé Restos du coeur Asnières ,Hauts-de-Seine,Île-de-France,Fermé,red,2.311422900000025,48.9159034
+Centre adultes Restos du coeur Asnières ,Hauts-de-Seine,Île-de-France,Fermé,red,2.311422900000025,48.9159034
+Restos du Coeur Bagneux  ,Hauts-de-Seine,Île-de-France,Fermé,red,2.3065606000000116,48.7928635
+Camion Colombes  - Arrêt Gare  ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2597278,48.9233999
+Camion 92 - Arrêt Gabriel Péri ,Hauts-de-Seine,Île-de-France,Modification,orange,2.2448444,48.9207557
+Restos du Coeur Clamart ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2388468999999986,48.7828944
+Restos du Coeur Clichy ,Hauts-de-Seine,Île-de-France,Fermé,red,2.310477999999989,48.8986273
+Restos du Coeur Fontenay-aux-Roses ,Hauts-de-Seine,Île-de-France,Fermé,red,2.28296320000004,48.7871725
+Restos du Coeur Gennevilliers ,Hauts-de-Seine,Île-de-France,Fermé,red,2.321605599999998,48.92378290000001
+Restos du Coeur Le Plessis Robinson ,Hauts-de-Seine,Île-de-France,Fermé,red,2.264621600000055,48.7832948
+Restos du Cœur Malakoff ,Hauts-de-Seine,Île-de-France,Fermé,red,2.3113320999999587,48.82131990000001
+Restos du Coeur de Nanterre ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2128440000000182,48.8908464
+Restos du Coeur Rueil-Malmaison ,Hauts-de-Seine,Île-de-France,Fermé,red,2.1927279000000226,48.865511
+Restos du Coeur Saint-Cloud ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2014844000000267,48.84924220000001
+Centre socioculturel Guynemer,Hauts-de-Seine,Île-de-France,Fermé,red,2.2937153000000308,48.8098089
+LADAPT Hauts-de-Seine – Centre SSR de Chatillon,Hauts-de-Seine,Île-de-France,Fermé,red,2.2840592000000015,48.8064165
+ESAT Hors-murs,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2847094999999626,48.80634999999999
+Unité locale de Châtillon,Hauts-de-Seine,Île-de-France,Fermé,red,2.2990351,48.8095142
+Unité locale de Rueil-Malmaison,Hauts-de-Seine,Île-de-France,Fermé,red,2.180883999999992,48.881212
+Vestiboutique de la Croix-Rouge française à Bagneux,Hauts-de-Seine,Île-de-France,Fermé,red,2.3138677,48.7986654
+Vestiboutique de Bourg-la-Reine,Hauts-de-Seine,Île-de-France,Modification,orange,2.317094699999984,48.78228790000001
+Vestiboutique de Montrouge,Hauts-de-Seine,Île-de-France,Fermé,red,2.315413499999977,48.81586679999999
+Vestiboutique de Sceaux,Hauts-de-Seine,Île-de-France,Fermé,red,2.2917631000000256,48.7765475
+Vestiboutique d'Antony,Hauts-de-Seine,Île-de-France,Fermé,red,2.3069333999999344,48.7354497
+Vesti-Saint-Max',Hauts-de-Seine,Île-de-France,Fermé,red,2.3039530999999442,48.7408568
+Equipe Saint-Vincent,Hauts-de-Seine,Île-de-France,Fermé,red,2.299035099999969,48.8095142
+CADA (Centre d’accueil pour demandeurs d’asile) de Châtillon,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2956547999999657,48.80310249999999
+Initiative Emploi,Hauts-de-Seine,Île-de-France,Fermé,red,2.2923342000000275,48.8004493
+Les Alcooliques Anonymes,Hauts-de-Seine,Île-de-France,Fermé,red,2.287633899999946,48.80196549999999
+Résidence A.L.J.T. Châtillon,Hauts-de-Seine,Île-de-France,Fermé,red,2.29406240000003,48.8092014
+Secours Populaire Comité de Montrouge,Hauts-de-Seine,Île-de-France,Fermé,red,2.3260239999999612,48.813183
+La Boussole ,Hauts-de-Seine,Île-de-France,Fermé,red,2.1755193999999847,48.8801573
+Accueil des Femmes en difficulté 92 (AFED 92),Hauts-de-Seine,Île-de-France,Modification,orange,2.2228514999999334,48.8882923
+Les petits frères des Pauvres de Colombes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2595501000000695,48.92453690000001
+Nouvelles Voies,Hauts-de-Seine,Île-de-France,Ouvert,green,2.234451799999988,48.788556
+Centre socioculturel Yannick Noah,Hauts-de-Seine,Île-de-France,Fermé,red,2.2997676999999612,48.9139885
+Point d'accès au droit d'Asnières-sur-Seine,Hauts-de-Seine,Île-de-France,Fermé,red,2.2803158000000394,48.9323103
+Centre socioculturel Pavé Blanc,Hauts-de-Seine,Île-de-France,Fermé,red,2.2387524000000667,48.7829346
+Centre socioculturel de la Fourche,Hauts-de-Seine,Île-de-France,Fermé,red,2.271481900000026,48.8125901
+La Maison de l’Amitié La Défense,Hauts-de-Seine,Île-de-France,Fermé,red,2.2396389000000454,48.8938374
+Centre socioculturel Louise Michel,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2772936000000072,48.9326242
+Centre de santé polyvalent Boulogne-Billancourt ,Hauts-de-Seine,Île-de-France,Fermé,red,2.245486700000015,48.83085759999999
+Mairie de Sceaux,Hauts-de-Seine,Île-de-France,Fermé,red,2.2885377000000062,48.77919010000001
+Société Saint-Vincent de Paul,Hauts-de-Seine,Île-de-France,Fermé,red,2.2962598999999955,48.7765656
+Maison de la Justice et du Droit des Blagis,Hauts-de-Seine,Île-de-France,Fermé,red,2.30985469999996,48.788372
+CAF - Châtenay-Malabry,Hauts-de-Seine,Île-de-France,Fermé,red,2.270869800000014,48.7621867
+SST 14 - Mairie de quartier des Blagis ,Hauts-de-Seine,Île-de-France,Modification,orange,2.3018306999999822,48.7847253
+CCAS Colombes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2538928999999825,48.9225574
+CCAS de Courbevoie,Hauts-de-Seine,Île-de-France,Fermé,red,2.25522669999998,48.8955273
+CCAS de Fontenay-aux-Roses,Hauts-de-Seine,Île-de-France,Fermé,red,2.2862155999999914,48.7910991
+CCAS de Garches,Hauts-de-Seine,Île-de-France,Fermé,red,2.1876852999999983,48.8434907
+CCAS La Garenne-Colombes,Hauts-de-Seine,Île-de-France,Fermé,red,2.246285299999954,48.90691
+CCAS Gennevilliers,Hauts-de-Seine,Île-de-France,Fermé,red,2.293809900000042,48.925402
+Circonscription du Service Social Départemental de Stains,Hauts-de-Seine,Île-de-France,Fermé,red,2.382506299999932,48.9552893
+CCAS Issy-les-moulineaux,Hauts-de-Seine,Île-de-France,Fermé,red,2.274968700000045,48.8246316
+Libre service social  ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2743765,48.8245282
+CCAS Le Plessis-Robinson,Hauts-de-Seine,Île-de-France,Fermé,red,2.2622248000000127,48.7823249
+CCAS Levallois-Perret,Hauts-de-Seine,Île-de-France,Fermé,red,2.2889195999999856,48.89308
+CCAS de Malakoff,Hauts-de-Seine,Île-de-France,Modification,orange,2.301646300000016,48.82083429999999
+CCAS de Marnes-la-Coquette,Hauts-de-Seine,Île-de-France,Fermé,red,2.1775003000000197,48.8301782
+CCAS de Meudon,Hauts-de-Seine,Île-de-France,Fermé,red,2.2384245000000647,48.81241190000001
+CCAS de Montrouge,Hauts-de-Seine,Île-de-France,Fermé,red,2.3239906999999675,48.81723969999999
+Permanence d'avocats - Direction des affaires civiles,Hauts-de-Seine,Île-de-France,Fermé,red,2.320859499999983,48.8187005
+CCAS de Nanterre,Hauts-de-Seine,Île-de-France,Fermé,red,2.207151299999964,48.8920462
+Centre socioculturel P'arc en Ciel,Hauts-de-Seine,Île-de-France,Fermé,red,2.221890799999983,48.89023539999999
+CCAS de Puteaux ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2392574000000423,48.88473929999999
+CCAS de Saint-Cloud,Hauts-de-Seine,Île-de-France,Fermé,red,2.2190832999999657,48.8437965
+Direction de la Cohésion sociale et du CCAS,Hauts-de-Seine,Île-de-France,Fermé,red,2.209447100000034,48.8243907
+CCAS de Suresnes,Hauts-de-Seine,Île-de-France,Fermé,red,2.226427899999976,48.87034200000001
+Maison pour la vie citoyenne et Point d'accès au droit,Hauts-de-Seine,Île-de-France,Fermé,red,2.2235273000000007,48.8696383
+Femmes et Hommes Relais de Suresnes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2098941000000423,48.8643509
+Le Square ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2260916999999836,48.8709387
+Le Relais de Sarah,Hauts-de-Seine,Île-de-France,Fermé,red,2.226652300000069,48.8690915
+CCAS de Vanves,Hauts-de-Seine,Île-de-France,Fermé,red,2.289088099999958,48.8210547
+CCAS de Vaucresson,Hauts-de-Seine,Île-de-France,Fermé,red,2.1548643999999513,48.8383894
+CCAS de Ville d'Avray,Hauts-de-Seine,Île-de-France,Fermé,red,2.189542299999971,48.82837749999999
+CCAS de Villeneuve-la-Garenne,Hauts-de-Seine,Île-de-France,Fermé,red,2.3330015999999887,48.9358852
+La Courte Echelle,Hauts-de-Seine,Île-de-France,Fermé,red,2.2093121999999994,48.8627224
+Association du Site de la Défense - antenne Suresnes (Santos Dumont),Hauts-de-Seine,Île-de-France,Fermé,red,2.230672899999945,48.8796265
+Point d'accueil de jour Auxilia ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2914974000000257,48.8162279
+Secours Catholique Malakoff,Hauts-de-Seine,Île-de-France,Fermé,red,2.3049393999999666,48.81990769999999
+Secours Populaire Comité de Malakoff,Hauts-de-Seine,Île-de-France,Fermé,red,2.3058330999999725,48.8223664
+Unité locale de Meudon,Hauts-de-Seine,Île-de-France,Fermé,red,2.236450800000057,48.8100291
+Café 115 ,Hauts-de-Seine,Île-de-France,Fermé,red,2.259290500000001,48.8204174
+Association Authenti-cité,Hauts-de-Seine,Île-de-France,Fermé,red,2.2270533999999316,48.888487
+Association Bel-agir,Hauts-de-Seine,Île-de-France,Fermé,red,2.220284900000024,48.89019709999999
+Mairie de quartier des Terrasses,Hauts-de-Seine,Île-de-France,Fermé,red,2.2222818999999845,48.89713620000001
+Mairie de quartier du Parc,Hauts-de-Seine,Île-de-France,Fermé,red,2.2252011000000493,48.8882111
+Epicerie sociale Grenier des 4 Saisons,Hauts-de-Seine,Île-de-France,Fermé,red,2.239259899999979,48.8786432
+ASAV - Association pour l'Accueil des Voyageurs,Hauts-de-Seine,Île-de-France,Fermé,red,2.2290441999999757,48.9002344
+Association récréative et culturelle des originaires du Portugal (ARCOP),Hauts-de-Seine,Île-de-France,Fermé,red,2.210817700000007,48.88562020000001
+Centre social et culturel Les Acacias ,Hauts-de-Seine,Île-de-France,Fermé,red,2.1911929999999984,48.90006200000001
+Mairie de quartier du Chemin de l'Ile,Hauts-de-Seine,Île-de-France,Fermé,red,2.1951940999999806,48.8973412
+Centre Socioculturel Valérie Méot,Hauts-de-Seine,Île-de-France,Modification,orange,2.217783499999996,48.9078724
+Association Nahda,Hauts-de-Seine,Île-de-France,Fermé,red,2.2195828999999776,48.9101841
+Ecole Française des Femmes,Hauts-de-Seine,Île-de-France,Fermé,red,2.298815099999956,48.7857434
+Ecole  Française des Femmes de Châtenay-Malabry,Hauts-de-Seine,Île-de-France,Fermé,red,2.2786601000000246,48.7631196
+Ecole  Française des Femmes de Gennevilliers,Hauts-de-Seine,Île-de-France,Fermé,red,2.2905167999999776,48.9209906
+Ecole Française des Femmes d'Antony,Hauts-de-Seine,Île-de-France,Fermé,red,2.2780486999999994,48.7400484
+Ecole  Française des Femmes de Clichy,Hauts-de-Seine,Île-de-France,Fermé,red,2.3069867000000386,48.9049651
+SST 12 Pôle social Jules Verne,Hauts-de-Seine,Île-de-France,Fermé,red,2.270220600000016,48.7671112
+Espace Santé Jeune Simone Veil,Hauts-de-Seine,Île-de-France,Fermé,red,2.2568549,48.8991662
+"Maison d'accueil ""L'Escale""",Hauts-de-Seine,Île-de-France,Fermé,red,2.246309999999994,48.89400440000001
+Le Village,Hauts-de-Seine,Île-de-France,Ouvert,green,2.30238589999999,48.7614493
+Epicerie sociale «la Ruche»,Hauts-de-Seine,Île-de-France,Fermé,red,2.2240997,48.8717517
+Vestiboutique,Hauts-de-Seine,Île-de-France,Fermé,red,2.2202299,48.8421491
+Vestiboutique,Hauts-de-Seine,Île-de-France,Modification,orange,2.2200641,48.84222320000001
+Centre socioculturel La Traverse,Hauts-de-Seine,Île-de-France,Fermé,red,2.218681100000026,48.9012952
+Mairie de quartier du Plateau - Mont-Valérien,Hauts-de-Seine,Île-de-France,Fermé,red,2.2076657999999725,48.8799237
+Mairie de quartier du Petit Nanterre,Hauts-de-Seine,Île-de-France,Fermé,red,2.2202371999999286,48.9104015
+Centre Social et Culturel Hissez Haut,Hauts-de-Seine,Île-de-France,Fermé,red,2.185720599999968,48.8911219
+Centre socioculturel Maison pour Tous,Hauts-de-Seine,Île-de-France,Fermé,red,2.2027987000000167,48.88560510000001
+Centre de santé polyvalent d'Antony,Hauts-de-Seine,Île-de-France,Fermé,red,2.2897712000000183,48.73897110000001
+Centre de santé polyvalent de Meudon,Hauts-de-Seine,Île-de-France,Fermé,red,2.241847699999994,48.8071934
+Centre de santé polyvalent de Villeneuve-la-Garenne,Hauts-de-Seine,Île-de-France,Fermé,red,2.3328383000000485,48.93398259999999
+Espace famille Lamartine centre social,Hauts-de-Seine,Île-de-France,Fermé,red,2.2629612,48.7634354
+Le coin des femmes,Hauts-de-Seine,Île-de-France,Fermé,red,2.274765699999989,48.93223159999999
+La Maison de la solidarité,Hauts-de-Seine,Île-de-France,Fermé,red,2.2919632000000547,48.91890919999999
+ASSOL – Maison des Chômeurs et Précaires,Hauts-de-Seine,Île-de-France,Modification,orange,2.1994600000000446,48.8839587
+Halte de jour,Hauts-de-Seine,Île-de-France,Fermé,red,2.2222425999999587,48.91345519999999
+Secours Catholique d'Asnières,Hauts-de-Seine,Île-de-France,Fermé,red,2.2806736,48.906242
+AIME - Jeunesse et Entraide Colombes,Hauts-de-Seine,Île-de-France,Modification,orange,2.23688089999996,48.9187393
+Alcool assistance de Vanves,Hauts-de-Seine,Île-de-France,Fermé,red,2.2935704000000214,48.8250526
+IHSAN Bienfaisance,Hauts-de-Seine,Île-de-France,Fermé,red,2.3162525,48.788942
+ASTI Colombes,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2273700000000645,48.9136332
+Unité Locale de la Boucle Nord,Hauts-de-Seine,Île-de-France,Fermé,red,2.294587399999955,48.9269271
+MRS (Mouvement pour la réinsertion sociale),Hauts-de-Seine,Île-de-France,Fermé,red,2.1977973000000475,48.8920286
+La Pause,Hauts-de-Seine,Île-de-France,Modification,orange,2.3029249999999593,48.7615342
+Centre d'accueil et de stabilisation l'Olivier,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2429153000000497,48.82593929999999
+La Fraternité,Hauts-de-Seine,Île-de-France,Ouvert,green,2.189279700000043,48.8089348
+La passerelle,Hauts-de-Seine,Île-de-France,Fermé,red,2.2384675000000698,48.9046612
+L’Intervalle,Hauts-de-Seine,Île-de-France,Fermé,red,2.192972800000007,48.8721956
+Armée du salut - Poste de Boulogne-billancourt,Hauts-de-Seine,Île-de-France,Fermé,red,2.2520417000000634,48.8343251
+Entraide notre dame,Hauts-de-Seine,Île-de-France,Ouvert,green,2.236430100000007,48.8422212
+Secours Populaire Comité de Colombes,Hauts-de-Seine,Île-de-France,Modification,orange,2.2273700000000645,48.9136332
+La boutique du 124,Hauts-de-Seine,Île-de-France,Modification,orange,2.2258030000000417,48.888247
+La Maison des Femmes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2732617000000346,48.929357
+Maison de la Justice et du Droit - Châtenay-Malabry,Hauts-de-Seine,Île-de-France,Fermé,red,2.2557124999999587,48.7658814
+Permanence CIDFF - Maison de la Justice et du Droit du Luth,Hauts-de-Seine,Île-de-France,Fermé,red,2.2868446999999605,48.9332315
+Centre Social et Culturel de la « Fontaine Gueffier »,Hauts-de-Seine,Île-de-France,Fermé,red,2.304417199999989,48.7882623
+GERMAE au CSC La Fontaine Gueffier,Hauts-de-Seine,Île-de-France,Fermé,red,2.304417199999989,48.7882623
+GERMAE Boulogne,Hauts-de-Seine,Île-de-France,Fermé,red,2.233623599999987,48.8291855
+GERMAE Châtenay Malabry,Hauts-de-Seine,Île-de-France,Fermé,red,2.269104900000002,48.76688240000001
+ASTI Issy-les-Moulineaux,Hauts-de-Seine,Île-de-France,Fermé,red,2.256193499999995,48.82059100000001
+HELP,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2230613000000403,48.888844
+AMTIP 92,Hauts-de-Seine,Île-de-France,Ouvert,green,2.239129999999932,48.8813819
+Odyssées vers l'emploi,Hauts-de-Seine,Île-de-France,Modification,orange,2.1897725000000037,48.8740541
+ASTI de Sèvres,Hauts-de-Seine,Île-de-France,Ouvert,green,2.20971940000004,48.8243016
+ASTI Vanves,Hauts-de-Seine,Île-de-France,Fermé,red,2.288546600000001,48.8246321
+GERMAE Le Plessis Robinson,Hauts-de-Seine,Île-de-France,Fermé,red,2.2463718999999855,48.7783771
+AGORAe Epicerie Solidaire de l'Université Paris Nanterre,Hauts-de-Seine,Île-de-France,Fermé,red,2.2082454999999754,48.90428619999999
+ASEC (Association Solidarité Emploi Chômage),Hauts-de-Seine,Île-de-France,Fermé,red,2.2580100999999786,48.92410549999999
+Français pour tous à Antony,Hauts-de-Seine,Île-de-France,Modification,orange,2.2836800999999696,48.7362969
+Antraide,Hauts-de-Seine,Île-de-France,Fermé,red,2.3000322000000324,48.75444720000001
+AREA (Accueil Recherche Emploi Antony),Hauts-de-Seine,Île-de-France,Fermé,red,2.2956508,48.7541877
+"Espaces - Chantier d'insertion Espaces verts, production maraîchère, animation à l'environnement",Hauts-de-Seine,Île-de-France,Fermé,red,2.1926663000000417,48.81362559999999
+Greta des Hauts-de-seine,Hauts-de-Seine,Île-de-France,Fermé,red,2.2860129000000597,48.74236380000001
+CAEL,Hauts-de-Seine,Île-de-France,Modification,orange,2.324679300000001,48.77727059999999
+Espace Insertion,Hauts-de-Seine,Île-de-France,Fermé,red,2.2462853,48.90691
+CSAPA Arthur Rimbaud,Hauts-de-Seine,Île-de-France,Fermé,red,2.2453464999999824,48.8351798
+92 Médias,Hauts-de-Seine,Île-de-France,Modification,orange,2.3103701999999657,48.9057638
+A.D.A.M - Aide aux migrants,Hauts-de-Seine,Île-de-France,Fermé,red,2.308252400000015,48.9044438
+Alpha B Clichy,Hauts-de-Seine,Île-de-France,Fermé,red,2.3103701999999657,48.9057638
+Ardeur Levallois,Hauts-de-Seine,Île-de-France,Fermé,red,2.29678279999996,48.8964302
+Ardeur Boulogne,Hauts-de-Seine,Île-de-France,Fermé,red,2.242031900000029,48.83971649999999
+Ardeur Neuilly sur Seine,Hauts-de-Seine,Île-de-France,Fermé,red,2.259649800000034,48.88665410000001
+Unité locale de Clichy,Hauts-de-Seine,Île-de-France,Fermé,red,2.3078131,48.8969617
+Ecole de la deuxième chance Clichy,Hauts-de-Seine,Île-de-France,Fermé,red,2.314677599999982,48.91205129999999
+SST 3 Clichy-la-Garenne,Hauts-de-Seine,Île-de-France,Fermé,red,2.309329,48.90285179999999
+Secours populaire Antenne de Clichy,Hauts-de-Seine,Île-de-France,Fermé,red,2.3029079000000365,48.9071152
+Fédération des Hauts-de-Seine,Hauts-de-Seine,Île-de-France,Fermé,red,2.2137041999999383,48.8912078
+Boutique solidarité du Secours Populaire,Hauts-de-Seine,Île-de-France,Ouvert,green,2.185738899999933,48.888738
+Secours Catholique Suresnes,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2079356000000416,48.86231060000001
+Secours Populaire Comité de Rueil,Hauts-de-Seine,Île-de-France,Fermé,red,2.189923799999974,48.8741845
+Solidarité Migrants Rueil,Hauts-de-Seine,Île-de-France,Fermé,red,2.1922713,48.86938520000001
+Centre Social Millandy,Hauts-de-Seine,Île-de-France,Fermé,red,2.2328310999999985,48.78538400000001
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2946666000000278,48.75482239999999
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3488998000000265,48.65737249999999
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.30864,48.75329
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.29925,48.7554
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2837506,48.7597798
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2936737,48.7477468
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3076993,48.7429397
+Alcooliques anonymes - Groupe de Colombes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2362505999999485,48.92462920000001
+Unité locale de Colombes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2566741000000548,48.9255164
+Centre social et culturel Les Fossés Jean,Hauts-de-Seine,Île-de-France,Fermé,red,2.2700632,48.9317726
+Centre Social et Culturel Europe,Hauts-de-Seine,Île-de-France,Fermé,red,2.2422381000000087,48.9260094
+Unité locale de Courbevoie,Hauts-de-Seine,Île-de-France,Fermé,red,2.2425730999999587,48.8974854
+Cimetière de Chaville,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1909398999999894,48.8048337
+Sanisette,Hauts-de-Seine,Île-de-France,Fermé,red,2.1879972000000407,48.81216229999999
+AL-ANON Courbevoie,Hauts-de-Seine,Île-de-France,Fermé,red,2.2764826000000085,48.9053327
+Sanisette,Hauts-de-Seine,Île-de-France,Fermé,red,2.188525499999969,48.8096162
+Alpha Dialogue Courbevoie,Hauts-de-Seine,Île-de-France,Fermé,red,2.2452170999999908,48.8996028
+Mouvement de vie Libre,Hauts-de-Seine,Île-de-France,Fermé,red,2.300115699999992,48.93356
+Secours Populaire Comité de Gennevilliers,Hauts-de-Seine,Île-de-France,Fermé,red,2.3006662000000233,48.9306468
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1892550999999685,48.8086959
+CSF 92,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2883487000000287,48.93219850000001
+Groupe SOS Solidarités-ASSFAM,Hauts-de-Seine,Île-de-France,Fermé,red,2.28535880000004,48.9313133
+Centre social et culturel des Grésillons,Hauts-de-Seine,Île-de-France,Fermé,red,2.3011670999999296,48.91772290000001
+Espace Aimé Césaire,Hauts-de-Seine,Île-de-France,Fermé,red,2.289655400000015,48.9328136
+ATMF Gennevilliers,Hauts-de-Seine,Île-de-France,Fermé,red,2.2989439000000402,48.9188772
+Association Pluriel,Hauts-de-Seine,Île-de-France,Fermé,red,2.3009031999999934,48.8930564
+Esprit réfugiés,Hauts-de-Seine,Île-de-France,Ouvert,green,2.197452099999964,48.8932288
+Square Renaudel,Hauts-de-Seine,Île-de-France,Fermé,red,2.3063525999999683,48.8134498
+Stade Maurice Arnoux,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3109007000000474,48.81454590000001
+Square Robert Doisneau,Hauts-de-Seine,Île-de-France,Fermé,red,2.32397160000005,48.8127123
+Square Jean Moulin,Hauts-de-Seine,Île-de-France,Fermé,red,2.3260239999999612,48.813183
+Square des Etats Unis,Hauts-de-Seine,Île-de-France,Ouvert,green,2.315877999999998,48.8174743
+Mairie de Montrouge,Hauts-de-Seine,Île-de-France,Fermé,red,2.3192384000000175,48.817913
+Square de la République,Hauts-de-Seine,Île-de-France,Fermé,red,2.318507400000044,48.8155803
+"Association Hispano-Americaine ""San Fernando""",Hauts-de-Seine,Île-de-France,Fermé,red,2.2732578000000103,48.8885447
+CEAS 92 - soutien à la recherche d'emploi,Hauts-de-Seine,Île-de-France,Fermé,red,2.2448799999999665,48.8256194
+CEAS 92 - Cours de français,Hauts-de-Seine,Île-de-France,Fermé,red,2.263016300000004,48.8821411
+Ecrivain public Neuilly,Hauts-de-Seine,Île-de-France,Fermé,red,2.270079600000031,48.8844163
+Conférence Saint-Vincent de Paul - Saint-Pierre de Neuilly,Hauts-de-Seine,Île-de-France,Ouvert,green,2.274120000000039,48.8832871
+Conférence Saint-Vincent de Paul - Saint-Jean-Baptiste,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2624918999999863,48.8848508
+Unité locale de Neuilly-Levallois,Hauts-de-Seine,Île-de-France,Fermé,red,2.261971200000062,48.8866506
+Entraide Eglise Réformée de Neuilly,Hauts-de-Seine,Île-de-France,Fermé,red,2.2746876999999586,48.8851196
+Église Adventiste,Hauts-de-Seine,Île-de-France,Fermé,red,2.27805520000004,48.88715529999999
+Eglise Saint Jean-Baptiste,Hauts-de-Seine,Île-de-France,Fermé,red,2.2619964000000436,48.88471939999999
+Secours Catholique Neuilly-sur-seine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2610382999999956,48.8855502
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2919312,48.7926282
+Square Pompidou,Hauts-de-Seine,Île-de-France,Fermé,red,2.287324,48.791121
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2902473999999984,48.79118820000001
+Parc de Nahariya,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2581996000000117,48.815528
+Square des Varennes,Hauts-de-Seine,Île-de-France,Ouvert,green,2.282621899999981,48.8297983
+Parc Henri Barbusse,Hauts-de-Seine,Île-de-France,Fermé,red,2.2672059999999874,48.81968999999999
+Place Bonaventure Leca,Hauts-de-Seine,Île-de-France,Fermé,red,2.272827799999959,48.8252853
+Sanisette,Hauts-de-Seine,Île-de-France,Fermé,red,2.25116909999997,48.8195832
+Parc Saint Jean-Paul ll,Hauts-de-Seine,Île-de-France,Fermé,red,2.277887400000054,48.82459249999999
+Place Lafayette,Hauts-de-Seine,Île-de-France,Fermé,red,2.264201,48.829818
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.278843,48.8272567
+Square Pierre Larousse,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3030659999999443,48.8225946
+Jardin du Centenaire de Malakoff,Hauts-de-Seine,Île-de-France,Ouvert,green,2.30872,48.82271
+Jardin partagé des Nouzeaux,Hauts-de-Seine,Île-de-France,Ouvert,green,2.287684,48.815163
+Parc Léon Salagnac,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2916099999999915,48.8127266
+Place du 11 Novembre,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3023157000000083,48.82130280000001
+Maison du Droit et de la Famille - Puteaux,Hauts-de-Seine,Île-de-France,Fermé,red,2.239747800000032,48.88344550000001
+Femmes relais d'Antony,Hauts-de-Seine,Île-de-France,Modification,orange,2.2836800999999696,48.7362969
+Club relais Bagneux,Hauts-de-Seine,Île-de-France,Fermé,red,2.313942499999939,48.7954377
+Club relais Malakoff,Hauts-de-Seine,Île-de-France,Fermé,red,2.3054670000000215,48.8221588
+Centre socioculturel Jacques Prévert,Hauts-de-Seine,Île-de-France,Fermé,red,2.3172551000000112,48.8050967
+Les Manu de Châtenay-Malabry,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2600062999999864,48.7645242
+Vestiaire Saint Germain,Hauts-de-Seine,Île-de-France,Ouvert,green,2.279138800000055,48.7654789
+Secours Catholique Châtillon,Hauts-de-Seine,Île-de-France,Fermé,red,2.2919067999999925,48.7989277
+BROUILLON CAR DOUBLON - Equipe Saint Vincent,Hauts-de-Seine,Île-de-France,Ouvert,green,2.287633899999946,48.80196549999999
+ARPE (Accueil Relais Parents Enfants),Hauts-de-Seine,Île-de-France,Ouvert,green,2.2478926999999658,48.7873252
+Unité locale de Clamart,Hauts-de-Seine,Île-de-France,Fermé,red,2.2458379,48.7868595
+Le Jardin Solidaire,Hauts-de-Seine,Île-de-France,Fermé,red,2.2375091999999768,48.7831438
+AFP Le Phare,Hauts-de-Seine,Île-de-France,Fermé,red,2.261942299999987,48.8032456
+Faraide Clamart,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2356812000000446,48.7849164
+Siège d'ARPEIJE,Hauts-de-Seine,Île-de-France,Fermé,red,2.266271999999958,48.8087975
+Maison d'Accompagnement Parents Enfants ,Hauts-de-Seine,Île-de-France,Fermé,red,2.282595899999933,48.7896736
+Secours Catholique de Fontenay-aux-roses,Hauts-de-Seine,Île-de-France,Fermé,red,2.28296320000004,48.7871725
+Jeunes dans la cité (JDLC),Hauts-de-Seine,Île-de-France,Fermé,red,2.2993684000000485,48.7859357
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2779456000000664,48.8853222
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.272842800000035,48.8868816
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2591672,48.8803601
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.255549100000053,48.87795359999999
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2521404000000302,48.8784028
+Fontaine Wallace,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2615418999999974,48.8847855
+Fontaine Wallace,Hauts-de-Seine,Île-de-France,Ouvert,green,2.257869199999959,48.8879721
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.26246500000002,48.88616460000001
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.270480099999986,48.88577309999999
+Parc Rops,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2769272000000456,48.8864967
+Place Parmentier,Hauts-de-Seine,Île-de-France,Ouvert,green,2.279212199999961,48.8804142
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.281009899999958,48.883748
+Unité locale de Fontenay-aux-roses,Hauts-de-Seine,Île-de-France,Fermé,red,2.2792734,48.791496
+Association Générale Des Familles De Neuilly Sur Seine,Hauts-de-Seine,Île-de-France,Fermé,red,2.261248499999965,48.8866896
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2763328,48.8804895
+Fontaine Wallace,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2371362999999747,48.880903
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2413031999999475,48.8809591
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2425664,48.8800611
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2321558,48.8833256
+Jardin des Éléphants,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2390084999999544,48.8852916
+Square Charles Lorilleux,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2340948999999455,48.88524049999999
+Centre Commercial Les Quatre Temps,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2355407000000014,48.89074340000001
+Palais des Sports,Hauts-de-Seine,Île-de-France,Fermé,red,2.2461137000000235,48.87891980000001
+Espace Icare,Hauts-de-Seine,Île-de-France,Fermé,red,2.2770923000000494,48.8275424
+Unité locale d'Issy-les-moulineaux,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2813395000000583,48.8294952
+ATTP 92,Hauts-de-Seine,Île-de-France,Fermé,red,2.274968700000045,48.8246316
+Maison de quartier Pierre-Valette,Hauts-de-Seine,Île-de-France,Fermé,red,2.3026901000000635,48.81735680000001
+Maison de quartier Jacques Prévert,Hauts-de-Seine,Île-de-France,Modification,orange,2.310900100000026,48.8228014
+AMIRE (Accueil de Malakoff pour l'Information et la Recherche d'Emploi),Hauts-de-Seine,Île-de-France,Ouvert,green,2.302591600000028,48.8207225
+Association Familiale de Meudon-la-forêt,Hauts-de-Seine,Île-de-France,Fermé,red,2.2245545000000675,48.7860105
+Active Faraide Sèvres,Hauts-de-Seine,Île-de-France,Fermé,red,2.210444999999936,48.82281130000001
+Paroisse du Saint Esprit,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2282169000000067,48.7884099
+Secours populaire Antenne de Meudon,Hauts-de-Seine,Île-de-France,Fermé,red,2.2328310999999985,48.78538400000001
+Cours d'adultes,Hauts-de-Seine,Île-de-France,Fermé,red,2.3222193999999945,48.8177294
+OFII Montrouge,Hauts-de-Seine,Île-de-France,Fermé,red,2.301328900000044,48.81233510000001
+ADAJ,Hauts-de-Seine,Île-de-France,Fermé,red,2.309992599999987,48.8130353
+Espace Colucci - Ecoute-chômage,Hauts-de-Seine,Île-de-France,Fermé,red,2.3106255999999803,48.8135539
+Secours Catholique Sceaux,Hauts-de-Seine,Île-de-France,Fermé,red,2.2918975000000046,48.77687830000001
+Secours Catholique Vanves - Paroisse de l’église Saint Rémy,Hauts-de-Seine,Île-de-France,Fermé,red,2.28619690000005,48.821023
+Centre socioculturel l'ESCAL - Espace Jean Monnet,Hauts-de-Seine,Île-de-France,Modification,orange,2.288433599999962,48.8199387
+Secours Catholique Bois Colombes,Hauts-de-Seine,Île-de-France,Fermé,red,2.270683100000042,48.9140019
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2373114,48.8255738
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2420566,48.8307168
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.240207499999997,48.82999090000001
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2316052999999556,48.8328856
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.229813599999943,48.8320519
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2348329,48.8395682
+Square Maître Jacques,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2433796000000257,48.840359
+Square André Meunier,Hauts-de-Seine,Île-de-France,Ouvert,green,2.324094000000059,48.7785483
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.260275,48.7717075
+Parc Henri Matisse,Hauts-de-Seine,Île-de-France,Ouvert,green,2.293840799999998,48.7988657
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2619858000000477,48.7932283
+Complexe Sportif Jules Hunebelle,Hauts-de-Seine,Île-de-France,Fermé,red,2.260177399999975,48.80130550000001
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3086353,48.7532925
+Fontaine Wallace,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2817772999999306,48.8903298
+Parc de l'Ile de la Jatte,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2777227000000266,48.8997749
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.238727899999958,48.8188836
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2316944000000376,48.8100785
+Potager du Dauphin,Hauts-de-Seine,Île-de-France,Ouvert,green,2.232963199999972,48.8129955
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2420334,48.8052877
+Square Georges Lenormand,Hauts-de-Seine,Île-de-France,Ouvert,green,2.21251,48.81284
+Parc Brimborion,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2238239000000704,48.8250712
+Parc Frédéric Pic,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2816543999999794,48.8188203
+Avenue de l'Europe,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2074486000000206,48.7798355
+Association SMR - Centre culturel Riber,Hauts-de-Seine,Île-de-France,Fermé,red,2.1792239999999765,48.8885456
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2639471999999614,48.8026402
+WC,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2824986,48.820104
+Paroisse Saint Pierre ,Hauts-de-Seine,Île-de-France,Fermé,red,2.274120000000039,48.8832871
+Terre d'Arcs-En-Ciel ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2405906000000186,48.8425361
+La Bagagerie de Clichy,Hauts-de-Seine,Île-de-France,Fermé,red,2.3141191,48.9055907
+La Bagagerie de Colombes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2606433999999354,48.92377699999999
+RESF et LDH - Antony,Hauts-de-Seine,Île-de-France,Fermé,red,2.2820169000000305,48.74114780000001
+RESF Bagneux,Hauts-de-Seine,Île-de-France,Fermé,red,2.3169216000000006,48.8011815
+Association au Soutien des Sans-Papiers (CSP 92),Hauts-de-Seine,Île-de-France,Fermé,red,2.243436699999961,48.82703189999999
+RESF et LDH - Chatenay Malabry,Hauts-de-Seine,Île-de-France,Fermé,red,2.259500600000024,48.7637029
+RESF Clamart,Hauts-de-Seine,Île-de-France,Fermé,red,2.2601595999999518,48.8013785
+RESF Clichy,Hauts-de-Seine,Île-de-France,Fermé,red,2.302415099999962,48.9074564
+Comité de solidarité avec les sans-papiers,Hauts-de-Seine,Île-de-France,Fermé,red,2.3020731999999953,48.9168573
+LDH Levallois-Perret,Hauts-de-Seine,Île-de-France,Fermé,red,2.2939371999999594,48.8959994
+LDH Nanterre,Hauts-de-Seine,Île-de-France,Ouvert,green,2.202844700000014,48.8894456
+RESF92 Nanterre,Hauts-de-Seine,Île-de-France,Ouvert,green,2.199208399999975,48.8897123
+CCAS de Sceaux,Hauts-de-Seine,Île-de-France,Fermé,red,2.2885377000000062,48.77919010000001
+CCAS de Rueil-Malmaison,Hauts-de-Seine,Île-de-France,Fermé,red,2.177827999999977,48.8778021
+Secours Catholique de Chaville,Hauts-de-Seine,Île-de-France,Fermé,red,2.1916334999999663,48.8116773
+Fraternité Notre-Dame - Conférence Saint-Vincent de Paul,Hauts-de-Seine,Île-de-France,Fermé,red,2.1908306000000266,48.8093356
+Médiathèque de Chaville,Hauts-de-Seine,Île-de-France,Modification,orange,2.192749400000025,48.8132291
+Coup d'pouce 92 - Relais parental Malala,Hauts-de-Seine,Île-de-France,Fermé,red,2.253421900000035,48.7680791
+Coup d'pouce 92 - Relais parental Kailash,Hauts-de-Seine,Île-de-France,Fermé,red,2.285347099999967,48.795703
+CHRS Altaïr,Hauts-de-Seine,Île-de-France,Fermé,red,2.2201486999999815,48.8960579
+Mediathèque de Meudon,Hauts-de-Seine,Île-de-France,Modification,orange,2.2368692999999666,48.8075017
+Espace Hoche ,Hauts-de-Seine,Île-de-France,Fermé,red,2.198559899999964,48.8991881
+Médiathèque Pablo-Neruda,Hauts-de-Seine,Île-de-France,Modification,orange,2.301236700000004,48.8206459
+L'Appart - Foyer de jeunes travailleurs,Hauts-de-Seine,Île-de-France,Modification,orange,2.291331600000035,48.91951520000001
+Permanence Vallée Sud Emploi Bourg-la-Reine,Hauts-de-Seine,Île-de-France,Fermé,red,2.3134983,48.7882667
+Permanence Vallée Sud Emploi Châtillon,Hauts-de-Seine,Île-de-France,Fermé,red,2.289743000000044,48.799725
+Permanence Vallée Sud Emploi Clamart,Hauts-de-Seine,Île-de-France,Fermé,red,2.267023399999971,48.8035574
+Permanence Vallée Sud Emploi Fontenay-aux-Roses,Hauts-de-Seine,Île-de-France,Fermé,red,2.2932729999999992,48.7879618
+Permanence Vallée Sud Emploi Montrouge,Hauts-de-Seine,Île-de-France,Fermé,red,2.3239907,48.81723969999999
+Permanence Vallée Sud Emploi Sceaux,Hauts-de-Seine,Île-de-France,Fermé,red,2.302811399999996,48.78391449999999
+Maison du droit de Boulogne Billancourt,Hauts-de-Seine,Île-de-France,Fermé,red,2.2391397999999754,48.8352511
+"Espace bébé-parents ""nid'ange"" ",Hauts-de-Seine,Île-de-France,Modification,orange,2.2457222000000456,48.838485
+IMMAC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2481886000000486,48.8314782
+Tablées de Sainte Thérèse,Hauts-de-Seine,Île-de-France,Fermé,red,2.234199100000069,48.8373704
+L'entraide du figuier,Hauts-de-Seine,Île-de-France,Fermé,red,2.240141900000026,48.8421873
+Visemploi Boulogne,Hauts-de-Seine,Île-de-France,Fermé,red,2.237809,48.839735
+Hopital Percy,Hauts-de-Seine,Île-de-France,Fermé,red,2.255071199999975,48.8132072
+Pôle de Santé du Plateau,Hauts-de-Seine,Île-de-France,Fermé,red,2.232929399999989,48.7844613
+Groupe hospitalier Paul Guiraud,Hauts-de-Seine,Île-de-France,Fermé,red,2.252153099999987,48.78692330000001
+Maison de Santé de Meudon la Forêt,Hauts-de-Seine,Île-de-France,Fermé,red,2.2278976999999713,48.78716989999999
+CMP Val Fleury Pôle 92I05 (adolescents),Hauts-de-Seine,Île-de-France,Fermé,red,2.2365581000000248,48.81043309999999
+CMP Clamart Pôle 92G16 adulte,Hauts-de-Seine,Île-de-France,Fermé,red,2.2384091999999782,48.78414979999999
+Maison de la colline,Hauts-de-Seine,Île-de-France,Fermé,red,2.2291076000000203,48.82379419999999
+L'épicerie Solidaire,Hauts-de-Seine,Île-de-France,Fermé,red,2.302568400000041,48.9071005
+"One Each, Bistrot 2.0",Hauts-de-Seine,Île-de-France,Ouvert,green,2.315347900000006,48.90331140000001
+Maison de services au public,Hauts-de-Seine,Île-de-France,Fermé,red,2.2893238000000338,48.73913570000001
+Espace numérique,Hauts-de-Seine,Île-de-France,Fermé,red,2.2268109000000322,48.7853486
+Avant Seine,Hauts-de-Seine,Île-de-France,Fermé,red,2.2381414000000177,48.8199991
+Wake up Café (WKF),Hauts-de-Seine,Île-de-France,Ouvert,green,2.2334619000000657,48.8339503
+Consultations jeunes consommateurs ,Hauts-de-Seine,Île-de-France,Fermé,red,2.3152367999999797,48.7828054
+Mission locale Boulogne Billancourt,Hauts-de-Seine,Île-de-France,Fermé,red,2.243260400000054,48.8296296
+Espace Landowski,Hauts-de-Seine,Île-de-France,Fermé,red,2.239447700000028,48.8359627
+Active Faraide Saint Cloud,Hauts-de-Seine,Île-de-France,Fermé,red,2.217671999999993,48.84166200000001
+Active Faraide Fontenay aux roses,Hauts-de-Seine,Île-de-France,Fermé,red,2.291479200000026,48.7932921
+CADA (Centre d’accueil pour demandeurs d’asile) d'Asnières sur Seine,Hauts-de-Seine,Île-de-France,Fermé,red,2.295449299999973,48.917347
+Société Saint Vincent De Paul,Hauts-de-Seine,Île-de-France,Fermé,red,2.246851900000024,48.9218287
+CIO de Montrouge,Hauts-de-Seine,Île-de-France,Fermé,red,2.3070844999999736,48.8141417
+Service état civil,Hauts-de-Seine,Île-de-France,Fermé,red,2.2384245000000647,48.81241190000001
+Médiathèque de Meudon la forêt,Hauts-de-Seine,Île-de-France,Modification,orange,2.2288301999999476,48.7880251
+Club informatique,Hauts-de-Seine,Île-de-France,Fermé,red,2.225061099999948,48.785993
+Ecoute conseil dialogue,Hauts-de-Seine,Île-de-France,Fermé,red,2.3277600999999777,48.9369448
+Lectures Nomades,Hauts-de-Seine,Île-de-France,Fermé,red,2.328495900000007,48.9323161
+Passerelle 92,Hauts-de-Seine,Île-de-France,Fermé,red,2.298065299999962,48.9350442
+Les Mazurières,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1949601999999686,48.8640819
+Bibliothèque les Mazurières,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1942569999999932,48.8657467
+Ecole Française des Femmes de Nanterre,Hauts-de-Seine,Île-de-France,Fermé,red,2.1891632,48.8906368
+Unité Locale de Nanterre,Hauts-de-Seine,Île-de-France,Fermé,red,2.1950861999999915,48.90314619999999
+Unité Locale de Garches,Hauts-de-Seine,Île-de-France,Fermé,red,2.1966694999999845,48.8534112
+Unité Locale de Puteaux,Hauts-de-Seine,Île-de-France,Fermé,red,2.2256730999999945,48.884257
+Unité Locale de Suresnes,Hauts-de-Seine,Île-de-France,Ouvert,green,2.223218900000006,48.86905549999999
+Unité Locale Bourg la Reine,Hauts-de-Seine,Île-de-France,Fermé,red,2.3132845999999745,48.78878979999999
+Unité Locale de Saint Cloud,Hauts-de-Seine,Île-de-France,Fermé,red,2.205091799999991,48.8436907
+Unité Locale La Garenne Colombes,Hauts-de-Seine,Île-de-France,Ouvert,green,2.229248699999971,48.9025606
+Groupe d'entraide mutuelle Nanterre,Hauts-de-Seine,Île-de-France,Fermé,red,2.1936144000000013,48.89136569999999
+Groupe d'entraide mutuelle La Garenne Colombes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2372245999999905,48.907712
+Espace de Proximité Emploi,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2783863,48.8810953
+Secours Populaire Comité de Sèvres,Hauts-de-Seine,Île-de-France,Fermé,red,2.2121782000000394,48.82380329999999
+Secours populaire Antenne de Nanterre ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2005935,48.8981185
+Secours Populaire  Antenne d'Asnières,Hauts-de-Seine,Île-de-France,Fermé,red,2.275049500000023,48.92926249999999
+Secours Populaire Antenne de Suresnes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2107160000000476,48.8616829
+Vallée Sud Emploi Bagneux,Hauts-de-Seine,Île-de-France,Fermé,red,2.3048556,48.8001815
+Ensemble pour la réussite ,Hauts-de-Seine,Île-de-France,Fermé,red,2.22737,48.9136332
+Association Colombes sans Frontières,Hauts-de-Seine,Île-de-France,Fermé,red,2.2273700000000645,48.9136332
+Unité locale de Boulogne-Billancourt ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2437152999999626,48.83082750000001
+Académie musicale Philippe Jaroussky,Hauts-de-Seine,Île-de-France,Fermé,red,2.2309635999999955,48.82486950000001
+Permanence Nouvelles Voies - Pavé Blanc,Hauts-de-Seine,Île-de-France,Fermé,red,2.2387524000000667,48.7829346
+Permanence Nouvelles Voies -  La Traverse,Hauts-de-Seine,Île-de-France,Fermé,red,2.214230000000043,48.8994381
+Permanence Nouvelles voies  - Mairie Annexe,Hauts-de-Seine,Île-de-France,Fermé,red,2.3127759000000196,48.79005039999999
+Permanence Nouvelles Voies - CSC Valérie Méot,Hauts-de-Seine,Île-de-France,Fermé,red,2.217783499999996,48.9078724
+Permanence Nouvelles voies - CSC les Acacias,Hauts-de-Seine,Île-de-France,Fermé,red,2.1911929999999984,48.90006200000001
+Permanence Nouvelles Voies - Mairie de quartier Mont Valérie,Hauts-de-Seine,Île-de-France,Fermé,red,2.2076657999999725,48.8799237
+Permanence Nouvelles Voies - Les Terrasses,Hauts-de-Seine,Île-de-France,Fermé,red,2.2222818999999845,48.89713620000001
+Permanence Nouvelles Voies - Mairie de quartier du Parc,Hauts-de-Seine,Île-de-France,Fermé,red,2.2252011000000493,48.8882111
+Permanence Nouvelles Voies - Le Petit Nanterre,Hauts-de-Seine,Île-de-France,Fermé,red,2.2202371999999286,48.9104015
+Entraide de l'église réformée Levallois,Hauts-de-Seine,Île-de-France,Fermé,red,2.284139200000027,48.8927882
+PMI L'Alma,Hauts-de-Seine,Île-de-France,Fermé,red,2.283342599999969,48.914962
+SST 10 Pôle social,Hauts-de-Seine,Île-de-France,Fermé,red,2.2951206000000184,48.8035587
+PMI des Rosiers,Hauts-de-Seine,Île-de-France,Fermé,red,2.3097423,48.7884115
+PMI et CPEF Leclerc,Hauts-de-Seine,Île-de-France,Fermé,red,2.3142064999999548,48.7760729
+PMI Espace Duflos,Hauts-de-Seine,Île-de-France,Fermé,red,2.264120999999932,48.9154778
+Maison de quartier Henri Barbusse,Hauts-de-Seine,Île-de-France,Fermé,red,2.2866159000000152,48.8134488
+SST 13 Antony,Hauts-de-Seine,Île-de-France,Fermé,red,2.3035117,48.7478045
+SST 2 Asnières-sur-Seine,Hauts-de-Seine,Île-de-France,Fermé,red,2.2840982000000167,48.9149675
+SST 11 Bagneux,Hauts-de-Seine,Île-de-France,Fermé,red,2.303782700000056,48.79723250000001
+SST 8 Boulogne-Billancourt,Hauts-de-Seine,Île-de-France,Fermé,red,2.2460694000000103,48.8331902
+SST 5 Le Védrines,Hauts-de-Seine,Île-de-France,Fermé,red,2.2525183000000197,48.9167237
+SST 4 Courbevoie,Hauts-de-Seine,Île-de-France,Fermé,red,2.2574968999999783,48.8990962
+SST 9 Issy-les-Moulineaux,Hauts-de-Seine,Île-de-France,Fermé,red,2.2549503,48.8190429
+SST 6 Le Quartz,Hauts-de-Seine,Île-de-France,Fermé,red,2.194933100000071,48.8963506
+SST 7 Suresnes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2276176,48.8686975
+SST 1 Pôle Social de Villeneuve-la-Garenne,Hauts-de-Seine,Île-de-France,Fermé,red,2.3246454,48.9356575
+Permanence CIDFF d'Asnières - Espace Lucie Aubrac,Hauts-de-Seine,Île-de-France,Fermé,red,2.2803158000000394,48.9323103
+Permanence CIDFF de Clichy,Hauts-de-Seine,Île-de-France,Fermé,red,2.305794800000058,48.9037306
+Permanence CIDFF de Courbevoie - PAD,Hauts-de-Seine,Île-de-France,Fermé,red,2.257106300000032,48.8940557
+Permanence CIDFF de Colombes - CSC Fossés Jean,Hauts-de-Seine,Île-de-France,Fermé,red,2.2700632,48.9317726
+Permanence CIDFF Rueil-Malmaison - Villa Familia,Hauts-de-Seine,Île-de-France,Fermé,red,2.1791886999999406,48.879865
+Permanence CIDFF - Garches,Hauts-de-Seine,Île-de-France,Fermé,red,2.187209400000029,48.8434356
+Espace Santé Jeunes Colombes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2535408999999618,48.9226643
+Consultation médicale du CHAPSA,Hauts-de-Seine,Île-de-France,Fermé,red,2.2222425999999587,48.91345519999999
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.3037630000000036,48.75299299999999
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.3001193000000058,48.7622494
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.312006999999994,48.7712801
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.281540599999971,48.7593486
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2836730000000216,48.7559439
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.290877099999989,48.7591202
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.281540599999971,48.7593486
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2752480000000332,48.9097927
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2929,48.9018
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.287609400000065,48.9126108
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.3069551999999476,48.80191559999999
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2393462999999656,48.836624
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.241914299999962,48.8354016
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.226756499999965,48.8415136
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.229116500000032,48.84215759999999
+Permanence CIDFF Gennevilliers - Grésillons,Hauts-de-Seine,Île-de-France,Fermé,red,2.3016195000000153,48.91731559999999
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2263140999999678,48.84216079999999
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2427622000000156,48.839586
+Permanence CIDFF Nanterre TGI,Hauts-de-Seine,Île-de-France,Fermé,red,2.2158117000000175,48.8953757
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2672473,48.7779353
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.3187826,48.9409685
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.3109365000000253,48.7812554
+Permanence CIDFF Nanterre - CSC Valérie Méot Mosaic,Hauts-de-Seine,Île-de-France,Fermé,red,2.2190160000000105,48.9079274
+Permanence CIDFF Nanterre - CSC P'arc en Ciel,Hauts-de-Seine,Île-de-France,Fermé,red,2.220421100000067,48.8894689
+Permanence CIDFF - CSC Petit-Colombes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2282113999999638,48.9185969
+Permanence CIDFF Montrouge,Hauts-de-Seine,Île-de-France,Fermé,red,2.301328900000044,48.81233510000001
+Permanence CIDFF Malakoff,Hauts-de-Seine,Île-de-France,Fermé,red,2.301646300000016,48.82083429999999
+Permanence CIDFF Le Plessis-Robinson - Maison des Part'âges,Hauts-de-Seine,Île-de-France,Fermé,red,2.255219699999998,48.7756036
+Permanence CIDFF Issy-Les-Moulineaux (Espace Andrée Chedid),Hauts-de-Seine,Île-de-France,Fermé,red,2.273709800000006,48.82451229999999
+Permanence CIDFF Issy-Les-Moulineaux (Centre Administratif),Hauts-de-Seine,Île-de-France,Fermé,red,2.274968700000045,48.8246316
+Permanence CIDFF Fontenay-aux-Roses,Hauts-de-Seine,Île-de-France,Fermé,red,2.2909162999999353,48.79027920000001
+Centre social et culturel Petit Colombes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2282114,48.9185969
+CAF - Montrouge,Hauts-de-Seine,Île-de-France,Fermé,red,2.3252069,48.8133953
+CAF - Nanterre,Hauts-de-Seine,Île-de-France,Fermé,red,2.1860979,48.8958214
+CAF - Colombes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2675282,48.9301651
+CAF - Gennevilliers,Hauts-de-Seine,Île-de-France,Fermé,red,2.3017382,48.93215
+CAF - Boulogne-Billancourt,Hauts-de-Seine,Île-de-France,Fermé,red,2.2358031,48.8404073
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.307465000000001,48.81293429999999
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.3166102,48.8174982
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.3157934,48.8172673
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.3182605,48.8157567
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.3202977,48.8163041
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.3240923,48.8125434
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.3218501,48.8188424
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.3197465,48.8190993
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.3206377,48.8185663
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2848733,48.7420092
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2914163,48.7590573
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.3003077,48.7624623
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.290915,48.7666721
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2746957,48.9095511
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2885473,48.9115405
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2974993,48.9103191
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.3160861,48.91811
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2642847,48.91512
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.3240817,48.7784634
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.3120632,48.7798693
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2859559,48.7713131
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2687016,48.7735249
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2691102,48.7717341
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2700042,48.7706348
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.259909,48.7719474
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2629981,48.7730104
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2641468,48.7727173
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2617074,48.7675673
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.1877736,48.8123484
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.1890288,48.8096266
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2928632,48.9017675
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2926438,48.9028304
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.3035562,48.90603
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.303229,48.908279
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.3120975,48.903962
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.3159262,48.9072948
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2297346,48.9149597
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.229588,48.9244776
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2372047,48.9293315
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2596623,48.9310061
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2594321,48.9238925
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2365617,48.8974596
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2578069,48.895394
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2686592,48.9050823
+WC,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2765025,48.9041555
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2874315,48.7909692
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.290861,48.7915305
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2930445,48.7936015
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.194307,48.8470263
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2521281,48.8197744
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2548265,48.8177505
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2591951,48.8200001
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2663884,48.8197731
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2565003,48.8261007
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2632547,48.8297105
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2635179,48.8292698
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.277833,48.8242983
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2780083,48.8240965
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.271076,48.7839926
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2750997,48.8988639
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2766496,48.8967304
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2894371,48.8933808
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2921369,48.889606
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.299343,48.893296
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.301738,48.8215858
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.3078475,48.8180347
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.3087009,48.8227669
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.1865743,48.8382143
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.232529,48.8131944
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2171609,48.8093147
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.1948944,48.9045139
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.1955083,48.8953628
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.1962523,48.8917299
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.1996694,48.8870784
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2185934,48.8928611
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.223102,48.8983914
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2135752,48.901341
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2229351,48.9117099
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2375805,48.8835075
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2389226,48.8842466
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.238336,48.8906072
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2396393,48.8898149
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2401837,48.8924959
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.1668279,48.8709751
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.1716788,48.8720442
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.1901304,48.8589406
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.1796372,48.8806153
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.1725542,48.8868944
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.1707464,48.8871891
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.1665382,48.890762
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2230168,48.8295295
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2184917,48.838674
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2150206,48.8401964
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2085485,48.8394644
+WC,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2230168,48.8295295
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2061269,48.8630105
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.20742,48.8738558
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2258704,48.8695161
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2296479,48.8783363
+WC,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1522655,48.8370743
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2920438,48.7600143
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2949724,48.7620184
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2995282,48.7633112
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3041792,48.7635929
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.299252,48.7553979
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2947442,48.7548142
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2839234,48.7558524
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3166034,48.9182842
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3167148,48.9187197
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2282371,48.8500929
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2305062,48.8493269
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2362147,48.8466487
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2431335,48.8398235
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2431636,48.8401774
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2299939,48.8325809
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2320626,48.8330367
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.24096,48.8298578
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.237402,48.8256749
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2373362,48.8258019
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2357005,48.826124
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2356261,48.8263464
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2356428,48.8263676
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2620894,48.7676765
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2609252,48.7731436
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2637175,48.7728063
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2690256,48.7718941
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2858993,48.7713012
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2651245,48.7998802
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.250464,48.7906682
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2465538,48.7903436
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2555195,48.7959122
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2618827,48.7934048
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2229805,48.9207294
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2326245,48.898454
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2370368,48.8986268
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2412639,48.9003272
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.241902,48.8945869
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2421067,48.8919096
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2446949,48.8899303
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2549457,48.8951016
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2578054,48.8954159
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2547098,48.8988597
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2547916,48.9019828
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2702052,48.9001186
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2937411,48.7864511
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2870498,48.7920885
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2909545,48.792606
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2904716,48.7917914
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2930329,48.7936102
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2925165,48.7949743
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2946737,48.7955401
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1871234,48.8450239
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1874142,48.8453224
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3088626,48.9339339
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3106836,48.9340922
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3173197,48.9352447
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.315882,48.9364767
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3135428,48.9376747
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2684237,48.8226067
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2588439,48.8296762
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.259238,48.8286744
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2560214,48.8273244
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2573524,48.8260353
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2511053,48.8242378
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2673301,48.7820492
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2635172,48.7750711
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2752486,48.8988704
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2956742,48.8975495
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3014001,48.8193145
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3028571,48.8226794
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3086836,48.8225108
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2811713,48.8120519
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1763346,48.8272163
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2413629,48.8054132
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2319333,48.8093135
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,48.8178342,48.8178342
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2390732,48.8189126
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3071584,48.8128037
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3072287,48.8132993
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3141361,48.8166402
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3163348,48.8174928
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3210909,48.8177588
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3204039,48.8190937
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1986034,48.9063492
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1947358,48.9046684
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1931893,48.9009913
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1920308,48.8954227
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1920398,48.89122440000001
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1996869,48.8932836
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2260875,48.8907637
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2241579,48.8920199
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.22138,48.8914761
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2198113,48.8911363
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.22086,48.8930757
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2191127,48.8927897
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2181618,48.8935029
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.216126,48.892369
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2156298,48.893845
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2169682,48.8941906
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2308331,48.8938135
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2312946,48.8934563
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2521211,48.8782809
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.255409,48.8779358
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2775354,48.8854005
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2522998,48.8844037
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2452654,48.8786984
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2370052,48.881141
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2307019,48.8823459
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2307354,48.882838
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2300715,48.8829018
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2324321,48.8834879
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2321149,48.8857877
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2363257,48.8909966
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1642195,48.8848044
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.162122,48.8812262
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1571197,48.8739683
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1579976,48.8724908
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1517964,48.87094150000001
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.162942,48.8632194
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.175717,48.8649929
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1716442,48.8721017
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1925373,48.8599857
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1773653,48.8761134
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1812794,48.876824
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1822672,48.8777668
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1813714,48.8784419
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.182034,48.8783913
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.175822,48.8797008
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2013797,48.8760797
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1985906,48.8450197
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.218575,48.8444465
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1959833,48.8304877
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2072209,48.8366039
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2122499,48.8380584
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2166093,48.8366949
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2185863,48.8387501
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2206488,48.8382648
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2229948,48.8295352
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2110588,48.8148192
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2276925,48.8691039
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2274951,48.870553
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2145144,48.870915
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2827761,48.8199814
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1653587,48.8393622
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1656149,48.8393835
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3180212,48.9393627
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3193007,48.9410094
+Fontaine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3211005,48.9440142
+Centre social et culturel d'Antony,Hauts-de-Seine,Île-de-France,Fermé,red,2.280281,48.7355178
+"Café ""la Fontaine""",Hauts-de-Seine,Île-de-France,Fermé,red,2.254386499999999,48.7744444
+Mon Epicerie,Hauts-de-Seine,Île-de-France,Fermé,red,2.1990182,48.8968786
+PASS de l'Institut Franco-Britannique,Hauts-de-Seine,Île-de-France,Fermé,red,2.2793091,48.8918511
+CMS Etienne Gatineau-Sailliant,Hauts-de-Seine,Île-de-France,Fermé,red,2.296649,48.93413169999999
+Association Passerelle Insertion 92 (API92),Hauts-de-Seine,Île-de-France,Fermé,red,2.2808602,48.9255425
+CMS Daniel-Timsit,Hauts-de-Seine,Île-de-France,Fermé,red,2.3032405,48.9199811
+CMS Robert-Fasquelle,Hauts-de-Seine,Île-de-France,Fermé,red,2.2615026,48.77989239999999
+CMS Mourinoux,Hauts-de-Seine,Île-de-France,Fermé,red,2.2755875,48.93140990000001
+CMS Simone Veil,Hauts-de-Seine,Île-de-France,Modification,orange,2.2965157,48.80542379999999
+Entraide et dialogue à Montrouge,Hauts-de-Seine,Île-de-France,Ouvert,green,2.317384000000001,48.816363
+CMS du Pôle Santé Solidarité Claude Manonviller,Hauts-de-Seine,Île-de-France,Fermé,red,2.3239907,48.81723969999999
+Hôpital Louis-Mourier,Hauts-de-Seine,Île-de-France,Fermé,red,2.2362506,48.92462920000001
+CMS Maurice Thorez,Hauts-de-Seine,Île-de-France,Fermé,red,2.195939099999999,48.8915565
+CMS du Parc,Hauts-de-Seine,Île-de-France,Fermé,red,2.2204211,48.8894689
+Veille Active Jeune 11-25,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3037827,48.79723250000001
+Veille Active Jeune 11-25,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3037827,48.79723250000001
+Veille Active Jeune 11-25,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3037827,48.79723250000001
+Veille Active Jeunes 11-25 ans,Hauts-de-Seine,Île-de-France,Fermé,red,2.3037827,48.79723250000001
+Cellule d'écoute psychologique,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2188068,48.828508
+CASP Arapej 92,Hauts-de-Seine,Île-de-France,Fermé,red,2.2804482,48.7710456
+Épicerie sociale et solidaire Bol d'Air,Hauts-de-Seine,Île-de-France,Fermé,red,2.2543662,48.7641173
+Épicerie sociale Société Saint Vincent De Paul,Hauts-de-Seine,Île-de-France,Fermé,red,2.2252712,48.9174012
+PASS de l'Hôpital Max Fourestier,Hauts-de-Seine,Île-de-France,Fermé,red,2.2222426,48.91345519999999
+Planning Familial 92,Hauts-de-Seine,Île-de-France,Fermé,red,2.2797855,48.92796260000001
+Boites de repas,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2686803,48.9304327
+Panier repas et colis alimentaire,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3031679,48.9196282
+Association Dir el Kheir,Hauts-de-Seine,Île-de-France,Fermé,red,2.2130438,48.8914503
+Distribution de repas,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2167333,48.88609719999999
+SST 11 Bourg-la-Reine,Hauts-de-Seine,Île-de-France,Fermé,red,2.3142065,48.7760729
+L'ETAPE  ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2928936,48.9106278
+Centre Municipal de santé Chagall Goüin (CMS),Hauts-de-Seine,Île-de-France,Fermé,red,2.3111359,48.9020292
+Maison Région Solidaire - Issy-les-Moulineaux ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2592621,48.8204579
+Les Hélices,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2624556,48.8226309
+Trait d'Union,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2713015,48.8244066
+CMS Espace santé Simone Veil,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2696068,48.8227651
+CMP Pôle 92G19 adulte,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3150617,48.79715299999999
+CMP Pôle 92G21 adulte,Hauts-de-Seine,Île-de-France,Fermé,red,2.2966657,48.7446553
+Hôpital de jour François Rabelais - Pôle 92G21,Hauts-de-Seine,Île-de-France,Fermé,red,2.2966657,48.7446553
+CATTP Pôle 92G21,Hauts-de-Seine,Île-de-France,Fermé,red,2.2966657,48.7446553
+CMP Pôle 92G20 adulte,Hauts-de-Seine,Île-de-France,Fermé,red,2.2797361,48.7645053
+Hôpital de jour - Pôle 92G20,Hauts-de-Seine,Île-de-France,Fermé,red,2.2797361,48.7645053
+CATTP - Pôle 92G20,Hauts-de-Seine,Île-de-France,Fermé,red,2.2797361,48.7645053
+La Maison Thérapeutique - Pôle 92G20,Hauts-de-Seine,Île-de-France,Fermé,red,2.2782156,48.7354385
+Permanence CIDFF Boulogne Billancourt - Annexe de l'hôtel de Ville,Hauts-de-Seine,Île-de-France,Fermé,red,2.241210399999999,48.83521
+PMI Gros Grès,Hauts-de-Seine,Île-de-France,Fermé,red,2.2277865,48.91206949999999
+PMI de Fontenay-aux-Roses,Hauts-de-Seine,Île-de-France,Fermé,red,2.2879322,48.78931679999999
+Hôpital Antoine Béclère,Hauts-de-Seine,Île-de-France,Fermé,red,2.2549009,48.7885168
+Hôpital Beaujon,Hauts-de-Seine,Île-de-France,Fermé,red,2.3082552,48.9083635
+Site Hospitalier de Courbevoie,Hauts-de-Seine,Île-de-France,Fermé,red,2.253653,48.900969
+Site Hospitalier de Puteaux,Hauts-de-Seine,Île-de-France,Fermé,red,2.2416224,48.87889930000001
+Hôpital Corentin Celton,Hauts-de-Seine,Île-de-France,Fermé,red,2.278339,48.8281776
+CMS Jacqueline Akoun-Cornet,Hauts-de-Seine,Île-de-France,Fermé,red,2.2867457,48.8137017
+CMS Maurice-Ténine,Hauts-de-Seine,Île-de-France,Fermé,red,2.304865299999999,48.8205821
+CPEF du CMS Louis-Pasteur,Hauts-de-Seine,Île-de-France,Fermé,red,2.3178645,48.7967348
+CPEF du CMS Simone Veil,Hauts-de-Seine,Île-de-France,Ouvert,green,2.296493,48.80542990000001
+CPEF de l'Hôpital Beaujon,Hauts-de-Seine,Île-de-France,Fermé,red,2.3082552,48.9083635
+CPEF de l'Hôpital Louis-Mourier,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2362506,48.92462920000001
+CPEF du Site Hospitalier de Neuilly-sur-Seine,Hauts-de-Seine,Île-de-France,Fermé,red,2.2622584,48.89037149999999
+CPEF du CMS Simone Veil,Hauts-de-Seine,Île-de-France,Fermé,red,2.2879322,48.78931679999999
+CPEF du CMS Espace santé Simone Veil,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2696068,48.8227651
+Centre de planification familiale et d’orthogénie de l'Hôpital Corentin Celton,Hauts-de-Seine,Île-de-France,Fermé,red,2.278339,48.8281776
+CPEF Jacqueline Akoun-Cornet,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2867457,48.8137017
+CPEF du CMS Maurice-Ténine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.304865299999999,48.8205821
+CPEF du Pôle Santé Solidarité Claude Manonviller,Hauts-de-Seine,Île-de-France,Fermé,red,2.3239907,48.81723969999999
+CPEF du CMS du Parc,Hauts-de-Seine,Île-de-France,Fermé,red,2.2204211,48.8894689
+Hôpital Max Fourestier,Hauts-de-Seine,Île-de-France,Fermé,red,2.2222426,48.91345519999999
+CPEF de l'Hôpital Max Fourestier,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2222426,48.91345519999999
+CPEF du Centre Hospitalier des Quatre Villes à Saint Cloud,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2178066,48.843703
+CPEF de Vanves,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2988117,48.8242343
+Hôpital de jour intersectoriel de réhabilitation psychosociale Pôle 92G20,Hauts-de-Seine,Île-de-France,Fermé,red,2.316645599999999,48.74505910000001
+CMP Pôle 92G09 adulte,Hauts-de-Seine,Île-de-France,Fermé,red,2.2320469,48.87672849999999
+Hôpital de jour Pôle 92G09,Hauts-de-Seine,Île-de-France,Fermé,red,2.2320469,48.87672849999999
+CATTP Pôle 92G09,Hauts-de-Seine,Île-de-France,Fermé,red,2.224034,48.86947379999999
+CMP Boulogne Pôle 92I05 infanto-juvénile,Hauts-de-Seine,Île-de-France,Fermé,red,2.2322676,48.8457646
+CMP Chaville Pôle 92I05 infanto-juvénile,Hauts-de-Seine,Île-de-France,Fermé,red,2.197221,48.81802099999999
+CATTP Val Fleury Pôle 92I05 (adolescents),Hauts-de-Seine,Île-de-France,Fermé,red,2.236597299999999,48.8102227
+CATTP Le Cheval Agile Pôle 92I05 (enfants),Hauts-de-Seine,Île-de-France,Fermé,red,2.1867373,48.80751619999999
+Hôpital de jour pour adolescents Pôle 92I04,Hauts-de-Seine,Île-de-France,Fermé,red,2.2129149,48.846224
+CMP Clamart  Pôle 92I06 infanto-juvénile,Hauts-de-Seine,Île-de-France,Fermé,red,2.2707314,48.8131351
+CMP Petit-Clamart Pôle 92I06 infanto-juvénile,Hauts-de-Seine,Île-de-France,Fermé,red,2.245394,48.7839024
+CMP Issy-les-Moulineaux Pôle 92I06 infanto-juvénile,Hauts-de-Seine,Île-de-France,Fermé,red,2.269397000000001,48.8223905
+CMP Montrouge Pôle 92I06 infanto-juvénile,Hauts-de-Seine,Île-de-France,Fermé,red,2.3095778,48.8168212
+CMP Le Plessis-Robinson Pôle 92I06 infanto-juvénile,Hauts-de-Seine,Île-de-France,Fermé,red,2.2664847,48.78343150000001
+CMP Vanves Pôle 92I06 infanto-juvénile,Hauts-de-Seine,Île-de-France,Fermé,red,2.2931269,48.8212604
+CMP Malakoff Pôle 92I06 infanto-juvénile,Hauts-de-Seine,Île-de-France,Fermé,red,2.292030699999999,48.81633759999999
+Hôpital de jour Montrouge Pôle 92I06 infanto-juvénile,Hauts-de-Seine,Île-de-France,Fermé,red,2.3095778,48.8168212
+CASA l'Olivier,Hauts-de-Seine,Île-de-France,Fermé,red,2.2737098,48.82451229999999
+CMP Antony  Pôle 92I07 infanto-juvénile,Hauts-de-Seine,Île-de-France,Fermé,red,2.2919557,48.7418415
+CMP Bagneux Pôle 92I07 infanto-juvénile,Hauts-de-Seine,Île-de-France,Fermé,red,2.3038617,48.7939575
+CATTP Chatenay-Malabry Pôle 92I07 enfants,Hauts-de-Seine,Île-de-France,Fermé,red,2.279007,48.7631791
+CASA L'Odyssée,Hauts-de-Seine,Île-de-France,Fermé,red,2.2965767,48.7801766
+CMP Montaigne Pôle 92G13 adulte,Hauts-de-Seine,Île-de-France,Ouvert,green,2.196798299999999,48.84514319999999
+CATTP Pôle 92G13 adulte,Hauts-de-Seine,Île-de-France,Ouvert,green,2.196798299999999,48.84514319999999
+Hôpital de jour Les Catalpas Pôle 92G13 adulte,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2182511,48.8471904
+CMP Chaville Pôle 92G16 adulte,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1924221,48.8116069
+CATTP Pôle 92G16 adulte,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2583396,48.8046635
+CMP Pôle 92G17 adulte,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2382071,48.78408810000001
+CATTP Pôle 92G17 adulte,Hauts-de-Seine,Île-de-France,Ouvert,green,2.243112500000001,48.7834313
+Hôpital de jour Pôle 92G17 adulte,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2390382,48.78107010000001
+CMP Montrouge Pôle 92G18 adulte,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3240617,48.81707470000001
+CMP Malakoff Pôle 92G18 adulte,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3010168,48.8195809
+Hôpital de jour Atelier 18 Pôle 92G18 adulte,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3024352,48.8207947
+CATTP Pôle 92G18 adulte,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3225775,48.81239650000001
+CATTP Pôle 92G19 adulte,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3150617,48.79715299999999
+CMP Pôle 92G29 adulte,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2335322,48.8345567
+Hôpital de jour Pôle 92G29 adulte,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2302297,48.8459227
+CATTP Pôle 92G29 adulte,Hauts-de-Seine,Île-de-France,Fermé,red,2.2335322,48.8345567
+CIO de Nanterre,Hauts-de-Seine,Île-de-France,Fermé,red,2.1783386,48.86575080000001
+Centre culturel Max-Juclier,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3354269,48.9345232
+Mairie de quartier de Bécon,Hauts-de-Seine,Île-de-France,Fermé,red,2.2668857,48.9017369
+Mairie de quartier Faubourg-de-l'Arche,Hauts-de-Seine,Île-de-France,Fermé,red,2.2384273,48.89812139999999
+L'Atelier Clinique Juridique,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3014541,48.8239154
+Colis repas - Sainte Marie des Vallées,Hauts-de-Seine,Île-de-France,Fermé,red,2.2606223,48.9151132
+ASTI-RESF Asnières ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2895528,48.91104799999999
+Espace emploi Malraux,Hauts-de-Seine,Île-de-France,Fermé,red,2.3320514,48.9351648
+CMM Raymond Burgos,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2256168,48.871576
+Point Accès Santé - CMM Raymond Burgos,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2256168,48.871576
+Permanence Point écoute jeunes - CMM Raymond Burgos,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2256168,48.871576
+Psys du coeur Suresnes,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2256168,48.871576
+Maison de quartier Les Sorbiers,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2104954,48.8615589
+Maison de quartier Les Chênes,Hauts-de-Seine,Île-de-France,Ouvert,green,2.224008699999999,48.88147039999999
+Maison de quartier Gambetta,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2262327,48.8748994
+Cyberespace - Suresnes animation,Hauts-de-Seine,Île-de-France,Fermé,red,2.2017548,48.8630051
+Espace JeuneS Centre-Ville,Hauts-de-Seine,Île-de-France,Fermé,red,2.226062,48.86867099999999
+CHS Solea,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2251713,48.867572
+Pôle Emploi Antony,Hauts-de-Seine,Île-de-France,Fermé,red,2.306138299999999,48.75551029999999
+Pôle Emploi Asnières-sur-Seine,Hauts-de-Seine,Île-de-France,Fermé,red,2.2954671,48.9172569
+Pôle Emploi Bagneux,Hauts-de-Seine,Île-de-France,Fermé,red,2.3183759,48.7933457
+Pôle Emploi Boulogne-Billancourt,Hauts-de-Seine,Île-de-France,Fermé,red,2.2277653,48.8328102
+Pôle Emploi Clichy,Hauts-de-Seine,Île-de-France,Fermé,red,2.3190414,48.9013245
+Pôle Emploi Colombes,Hauts-de-Seine,Île-de-France,Fermé,red,2.252518,48.91671899999999
+Pôle Emploi Courbevoie,Hauts-de-Seine,Île-de-France,Fermé,red,2.2551348,48.89856870000001
+Pôle Emploi Gennevilliers,Hauts-de-Seine,Île-de-France,Fermé,red,2.3138645,48.92322859999999
+Pôle Emploi Levallois-Perret,Hauts-de-Seine,Île-de-France,Fermé,red,2.283431600000001,48.8936188
+Pôle Emploi Meudon,Hauts-de-Seine,Île-de-France,Fermé,red,2.2328311,48.78538400000001
+Pôle Emploi Montrouge,Hauts-de-Seine,Île-de-France,Fermé,red,2.3010953,48.8120272
+Pôle Emploi Nanterre-Seine,Hauts-de-Seine,Île-de-France,Fermé,red,2.1994583,48.8878938
+Pôle Emploi Puteaux,Hauts-de-Seine,Île-de-France,Fermé,red,2.2346026,48.8778409
+Pôle Emploi Rueil-Malmaison,Hauts-de-Seine,Île-de-France,Fermé,red,2.199884299999999,48.8764843
+ADIL 92 - Centre de Nanterre,Hauts-de-Seine,Île-de-France,Fermé,red,2.2215224,48.8979207
+DINAMIC,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2598154,48.7641976
+PIMMS Antony - Maison des services publics,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2892839,48.73938219999999
+PAD d'Antony,Hauts-de-Seine,Île-de-France,Fermé,red,2.300019,48.7546815
+Point d'Accès au Droit - Maison de l'Amitié,Hauts-de-Seine,Île-de-France,Fermé,red,2.217672,48.84166200000001
+AL-ANON Antony,Hauts-de-Seine,Île-de-France,Ouvert,green,2.280281,48.7355178
+AL-ANON Puteaux,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2410124,48.8919951
+AL-ANON : Saint-Cloud - Maison de l'amitié,Hauts-de-Seine,Île-de-France,Ouvert,green,2.217672,48.84166200000001
+Bureau d’Information Jeunesse,Hauts-de-Seine,Île-de-France,Modification,orange,2.3008079,48.7553772
+Point Information Jeunesse,Hauts-de-Seine,Île-de-France,Fermé,red,2.277594,48.9326552
+Maison Citoyenne Thierry-Ehrhard,Hauts-de-Seine,Île-de-France,Fermé,red,2.3163727,48.79987599999999
+Bureau d’Information Jeunesse - Bois-Colombes,Hauts-de-Seine,Île-de-France,Fermé,red,2.264121,48.9154778
+Bureau d’Information Jeunesse - Boulogne-Billancourt,Hauts-de-Seine,Île-de-France,Fermé,red,2.2415333,48.8354861
+Service Information Jeunesse,Hauts-de-Seine,Île-de-France,Fermé,red,2.2795792,48.7689787
+Bureau d’Information Jeunesse,Hauts-de-Seine,Île-de-France,Fermé,red,2.2901005,48.7995967
+Maison de la Jeunesse,Hauts-de-Seine,Île-de-France,Fermé,red,2.2678871,48.7995984
+Clichy Information Jeunesse,Hauts-de-Seine,Île-de-France,Fermé,red,2.302359699999999,48.90772859999999
+Bureau d’Information Jeunesse,Hauts-de-Seine,Île-de-France,Fermé,red,2.2571151,48.92758359999999
+Service Information Jeunesse,Hauts-de-Seine,Île-de-France,Fermé,red,2.2568549,48.8991662
+Bureau d'Information Jeunesse,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2963877,48.9233617
+Bureau d'Information Jeunesse,Hauts-de-Seine,Île-de-France,Fermé,red,2.2963877,48.9233617
+Espace Jeunes Anne Frank,Hauts-de-Seine,Île-de-France,Fermé,red,2.271855200000001,48.8256635
+Point Information Jeunesse - La Garenne-Colombes ,Hauts-de-Seine,Île-de-France,Modification,orange,2.2512814,48.9061423
+Point Information Jeunesse,Hauts-de-Seine,Île-de-France,Fermé,red,2.2613307,48.7792398
+Espace Jeunesse Levallois-Perret,Hauts-de-Seine,Île-de-France,Fermé,red,2.2911457,48.8925726
+Point Information Jeunesse,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3025916,48.8207225
+Point Information Jeunesse ,Hauts-de-Seine,Île-de-France,Modification,orange,2.242260399999999,48.8079531
+Point Information Jeunesse,Hauts-de-Seine,Île-de-France,Fermé,red,2.309816,48.8154242
+Structure Info Jeunesse - Nanterre ,Hauts-de-Seine,Île-de-France,Fermé,red,2.1957287,48.8926009
+Puteaux Information Jeunesse,Hauts-de-Seine,Île-de-France,Fermé,red,2.2323624,48.888361
+Structure Information Jeunesse ,Hauts-de-Seine,Île-de-France,Fermé,red,2.1842367,48.8799688
+Structure Information Jeunesse - Esc@le,Hauts-de-Seine,Île-de-France,Fermé,red,2.2143697,48.8247127
+Suresnes Information Jeunesse Payret,Hauts-de-Seine,Île-de-France,Fermé,red,2.2224257,48.8774759
+Structure Information Jeunesse,Hauts-de-Seine,Île-de-France,Fermé,red,2.2894648,48.8213514
+Médiathèque Anne Fontaine,Hauts-de-Seine,Île-de-France,Fermé,red,2.297749,48.754698
+Médiathèque Arthur Rimbaud,Hauts-de-Seine,Île-de-France,Fermé,red,2.289335899999999,48.7391389
+Médiathèque Émile Bernard,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2908741,48.9116436
+Médiathèque Alexandre Jardin,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2769527,48.9268619
+Médiathèque Eugène Flachat,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2745857,48.9102807
+Secours Catholique Saint Cloud,Hauts-de-Seine,Île-de-France,Fermé,red,2.217672,48.84166200000001
+CMP Jacques Prévert - Enfants et Adolescents (0-17 ans)  ,Hauts-de-Seine,Île-de-France,Fermé,red,2.252349,48.9221651
+CeGIDD du CMS Etienne Gatineau-Sailliant,Hauts-de-Seine,Île-de-France,Fermé,red,2.296649,48.93413169999999
+CeGIDD de l'Hôpital Max Fourestier,Hauts-de-Seine,Île-de-France,Fermé,red,2.2227769,48.9129038
+CeGIDD de l'Université Paris Nanterre,Hauts-de-Seine,Île-de-France,Fermé,red,2.2082455,48.90428619999999
+A.L.F.R.E.D - Chaville,Hauts-de-Seine,Île-de-France,Fermé,red,2.1904089,48.80896329999999
+Aide aux devoirs - Chaville,Hauts-de-Seine,Île-de-France,Fermé,red,2.1904089,48.80896329999999
+A.P.E.I - Chaville,Hauts-de-Seine,Île-de-France,Fermé,red,2.1843994,48.80882339999999
+C.C.F.D - Sèvres,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2013022,48.8258394
+Entraide Sevrienne,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2085801,48.82480080000001
+CMPP Youri Gagarine - Enfants et Adolescents (2-16 ans)  ,Hauts-de-Seine,Île-de-France,Fermé,red,2.242327,48.92450100000001
+CMP - CMPP Janine Simon -Enfants et Adolescents (0-17 ans)  ,Hauts-de-Seine,Île-de-France,Fermé,red,2.236215399999999,48.9066476
+CMP Saint-Cloud Pôle -Enfants et Adolescents (0-17 ans)  ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2129142,48.8462223
+CMP Rueil Malmaison - Enfants et Adolescents (0-17 ans)  ,Hauts-de-Seine,Île-de-France,Fermé,red,2.1779446,48.8827135
+CMP Jean Wier - Enfants et Adolescents (0-17 ans)  ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2200191,48.8828674
+CMP Wladimir Granoff - Enfants et Adolescents (5-17 ans)  ,Hauts-de-Seine,Île-de-France,Fermé,red,2.1906126,48.89207279999999
+CMP-CATTP La coursive des Loupiots - Enfants (0-6 ans)  ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2260417,48.89336050000001
+Association 6ème Geste,Hauts-de-Seine,Île-de-France,Ouvert,green,2.290877,48.8924222
+Le Relais sévrien,Hauts-de-Seine,Île-de-France,Fermé,red,2.211944,48.82301150000001
+DOM’ASILE – Colombes,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2601422,48.923572
+Croix-Rouge française - Unité Locale de Bagneux,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3149211,48.7928649
+La Maison de la Famille,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2119531,48.823242
+Association Essor 92,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2005935,48.8981185
+Essor 92 - Agence de Nanterre,Hauts-de-Seine,Île-de-France,Fermé,red,2.2005935,48.8981185
+Essor 92 - Agence de Courbevoie,Hauts-de-Seine,Île-de-France,Fermé,red,2.2565586,48.9003266
+Médiathèque Louis Aragon,Hauts-de-Seine,Île-de-France,Fermé,red,2.3062259,48.79688119999999
+Médiathèque municipale Jean-Monnet,Hauts-de-Seine,Île-de-France,Ouvert,green,2.268005899999999,48.913661
+EPICERIE SOLIDAIRE,Hauts-de-Seine,Île-de-France,Fermé,red,2.24631,48.89400440000001
+Vitaservices Solutis 92,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2486989,48.88940400000001
+Agencement Qualité Service,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2735112,48.90217699999999
+Espace Santé Jeunes d’Asnières-sur-Seine,Hauts-de-Seine,Île-de-France,Fermé,red,2.2755875,48.93140990000001
+Aquatec ,Hauts-de-Seine,Île-de-France,Ouvert,green,2.285319,48.91004299999999
+Tricycle Environnement,Hauts-de-Seine,Île-de-France,Fermé,red,2.3213489,48.919484
+Comité des Hauts-de-Seine de Volley-ball,Hauts-de-Seine,Île-de-France,Fermé,red,2.3131415,48.7881833
+Espace Santé Jeunes Boulogne-Billancourt,Hauts-de-Seine,Île-de-France,Fermé,red,2.241210399999999,48.83521
+Dialogues Partenaires Services,Hauts-de-Seine,Île-de-France,Ouvert,green,2.305187699999999,48.92078839999999
+Espace Santé Jeunes Gennevilliers,Hauts-de-Seine,Île-de-France,Fermé,red,2.296784999999999,48.9340079
+Suez Rv Rebond Insertion,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2647184,48.83373530000001
+Espace Santé Jeunes Issy-Vanves,Hauts-de-Seine,Île-de-France,Fermé,red,2.2696068,48.8227651
+ADIL 92 centre de Boulogne-Billancourt,Hauts-de-Seine,Île-de-France,Fermé,red,2.239139799999999,48.8352511
+Permanence ADIL - Asnières,Hauts-de-Seine,Île-de-France,Fermé,red,2.2803158,48.9323103
+Permanence ADIL - Bagneux,Hauts-de-Seine,Île-de-France,Fermé,red,2.3097423,48.7884115
+Permanence ADIL - Châtenay-Malabry,Hauts-de-Seine,Île-de-France,Fermé,red,2.2557036,48.7658839
+Espace Santé Jeunes Nanterre,Hauts-de-Seine,Île-de-France,Fermé,red,2.198917,48.8875497
+Liva ARES,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1885883,48.8920823
+Envie 2E Ile de France,Hauts-de-Seine,Île-de-France,Ouvert,green,2.284922899999999,48.9488139
+Espace Santé Jeunes de  Neuilly-sur-Seine,Hauts-de-Seine,Île-de-France,Fermé,red,2.2694584,48.8833829
+SBC Insertion 92,Hauts-de-Seine,Île-de-France,Fermé,red,2.3093731,48.82036770000001
+Permanence ADIL - Chaville,Hauts-de-Seine,Île-de-France,Fermé,red,2.1882207,48.8098914
+Permanence ADIL - Colombes,Hauts-de-Seine,Île-de-France,Fermé,red,2.249884499999999,48.9233754
+Permanence ADIL - Courbevoie,Hauts-de-Seine,Île-de-France,Fermé,red,2.2571063,48.8940557
+Permanence ADIL - Fontenay-aux-Roses,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2865772,48.79130680000001
+Permanence ADIL - Gennevilliers,Hauts-de-Seine,Île-de-France,Fermé,red,2.28683,48.9332321
+Permanence ADIL - Malakoff,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3023157,48.8213028
+Permanence ADIL - Puteaux,Hauts-de-Seine,Île-de-France,Fermé,red,2.2397478,48.88344550000001
+Permanence ADIL - Rueil Malmaison,Hauts-de-Seine,Île-de-France,Fermé,red,2.177828,48.8778021
+Permanence ADIL - Sceaux,Hauts-de-Seine,Île-de-France,Fermé,red,2.2885377,48.7791901
+Espace Santé Jeunes de Villeneuve-la-Garenne ,Hauts-de-Seine,Île-de-France,Fermé,red,2.332838299999999,48.93398259999999
+Régie de quartier de Nanterre,Hauts-de-Seine,Île-de-France,Ouvert,green,2.221909300000001,48.8885751
+Etudes et Chantiers / SoliCycle ,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3024969,48.90717979999999
+Régie de quartier de Bagneux,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3029208,48.7914338
+Atelier Extramuros ,Hauts-de-Seine,Île-de-France,Fermé,red,2.3036387,48.9471213
+Ujumi,Hauts-de-Seine,Île-de-France,Ouvert,green,2.208786,48.903127
+Humando 92 ,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3053824,48.902793
+Odyssée vers l'emploi,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1899238,48.8741845
+Médiathèque Eugène Flachat,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2746102,48.9102634
+Intervalle 92 ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2961975,48.9162421
+Le PoleS,Hauts-de-Seine,Île-de-France,Fermé,red,2.3259398,48.93719529999999
+Le Cercle ressourcerie,Hauts-de-Seine,Île-de-France,Ouvert,green,2.195727,48.8979168
+Suresnes Information Jeunesse Cité-jardins,Hauts-de-Seine,Île-de-France,Fermé,red,2.210716,48.86168290000001
+Suresnes Information Jeunesse Centre-Ville,Hauts-de-Seine,Île-de-France,Fermé,red,2.226062,48.86867099999999
+Maison d'Accompagnement Parents Enfants - Antony ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2955907,48.75079520000001
+CHRS - « L’Amirale »  Major Georgette Gogibus,Hauts-de-Seine,Île-de-France,Fermé,red,2.2558348,48.8855817
+La Table de Cana Paris - Antony,Hauts-de-Seine,Île-de-France,Ouvert,green,2.313250500000001,48.7384885
+LA FABRIQUE A ,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2873301,48.93222840000001
+La Table de Cana Gennevilliers,Hauts-de-Seine,Île-de-France,Fermé,red,2.3062961,48.91808569999999
+Métal Qualité Service ,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2209466,48.8467002
+Cockt Elles ,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3062961,48.91808569999999
+Médiathèque Boris Vian,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1892038,48.8264881
+Espace JeuneS Cité-jardins,Hauts-de-Seine,Île-de-France,Fermé,red,2.210716,48.86168290000001
+Centre Social de la Fontaine Gueffier,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3009041,48.7952075
+Cyber-base emploi,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2432604,48.8296296
+Médiathèque Suresnes ,Hauts-de-Seine,Île-de-France,Ouvert,green,2.228933899999999,48.8706152
+Cybersénior Auguste Perret,Hauts-de-Seine,Île-de-France,Fermé,red,2.2387607,48.8379565
+Cybersénior Rose-Besnard,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2343844,48.8444307
+Cyberforum,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2338192,48.8292683
+Médiathèque de la Poterie Suresnes,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2133534,48.8628819
+CMPP Alfred Binet,Hauts-de-Seine,Île-de-France,Ouvert,green,2.242186900000001,48.80795500000001
+Centre de santé Jean Jaurès ,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3052457,48.9009752
+LDH Clichy-la-Garenne,Hauts-de-Seine,Île-de-France,Fermé,red,2.3103702,48.9057638
+Centre Social et Culturel des Blagis ,Hauts-de-Seine,Île-de-France,Ouvert,green,2.301012800000001,48.78486569999999
+Maison départementale des personnes handicapées (MDPH) des Hauts-de-Seine,Hauts-de-Seine,Île-de-France,Fermé,red,2.19795,48.8935571
+MRAP 92,Hauts-de-Seine,Île-de-France,Fermé,red,2.2028447,48.8894456
+Secours populaire antenne de Courbevoie,Hauts-de-Seine,Île-de-France,Fermé,red,2.2452171,48.8996028
+Médiathèque Martre - Clichy,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3062591,48.9044318
+Médiathèque Jean d'Ormesson - Clichy,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3034155,48.906702
+ABAJAD,Hauts-de-Seine,Île-de-France,Fermé,red,2.2991552,48.8170849
+Écollectif Briand - Courbevoie,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2568549,48.8991662
+Bibliothèque Jacques-Brel,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2695978,48.9228009
+Point Info Droit de Chaville,Hauts-de-Seine,Île-de-France,Fermé,red,2.1882207,48.8098914
+Bibliothèque Billancourt,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2437153,48.83082750000001
+Maison de la justice et du droit - Gennevilliers,Hauts-de-Seine,Île-de-France,Fermé,red,2.28683,48.93323199999999
+Point d’Accès au Droit - Rueil Malmaison,Hauts-de-Seine,Île-de-France,Fermé,red,2.177828,48.8778021
+Bibliothèque Municipale de Vanves ,Hauts-de-Seine,Île-de-France,Modification,orange,2.2883535,48.8213883
+Médiathèque Max-Pol Fouchet,Hauts-de-Seine,Île-de-France,Modification,orange,2.286433600000001,48.80113290000001
+Médiathèque de Montrouge,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3211589,48.818585
+Médiathèque François Mitterrand,Hauts-de-Seine,Île-de-France,Modification,orange,2.2400824,48.78267839999999
+Médiathèque municipale de Fontenay-aux-Roses,Hauts-de-Seine,Île-de-France,Modification,orange,2.2914273,48.7905817
+Point accueil écoute jeunes La Défense,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2396728,48.89390489999999
+Unité Locale de Bois-Colombes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2665917,48.91702470000001
+Unité Locale de Châtenay-Malabry / Le Plessis-Robinson,Hauts-de-Seine,Île-de-France,Fermé,red,2.280674400000001,48.7706093
+Unité Locale de Chaville,Hauts-de-Seine,Île-de-France,Fermé,red,2.1996915,48.81938760000001
+Unité Locale de Sèvres – Ville d’Avray,Hauts-de-Seine,Île-de-France,Fermé,red,2.20847,48.82339999999999
+Espace bébé-parents - Unité Locale de Châtenay-Malabry,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2677733,48.76292179999999
+Unité Locale de Vanves-Malakoff,Hauts-de-Seine,Île-de-France,Fermé,red,2.2931269,48.8212604
+Bureau Aide aux Victimes Tribunal Judiciaire Nanterre,Hauts-de-Seine,Île-de-France,Fermé,red,2.2168174,48.8972809
+Accueil général ADAVIP 92 - Association Aide aux Victimes Infractions Pénales des Hauts-de-Seine,Hauts-de-Seine,Île-de-France,Fermé,red,2.1872787,48.89525
+Antenne sud de l'ADAVIP 92 à la Maison de Justice et du Droit des Blagis - Bagneux,Hauts-de-Seine,Île-de-France,Fermé,red,2.3096614,48.7881841
+Consultations psychologiques ADAVIP 92 - Espace Andrée Chedid,Hauts-de-Seine,Île-de-France,Fermé,red,2.2737098,48.82451229999999
+Permanence juridique ADAVIP 92 - Commissariat de Police Antony,Hauts-de-Seine,Île-de-France,Fermé,red,2.2977379,48.76062659999999
+Permanence juridique ADAVIP 92 - Commissariat de Police Asnières-sur-Seine,Hauts-de-Seine,Île-de-France,Fermé,red,2.2907693,48.90874789999999
+Médiathèque La Buanderie,Hauts-de-Seine,Île-de-France,Modification,orange,2.2630838,48.7988624
+Permanence juridique et sociale ADAVIP 92 - Commissariat de Police Boulogne-Billancourt,Hauts-de-Seine,Île-de-France,Fermé,red,2.241210399999999,48.83521
+Permanence juridique ADAVIP 92 - Commissariat de Police Bagneux,Hauts-de-Seine,Île-de-France,Fermé,red,2.3066438,48.79297889999999
+Permanence juridique et sociale ADAVIP 92 - Commissariat de Police Châtenay-Malabry,Hauts-de-Seine,Île-de-France,Fermé,red,2.277242,48.7671724
+Permanence juridique ADAVIP 92 - Commissariat de Police Clamart,Hauts-de-Seine,Île-de-France,Fermé,red,2.2633194,48.8001837
+Permanence juridique ADAVIP 92 - Commissariat de Police Clichy,Hauts-de-Seine,Île-de-France,Fermé,red,2.3057253,48.9039272
+Permanence juridique ADAVIP 92 - Commissariat de Police Colombes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2583704,48.92177359999999
+Permanence juridique ADAVIP 92 - Commissariat de Police Courbevoie,Hauts-de-Seine,Île-de-France,Fermé,red,2.2529691,48.8939279
+Permanence juridique ADAVIP 92 - Commissariat de Police La Défense,Hauts-de-Seine,Île-de-France,Fermé,red,2.2405012,48.8915321
+Consultations psychologiques  ADAVIP 92 - Hôpital Pointcaré,Hauts-de-Seine,Île-de-France,Fermé,red,2.1706744,48.8385988
+Permanence juridique ADAVIP 92 - Commissariat de Police La Garenne-Colombes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2402962,48.9062573
+Permanence juridique et sociale ADAVIP 92 - Commissariat de Police Gennevilliers,Hauts-de-Seine,Île-de-France,Fermé,red,2.2922292,48.92476
+Permanence juridique et sociale ADAVIP 92 - Commissariat de Police Issy-les-Moulineaux,Hauts-de-Seine,Île-de-France,Fermé,red,2.2701574,48.8233665
+Permanence juridique ADAVIP 92 - Commissariat de Police Levallois-Perret,Hauts-de-Seine,Île-de-France,Fermé,red,2.2902794,48.8936453
+Permanence juridique ADAVIP 92 - Commissariat de Police Meudon,Hauts-de-Seine,Île-de-France,Fermé,red,2.2400239,48.8106869
+Permanence juridique ADAVIP 92 - Commissariat de Police Montrouge,Hauts-de-Seine,Île-de-France,Fermé,red,2.3133348,48.81581870000001
+Permanence juridique et sociale ADAVIP 92 - Commissariat de Police Nanterre,Hauts-de-Seine,Île-de-France,Fermé,red,2.2056948,48.8923007
+Permanence juridique ADAVIP 92 - Commissariat de Police Neuilly-sur-Seine,Hauts-de-Seine,Île-de-France,Fermé,red,2.2586294,48.8877452
+Permanence juridique ADAVIP 92 - Commissariat de Police Puteaux,Hauts-de-Seine,Île-de-France,Fermé,red,2.2374623,48.8839632
+Permanence juridique ADAVIP 92 - Commissariat de Police Rueil-Malmaison,Hauts-de-Seine,Île-de-France,Fermé,red,2.1785767,48.8724132
+Permanence juridique ADAVIP 92 - Commissariat de Police Saint-Cloud,Hauts-de-Seine,Île-de-France,Fermé,red,2.2198809,48.8450394
+Permanence juridique ADAVIP 92 - Commissariat de Police Sèvres,Hauts-de-Seine,Île-de-France,Fermé,red,2.2094931,48.8233402
+Permanence juridique ADAVIP 92 - Commissariat de Police Suresnes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2252148,48.8684941
+Permanence juridique ADAVIP 92 - Commissariat de Police Vanves,Hauts-de-Seine,Île-de-France,Fermé,red,2.2870693,48.81880470000001
+Permanence juridique et sociale ADAVIP 92 - Commissariat de Police Villeneuve-la-Garenne,Hauts-de-Seine,Île-de-France,Fermé,red,2.3312612,48.9313122
+Unité locale de Asnières-sur-Seine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2837388,48.915472
+Maison de Quartier des Paradis,Hauts-de-Seine,Île-de-France,Fermé,red,2.2981443,48.7863773
+Vestiboutique Unité locale de Colombes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2555747,48.9220352
+Permanence juridique de l'ADAVIP 92 à l'Hôtel de Ville de Chaville,Hauts-de-Seine,Île-de-France,Fermé,red,2.1882207,48.8098914
+Sémaphore Sante 92nord -  DAC Santé 92,Hauts-de-Seine,Île-de-France,Fermé,red,2.3045324,48.9369682
+Bibliothèque Parchamp,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2370307,48.8465764
+Bibliothèque Point-du-Jour,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2567323,48.8331987
+Médiathèque François Villon,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3171185,48.7777389
+Médiathèque municipale de Châtenay-Malabry,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2803231,48.764485
+Bibliothèque Louis Aragon,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2605477,48.7627069
+Bibliothèque de la Fourche,Hauts-de-Seine,Île-de-France,Modification,orange,2.271499,48.8125125
+Bibliothèque du Jardin parisien,Hauts-de-Seine,Île-de-France,Modification,orange,2.2606912,48.7922101
+Médiathèque Jacques Prévert,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2521115,48.9225222
+Médiathèque Françoise Giroud,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2667881,48.9318853
+Médiathèque de la Marine,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2270195,48.9155251
+Bibliothèque principale de Courbevoie,Hauts-de-Seine,Île-de-France,Ouvert,green,2.255598,48.8988745
+Bibliothèque de quartier Les damiers,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2525054,48.8899982
+Bibliothèque de quartier Charcot,Hauts-de-Seine,Île-de-France,Ouvert,green,2.272142,48.90054079999999
+Bibliothèque de quartier La Frégate,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2389079,48.899353
+Médiathèque Maurice Genevoix,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1880096,48.8448608
+Bibliothèque jeunesse - Garches,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1961736,48.85312130000001
+Bibliothèque annexe adultes - Garches,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1975968,48.8500043
+Bibliothèque François Rabelais,Hauts-de-Seine,Île-de-France,Ouvert,green,2.293809899999999,48.925402
+Bibliothèque Robert-Doisneau,Hauts-de-Seine,Île-de-France,Ouvert,green,2.301178,48.91771290000001
+Bibliothèque André-Malraux,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2896385,48.93281349999999
+La P’tite Echoppe,Hauts-de-Seine,Île-de-France,Fermé,red,2.2820169,48.74114780000001
+Association Capucine - Connaissance et Culture à Courbevoie,Hauts-de-Seine,Île-de-France,Fermé,red,2.2452171,48.8996028
+PAEJ La Garenne - Croix-Rouge française,Hauts-de-Seine,Île-de-France,Fermé,red,2.2287703,48.9001399
+Point Accueil Ecoute Jeunes La Parentèle ,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2515838,48.7694967
+Imarge - PAEJ,Hauts-de-Seine,Île-de-France,Modification,orange,2.2455021,48.8186454
+Petits-déjeuners - L’Ordre de Malte - Paroisse St Pierre St Paul - St Etienne St Henri,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2513337,48.9224395
+Médiathèque Le Temps des Cerises,Hauts-de-Seine,Île-de-France,Ouvert,green,2.267645,48.81608799999999
+Médiathèque centre-ville,Hauts-de-Seine,Île-de-France,Modification,orange,2.270123,48.825937
+Médiathèque des Chartreux,Hauts-de-Seine,Île-de-France,Modification,orange,2.2542967,48.82290279999999
+Cap Emploi 92 Nord,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2954493,48.917347
+CAP Emploi 92 Centre,Hauts-de-Seine,Île-de-France,Ouvert,green,2.199237,48.8875191
+CAP Emploi 92 Sud,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3217675,48.8165919
+Médiathèque Le temps des cerises,Hauts-de-Seine,Île-de-France,Modification,orange,2.267645,48.81608799999999
+PASS Ambulatoire du DAC 92 Nord,Hauts-de-Seine,Île-de-France,Fermé,red,2.3045324,48.9369682
+ Bibliothèque Aimé-Césaire ,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3353236,48.9345554
+Médiathèque Jean d'Ormesson,Hauts-de-Seine,Île-de-France,Ouvert,green,2.254007099999999,48.7779857
+Point Accueil Ecoute Jeunes de Suresnes ,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2256402,48.87159519999999
+Association  du site de la Défense (ASD),Hauts-de-Seine,Île-de-France,Fermé,red,2.2396728,48.89390489999999
+Association du Site de la Défense - antenne Suresnes (Masaryk),Hauts-de-Seine,Île-de-France,Ouvert,green,2.207564000000001,48.86216599999999
+Espace dynamique d'insertion 92 Nord,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2952818,48.8921695
+Espace dynamique d'insertion de Nanterre,Hauts-de-Seine,Île-de-France,Fermé,red,2.2062554,48.88086560000001
+Plan local pour l'insertion et l'Emploi Nanterre,Hauts-de-Seine,Île-de-France,Fermé,red,2.198917,48.8875497
+Maison des Adolescents des Hauts-de-Seine,Hauts-de-Seine,Île-de-France,Fermé,red,2.2519473,48.9115099
+Secours populaire de malakoff (Larrousse),Hauts-de-Seine,Île-de-France,Fermé,red,2.3028395,48.8231455
+Vestiboutique de l'Unité Locale de Clichy,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3078585,48.8970341
+Point d'Information Jeunesse - Fontenay-aux-Roses,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2981058,48.78569479999999
+Centre Culturel Jeunesse Loisir - Fontenay-aux-Roses,Hauts-de-Seine,Île-de-France,Fermé,red,2.2909163,48.79027920000001
+Espace Sénior,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2721476,48.822452
+Espace Savary,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2786171,48.8267418
+CMP Adulte Nanterre Centre - Secteur 92G10,Hauts-de-Seine,Île-de-France,Fermé,red,2.1891577,48.8919137
+Centre d’Accueil Thérapeutique à Temps Partiel (CATTP),Hauts-de-Seine,Île-de-France,Fermé,red,2.1891577,48.8919137
+Hôpital de jour,Hauts-de-Seine,Île-de-France,Fermé,red,2.1891577,48.8919137
+Centre d’Accueil Thérapeutique à Temps Partiel (CATTP) social,Hauts-de-Seine,Île-de-France,Fermé,red,2.2227769,48.9129038
+Urgences Psy,Hauts-de-Seine,Île-de-France,Fermé,red,2.222206899999999,48.9135351
+Service d'accompagnement Médico-Social pour Adultes Handicapés (SAMSAH),Hauts-de-Seine,Île-de-France,Ouvert,green,2.1932439,48.8907039
+CMP Rabelais,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2907002,48.9133442
+CMP enfants et adolescents Antonin-Artaud,Hauts-de-Seine,Île-de-France,Fermé,red,2.2978078,48.9171393
+Médiathèque Jacques Gautier,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1884343,48.8446955
+Association Zy'Va,Hauts-de-Seine,Île-de-France,Ouvert,green,2.222666100000001,48.9107491
+Médiathèque Jacques Baumel,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1800303,48.8776576
+CSAPA Trait d’Union – Villeneuve la Garenne,Hauts-de-Seine,Île-de-France,Fermé,red,2.3287349,48.9349215
+Maison de la famille,Hauts-de-Seine,Île-de-France,Ouvert,green,2.254727,48.897445
+L'Unité de psychothérapie - Association ENTR'ACTES,Hauts-de-Seine,Île-de-France,Fermé,red,2.252543499999999,48.9244602
+Groupe d'entraide mutuelle Le Club des 4 communes -SEVRES,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2123044,48.82321
+GEM Le Tremplin -BOURG LA REINE,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3174642,48.7856673
+Accompagnement scolaire et culturel de Bourg-la-Reine ,Hauts-de-Seine,Île-de-France,Ouvert,green,2.311524,48.7836816
+AIDES Nanterre-Versailles,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1965631,48.8928284
+Action Jeunes - Sèvres,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2021182,48.8213679
+Action Jeunes - Montrouge,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3086762,48.8169753
+Action Jeunes - Meudon la forêt,Hauts-de-Seine,Île-de-France,Ouvert,green,2.231639,48.7886811
+Accueil social Tibhirine,Hauts-de-Seine,Île-de-France,Fermé,red,2.2911414,48.89851830000001
+Marja 92,Hauts-de-Seine,Île-de-France,Ouvert,green,2.241648999999999,48.91384869999999
+CMP ENFANTS 92I01 ,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3353872,48.9327116
+Hôpital de jour d'Antony,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3051557,48.736052
+Médiathèque Gustave-Eiffel,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2963978,48.89535739999999
+Médiathèque Albert-Camus,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2819014,48.8952323
+Médiathèque Longchamp,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2530292,48.8797989
+Médiathèque L'Annexe,Hauts-de-Seine,Île-de-France,Ouvert,green,2.275229,48.8808583
+PHARMA Solidaires - Hauts-de-Seine,Hauts-de-Seine,Île-de-France,Fermé,red,2.17693,48.882767
+Accueil Saint Jean ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2904559,48.7388209
+La Maison de l'Amitié Saint Cloud,Hauts-de-Seine,Île-de-France,Modification,orange,2.217672,48.84166200000001
+Strata’j’m Ile-de-France,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2572973,48.9314767
+Parenthèse,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2816876,48.82268440000001
+Narcotiques Anonymes : Saint Cloud - Maison de l'Amitié,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2175363,48.8416947
+Société Saint-Vincent-de-Paul,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2192172,48.8434052
+Œuvre Hospitalière de l’Ordre de Malte Saint-Cloud,Hauts-de-Seine,Île-de-France,Ouvert,green,2.217672,48.84166200000001
+Mission locale de Châtillon-Montrouge,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2907739,48.805667
+ CPH 92 Sud,Hauts-de-Seine,Île-de-France,Ouvert,green,2.3004047,48.8157887
+Scarabée,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2836964,48.81208749999999
+Espace Insertion de Gennevilliers - Service RSA,Hauts-de-Seine,Île-de-France,Fermé,red,2.289705,48.9258308
+Mobil'douche - Boulogne Billancourt,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2359802,48.833209
+La P'tite Boutique des Créneaux ,Hauts-de-Seine,Île-de-France,Fermé,red,2.1926152,48.8118095
+Lits halte de soins de santé ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2227769,48.9129038
+Service de résidence sociale,Hauts-de-Seine,Île-de-France,Fermé,red,2.2227769,48.9129038
+SAVS ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2227769,48.9129038
+SSIAD : Services de Soins Infirmiers A Domicile,Hauts-de-Seine,Île-de-France,Fermé,red,2.2227769,48.9129038
+Service de domiciliation ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2227769,48.9129038
+MOSAIC Nanterre (Mixité Ouverture Solidarité Action Innovation Culture),Hauts-de-Seine,Île-de-France,Ouvert,green,2.2177835,48.9078724
+Maraude du cœur : Reuil-Malmaison ,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1675709,48.88958940000001
+PAGE Prévention Asnières Gennevilliers,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2924348,48.934536
+La Salle à Manger,Hauts-de-Seine,Île-de-France,Fermé,red,2.2435975,48.8896528
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2816544,48.8188203
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.3188847,48.94433539999999
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.323214499999999,48.94233329999999
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.224509,48.8647062
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2953958,48.7774437
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.290932,48.766697
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.3021697,48.7739238
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.223726499999999,48.8291665
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.166848,48.8708001
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.2609679,48.8858708
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.1922084,48.8986206
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.233292,48.823823
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.1525817,48.82637709999999
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.186846,48.83828
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.315543,48.809612
+WC,Hauts-de-Seine,Île-de-France,Fermé,red,2.313237,48.81013400000001
+Le Café Associatif,Hauts-de-Seine,Île-de-France,Ouvert,green,2.1882527,48.80820420000001
+L'Escale-Solidarité Femmes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2364745,48.925178
+L'Escale-Solidarité Femmes,Hauts-de-Seine,Île-de-France,Fermé,red,2.3082747,48.9083342
+L'Escale-Solidarité Femmes ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2220259,48.9134799
+L'Escale-Solidarité Femmes ,Hauts-de-Seine,Île-de-France,Fermé,red,2.2623596,48.89049300000001
+L'Escale-Solidarité Femmes,Hauts-de-Seine,Île-de-France,Fermé,red,2.281092,48.890169
+L'Escale-Solidarité Femmes,Hauts-de-Seine,Île-de-France,Fermé,red,2.275588,48.93141
+L'Escale-Solidarité Femmes,Hauts-de-Seine,Île-de-France,Fermé,red,2.332838299999999,48.93398259999999
+L'Escale-Solidarité Femmes,Hauts-de-Seine,Île-de-France,Ouvert,green,2.222492,48.8707605
+L'Escale-Solidarité Femmes,Hauts-de-Seine,Île-de-France,Fermé,red,2.302302,48.7567574
+L'Escale-Solidarité Femmes,Hauts-de-Seine,Île-de-France,Fermé,red,2.254901,48.788591
+L'Escale-Solidarité Femmes,Hauts-de-Seine,Île-de-France,Fermé,red,2.2178553,48.8440883
+Espace Mômes,Hauts-de-Seine,Île-de-France,Fermé,red,2.316898,48.90358459999999
+Insertoit,Hauts-de-Seine,Île-de-France,Ouvert,green,2.2495614,48.9233662
