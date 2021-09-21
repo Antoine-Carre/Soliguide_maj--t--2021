@@ -144,6 +144,18 @@ if categorie == 'France':
                         yaxis_title="",)
     st.plotly_chart(fig, use_container_width=True)
 
+    st.markdown(html_string, unsafe_allow_html=True)
+
+    st.markdown(
+        """
+
+        **_2 229 mails_** envoyés et au moins **_840 appels réalisés_**.
+
+        """
+    )
+
+    
+    
     # Donnéés traitées pour construire graph 3
     fig = px.bar(df_stacked_per_france, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
@@ -156,14 +168,16 @@ if categorie == 'France':
     st.plotly_chart(fig, use_container_width=True)
 
 
-    html_string = "<h2>2 229 mails envoyés et au moins 840 appels réalisés</h2>"
+   st.markdown(html_string, unsafe_allow_html=True)
 
-    st.markdown(html_string, unsafe_allow_html=True)
+    st.markdown(
+        """
 
+        **_94 065 recherches_** ont été effectuées sur Soliguide cette été.
 
-    html_string = "<h2>94 065 recherches ont été effectuées sur soliguide cette été</h2>"
+        """
+    )
 
-    st.markdown(html_string, unsafe_allow_html=True)
 
 
  ###############
