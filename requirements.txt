@@ -3,7 +3,6 @@ streamlit_folium
 pandas 
 numpy
 datetime
-time
 plotly
 bson
 folium
