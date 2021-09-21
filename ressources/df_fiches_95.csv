@@ -1,0 +1,600 @@
+name,departement,region,Fermeture_Estivale,colors,longitude,latitude
+Dom'Asile - Cergy,Val-d'Oise,Île-de-France,Fermé,red,2.0603250000000344,49.03561699999999
+Secours catholique d'Osny,Val-d'Oise,Île-de-France,Modification,orange,2.0494108000000324,49.0616485
+Le Maillon,Val-d'Oise,Île-de-France,Fermé,red,2.072553599999992,49.04499729999999
+A l’épi,Val-d'Oise,Île-de-France,Fermé,red,2.197100500000033,48.9716803
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.1818015999999716,48.9626487
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.2037496,48.9806508
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.1898554,48.9598327
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.324306799999931,48.97353209999999
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.3246317000000545,49.02508590000001
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.2687630000000354,48.99651979999999
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.2833040000000437,48.9786066
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.2892730999999458,48.9779291
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.2965732999999773,48.9687681
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.3041825000000244,48.9728749
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.265191200000004,49.01627209999999
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.2667648999999983,49.0159302
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.34957,48.96291
+La Cimade Val d'Oise,Val-d'Oise,Île-de-France,Ouvert,green,2.0788092000000233,49.0390756
+Association Du côté des femmes Cergy,Val-d'Oise,Île-de-France,Fermé,red,2.0367846000000327,49.04998379999999
+Epicerie Solidaire de Jouy-le-Moutier,Val-d'Oise,Île-de-France,Fermé,red,2.0428296000000046,49.011393
+Association Familiale Protestante Maranatha ,Val-d'Oise,Île-de-France,Fermé,red,2.072707,49.0542893
+Épicerie Solidaire de Saint-Ouen-l'Aumône L'Envol,Val-d'Oise,Île-de-France,Fermé,red,2.1140399,49.05183299999999
+Epicerie Solidaire de Pontoise Le Pélican,Val-d'Oise,Île-de-France,Fermé,red,2.093419499999982,49.06079580000001
+Epicerie Solidaire de Montmagny,Val-d'Oise,Île-de-France,Fermé,red,2.3499623999999812,48.97111959999999
+Unité Locale des Portes du Vexin,Val-d'Oise,Île-de-France,Fermé,red,2.093808299999978,49.0625425
+Centre de Distribution d'Argenteuil,Val-d'Oise,Île-de-France,Ouvert,green,2.217173199999934,48.95063649999999
+Epicerie Solidaire de Groslay,Val-d'Oise,Île-de-France,Ouvert,green,2.342527700000005,48.9854408
+Le Bel Epi,Val-d'Oise,Île-de-France,Fermé,red,2.4135966000000053,49.0016432
+"Centres de Soin, d'Accompagnement et de Prévention en Addictologie (CSAPA) de Cergy",Val-d'Oise,Île-de-France,Fermé,red,2.0305439999999635,49.052826
+"DUNE - Centre de Soins, d'Accompagnement et de Prévention en Addictologie (CSAPA) de Cergy",Val-d'Oise,Île-de-France,Fermé,red,2.082592400000067,49.0365745
+"DUNE - Centre de Soins, d'Accompagnement et de Prévention en Addictologie (CSAPA) de Magny",Val-d'Oise,Île-de-France,Fermé,red,1.7848536000000195,49.1544147
+Permanence d'Accès aux Soins de Santé (PASS) du Centre Hospitalier René Dubos,Val-d'Oise,Île-de-France,Fermé,red,2.093420100000003,49.0607166
+Centre Départemental de Dépistage et de Soin  (CDDS) d'Argenteuil,Val-d'Oise,Île-de-France,Fermé,red,2.22781150000003,48.9523169
+"Centre de Soins, d'Accompagnement et de Prévention en Addictologie (CSAPA) d'Argenteuil",Val-d'Oise,Île-de-France,Fermé,red,2.254350199999976,48.9486522
+"Centre de Soins, d'Accompagnement et de Prévention en Addictologie  (CSAPA) IMAGINE d'Ermont",Val-d'Oise,Île-de-France,Fermé,red,2.2611014000000296,48.99099440000001
+Permanence d'Accès aux Soins de Santé (PASS) du Centre Hospitalier Victor Dupouy d'Argenteuil,Val-d'Oise,Île-de-France,Fermé,red,2.237166200000047,48.9453298
+"Association Nationale E.D.V.O ( Ecouter,  Développer , Vivre,Orienter )",Val-d'Oise,Île-de-France,Fermé,red,2.3487648000000263,48.9735259
+Centre Départemental de Dépistage et de Soin  (CDDS)d'Eaubonne,Val-d'Oise,Île-de-France,Fermé,red,2.2852877000000262,48.9926232
+Centre Départemental de Dépistage et de Soin (CDDS) de Garges-Lès-Gonesses,Val-d'Oise,Île-de-France,Fermé,red,2.3909519000000046,48.976231
+"Centres de Soin, d'Accompagnement et de Prévention en Addictologie (CSAPA) - Espace Edgar Morin",Val-d'Oise,Île-de-France,Fermé,red,2.4157417000000123,48.9743451
+"Centre de Soins, d'Accompagnement et de Prévention en Addictologie  (CSAPA) - Villiers-le-Bel",Val-d'Oise,Île-de-France,Fermé,red,2.412061999999999,48.9998626
+"Centre Rivage - Centre de Soins, d'Accompagnement et de Prévention en Addictologie (CSAPA) de Sarcelles ",Val-d'Oise,Île-de-France,Fermé,red,2.3889316,48.9903065
+Permanence d'Accès aux Soins de Santé (PASS) du Centre Hospitalier de Gonesse,Val-d'Oise,Île-de-France,Fermé,red,2.4499476999999388,48.99405729999999
+Permanence d'Accès aux Soins de Santé(PASS) du Groupe Hospitalier Carnelle Portes de l’Oise,Val-d'Oise,Île-de-France,Ouvert,green,2.290711299999998,49.1445667
+Réseau Périnatal du Val d'Oise,Val-d'Oise,Île-de-France,Fermé,red,2.2010964999999487,48.9623443
+Centre de Protection Maternelle et Infantile (PMI) de Cergy - Les Linandes,Val-d'Oise,Île-de-France,Fermé,red,2.0692884999999706,49.0442098
+"Centre de Protection   Maternelle et Infantile (PMI) ""Enclos""",Val-d'Oise,Île-de-France,Fermé,red,2.0246749000000364,49.0448732
+Centre de Protection Maternelle et Infantile (PMI) d'Argenteuil - Jean Jaurès,Val-d'Oise,Île-de-France,Fermé,red,2.2277496000000383,48.9398389
+Centre de Protection Maternelle et Infantile (PMI) d'Auvers-sur-Oise,Val-d'Oise,Île-de-France,Fermé,red,2.1734621000000516,49.07055130000001
+Centre de Protection Maternelle et Infantile (PMI) d'Eragny,Val-d'Oise,Île-de-France,Fermé,red,2.0906583999999384,49.01844510000001
+Centre de Protection Maternelle et Infantile (PMI) d'Ermont,Val-d'Oise,Île-de-France,Fermé,red,2.2497084000000314,48.99228779999999
+Centre de Protection Maternelle et Infantile (PMI) d'Enghien-Les-Bains,Val-d'Oise,Île-de-France,Fermé,red,2.3078269999999748,48.97515569999999
+Centre de Protection Maternelle et Infantile (PMI) de Beauchamp,Val-d'Oise,Île-de-France,Fermé,red,2.196078400000033,49.01333590000001
+Centre de Protection Maternelle et Infantile (PMI) de Beaumont-Sur-Oise,Val-d'Oise,Île-de-France,Fermé,red,2.2849851999999373,49.1405495
+Centre de Protection Maternelle et Infantile (PMI) de Bessancourt,Val-d'Oise,Île-de-France,Fermé,red,2.203244600000062,49.0413824
+Centre de Protection Maternelle et Infantile (PMI) de Cergy-Saint-Christophe,Val-d'Oise,Île-de-France,Fermé,red,2.0462918000000627,49.0468577
+Centre de Protection Maternelle et Infantile (PMI) d'Osny,Val-d'Oise,Île-de-France,Fermé,red,2.0481151,49.0614787
+Centre de Protection Maternelle et Infantile (PMI) d'Eaubonne,Val-d'Oise,Île-de-France,Fermé,red,2.281779799999981,48.9931921
+Centre de Protection Maternelle et Infantile (PMI) de Saint-brice-sous-Forêt,Val-d'Oise,Île-de-France,Fermé,red,2.3630177000000003,49.00061540000001
+Centre de Protection Maternelle et Infantile (PMI) de Sarcelles,Val-d'Oise,Île-de-France,Fermé,red,2.372663800000055,48.97683680000001
+Centre Protection Maternelle et Infantile (PMI) de Jouy le Moutier,Val-d'Oise,Île-de-France,Fermé,red,2.044833599999947,49.0122405
+Centre de Protection Maternelle et Infantile (PMI) Bezons,Val-d'Oise,Île-de-France,Fermé,red,2.211468800000034,48.92815210000001
+Centre de Protection Maternelle et Infantile (PMI) de Gonesse,Val-d'Oise,Île-de-France,Fermé,red,2.4236872999999832,48.99396850000001
+"Centre de Protection Maternelle et Infantile (PMI) d'Argenteuil-""Bretons""",Val-d'Oise,Île-de-France,Fermé,red,2.2495888,48.9425965
+Centre de Protection Maternelle et Infantile (PMI) Cergy - Bastide,Val-d'Oise,Île-de-France,Fermé,red,2.0328053000000637,49.0485895
+Centre de Protection Maternelle et Infantile (PMI) de Vauréal,Val-d'Oise,Île-de-France,Fermé,red,2.023883699999942,49.0296782
+Centre de Protection Maternelle et Infantile (PMI) de Garges-lès-gonesse,Val-d'Oise,Île-de-France,Fermé,red,2.3890531,48.97316499999999
+Centre de Protection Maternelle et Infantile (PMI) de Villiers-le Bel,Val-d'Oise,Île-de-France,Fermé,red,2.4138602000000446,49.00164609999999
+Centre de Protection Maternelle et Infantile (PMI) de Sarcelles,Val-d'Oise,Île-de-France,Fermé,red,2.3743343999999524,48.97992919999999
+Centre de Protection Maternelle et Infantile (PMI) de Taverny,Val-d'Oise,Île-de-France,Fermé,red,2.2125453999999536,49.027057
+Centre de Protection Maternelle et Infantile (PMI) de Cormeilles-en-Parisis,Val-d'Oise,Île-de-France,Fermé,red,2.196539199999961,48.9570923
+Centre de Protection Maternelle et Infantile (PMI) de Villiers le Bel,Val-d'Oise,Île-de-France,Fermé,red,2.3926096000000143,49.004062
+Centre de Protection Maternelle et Infantile (PMI) de Saint-Leu-la-Forêt,Val-d'Oise,Île-de-France,Fermé,red,2.2470393999999487,49.01545780000001
+Centre de Protection Maternelle et Infantile (PMI) de Deuil-la-Barre,Val-d'Oise,Île-de-France,Fermé,red,2.3291560000000118,48.9654561
+Centre de Protection Maternelle et Infantile (PMI) de Saint-Ouen-l'Aumône,Val-d'Oise,Île-de-France,Fermé,red,2.1050239999999576,49.04088160000001
+Centre de Protection Maternelle et Infantile (PMI) de Marines,Val-d'Oise,Île-de-France,Fermé,red,1.976632699999982,49.1462129
+Centre de Protection Maternelle et Infantile (PMI) de Pierrelaye,Val-d'Oise,Île-de-France,Fermé,red,2.156574599999999,49.02277460000001
+Centre de Protection Maternelle et Infantile (PMI) de Saint-Gratien,Val-d'Oise,Île-de-France,Fermé,red,2.285493699999961,48.9617806
+Centre de Protection Maternelle et Infantile (PMI) de Herblay,Val-d'Oise,Île-de-France,Fermé,red,2.164915199999996,48.9908922
+Centre de Protection Maternelle et Infantile (PMI) de Sarcelles,Val-d'Oise,Île-de-France,Modification,orange,2.3701915000000326,48.986722
+Centre de Protection Maternelle et Infantile (PMI) de Montmorency,Val-d'Oise,Île-de-France,Fermé,red,2.3180466000000024,49.0070929
+Centre de Protection Maternelle et Infantile (PMI) de Goussainville,Val-d'Oise,Île-de-France,Fermé,red,2.4612019999999575,49.0367775
+Centre de Protection Maternelle et Infantile (PMI) de Fosses,Val-d'Oise,Île-de-France,Fermé,red,2.516958499999987,49.0981068
+ Réseau Éducatif Sans Frontière ( RESF) 95,Val-d'Oise,Île-de-France,Ouvert,green,2.227327800000012,48.9378943
+ ligue des droits de l'homme ( LDH) Bouffemont - Espace Eiffel,Val-d'Oise,Île-de-France,Fermé,red,2.2992834,49.0431293
+RESF 95 - FCPE- LDH,Val-d'Oise,Île-de-France,Ouvert,green,2.068797600000039,49.0432182
+ Ligue des Droit de l'Home LDH Eaubonne,Val-d'Oise,Île-de-France,Ouvert,green,2.2726817999999867,48.9903431
+Réseaux Éducation Sans Frontière 95 (RESF 95) - Fonds Commun de Placement Entreprise (FCPE) - Ligue des Droits de L'Homme (LDH),Val-d'Oise,Île-de-France,Ouvert,green,2.373010700000009,48.97581270000001
+ Ligue des droits de l'Homme (LDH) - Villiers le bel,Val-d'Oise,Île-de-France,Fermé,red,2.3907893000000513,49.0041965
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.172478,49.0712614
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.1979175,49.007436
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.0125562,49.048735
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.0108883,49.0479207
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.2609775,48.9891133
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.2618548,48.989667
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.4633703,49.0314962
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.4634809,49.0315173
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.1656431,48.9913706
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.0950134,49.0470885
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.0631944,49.0648154
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.0790504,49.0143845
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.1281254,49.0338939
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.1540222,49.0194126
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.2220685,49.025206
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.3227233,49.0452985
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.2348075,48.9936104
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.2310818,48.9843724
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.192597,48.968483
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.2766577,48.99132
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.2777158,48.9907412
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.2901732,48.9898586
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.2582446,48.9719415
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.284915,48.9640159
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.3066405,48.9732753
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.305549,48.9708743
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.3539073,48.9846777
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.2792493,49.1480657
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.4204017,49.1171135
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.4687735,49.003425
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.5018531,49.0495098
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.217184899999999,48.9778086
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,1.629494,49.081656
+Société  St Vincent de Paul - Beauchamp ,Val-d'Oise,Île-de-France,Ouvert,green,2.1910846,49.0135033
+Centre de distribution d'Argenteuil,Val-d'Oise,Île-de-France,Fermé,red,2.2544903,48.946585
+Centre de distribution de Taverny,Val-d'Oise,Île-de-France,Ouvert,green,2.2273866,49.0233928
+Centre de distribution de Montmorency,Val-d'Oise,Île-de-France,Fermé,red,2.3191284,49.0082674
+Unité locale du Val de France - Croix Rouge,Val-d'Oise,Île-de-France,Ouvert,green,2.3842191,48.9770901
+Unité locale des Coteaux - Croix Rouge,Val-d'Oise,Île-de-France,Ouvert,green,2.2978431,48.9914011
+Unité locale des Portes de France - Croix Rouge,Val-d'Oise,Île-de-France,Ouvert,green,2.5187604,49.0985749
+Centre de distribution de Bezons,Val-d'Oise,Île-de-France,Fermé,red,2.2120299,48.9310027
+Centre de distribution de Beaumont-sur-Oise,Val-d'Oise,Île-de-France,Ouvert,green,2.284601,49.14155100000001
+Unité Locale du Parisis,Val-d'Oise,Île-de-France,Ouvert,green,2.2354666,48.9841644
+Centre IPC site de Cergy  - Bilan de santé ,Val-d'Oise,Île-de-France,Fermé,red,2.0319974,49.04647490000001
+Centre IPC site d'Argenteuil - Bilan de santé,Val-d'Oise,Île-de-France,Fermé,red,2.218219599999999,48.9407451
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.231129,48.9504753
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.2564897,48.9477668
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.0950134,49.0470885
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.0996024,49.0482792
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.0620701,49.0660826
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.1698726,49.0729729
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.1979175,49.007436
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.0403567,49.0912762
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.3227233,49.0452985
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.0728933,49.0346693
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.0570394,49.0289817
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.0108883,49.0479207
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.0125562,49.048735
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.1937587,48.9679614
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.2715033,48.9803675
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.0254661,49.010007
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.1870128,48.9536308
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.2046691,48.982216
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.2011005,48.9827017
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.2021565,48.9826545
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.2017925,48.9826678
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.050826,49.0244725
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.050177,49.0267735
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.2792493,49.1480657
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.2946,48.9937142
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.5517992,49.1047928
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.5503249,49.1049831
+WC,Val-d'Oise,Île-de-France,Ouvert,green,1.7015798,49.0640715
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.55159,49.0723067
+WC,Val-d'Oise,Île-de-France,Ouvert,green,2.5496522,49.0553248
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,1.83184,49.10124
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.5496824,49.0553508
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,1.8652409,49.0348807
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,1.9310092,49.062057
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,1.9271922,49.0771854
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,1.8962204,49.0866017
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,1.642387,49.1062764
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.1126878,49.1381936
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.1174,49.0475137
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.2041045,49.1279789
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.0579028,49.0627336
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.0489961,49.0251923
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.2783715,49.008263
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.0046855,49.0871224
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.0142577,49.0069026
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.26079,48.9923117
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.4316224,49.1229335
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.2443097,49.1398547
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.2399855,49.1380409
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.0391419,49.0406166
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.0514597,49.0268279
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.293327,49.0419455
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.0313137,49.077399
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.2146033,48.926567
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.3123307,49.1485706
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.3120361,49.1485872
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.4014569,49.1477722
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.1050759,49.0535396
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.1698726,49.0729729
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.0125562,49.048735
+Fontaine,Val-d'Oise,Île-de-France,Ouvert,green,2.1937587,48.9679614
+Maison Hervé Renaudin,Val-d'Oise,Île-de-France,Fermé,red,2.0910893,49.0488352
+Association Pour un Urbanisme Intégré (APUI) - Espace Rencontre Solidarité,Val-d'Oise,Île-de-France,Ouvert,green,2.2692123,49.15233860000001
+Croix Rouge Française - Pôle Exclusion 95 - Ezanville,Val-d'Oise,Île-de-France,Fermé,red,2.343101799999999,49.0344343
+Accueil de jour Rives de Seine,Val-d'Oise,Île-de-France,Fermé,red,2.2257811,48.9277561
+Le Tremplin,Val-d'Oise,Île-de-France,Modification,orange,2.228426499999999,48.9543407
+La Maison de la Solidarité,Val-d'Oise,Île-de-France,Fermé,red,2.4192517,49.0025707
+AIDES CAARUD DU VAL D'OISE,Val-d'Oise,Île-de-France,Fermé,red,2.2278446,48.94007939999999
+Épicerie Solidaire - La Pause,Val-d'Oise,Île-de-France,Fermé,red,2.0893384,49.01965850000001
+Centre Départemental de Dépistage et de Soin  (CDDS) de Cergy,Val-d'Oise,Île-de-France,Fermé,red,2.0762923,49.03520109999999
+CEGIDD du Centre Hospitalier de Gonesse,Val-d'Oise,Île-de-France,Fermé,red,2.4499477,48.99405729999999
+"One Each, Bistrot 2.0",Val-d'Oise,Île-de-France,Ouvert,green,2.2467897,48.94697599999999
+Unité Locale du Val de Seine - Antenne d’Argenteuil,Val-d'Oise,Île-de-France,Fermé,red,2.2539684,48.9479826
+Unité Locale du Val de Seine - Antenne de Bezons,Val-d'Oise,Île-de-France,Fermé,red,2.2120299,48.9310027
+Cours de français - Action - Formation - Insertion (AFI) ,Val-d'Oise,Île-de-France,Fermé,red,2.0316328,49.04467229999999
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Collège Moulin à Vent,Val-d'Oise,Île-de-France,Fermé,red,2.024872,49.049611
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Ecole du point du jour,Val-d'Oise,Île-de-France,Fermé,red,2.013842,49.0511053
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Collège Gérard Philippe,Val-d'Oise,Île-de-France,Fermé,red,2.0433747,49.04637349999999
+Formation Linguistique à visée professionnelle - AFI,Val-d'Oise,Île-de-France,Fermé,red,2.2374499,48.9358993
+Maison de la langue - AFI,Val-d'Oise,Île-de-France,Fermé,red,2.2336511,48.9323583
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Collège Claude Monet,Val-d'Oise,Île-de-France,Fermé,red,2.2233281,48.9547068
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Collège Eugénie Cotton,Val-d'Oise,Île-de-France,Fermé,red,2.2298095,48.9459174
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Collège Irène Joliot-Curie,Val-d'Oise,Île-de-France,Fermé,red,2.2805803,48.9577124
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Collège Paul Vaillant Couturier,Val-d'Oise,Île-de-France,Fermé,red,2.2465013,48.94362479999999
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Lycée Jean Jaurès,Val-d'Oise,Île-de-France,Fermé,red,2.2254591,48.9401957
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Lycée Cognacq-Jay,Val-d'Oise,Île-de-France,Fermé,red,2.2505222,48.94336180000001
+Centre Communal d'Action Sociale (CCAS)  de Cergy,Val-d'Oise,Île-de-France,Fermé,red,2.1003509,49.0503467
+Centre Communal d'Action Sociale (CCAS) d'Argenteuil,Val-d'Oise,Île-de-France,Ouvert,green,2.247836,48.9469848
+Caisse Primaire d'Assurance Maladie (CPAM) - accueil de Cergy,Val-d'Oise,Île-de-France,Fermé,red,2.0785584,49.0408686
+Caisse Primaire d'Assurance Maladie (CPAM) - accueil d'Argenteuil,Val-d'Oise,Île-de-France,Fermé,red,2.250309,48.9459252
+Caisse d'Allocations Familiales (CAF) - d'Argenteuil,Val-d'Oise,Île-de-France,Fermé,red,2.2461564,48.9381666
+Caisse d'allocations familiales (Caf) - accueil d'Argenteuil,Val-d'Oise,Île-de-France,Ouvert,green,2.2461564,48.9381666
+Mutualité sociale agricole (MSA) - accueil de Cergy,Val-d'Oise,Île-de-France,Fermé,red,2.0785584,49.0408686
+Maisons départementales des personnes handicapées (MDPH) - Cergy,Val-d'Oise,Île-de-France,Modification,orange,2.0733468,49.03248960000001
+Centre d'Information sur les Droits des Femmes et des Familles (CIDFF) du Val d'Oise,Val-d'Oise,Île-de-France,Fermé,red,2.0785584,49.0408686
+Maison de la Justice et du Droit (MJD) d'Argenteuil,Val-d'Oise,Île-de-France,Fermé,red,2.2550304,48.9445091
+Médiathèque  - Maison des Arts de Cergy,Val-d'Oise,Île-de-France,Fermé,red,2.0785778,49.03627609999999
+Médiathèque - l’Astrolabe de Cergy,Val-d'Oise,Île-de-France,Fermé,red,2.0762923,49.03520109999999
+Médiathèque - l'Horloge de Cergy,Val-d'Oise,Île-de-France,Fermé,red,2.0342135,49.05002100000001
+Médiathèque - Visages du Monde de Cergy,Val-d'Oise,Île-de-France,Fermé,red,2.0087205,49.0502307
+Médiathèque Elsa Triolet et Aragon - Argenteuil,Val-d'Oise,Île-de-France,Fermé,red,2.247836,48.9469848
+Médiathèque Robert-Desnos - Argenteuil,Val-d'Oise,Île-de-France,Fermé,red,2.2252619,48.9523476
+Médiathèque Du Val-Notre-Dame - Argenteuil,Val-d'Oise,Île-de-France,Fermé,red,2.223529999999999,48.9391243
+Le point-lecture des Coteaux - Médiathèque d'Argenteuil,Val-d'Oise,Île-de-France,Fermé,red,2.2397509,48.9585022
+Centre d'Allocation Familiale (CAF) de Cergy Pontoise,Val-d'Oise,Île-de-France,Fermé,red,2.081464099999999,49.0355809
+Centre médico-psychologique (CMP) du Parvis de la Préfecture de Cergy,Val-d'Oise,Île-de-France,Fermé,red,2.0788261,49.0353884
+Centre médico-psychologique (CMP) d'Argenteuil,Val-d'Oise,Île-de-France,Fermé,red,2.2246689,48.9523772
+Centre Médico-Psycho-Pédagogique (CMPP) de Cergy,Val-d'Oise,Île-de-France,Fermé,red,2.0360325,49.0503034
+Centre Médico-Psycho-Pédagogique Condorcet (CMPP) d'Argenteuil,Val-d'Oise,Île-de-France,Fermé,red,2.252479000000001,48.9472311
+Agence Départementale pour l'Information sur le Logement (Permanence ADIL d'Argenteuil),Val-d'Oise,Île-de-France,Ouvert,green,2.2273278,48.9378943
+Agence Départementale pour l'Information sur le Logement( Permanence ADIL d'Argenteuil),Val-d'Oise,Île-de-France,Ouvert,green,2.2489244,48.94262810000001
+ Agence Départementale pour l'Information sur le Logement (Permanence ADIL de Cergy),Val-d'Oise,Île-de-France,Ouvert,green,2.0722252,49.0306325
+Maison de la justice et du droit (MJD) de Cergy,Val-d'Oise,Île-de-France,Fermé,red,2.0332429,49.047438
+Territoire d'Intervention Sociale et Médico-Sociale (TISMS) de Pontoise,Val-d'Oise,Île-de-France,Ouvert,green,2.094720199999999,49.0479207
+Territoire d'Intervention Sociale et Médico-Sociale (TISMS) d'Argenteuil - Héloïse,Val-d'Oise,Île-de-France,Ouvert,green,2.2475371,48.9400596
+Territoire d'Intervention Sociale et Médico-Sociale (TISMS) d'Argenteuil - Les Terrasses,Val-d'Oise,Île-de-France,Ouvert,green,2.2274798,48.9527186
+Territoire d'Intervention Sociale et Médico-Sociale (TISMS) d'Argenteuil - Santos Dumont,Val-d'Oise,Île-de-France,Ouvert,green,2.2277496,48.9398389
+Territoire d'Intervention Sociale et Médico-Sociale (TISMS) de Cergy - L'Horloge,Val-d'Oise,Île-de-France,Ouvert,green,2.0331884,49.0492903
+Territoire d'Intervention Sociale et Médico-Sociale (TISMS) de Cergy - Les Fontaines,Val-d'Oise,Île-de-France,Ouvert,green,2.0733468,49.03248960000001
+Point d’Accès au Droit de Cergy-Pontoise,Val-d'Oise,Île-de-France,Ouvert,green,2.1004941,49.0519089
+Point d’Accès au Droit de Pontoise,Val-d'Oise,Île-de-France,Ouvert,green,2.0893512,49.0588887
+Mission locale de Cergy,Val-d'Oise,Île-de-France,Fermé,red,2.0360347,49.0506152
+Mission locale de Pontoise,Val-d'Oise,Île-de-France,Fermé,red,2.0931549,49.0496218
+Mission locale d'Argenteuil Bezons,Val-d'Oise,Île-de-France,Fermé,red,2.2488151,48.9417678
+Centre de Planification et d'éducation familiale (CPEF) d'Argenteuil - Les Terrasses,Val-d'Oise,Île-de-France,Fermé,red,2.2279899,48.9521699
+Centre de Planification et d'éducation familiale (CPEF) d'Argenteuil - Salvador Allende,Val-d'Oise,Île-de-France,Fermé,red,2.2495888,48.9425965
+Centre de Planification et d'éducation familiale (CPEF) de Cergy - Bastide,Val-d'Oise,Île-de-France,Fermé,red,2.0328053,49.0485895
+Centre de Planification et d'éducation familiale (CPEF) de Cergy ,Val-d'Oise,Île-de-France,Fermé,red,2.0788261,49.0353884
+Pôle Emploi de Cergy,Val-d'Oise,Île-de-France,Fermé,red,2.0773779,49.0407171
+Pôle Emploi d'Argenteuil,Val-d'Oise,Île-de-France,Fermé,red,2.253432,48.9520729
+Maison de Quartier du centre ville d'Argenteuil,Val-d'Oise,Île-de-France,Fermé,red,2.2522186,48.9425682
+Maison de Quartier des Coteaux d'Argenteuil,Val-d'Oise,Île-de-France,Fermé,red,2.239579,48.9582213
+Maison de Quartier d'Orgemont - Guy Môquet - d'Argenteuil,Val-d'Oise,Île-de-France,Fermé,red,2.2832759,48.9570082
+Maison de Quartier du Val-Notre-Dame d'Argenteuil,Val-d'Oise,Île-de-France,Fermé,red,2.223529999999999,48.9391243
+Maison de Quartier du Val-d'Argent-Nord d'Argenteuil,Val-d'Oise,Île-de-France,Ouvert,green,2.2274689,48.9530168
+Maison de Quartier du Val-d'Argent-Sud d'Argenteuil,Val-d'Oise,Île-de-France,Fermé,red,2.2388088,48.9463738
+Maison de quartier Axe Majeur-Horloge,Val-d'Oise,Île-de-France,Fermé,red,2.0316328,49.04467229999999
+Maison de quartier Hauts-de-Cergy,Val-d'Oise,Île-de-France,Fermé,red,2.0087205,49.0502307
+Maison de quartier des Linandes,Val-d'Oise,Île-de-France,Fermé,red,2.0688132,49.0442226
+Maison de quartier des Touleuses,Val-d'Oise,Île-de-France,Fermé,red,2.0827045,49.0300667
+Service emploi insertion (SEI) de Cergy,Val-d'Oise,Île-de-France,Fermé,red,2.0357109,49.0523939
+Bureau information jeunesse (BIJ) de Cergy,Val-d'Oise,Île-de-France,Fermé,red,2.0357109,49.0523939
+Maison prévention santé de Cergy,Val-d'Oise,Île-de-France,Fermé,red,2.0319974,49.04647490000001
+Point Information Médiation Multiservices (Pimms) de Cergy,Val-d'Oise,Île-de-France,Fermé,red,2.0329244,49.0472818
+Agence Action Logement de Cergy Pontoise,Val-d'Oise,Île-de-France,Fermé,red,2.0870241,49.0338757
+"Agence de Liaison pour l'Insertion, la Création et l'Echange (ALICE) ",Val-d'Oise,Île-de-France,Fermé,red,2.0397892,49.04827929999999
+Agence ADIE de Cergy-Pontoise,Val-d'Oise,Île-de-France,Fermé,red,2.0781381,49.0399292
+Agence ADIE d'Argenteuil,Val-d'Oise,Île-de-France,Fermé,red,2.2614952,48.945192
+Amicale Défense de Locataires Confédération Nationale Logement (adlcnl) 95,Val-d'Oise,Île-de-France,Fermé,red,2.0740789,49.03049799999999
+Maison des Femmes d'Argenteuil,Val-d'Oise,Île-de-France,Fermé,red,2.252479000000001,48.9472311
+Secours catholique Délégation du Val-d’Oise,Val-d'Oise,Île-de-France,Fermé,red,2.0328053,49.0485895
+Maison d'Enfants à Caractère Social (MECS) - Bayard Joly,Val-d'Oise,Île-de-France,Fermé,red,2.2544875,48.94658690000001
+Pôle Enfance Parentalité d'Argenteuil,Val-d'Oise,Île-de-France,Fermé,red,2.2544875,48.94658690000001
+Centre Maternel Les Gigognes - Croix rouge française,Val-d'Oise,Île-de-France,Fermé,red,2.2544875,48.94658690000001
+Multi-Accueil Marguerite Joly,Val-d'Oise,Île-de-France,Fermé,red,2.2544875,48.94658690000001
+Maison de l'Avocat de Pontoise,Val-d'Oise,Île-de-France,Fermé,red,2.0979754,49.0520157
+Sauvegarde du Val d'Oise,Val-d'Oise,Île-de-France,Fermé,red,2.1011031,49.0560917
+Centre d'Information et d'Orientation (CIO) de Cergy-Pontoise,Val-d'Oise,Île-de-France,Fermé,red,2.0788465,49.0359371
+Bureau Information Jeunesse (BIJ) d'Argenteuil,Val-d'Oise,Île-de-France,Fermé,red,2.2522186,48.9425682
+Centre de Rééducation Professionnelle (CRP) de Cergy,Val-d'Oise,Île-de-France,Fermé,red,2.0328053,49.0485895
+Centre d’Action Médico-Sociale Précoce (CAMSP) ,Val-d'Oise,Île-de-France,Fermé,red,2.1325926,49.0430233
+Club équipe de prévention,Val-d'Oise,Île-de-France,Fermé,red,2.268441,48.9489341
+Unis-Cité Val-d’Oise,Val-d'Oise,Île-de-France,Fermé,red,2.2277257,48.9522712
+La Ronde des saveurs solid’Air,Val-d'Oise,Île-de-France,Fermé,red,2.2325169,48.94570760000001
+Mariecharity,Val-d'Oise,Île-de-France,Fermé,red,2.2290514,48.9546991
+Secours Catholique d'Argenteuil,Val-d'Oise,Île-de-France,Fermé,red,2.2325169,48.94570760000001
+Secours populaire d'Argenteuil,Val-d'Oise,Île-de-France,Fermé,red,2.2449229,48.9414496
+Mission Locale Vallée de Montmorency,Val-d'Oise,Île-de-France,Fermé,red,2.230796900000001,48.9855888
+Mission Locale Vallée de Montmorency -  Antenne de Montigny-Lès-Cormeilles,Val-d'Oise,Île-de-France,Fermé,red,2.1974798,49.00475369999999
+Mission Locale Vallée de Montmorency - Antenne d'Herblay-sur-Seine,Val-d'Oise,Île-de-France,Fermé,red,2.163693,48.9914576
+Mission Locale Vallée de Montmorency - Antenne de Deuil-la-Barre,Val-d'Oise,Île-de-France,Fermé,red,2.3287207,48.9766768
+Mission Locale Vallée de Montmorency - Antenne de Bouffémont,Val-d'Oise,Île-de-France,Fermé,red,2.321356,49.045083
+Point Information Médiation Multiservices (Pimms) de Garges-Sarcelles,Val-d'Oise,Île-de-France,Fermé,red,2.3967247,48.975642
+Accueil aux Familles de Détenus du Val-d'Oise,Val-d'Oise,Île-de-France,Ouvert,green,2.1004941,49.0519089
+Centre Social et culturel - Association Conjugue,Val-d'Oise,Île-de-France,Fermé,red,2.2205706,48.9537016
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Collège Gabriel Péri,Val-d'Oise,Île-de-France,Fermé,red,2.2051744,48.9298489
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Collège Saint Exupéry,Val-d'Oise,Île-de-France,Fermé,red,2.2495049,48.9940676
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Ecole Paul Langevin (Collège H. Matisse),Val-d'Oise,Île-de-France,Fermé,red,2.4087445,48.96605839999999
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE)- Collège Pierre Curie ,Val-d'Oise,Île-de-France,Fermé,red,2.4788093,49.0383838
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Collège Montaigne,Val-d'Oise,Île-de-France,Fermé,red,2.4539853,49.0283948
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Collège Utrillo,Val-d'Oise,Île-de-France,Fermé,red,2.34283,48.96826189999999
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Collège Pierre de Ronsard,Val-d'Oise,Île-de-France,Fermé,red,2.3189181,48.9974934
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Collège Georges Brassens,Val-d'Oise,Île-de-France,Fermé,red,2.2741418,49.15492320000001
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Ecole Paul Eluard 1 (Collège Georges Brassens),Val-d'Oise,Île-de-France,Fermé,red,2.2708851,49.1499044
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Ecole Simone Veil (Collège Georges Brassens),Val-d'Oise,Île-de-France,Fermé,red,2.2793041,49.14462700000001
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Ecole Rousseau (Collège Pagnol),Val-d'Oise,Île-de-France,Fermé,red,2.1107338,49.0348972
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Collège Chantereine,Val-d'Oise,Île-de-France,Fermé,red,2.3773211,48.9843175
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Collège Voltaire,Val-d'Oise,Île-de-France,Fermé,red,2.3720376,48.9967135
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Ecole Pasteur (Collège Jean Lurçat),Val-d'Oise,Île-de-France,Fermé,red,2.3819174,48.9731998
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Collège Anatole France,Val-d'Oise,Île-de-France,Fermé,red,2.3868617,48.9809272
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Ecole Jean Moulin (collège St Exupéry),Val-d'Oise,Île-de-France,Fermé,red,2.4108928,48.9997014
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Ecole maternelle Emile Zola (collège St Exupéry),Val-d'Oise,Île-de-France,Fermé,red,2.3920093,49.0009477
+OEPRE - Collège Léon Blum,Val-d'Oise,Île-de-France,Fermé,red,2.4076091,49.0032242
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Ecole Jean Jaurès (Collège Blum),Val-d'Oise,Île-de-France,Fermé,red,2.414149,49.00142839999999
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Ecole Paul Langevin 2 (Collège Blum),Val-d'Oise,Île-de-France,Fermé,red,2.3998023,49.0066163
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - Ecole élémentaire Henri Wallon (Collège Léon Blum),Val-d'Oise,Île-de-France,Fermé,red,2.402836299999999,49.00765089999999
+Ouvrir l'École aux Parents pour la Réussite des Enfants (OEPRE) - EM Marie Curie (Collège Martin Luther King),Val-d'Oise,Île-de-France,Fermé,red,2.3885071,49.0067583
+Unis-Cité - le KIOSC,Val-d'Oise,Île-de-France,Fermé,red,2.3731089,48.9776092
+Centre Communal d'Action Sociale (CCAS) d'Arnouville,Val-d'Oise,Île-de-France,Fermé,red,2.422321,48.987958
+Centre Communal d'Action Sociale (CCAS) de Gonesse,Val-d'Oise,Île-de-France,Fermé,red,2.4498869,48.98637009999999
+CCAS Bouqueval,Val-d'Oise,Île-de-France,Fermé,red,2.424494,49.024477
+Centre Communal d'Action Sociale de Chennevières-lès-Louvres,Val-d'Oise,Île-de-France,Fermé,red,2.5510385,49.0447914
+Centre Communal d'Action Sociale (CCAS)  d'Écouen,Val-d'Oise,Île-de-France,Fermé,red,2.378926,49.018834
+CCAS d'Ecouen,Val-d'Oise,Île-de-France,Ouvert,green,2.378926,49.018834
+Centre communal d'Action Sociale (CCAS) de Garges-les-Gonesses,Val-d'Oise,Île-de-France,Fermé,red,2.4006899,48.97169350000001
+Centre Communal d'Action Sociale (CCAS)  de Cormeilles-en-Parisis,Val-d'Oise,Île-de-France,Fermé,red,2.1995218,48.97602990000001
+Centre Communal d'Action Sociale (CCAS) de Taverny,Val-d'Oise,Île-de-France,Fermé,red,2.2273866,49.0233928
+Centre Communal d'Action Sociale (CCAS) de Villiers-le-Bel,Val-d'Oise,Île-de-France,Fermé,red,2.3882154,49.007926
+Centre Communal d'Action Sociale (CCAS) de Pontoise,Val-d'Oise,Île-de-France,Modification,orange,2.1001942,49.0498643
+Centre Communal d'Action Sociale (CCAS) d'Éragny sur Oise ,Val-d'Oise,Île-de-France,Fermé,red,2.0906584,49.01844510000001
+CCAS Beauchamp,Val-d'Oise,Île-de-France,Fermé,red,2.1979487,49.0094521
+Centre Communal d'Action sociale (CCAS) de Marly la Ville,Val-d'Oise,Île-de-France,Fermé,red,2.5000794,49.0786264
+Centre Communal d'Action Sociale (CCAS) de Montmagny,Val-d'Oise,Île-de-France,Fermé,red,2.345844,48.9748883
+Centre communal d'Action Sociale d'Ermont ,Val-d'Oise,Île-de-France,Ouvert,green,2.258778,48.9918574
+Centre Communal d'Action Sociale (CCAS) de Saint-Brice-sous-Forêt ,Val-d'Oise,Île-de-France,Fermé,red,2.3572112,48.9975568
+Centre Communale d'Action Sociale (CCAS) de Montmorency,Val-d'Oise,Île-de-France,Fermé,red,2.3278976,48.9883761
+Centre Communal d'Action Sociale (CCAS) de Soisy sous Montmorency,Val-d'Oise,Île-de-France,Fermé,red,2.3001687,48.9873357
+Centre Communal d'Action Sociale de St Ouen l'Aumone  (CCAS),Val-d'Oise,Île-de-France,Fermé,red,2.1053004,49.0444774
+Centre Communal d'Action Sociale (CCAS) de Bezons ,Val-d'Oise,Île-de-France,Fermé,red,2.2155708,48.9279333
+Centre Communal d'Action Social (CCAS) de Monsoult,Val-d'Oise,Île-de-France,Fermé,red,2.3118586,49.070562
+Centre Communal d'Action Sociale  (CCAS) de St Leu la foret ,Val-d'Oise,Île-de-France,Fermé,red,2.2438959,49.0189666
+Centre Communal d'Action Sociale  ( CCAS) de Saint Prix,Val-d'Oise,Île-de-France,Fermé,red,2.2621756,49.00685319999999
+Centre Communal d'Action Sociale (CCAS) de Goussainville,Val-d'Oise,Île-de-France,Fermé,red,2.4703763,49.0321668
+Centre Communal d'Action Sociale d'Osny (CCAS),Val-d'Oise,Île-de-France,Modification,orange,2.0614872,49.06615250000001
+Centre Communal d'Action Sociale (CCAS) de Courdimanche,Val-d'Oise,Île-de-France,Fermé,red,2.0025743,49.0456632
+Centre Communal d'Action Sociale (CCAS) de Saint Gervais,Val-d'Oise,Île-de-France,Fermé,red,1.7690632,49.16851519999999
+Centre Communal d'Action Sociale de Menucourt ( CCAS),Val-d'Oise,Île-de-France,Fermé,red,1.9835113,49.0245541
+Centre Communal d'Action Sociale (CCAS) de Vauréal,Val-d'Oise,Île-de-France,Fermé,red,2.0302504,49.0229881
+Centre Communal d'Action Sociale de Vauréal,Val-d'Oise,Île-de-France,Ouvert,green,2.0302504,49.0229881
+Centre Communale d'Action Sociale (CCAS) d'Herblay,Val-d'Oise,Île-de-France,Fermé,red,2.1653169,48.98991940000001
+ADEPAPE95 - Repairs!95,Val-d'Oise,Île-de-France,Fermé,red,2.0696486,49.0519962
+Vie Libre Val d'Oise,Val-d'Oise,Île-de-France,Fermé,red,2.0341312,49.08089449999999
+Cap Emploi 95,Val-d'Oise,Île-de-France,Fermé,red,2.0367991,49.0499046
+ACOFORM centre de formation val d'oise 95,Val-d'Oise,Île-de-France,Fermé,red,2.0331884,49.0492903
+Centre d'information jeunesse de Cergy,Val-d'Oise,Île-de-France,Fermé,red,2.0788465,49.0359371
+Centre de  Protection Maternelle Infantile (PMI) de Franconville ,Val-d'Oise,Île-de-France,Fermé,red,2.2144959,48.994727
+ Association de Parents d'Enfants Déficients (APED L'Espoir) ,Val-d'Oise,Île-de-France,Ouvert,green,2.2713089,49.1452761
+ATIVO - Association  Mandataire Judiciaire  de Protection des Majeurs Val d'Oise,Val-d'Oise,Île-de-France,Fermé,red,2.0785584,49.0408686
+Epicerie Sociale d'Ermont,Val-d'Oise,Île-de-France,Fermé,red,2.2536562,48.9957247
+Emmaüs 95 - site de Cergy,Val-d'Oise,Île-de-France,Fermé,red,2.0714389,49.04594520000001
+Emmaüs 95 - site de Bernes-sur-Oise,Val-d'Oise,Île-de-France,Fermé,red,2.3018829,49.1519013
+Action Jeunesse Enfance et Famille 95,Val-d'Oise,Île-de-France,Fermé,red,2.0717131,49.0523953
+Association Cultuelle des Musulmans à Persan (ACMP),Val-d'Oise,Île-de-France,Fermé,red,2.2751831,49.15110659999999
+Aide Alimentaire L'Isle-Adam,Val-d'Oise,Île-de-France,Fermé,red,2.2129249,49.10695570000001
+L'épicerie solidaire  de Deuil La Barre ,Val-d'Oise,Île-de-France,Fermé,red,2.322087100000001,48.9735577
+Etablissement Public de Santé - Roger Prévot,Val-d'Oise,Île-de-France,Fermé,red,2.3356587,49.0501125
+Mission locale de l'Hautil - Vauréal,Val-d'Oise,Île-de-France,Fermé,red,2.0302504,49.0229881
+Mission locale de Taverny,Val-d'Oise,Île-de-France,Fermé,red,2.2216996,49.0259387
+Mission locale de Persan-Beaumont,Val-d'Oise,Île-de-France,Fermé,red,2.27332,49.15124699999999
+"Maison de l'Innovation, de l'Emploi et du Multimédia (MIEM)",Val-d'Oise,Île-de-France,Fermé,red,2.0988072,49.0194836
+Service Emploi Formation (SEF),Val-d'Oise,Île-de-France,Fermé,red,2.0448336,49.0122405
+Point Information Jeunesse (PIJ) La Clef,Val-d'Oise,Île-de-France,Fermé,red,2.111553900000001,49.04221010000001
+Friperie Solidaire  Ding Fring - Pontoise,Val-d'Oise,Île-de-France,Fermé,red,2.0977854,49.0502143
+"Centres de Soins, d'Aaccompagnement et de Prévention en Addictologie (CSAPA) de Voie 11",Val-d'Oise,Île-de-France,Fermé,red,2.2778848,49.1486234
+ le Centre Communale d'Action Sociale  (CCAS)  de Fosses,Val-d'Oise,Île-de-France,Fermé,red,2.5164491,49.0987395
+Centre Médico-Psycho-Pédagogique (CMPP) de Saint-Ouen-l’Aumône,Val-d'Oise,Île-de-France,Fermé,red,2.1055517,49.0396838
+Centre Médico-Psycho-Pédagogique (CMPP) de Magny-en-Vexin,Val-d'Oise,Île-de-France,Fermé,red,1.7827929,49.15202470000001
+Unité locale de la Plaine de France - Croix Rouge,Val-d'Oise,Île-de-France,Fermé,red,2.3356587,49.0501125
+Unité locale des Bois de la Plaine - Croix Rouge,Val-d'Oise,Île-de-France,Fermé,red,2.2246214,49.03188890000001
+Unité locale de la Pierre Turquaise - Croix Rouge,Val-d'Oise,Île-de-France,Ouvert,green,2.283688300000001,49.1417063
+Association pour adultes et jeunes handicapés (APAJH ) de Cergy,Val-d'Oise,Île-de-France,Fermé,red,2.0150923,49.04751690000001
+Association REAGIR,Val-d'Oise,Île-de-France,Ouvert,green,2.2691445,48.99999030000001
+Association pour adultes et jeunes handicapés (APAJH )  Taverny ,Val-d'Oise,Île-de-France,Fermé,red,2.2205337,49.0260103
+Atelier de Pédagogie Personnalisée A.P.P. Saint-Ouen l’Aumône,Val-d'Oise,Île-de-France,Fermé,red,2.1091912,49.0353027
+Dispositif Interactif de Remobilisation! - D.I.R!,Val-d'Oise,Île-de-France,Fermé,red,2.2004955,48.9765533
+Association  de La Vie au Grand Air Pontoise,Val-d'Oise,Île-de-France,Fermé,red,2.0940439,49.0533578
+Association de La Vie au Grand Air  Saint-Ouen-l'Aumône,Val-d'Oise,Île-de-France,Fermé,red,2.1103196,49.0452731
+Association La Vie au Grand Air Cormeilles-en-Vexin,Val-d'Oise,Île-de-France,Ouvert,green,2.0226746,49.1157877
+UNITE LOCALE DU VEXIN FRANCAIS,Val-d'Oise,Île-de-France,Ouvert,green,1.9763375,49.1457775
+Unité Locale Des Bords De Seine - Croix Rouge ,Val-d'Oise,Île-de-France,Ouvert,green,2.1985356,48.96861759999999
+Aide aux Devoirs pour les Enfants  Turcs  Scolaires (ADETS),Val-d'Oise,Île-de-France,Fermé,red,2.411682899999999,48.9734628
+Association ADCG ,Val-d'Oise,Île-de-France,Fermé,red,2.3978625,48.9755072
+Association  Amicale CNL Des Locataires  Maisons Saines De Garges Les  Gonesse,Val-d'Oise,Île-de-France,Ouvert,green,2.4072294,48.9718261
+SUPER AMICALE DES LOCATAIRES DES DOU 7,Val-d'Oise,Île-de-France,Ouvert,green,2.3980879,48.96729860000001
+Association Français Langue et Culture (AFLC),Val-d'Oise,Île-de-France,Ouvert,green,2.4020835,48.9732326
+Association  Indo Franco Tamoul,Val-d'Oise,Île-de-France,Ouvert,green,2.4076105,48.9770759
+ASSOCIATION POUR LA MAISON DE SANTE PLURIDISCIPLINAIRE DE GARGES (AMSPG),Val-d'Oise,Île-de-France,Ouvert,green,2.3994987,48.97056860000001
+Association LA GENERATION ATTENDUE,Val-d'Oise,Île-de-France,Ouvert,green,2.4098492,48.9750902
+Bureau Information Jeunesse BIJ ,Val-d'Oise,Île-de-France,Fermé,red,2.3974034,48.9707407
+PCF - Section de Garges-lès-Gonesse,Val-d'Oise,Île-de-France,Fermé,red,2.413229,48.96577689999999
+Centre Communal d'Action Sociale  (CCAS) de Survilliers,Val-d'Oise,Île-de-France,Modification,orange,2.542558199999999,49.0990473
+Croix Rouge Française   Survilliers,Val-d'Oise,Île-de-France,Ouvert,green,2.5475224,49.0982662
+Maison de quartier des Dix Arpents,Val-d'Oise,Île-de-France,Fermé,red,2.1073229,49.0193221
+Maison de Quartier des Chardonnettes Sarcelles,Val-d'Oise,Île-de-France,Fermé,red,2.3775951,49.003242
+Maison de Quartier Rosier Chantepie ,Val-d'Oise,Île-de-France,Fermé,red,2.3696179,48.9901645
+Centre Communal d'Action Sociale (CCAS) de Saint-Witz ,Val-d'Oise,Île-de-France,Fermé,red,2.568891,49.0927403
+Centre Communal d'Action Sociale (CCAS) de Vémars,Val-d'Oise,Île-de-France,Fermé,red,2.5665119,49.0674772
+Le Centre Communale d'Action Social (CCAS) de Roissy-en-France ,Val-d'Oise,Île-de-France,Fermé,red,2.5149763,49.0043129
+Secours Catholique de Louvres,Val-d'Oise,Île-de-France,Fermé,red,2.5089492,49.0443833
+Centre de protection Maternelle et Infantile (PMI) de Louvres,Val-d'Oise,Île-de-France,Fermé,red,2.5041615,49.0447521
+Maison de l'Emploi de Roissy Pays de France,Val-d'Oise,Île-de-France,Fermé,red,2.5071206,49.0442091
+Service d'Aide et d'Accompagnement à Domicile Croix Rouge Francaise,Val-d'Oise,Île-de-France,Ouvert,green,2.4216471,49.1174117
+Maison des associations Franconville ,Val-d'Oise,Île-de-France,Fermé,red,2.2289603,48.984219
+Mission Locale Val d'Oise Est - Antenne de Sarcelles,Val-d'Oise,Île-de-France,Modification,orange,2.3731089,48.9776092
+Mission Locale Val d'Oise Est - Antenne de Villiers-le-Bel,Val-d'Oise,Île-de-France,Modification,orange,2.4132588,48.9995169
+Mission Locale Val d'Oise Est - Antenne de Gonesse,Val-d'Oise,Île-de-France,Modification,orange,2.4273992,48.9856398
+Mission Locale Val d'Oise Est - Antenne de Garges-lès-Gonesse,Val-d'Oise,Île-de-France,Modification,orange,2.3981865,48.9752597
+Mission Locale Val d'Oise Est - Antenne de Goussainville,Val-d'Oise,Île-de-France,Modification,orange,2.4594084,49.02300749999999
+Association Créative,Val-d'Oise,Île-de-France,Fermé,red,2.4119624,48.97677760000001
+Espace emploi d'Arnouville ,Val-d'Oise,Île-de-France,Fermé,red,2.4151736,48.9883661
+Espace Emploi de Fosses ,Val-d'Oise,Île-de-France,Modification,orange,2.5166854,49.0983088
+Centre Communale d'Action Sociale (CCAS) de Puiseux-en-France,Val-d'Oise,Île-de-France,Fermé,red,2.501267,49.057528
+Centre d'Information et d'Orientation (CIO) de Sarcelles,Val-d'Oise,Île-de-France,Fermé,red,2.381516299999999,48.9923004
+Association IMAJ de Villiers-le-Bel (siège),Val-d'Oise,Île-de-France,Fermé,red,2.4049259,48.9995367
+Fondation OPEJ - Sarcelles,Val-d'Oise,Île-de-France,Fermé,red,2.3712733,48.9787143
+Pôle Emploi de Sarcelles,Val-d'Oise,Île-de-France,Ouvert,green,2.3785669,48.9791626
+Pôle emploi de Gonesse,Val-d'Oise,Île-de-France,Ouvert,green,2.4559841,48.98222680000001
+Centre Communal d'Action Sociale ( CCAS ) Magny en Vexin,Val-d'Oise,Île-de-France,Fermé,red,1.7873839,49.15170330000001
+Service Municipal Jeunesse (SMJ) de Pierrelaye,Val-d'Oise,Île-de-France,Ouvert,green,2.1551471,49.0228565
+Espace Marianne de Magny-en-Vexin ,Val-d'Oise,Île-de-France,Fermé,red,1.7898746,49.15582080000001
+Centre socioculturel de Marcouville ,Val-d'Oise,Île-de-France,Fermé,red,2.0791994,49.0502089
+"Association ACINA (Accueil, Coopération, Insertion pour les Nouveaux Arrivants) - antenne 95",Val-d'Oise,Île-de-France,Fermé,red,2.464644,49.0250982
+Centre Socio-culturel des Louvrais ,Val-d'Oise,Île-de-France,Fermé,red,2.0893512,49.0588887
+Mission  Locale de Taverny ,Val-d'Oise,Île-de-France,Ouvert,green,2.1715146,49.0603135
+Point Information Jeunesse Taverny ,Val-d'Oise,Île-de-France,Fermé,red,2.2116373,49.0149984
+UDAF du Val d’Oise,Val-d'Oise,Île-de-France,Fermé,red,2.0360159,49.0501482
+La Maison Pour Tous du Val d'Argent,Val-d'Oise,Île-de-France,Fermé,red,2.2274689,48.9530168
+Centre de Protection Maternelle et Infantile (PMI) de Pontoise,Val-d'Oise,Île-de-France,Fermé,red,2.0910222,49.04970840000001
+Espace de Dynamique d'Insertion E.D.I. L'Espace,Val-d'Oise,Île-de-France,Fermé,red,2.2004955,48.9765533
+Territoire d'Intervention Sociale et Médico-Sociale (TISMS) d'Arnouville,Val-d'Oise,Île-de-France,Fermé,red,2.4151142,48.99686870000001
+Territoire d'Intervention Sociale et Médico-Sociale (TISMS) de Gonesse,Val-d'Oise,Île-de-France,Fermé,red,2.4236873,48.99396850000001
+Territoire d'Intervention Sociale et Médico-Sociale (TISMS) de Goussainville,Val-d'Oise,Île-de-France,Fermé,red,2.4599626,49.037626
+Familles Services,Val-d'Oise,Île-de-France,Ouvert,green,2.0368816,49.0499751
+Association Du côté des femmes Sarcelles,Val-d'Oise,Île-de-France,Fermé,red,2.3731089,48.9776092
+GRETA du Val-d'Oise,Val-d'Oise,Île-de-France,Fermé,red,2.3731089,48.9776092
+"Centre Social Municipal ""les Noëls""",Val-d'Oise,Île-de-France,Fermé,red,2.2961083,48.9820843
+Bibliothèque de Soisy-sous-Montmorency,Val-d'Oise,Île-de-France,Modification,orange,2.2993636,48.9858632
+Centre socioculturel Antoine de Saint-Exupéry,Val-d'Oise,Île-de-France,Fermé,red,2.3395257,48.973794
+Espace emploi de Montmorency,Val-d'Oise,Île-de-France,Ouvert,green,2.3178388,49.0083539
+Permanence emploi de Montmagny,Val-d'Oise,Île-de-France,Ouvert,green,2.3395257,48.973794
+Espace emploi de Deuil-la-Barre,Val-d'Oise,Île-de-France,Ouvert,green,2.3276887,48.9749399
+AFEV  95 ,Val-d'Oise,Île-de-France,Fermé,red,2.0750216,49.0387621
+Permanence emploi d'Ezanville,Val-d'Oise,Île-de-France,Ouvert,green,2.3622998,49.0317658
+Permanence emploi de Saint-Brice-sous-Forêt,Val-d'Oise,Île-de-France,Ouvert,green,2.3572112,48.9975568
+Permanence emploi de Saint-Gratien,Val-d'Oise,Île-de-France,Ouvert,green,2.2854937,48.9617806
+Espace emploi de Soisy-sous-Montmorency,Val-d'Oise,Île-de-France,Ouvert,green,2.2949272,48.984346
+Permanence emploi de Bouffémont,Val-d'Oise,Île-de-France,Ouvert,green,2.3176837,49.0447301
+Permanence emploi de Domont,Val-d'Oise,Île-de-France,Ouvert,green,2.3269362,49.02633849999999
+Fondation OPEJ 95 - Garges-les-Gonesse,Val-d'Oise,Île-de-France,Fermé,red,2.398459599999999,48.97505630000001
+Agence ADIE de Sarcelles,Val-d'Oise,Île-de-France,Fermé,red,2.3723094,48.9776739
+"Centre de soins, d'accompagnement et de prévention en addictologie (CSAPA) - Sannois",Val-d'Oise,Île-de-France,Fermé,red,2.2584581,48.971765
+Mission Locale Val d'Oise Est - Antenne de Louvres,Val-d'Oise,Île-de-France,Fermé,red,2.5014193,49.0495465
+Mission Locale Val d'Oise Est - Permanence de Fosses,Val-d'Oise,Île-de-France,Modification,orange,2.5166854,49.0983088
+Centre d'Action Médico-Sociale Précoce (CAMSP) d'Argenteuil,Val-d'Oise,Île-de-France,Fermé,red,2.2479253,48.9527145
+Centre d’Action Médico-Sociale Précoce (CAMSP) de Gonesse,Val-d'Oise,Île-de-France,Fermé,red,2.4385871,48.9857613
+Association de Conseil et d'Insertion (ACI),Val-d'Oise,Île-de-France,Fermé,red,2.382531600000001,48.9754715
+Maison de la Justice et du Droit,Val-d'Oise,Île-de-France,Fermé,red,2.3989724,48.9683898
+Une main tendue,Val-d'Oise,Île-de-France,Fermé,red,2.2823518,48.95451289999999
+La Maison des Langues ,Val-d'Oise,Île-de-France,Fermé,red,2.400197,48.971933
+Le Centre Social et Culturel Municipal du Village ,Val-d'Oise,Île-de-France,Modification,orange,2.4134576,48.9674881
+Association Espaces & Lumières,Val-d'Oise,Île-de-France,Fermé,red,2.0882223,49.0616882
+"Le Refuge de l’Atelier Educatif, Culturel et Scientifique (AECS)",Val-d'Oise,Île-de-France,Fermé,red,2.0947891,49.05756590000001
+Espace emploi de Goussainville,Val-d'Oise,Île-de-France,Modification,orange,2.4594084,49.02300749999999
+Centre intercommunal de formation de Louvres,Val-d'Oise,Île-de-France,Modification,orange,2.4945546,49.05223840000001
+Service d'Accueil d'Urgence S.A.U.,Val-d'Oise,Île-de-France,Fermé,red,2.2004955,48.9765533
+Centre de Distribution - Secours Populaire - Bezons,Val-d'Oise,Île-de-France,Fermé,red,2.2138411,48.92559660000001
+Centre social Robert-Doisneau de Bezons,Val-d'Oise,Île-de-France,Fermé,red,2.219742699999999,48.9330434
+Centre social La Berthie de Bezons,Val-d'Oise,Île-de-France,Fermé,red,2.2040728,48.9354806
+Centre social Rosa Parks de Bezons,Val-d'Oise,Île-de-France,Fermé,red,2.2180894,48.92460799999999
+Centre Médico-Psycho-Pédagogique Condorcet (CMPP) François Truffaut de Bezons,Val-d'Oise,Île-de-France,Fermé,red,2.2136683,48.9322943
+Secours Populaire - Comité - Garges-lès-Gonesses,Val-d'Oise,Île-de-France,Fermé,red,2.4036839,48.967966
+Secours Populaire - Comité de Gonesse ,Val-d'Oise,Île-de-France,Fermé,red,2.4190746,49.0017259
+Secours Catholique à Jouy-le-Moutier,Val-d'Oise,Île-de-France,Fermé,red,2.0407369,49.0154086
+Secours Populaire Éragny,Val-d'Oise,Île-de-France,Fermé,red,2.1133085,49.01547720000001
+Les Restos du Coeur - Osny ,Val-d'Oise,Île-de-France,Fermé,red,2.0698657,49.0499147
+Service Municipal Jeunesse - Espace Romanet,Val-d'Oise,Île-de-France,Fermé,red,2.4608319,49.0288189
+Secours catholique de Saint-Ouen-l'Aumône,Val-d'Oise,Île-de-France,Fermé,red,2.1095247,49.0370278
+Association d'Insertion Sociale Solidarité,Val-d'Oise,Île-de-France,Fermé,red,2.4599626,49.037626
+Centre social Empreinte,Val-d'Oise,Île-de-France,Fermé,red,2.4599626,49.037626
+Structure de Premier Accueil des Demandeurs d’Asile (SPADA) 95,Val-d'Oise,Île-de-France,Fermé,red,2.0803799,49.0340323
+Médiathèque François Mauriac de Goussainville,Val-d'Oise,Île-de-France,Fermé,red,2.4609361,49.03553609999999
+Point Relais Lecture de Goussainville,Val-d'Oise,Île-de-France,Fermé,red,2.4727334,49.0326803
+Les Restos du Coeur - Sarcelles,Val-d'Oise,Île-de-France,Fermé,red,2.3891915,48.97819870000001
+Bus de la santé : la santé pour tous,Val-d'Oise,Île-de-France,Fermé,red,2.3964068,48.9783121
+Association IMAJ  Pôle de prévention spécialisée de Montmorency,Val-d'Oise,Île-de-France,Fermé,red,2.3165956,49.0076927
+Etablissement ou Service d'Aide par le Travail (ESAT) Docteur Jean Claude Gauthe,Val-d'Oise,Île-de-France,Fermé,red,2.460208,49.0243997
+Association IMAJ Pôle de prévention spécialisée  de Bouffémont,Val-d'Oise,Île-de-France,Fermé,red,2.3218663,49.0439893
+Association IMAJ Pôle de prévention spécialisée de Domont,Val-d'Oise,Île-de-France,Fermé,red,2.3404079,49.0281832
+Association IMAJ Pôle de prévention spécialisée de Villiers-le-Bel,Val-d'Oise,Île-de-France,Fermé,red,2.4003918,49.0046967
+Association IMAJ Pôle de prévention spécialisée  de Villiers-le-Bel,Val-d'Oise,Île-de-France,Fermé,red,2.3929786,49.00420090000001
+Association IMAJ Pôle de prévention spécialisée  de Goussainville ,Val-d'Oise,Île-de-France,Fermé,red,2.4538243,49.0347737
+Association IMAJ Pôle de prévention spécialisée  de Fosses,Val-d'Oise,Île-de-France,Fermé,red,2.5206077,49.0984369
+Association IMAJ Pôle de prévention spécialisée de Garges-lès-Gonesses,Val-d'Oise,Île-de-France,Fermé,red,2.41341,48.9757293
+Association IMAJ Pôle de prévention spécialisée  de Garges-lès-Gonesses,Val-d'Oise,Île-de-France,Fermé,red,2.3949594,48.9666875
+Centre de Protection Maternelle et Infantile (PMI) - Goussainville ,Val-d'Oise,Île-de-France,Ouvert,green,2.4599626,49.037626
+Secours Populaire -antenne étudiante ,Val-d'Oise,Île-de-France,Ouvert,green,2.0759278,49.015898
+Secours Populaire-Antenne d’Auvers-sur-Oise,Val-d'Oise,Île-de-France,Fermé,red,2.182796,49.0720237
+Secours Populaire - Comité de Beaumont-sur-Oise,Val-d'Oise,Île-de-France,Fermé,red,2.2825636,49.1419984
+Secours Populaire-Comité de Bessancourt,Val-d'Oise,Île-de-France,Ouvert,green,2.20416,49.0408221
+Secours Populaire-Antenne de Bezons,Val-d'Oise,Île-de-France,Ouvert,green,2.2085806,48.9297546
+Secours Populaire-Antenne de Bruyères-sur-Oise,Val-d'Oise,Île-de-France,Fermé,red,2.3287555,49.15661799999999
+Secours Populaire-Comité de Cergy-Pontoise,Val-d'Oise,Île-de-France,Ouvert,green,2.0698657,49.0499147
+Secours Populaire-Antenne de Chars,Val-d'Oise,Île-de-France,Ouvert,green,1.9370338,49.16041
+Secours Populaire-Comité d’Eaubonne,Val-d'Oise,Île-de-France,Ouvert,green,2.2726818,48.9903431
+Maison de la Reussite,Val-d'Oise,Île-de-France,Ouvert,green,2.4594084,49.02300749999999
+Secours Populaire-Comité de Bouffémont,Val-d'Oise,Île-de-France,Fermé,red,2.3008317,49.04432620000001
+Maison de quartier de la Ravinière - Osny ,Val-d'Oise,Île-de-France,Ouvert,green,2.065327,49.057475
+Association Jean Cotxet Ermont ,Val-d'Oise,Île-de-France,Ouvert,green,2.2617658,48.9942631
+Secours Populaire - Comité de  Franconville,Val-d'Oise,Île-de-France,Ouvert,green,2.222986499999999,48.99639279999999
+Saint-Vincent -de-Paul - Herblay,Val-d'Oise,Île-de-France,Ouvert,green,2.1647916,48.9905206
+Saint-Vincent -de-Paul-Bessancourt,Val-d'Oise,Île-de-France,Ouvert,green,2.2074336,49.037051
+Saint-Vincent-de-Paul - Franconville ,Val-d'Oise,Île-de-France,Ouvert,green,2.2296448,48.98296149999999
+Secours Populaire - Comité d'Ermont,Val-d'Oise,Île-de-France,Ouvert,green,2.254453,48.9929666
+Secours Populaire - Comité de Fosses,Val-d'Oise,Île-de-France,Ouvert,green,2.5202395,49.0983568
+Secours Populaire -  Comité de Garges-lès-Gonesse ,Val-d'Oise,Île-de-France,Fermé,red,2.4036839,48.967966
+Secours Populaire - Comité de Marly-la-ville ,Val-d'Oise,Île-de-France,Ouvert,green,2.503878,49.091993
+Secours Populaire - Comité de Méry-sur-Oise ,Val-d'Oise,Île-de-France,Ouvert,green,2.1860207,49.06361260000001
+Secours populaire - Montigny-lès-Cormeilles ,Val-d'Oise,Île-de-France,Fermé,red,2.1980873,48.99707919999999
+Secours Populaire - comité de Pierrelaye ,Val-d'Oise,Île-de-France,Fermé,red,2.1561962,49.0230955
+Secours Populaire-Antenne de Saint-Ouen l’Aumône,Val-d'Oise,Île-de-France,Ouvert,green,2.1179239,49.05429169999999
+Secours Populaire - Comité de Sarcelles,Val-d'Oise,Île-de-France,Fermé,red,2.378493,48.997347
+Secours Populaire-Comité de Villiers-le-Bel,Val-d'Oise,Île-de-France,Ouvert,green,2.3912319,49.007363
+Association IMAJ Pôle de prévention spécialisée de Persan,Val-d'Oise,Île-de-France,Fermé,red,2.2782826,49.1503221
+Association IMAJ9 Pôle de prévention spécialisée de Beaumont-sur-Oise,Val-d'Oise,Île-de-France,Fermé,red,2.2998908,49.1428777
+Association IMAJ95 - Auto École Associative ,Val-d'Oise,Île-de-France,Fermé,red,2.4049259,48.9995367
+Association IMAJ95 - Chantier d'insertion Bâtiment - Beaumont-sur-Oise,Val-d'Oise,Île-de-France,Fermé,red,2.2907659,49.1403904
+Point Information Jeunesse ( PIJ) Bezons,Val-d'Oise,Île-de-France,Ouvert,green,2.2142682,48.9265984
+Maison de Quartier Astérix Bezons,Val-d'Oise,Île-de-France,Ouvert,green,2.2088258,48.93606680000001
+Maison de Quartier Gavroche Bezons ,Val-d'Oise,Île-de-France,Ouvert,green,2.2199165,48.9310428
+Maison de Quartier Astérix Bezons ,Val-d'Oise,Île-de-France,Ouvert,green,2.2169051,48.9289875
+Secours Catholique Bezons ,Val-d'Oise,Île-de-France,Ouvert,green,2.2152463,48.9269304
+Association des Femmes Africaines de Bezons ( AFAB ),Val-d'Oise,Île-de-France,Ouvert,green,2.2025717,48.9357859
+Association Ciel bleu Bezons ,Val-d'Oise,Île-de-France,Ouvert,green,2.2180724,48.9303688
+Association Ligue contre le cancer Bezons ,Val-d'Oise,Île-de-France,Ouvert,green,2.211571999999999,48.9282112
+Association Rebâtir Relever Réparer Restaurer  Bezons ( 4R) ,Val-d'Oise,Île-de-France,Ouvert,green,2.2093027,48.9311546
+Association  ABS  Bezons ,Val-d'Oise,Île-de-France,Ouvert,green,2.222974,48.9307819
+Association Pour Adultes et Jeunes Handicapés  (APAJH )Argenteuil ,Val-d'Oise,Île-de-France,Ouvert,green,2.2079051,48.9501199
+Ecole de la deuxième chance (E2C) - Cergy-Pontoise,Val-d'Oise,Île-de-France,Ouvert,green,2.0812926,49.0382726
+Ecole de la deuxième chance (E2C) - Franconville,Val-d'Oise,Île-de-France,Ouvert,green,2.2389309,48.9842688
+Ecole de la deuxième chance (E2C) - Argenteuil-Bezons,Val-d'Oise,Île-de-France,Ouvert,green,2.249158,48.9433589
+Ecole de la deuxième chance (E2C) - Roissy-Pays-de-France,Val-d'Oise,Île-de-France,Ouvert,green,2.3887657,48.9920053
+Ecole de la deuxième chance (E2C) - Haut Val d'Oise,Val-d'Oise,Île-de-France,Ouvert,green,2.2875413,49.14377469999999
+Home Culture,Val-d'Oise,Île-de-France,Ouvert,green,2.3864023,48.9762181
+CARE - Club autogéré de rétablissement par l'emploi,Val-d'Oise,Île-de-France,Ouvert,green,2.3741648,48.97700680000001
+Centre de protection maternelle et infantile (PMI) de Montmagny,Val-d'Oise,Île-de-France,Fermé,red,2.3469369,48.9750435
+Régie des quartiers de Bezons,Val-d'Oise,Île-de-France,Ouvert,green,2.2152355,48.9297573
+Maison de la Justice et du Droit de Persan,Val-d'Oise,Île-de-France,Ouvert,green,2.2782826,49.1503221
+Maison de la justice et du droit de Sarcelles,Val-d'Oise,Île-de-France,Ouvert,green,2.3708665,48.9774677
+Espace emploi Taverny ,Val-d'Oise,Île-de-France,Ouvert,green,2.2220918,49.0255497
+Association La Joie de Vivre,Val-d'Oise,Île-de-France,Ouvert,green,2.2248291,49.0194291
+Essivam,Val-d'Oise,Île-de-France,Ouvert,green,2.2273866,49.0233928
+"Association TEPA "" Tous Ensemble Pour Agir ""  Bessancourt",Val-d'Oise,Île-de-France,Ouvert,green,2.2237935,49.03854990000001
+A.C.E Action Catholique des Enfants,Val-d'Oise,Île-de-France,Ouvert,green,2.398210999999999,48.9674148
+Centre socioculturel Trait d'Union d'Arnouville,Val-d'Oise,Île-de-France,Ouvert,green,2.4152852,48.988549
+A.P.P.O.M - Garges,Val-d'Oise,Île-de-France,Ouvert,green,2.4130544,48.9712881
+A.S.A.C,Val-d'Oise,Île-de-France,Ouvert,green,2.3990324,48.97561160000001
+ACJ Val d'Oise,Val-d'Oise,Île-de-France,Ouvert,green,2.3971909,48.9773533
+ADAB Garges,Val-d'Oise,Île-de-France,Ouvert,green,2.4120643,48.9646115
+Union des Assyro-Chaldéens d'Arnouville (UACF),Val-d'Oise,Île-de-France,Ouvert,green,2.3739063,48.9903203
+Association des Centres Éducatifs Charles-Péguy,Val-d'Oise,Île-de-France,Ouvert,green,2.3984628,48.97061999999999
+Les maisons des habitants Joséphine-Baker,Val-d'Oise,Île-de-France,Ouvert,green,2.2217301,49.02193279999999
+Maison des Habitants Georges Pompidou,Val-d'Oise,Île-de-France,Ouvert,green,2.2079622,49.0100084
+Centre Communal d'Action Sociale (CCAS) de Bessancourt ,Val-d'Oise,Île-de-France,Ouvert,green,2.2174638,49.03878820000001
+Centre Communal d'Action Sociale (CCAS) de Frepillon ,Val-d'Oise,Île-de-France,Ouvert,green,2.2060958,49.0512954
+Centre Communal d'Action Sociale (CCAS) de Groslay,Val-d'Oise,Île-de-France,Ouvert,green,2.3462526,48.9861738
+Centre social municipal Jean-Baptiste Corot  Garges ,Val-d'Oise,Île-de-France,Ouvert,green,2.3969445,48.9763169
+Centre Social Jean-Baptiste Corot,Val-d'Oise,Île-de-France,Ouvert,green,2.3974329,48.97594230000001
+Centre social associatif Les Doucettes Garges ,Val-d'Oise,Île-de-France,Ouvert,green,2.3968019,48.9658301
+Centre social et culturel municipal Dulcie September Garges ,Val-d'Oise,Île-de-France,Ouvert,green,2.410788,48.97569379999999
+Les compagnons bâtisseurs de Sarcelles (95),Val-d'Oise,Île-de-France,Ouvert,green,2.3857417,48.9756602
+Centre social et culturel municipal du Plein Midi - Garges-lès-Gonesse ,Val-d'Oise,Île-de-France,Ouvert,green,2.3949071,48.9715315
+Centre communal d'action sociale (CCAS) de Méry-sur-Oise,Val-d'Oise,Île-de-France,Ouvert,green,2.1848084,49.0644644
+Espace Jeunesse - Méry-sur-Oise ,Val-d'Oise,Île-de-France,Ouvert,green,2.1672249,49.05956250000001
+Association IMAJ Espace dynamique d'insertion (EDI),Val-d'Oise,Île-de-France,Ouvert,green,2.4077397,48.9991162
+Association  IMAJ Chantier d'insertion Espaces verts et logistique manutention,Val-d'Oise,Île-de-France,Ouvert,green,2.2907659,49.1403904
