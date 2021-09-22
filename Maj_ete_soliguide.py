@@ -185,7 +185,7 @@ if categorie == 'France':
     
     # Donnéés traitées pour construire graph 4
     
-    res_france.rename(index={0: 'Soliguide', 1:'Acteurs'})
+    res_france.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
     
     fig = px.pie(values=res_france.status, names=res_france.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
