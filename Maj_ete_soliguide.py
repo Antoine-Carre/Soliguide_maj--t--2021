@@ -172,6 +172,9 @@ if categorie == 'France':
     
     
     # Donnéés traitées pour construire graph 3
+
+    df_stacked_per_france = df_stacked_per_france.round()
+
     fig = px.bar(df_stacked_per_france, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
@@ -189,7 +192,7 @@ if categorie == 'France':
     
     fig = px.pie(values=res_france.status, names=res_france.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
@@ -269,6 +272,9 @@ if categorie == 'Ile-De-France':
     st.markdown(html_string, unsafe_allow_html=True)
 
    # Donnéés traitées pour construire graph 3
+
+    df_stacked_per_IDF = df_stacked_per_IDF.round()
+
     fig = px.bar(df_stacked_per_IDF, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
@@ -285,7 +291,7 @@ if categorie == 'Ile-De-France':
     
     fig = px.pie(values=res_IDF.status, names=res_IDF.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
@@ -340,6 +346,9 @@ if categorie == 'Alpes-Maritimes (06)':
     st.plotly_chart(fig, use_container_width=True)
  
   # Donnéés traitées pour construire graph 3
+
+    df_stacked_per_06 = df_stacked_per_06.round()
+    
     fig = px.bar(df_stacked_per_06, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
@@ -356,7 +365,7 @@ if categorie == 'Alpes-Maritimes (06)':
     
     fig = px.pie(values=res_06.status, names=res_06.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
@@ -425,6 +434,9 @@ if categorie == 'Gironde (33)':
 
 
    # Donnéés traitées pour construire graph 3
+
+    df_stacked_per_33 = df_stacked_per_33.round()
+
     fig = px.bar(df_stacked_per_33, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
@@ -441,7 +453,7 @@ if categorie == 'Gironde (33)':
     
     fig = px.pie(values=res_33.status, names=res_33.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
@@ -499,6 +511,9 @@ if categorie == 'Loire-Atlantique (44)':
 
 
    # Donnéés traitées pour construire graph 3
+
+    df_stacked_per_44 = df_stacked_per_44.round()
+
     fig = px.bar(df_stacked_per_44, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
@@ -515,7 +530,7 @@ if categorie == 'Loire-Atlantique (44)':
     
     fig = px.pie(values=res_44.status, names=res_44.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
@@ -572,6 +587,9 @@ if categorie == 'Bas-Rhin (67)':
 
 
    # Donnéés traitées pour construire graph 3
+
+    df_stacked_per_67 = df_stacked_per_67.round()
+    
     fig = px.bar(df_stacked_per_67, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
@@ -588,7 +606,7 @@ if categorie == 'Bas-Rhin (67)':
     
     fig = px.pie(values=res_67.status, names=res_67.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
@@ -645,6 +663,9 @@ if categorie == 'Paris (75)':
 
 
    # Donnéés traitées pour construire graph 3
+
+    df_stacked_per_75 = df_stacked_per_75.round()
+
     fig = px.bar(df_stacked_per_75, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
@@ -662,7 +683,7 @@ if categorie == 'Paris (75)':
     
     fig = px.pie(values=res_75.status, names=res_75.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
@@ -720,6 +741,9 @@ if categorie == 'Seine-et-Marne (77)':
 
 
    # Donnéés traitées pour construire graph 3
+
+    df_stacked_per_77 = df_stacked_per_77.round()
+
     fig = px.bar(df_stacked_per_77, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
@@ -736,7 +760,7 @@ if categorie == 'Seine-et-Marne (77)':
     
     fig = px.pie(values=res_77.status, names=res_77.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
@@ -794,6 +818,9 @@ if categorie == 'Yvelines (78)':
 
 
    # Donnéés traitées pour construire graph 3
+
+    df_stacked_per_78 = df_stacked_per_78.round()
+
     fig = px.bar(df_stacked_per_78, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
@@ -809,7 +836,7 @@ if categorie == 'Yvelines (78)':
     
     fig = px.pie(values=res_78.status, names=res_78.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
@@ -867,6 +894,9 @@ if categorie == 'Essonne (91)':
 
 
    # Donnéés traitées pour construire graph 3
+
+    df_stacked_per_91 = df_stacked_per_91.round()
+
     fig = px.bar(df_stacked_per_91, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
@@ -883,7 +913,7 @@ if categorie == 'Essonne (91)':
     
     fig = px.pie(values=res_91.status, names=res_91.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
@@ -940,6 +970,9 @@ if categorie == 'Hauts-de-Seine (92)':
 
 
    # Donnéés traitées pour construire graph 3
+
+    df_stacked_per_92 = df_stacked_per_92.round()
+
     fig = px.bar(df_stacked_per_92, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
@@ -955,7 +988,7 @@ if categorie == 'Hauts-de-Seine (92)':
     
     fig = px.pie(values=res_92.status, names=res_92.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
@@ -1012,6 +1045,9 @@ if categorie == 'Seine-Saint-Denis (93)':
 
 
    # Donnéés traitées pour construire graph 3
+
+    df_stacked_per_93 = df_stacked_per_93.round()
+
     fig = px.bar(df_stacked_per_93, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
@@ -1027,7 +1063,7 @@ if categorie == 'Seine-Saint-Denis (93)':
     
     fig = px.pie(values=res_93.status, names=res_93.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
@@ -1086,6 +1122,9 @@ if categorie == 'Val-de-Marne (94)':
 
 
    # Donnéés traitées pour construire graph 3
+
+    df_stacked_per_94 = df_stacked_per_94.round()
+
     fig = px.bar(df_stacked_per_94, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
@@ -1101,7 +1140,7 @@ if categorie == 'Val-de-Marne (94)':
     
     fig = px.pie(values=res_94.status, names=res_94.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
@@ -1159,6 +1198,9 @@ if categorie == 'Val-d\'Oise (95)':
 
 
    # Donnéés traitées pour construire graph 3
+
+    df_stacked_per_95 = df_stacked_per_95.round()
+
     fig = px.bar(df_stacked_per_95, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], 
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
@@ -1175,7 +1217,7 @@ if categorie == 'Val-d\'Oise (95)':
     
     fig = px.pie(values=res_95.status, names=res_95.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
