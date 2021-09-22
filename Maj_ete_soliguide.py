@@ -151,12 +151,17 @@ if categorie == 'France':
     folium_static(mappy)
 
     # Donnéés traitées pour construire graph 2
-    
-    fig = px.bar(df_comparaison_France.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
-    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
-                        xaxis_title="",
-                        yaxis_title="",)
+    df_comparaison_France['Part de service fermé'] = df_comparaison_France['Part de service fermé'].round(1)
+
+    fig = px.bar(df_comparaison_France.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+                 custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
+
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+                          margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                            yaxis_title="",
+                            xaxis_title="Nombre de services",
+                            legend_title="Statut",)
+    fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
     st.plotly_chart(fig, use_container_width=True)
 
     st.markdown(html_string, unsafe_allow_html=True)
@@ -253,12 +258,17 @@ if categorie == 'Ile-De-France':
 
 
     # Donnéés traitées pour construire graph 2
-    
-    fig = px.bar(df_comparaison_IDF.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
-    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
-                        xaxis_title="",
-                        yaxis_title="Catégories",)
+    df_comparaison_IDF['Part de service fermé'] = df_comparaison_IDF['Part de service fermé'].round(1)
+
+    fig = px.bar(df_comparaison_IDF.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+                 custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
+
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+                          margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                            yaxis_title="",
+                            xaxis_title="Nombre de services",
+                            legend_title="Statut",)
+    fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
     st.plotly_chart(fig, use_container_width=True)
  
 
@@ -337,12 +347,17 @@ if categorie == 'Alpes-Maritimes (06)':
     folium_static(mappy)
 
     # Donnéés traitées pour construire graph 2
-    
-    fig = px.bar(df_comparaison_06.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
-    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
-                        xaxis_title="",
-                        yaxis_title="Catégories",)
+    df_comparaison_06['Part de service fermé'] = df_comparaison_06['Part de service fermé'].round(1)
+
+    fig = px.bar(df_comparaison_06.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+                 custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
+
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+                          margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                            yaxis_title="",
+                            xaxis_title="Nombre de services",
+                            legend_title="Statut",)
+    fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
     st.plotly_chart(fig, use_container_width=True)
  
   # Donnéés traitées pour construire graph 3
@@ -422,17 +437,22 @@ if categorie == 'Gironde (33)':
 
     #Affichage de la carte
     folium_static(mappy)
-
-  # Donnéés traitées pour construire graph 2
     
-    fig = px.bar(df_comparaison_33.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
-    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
-                        xaxis_title="",
-                        yaxis_title="Catégories",)
+    # Donnéés traitées pour construire graph 2
+    df_comparaison_33['Part de service fermé'] = df_comparaison_33['Part de service fermé'].round(1)
+
+    fig = px.bar(df_comparaison_33.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+                 custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
+
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+                          margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                            yaxis_title="",
+                            xaxis_title="Nombre de services",
+                            legend_title="Statut",)
+    fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
     st.plotly_chart(fig, use_container_width=True)
-
-
+    
+    
    # Donnéés traitées pour construire graph 3
 
     df_stacked_per_33 = df_stacked_per_33.round()
@@ -499,16 +519,20 @@ if categorie == 'Loire-Atlantique (44)':
 
     #Affichage de la carte
     folium_static(mappy)
-
-  # Donnéés traitées pour construire graph 2
     
-    fig = px.bar(df_comparaison_44.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
-    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
-                        xaxis_title="",
-                        yaxis_title="Catégories",)
-    st.plotly_chart(fig, use_container_width=True)
+    # Donnéés traitées pour construire graph 2
+    df_comparaison_44['Part de service fermé'] = df_comparaison_44['Part de service fermé'].round(1)
 
+    fig = px.bar(df_comparaison_44.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+                 custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
+
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+                          margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                            yaxis_title="",
+                            xaxis_title="Nombre de services",
+                            legend_title="Statut",)
+    fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
+    st.plotly_chart(fig, use_container_width=True)
 
    # Donnéés traitées pour construire graph 3
 
@@ -576,13 +600,18 @@ if categorie == 'Bas-Rhin (67)':
     #Affichage de la carte
     folium_static(mappy)
 
-  # Donnéés traitées pour construire graph 2
-    
-    fig = px.bar(df_comparaison_67.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
-    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
-                        xaxis_title="",
-                        yaxis_title="Catégories",)
+     # Donnéés traitées pour construire graph 2
+    df_comparaison_67['Part de service fermé'] = df_comparaison_67['Part de service fermé'].round(1)
+
+    fig = px.bar(df_comparaison_67.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+                 custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
+
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+                          margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                            yaxis_title="",
+                            xaxis_title="Nombre de services",
+                            legend_title="Statut",)
+    fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
     st.plotly_chart(fig, use_container_width=True)
 
 
@@ -652,13 +681,18 @@ if categorie == 'Paris (75)':
     #Affichage de la carte
     folium_static(mappy)
 
-  # Donnéés traitées pour construire graph 2
-    
-    fig = px.bar(df_comparaison_75.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
-    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
-                        xaxis_title="",
-                        yaxis_title="Catégories",)
+     # Donnéés traitées pour construire graph 2
+    df_comparaison_75['Part de service fermé'] = df_comparaison_75['Part de service fermé'].round(1)
+
+    fig = px.bar(df_comparaison_75.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+                 custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
+
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+                          margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                            yaxis_title="",
+                            xaxis_title="Nombre de services",
+                            legend_title="Statut",)
+    fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
     st.plotly_chart(fig, use_container_width=True)
 
 
@@ -730,13 +764,18 @@ if categorie == 'Seine-et-Marne (77)':
     #Affichage de la carte
     folium_static(mappy)
 
-  # Donnéés traitées pour construire graph 2
-    
-    fig = px.bar(df_comparaison_77.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
-    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
-                        xaxis_title="",
-                        yaxis_title="Catégories",)
+     # Donnéés traitées pour construire graph 2
+    df_comparaison_77['Part de service fermé'] = df_comparaison_77['Part de service fermé'].round(1)
+
+    fig = px.bar(df_comparaison_77.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+                 custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
+
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+                          margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                            yaxis_title="",
+                            xaxis_title="Nombre de services",
+                            legend_title="Statut",)
+    fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
     st.plotly_chart(fig, use_container_width=True)
 
 
@@ -807,13 +846,18 @@ if categorie == 'Yvelines (78)':
     folium_static(mappy)
 
 
-  # Donnéés traitées pour construire graph 2
-    
-    fig = px.bar(df_comparaison_78.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
-    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
-                        xaxis_title="",
-                        yaxis_title="Catégories",)
+     # Donnéés traitées pour construire graph 2
+    df_comparaison_78['Part de service fermé'] = df_comparaison_78['Part de service fermé'].round(1)
+
+    fig = px.bar(df_comparaison_78.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+                 custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
+
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+                          margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                            yaxis_title="",
+                            xaxis_title="Nombre de services",
+                            legend_title="Statut",)
+    fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
     st.plotly_chart(fig, use_container_width=True)
 
 
@@ -883,13 +927,18 @@ if categorie == 'Essonne (91)':
     #Affichage de la carte
     folium_static(mappy)
 
-  # Donnéés traitées pour construire graph 2
-    
-    fig = px.bar(df_comparaison_91.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
-    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
-                        xaxis_title="",
-                        yaxis_title="Catégories",)
+     # Donnéés traitées pour construire graph 2
+    df_comparaison_91['Part de service fermé'] = df_comparaison_91['Part de service fermé'].round(1)
+
+    fig = px.bar(df_comparaison_91.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+                 custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
+
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+                          margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                            yaxis_title="",
+                            xaxis_title="Nombre de services",
+                            legend_title="Statut",)
+    fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
     st.plotly_chart(fig, use_container_width=True)
 
 
@@ -959,13 +1008,18 @@ if categorie == 'Hauts-de-Seine (92)':
     #Affichage de la carte
     folium_static(mappy)
 
-  # Donnéés traitées pour construire graph 2
-    
-    fig = px.bar(df_comparaison_92.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
-    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
-                        xaxis_title="",
-                        yaxis_title="Catégories",)
+     # Donnéés traitées pour construire graph 2
+    df_comparaison_92['Part de service fermé'] = df_comparaison_92['Part de service fermé'].round(1)
+
+    fig = px.bar(df_comparaison_92.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+                 custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
+
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+                          margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                            yaxis_title="",
+                            xaxis_title="Nombre de services",
+                            legend_title="Statut",)
+    fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
     st.plotly_chart(fig, use_container_width=True)
 
 
@@ -1034,13 +1088,18 @@ if categorie == 'Seine-Saint-Denis (93)':
     #Affichage de la carte
     folium_static(mappy)
 
-  # Donnéés traitées pour construire graph 2
-    
-    fig = px.bar(df_comparaison_93.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
-    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
-                        xaxis_title="",
-                        yaxis_title="Catégories",)
+     # Donnéés traitées pour construire graph 2
+    df_comparaison_93['Part de service fermé'] = df_comparaison_93['Part de service fermé'].round(1)
+
+    fig = px.bar(df_comparaison_93.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+                 custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
+
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+                          margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                            yaxis_title="",
+                            xaxis_title="Nombre de services",
+                            legend_title="Statut",)
+    fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
     st.plotly_chart(fig, use_container_width=True)
 
 
@@ -1110,14 +1169,18 @@ if categorie == 'Val-de-Marne (94)':
     #Affichage de la carte
     folium_static(mappy)
 
+     # Donnéés traitées pour construire graph 2
+    df_comparaison_94['Part de service fermé'] = df_comparaison_94['Part de service fermé'].round(1)
 
-  # Donnéés traitées pour construire graph 2
-    
-    fig = px.bar(df_comparaison_94.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
-    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
-                        xaxis_title="",
-                        yaxis_title="Catégories",)
+    fig = px.bar(df_comparaison_94.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+                 custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
+
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+                          margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                            yaxis_title="",
+                            xaxis_title="Nombre de services",
+                            legend_title="Statut",)
+    fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
     st.plotly_chart(fig, use_container_width=True)
 
 
@@ -1186,14 +1249,19 @@ if categorie == 'Val-d\'Oise (95)':
     #Affichage de la carte
     folium_static(mappy)
 
-
-  # Donnéés traitées pour construire graph 2
     
-    fig = px.bar(df_comparaison_95.head(10), x='Part de service fermé', y='catégorie', orientation='h', hover_data=["Nbre_de_services", "Service fermé"], color_discrete_sequence=['#2896A0'])
-    fig.update_layout(title="<b>Taux de fermetures des principaux services</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
-                        xaxis_title="",
-                        yaxis_title="Catégories",)
+     # Donnéés traitées pour construire graph 2
+    df_comparaison_95['Part de service fermé'] = df_comparaison_95['Part de service fermé'].round(1)
+
+    fig = px.bar(df_comparaison_95.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+                 custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
+
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+                          margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
+                            yaxis_title="",
+                            xaxis_title="Nombre de services",
+                            legend_title="Statut",)
+    fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
     st.plotly_chart(fig, use_container_width=True)
 
 
