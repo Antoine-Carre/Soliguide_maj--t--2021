@@ -189,12 +189,9 @@ if categorie == 'France':
     
     fig = px.pie(values=res_france.status, names=res_france.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(
-        title="Qui actualisent les données estivales ?",
-        font=dict(
-            size=18,
-        ))
-    
+    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
+
     st.plotly_chart(fig, use_container_width=True)
 
     
