@@ -279,6 +279,16 @@ if categorie == 'Ile-De-France':
 
     st.plotly_chart(fig, use_container_width=True)
 
+    # Donnéés traitées pour construire graph 4
+    
+    res_IDF.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    
+    fig = px.pie(values=res_IDF.status, names=res_IDF.index, color_discrete_sequence=['palevioletred'])
+    fig.update_traces(textinfo="percent+label")
+    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
+
+    st.plotly_chart(fig, use_container_width=True)
 
 #######################
 ##  ALPES MARITIMES  ##
@@ -337,6 +347,17 @@ if categorie == 'Alpes-Maritimes (06)':
                         legend_title="Services",                     
                         xaxis_title="",
                         yaxis_title="",)
+
+    st.plotly_chart(fig, use_container_width=True)
+    
+    # Donnéés traitées pour construire graph 4
+    
+    res_06.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    
+    fig = px.pie(values=res_06.status, names=res_06.index, color_discrete_sequence=['palevioletred'])
+    fig.update_traces(textinfo="percent+label")
+    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
 
@@ -413,7 +434,17 @@ if categorie == 'Gironde (33)':
                         yaxis_title="",)
 
     st.plotly_chart(fig, use_container_width=True)
+    
+    # Donnéés traitées pour construire graph 4
+    
+    res_33.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    
+    fig = px.pie(values=res_33.status, names=res_33.index, color_discrete_sequence=['palevioletred'])
+    fig.update_traces(textinfo="percent+label")
+    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
+    st.plotly_chart(fig, use_container_width=True)
 
 
 ########################
@@ -478,7 +509,16 @@ if categorie == 'Loire-Atlantique (44)':
 
     st.plotly_chart(fig, use_container_width=True)
 
+    # Donnéés traitées pour construire graph 4
+    
+    res_44.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    
+    fig = px.pie(values=res_44.status, names=res_44.index, color_discrete_sequence=['palevioletred'])
+    fig.update_traces(textinfo="percent+label")
+    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
+    st.plotly_chart(fig, use_container_width=True)
 
 ################
 ##  BAS-RHIN  ##
@@ -542,7 +582,16 @@ if categorie == 'Bas-Rhin (67)':
 
     st.plotly_chart(fig, use_container_width=True)
 
+    # Donnéés traitées pour construire graph 4
+    
+    res_67.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    
+    fig = px.pie(values=res_67.status, names=res_67.index, color_discrete_sequence=['palevioletred'])
+    fig.update_traces(textinfo="percent+label")
+    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
+    st.plotly_chart(fig, use_container_width=True)
 
 ################
 ##  PARIS  ##
@@ -606,6 +655,17 @@ if categorie == 'Paris (75)':
 
     st.plotly_chart(fig, use_container_width=True)
 
+    
+    # Donnéés traitées pour construire graph 4
+    
+    res_75.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    
+    fig = px.pie(values=res_75.status, names=res_75.index, color_discrete_sequence=['palevioletred'])
+    fig.update_traces(textinfo="percent+label")
+    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
+
+    st.plotly_chart(fig, use_container_width=True)
 
 
 ######################
@@ -670,7 +730,16 @@ if categorie == 'Seine-et-Marne (77)':
 
     st.plotly_chart(fig, use_container_width=True)
 
+       
+    # Donnéés traitées pour construire graph 3
+    res_77.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    
+    fig = px.pie(values=res_77.status, names=res_77.index, color_discrete_sequence=['palevioletred'])
+    fig.update_traces(textinfo="percent+label")
+    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
+    st.plotly_chart(fig, use_container_width=True)
 
 ################
 ##  YVELINES  ##
@@ -734,7 +803,16 @@ if categorie == 'Yvelines (78)':
                         yaxis_title="",)
 
     st.plotly_chart(fig, use_container_width=True)
+       
+    # Donnéés traitées pour construire graph 4
+    res_78.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    
+    fig = px.pie(values=res_78.status, names=res_78.index, color_discrete_sequence=['palevioletred'])
+    fig.update_traces(textinfo="percent+label")
+    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
+    st.plotly_chart(fig, use_container_width=True)
 
 
 ################
@@ -799,7 +877,16 @@ if categorie == 'Essonne (91)':
 
     st.plotly_chart(fig, use_container_width=True)
 
+       
+    # Donnéés traitées pour construire graph 4
+    res_91.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    
+    fig = px.pie(values=res_91.status, names=res_91.index, color_discrete_sequence=['palevioletred'])
+    fig.update_traces(textinfo="percent+label")
+    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
+    st.plotly_chart(fig, use_container_width=True)
 
 ######################
 ##  HAUTS-DE-SEINE  ##
@@ -863,7 +950,15 @@ if categorie == 'Hauts-de-Seine (92)':
 
     st.plotly_chart(fig, use_container_width=True)
 
+    # Donnéés traitées pour construire graph 4
+    res_92.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    
+    fig = px.pie(values=res_92.status, names=res_92.index, color_discrete_sequence=['palevioletred'])
+    fig.update_traces(textinfo="percent+label")
+    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
+    st.plotly_chart(fig, use_container_width=True)
 
 #########################
 ##  SEINE-SAINT-DENIS  ##
@@ -927,6 +1022,15 @@ if categorie == 'Seine-Saint-Denis (93)':
 
     st.plotly_chart(fig, use_container_width=True)
 
+    # Donnéés traitées pour construire graph 4
+    res_93.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    
+    fig = px.pie(values=res_93.status, names=res_93.index, color_discrete_sequence=['palevioletred'])
+    fig.update_traces(textinfo="percent+label")
+    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
+
+    st.plotly_chart(fig, use_container_width=True)
 
 
 ####################
@@ -992,7 +1096,15 @@ if categorie == 'Val-de-Marne (94)':
 
     st.plotly_chart(fig, use_container_width=True)
 
+    # Donnéés traitées pour construire graph 4
+    res_94.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    
+    fig = px.pie(values=res_94.status, names=res_94.index, color_discrete_sequence=['palevioletred'])
+    fig.update_traces(textinfo="percent+label")
+    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
+    st.plotly_chart(fig, use_container_width=True)
 
 ####################
 ##  VAL-D'OISE  ##
@@ -1057,3 +1169,14 @@ if categorie == 'Val-d\'Oise (95)':
 
     st.plotly_chart(fig, use_container_width=True)
 
+
+    # Donnéés traitées pour construire graph 4
+    res_95.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    
+    fig = px.pie(values=res_95.status, names=res_95.index, color_discrete_sequence=['palevioletred'])
+    fig.update_traces(textinfo="percent+label")
+    fig.update_layout(title="<b>ui actualisent les données estivales ?</b>",
+                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
+
+    st.plotly_chart(fig, use_container_width=True)
+    
