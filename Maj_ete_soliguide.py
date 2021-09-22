@@ -191,6 +191,7 @@ if categorie == 'France':
         font=dict(
             size=18,
         ))
+    
     st.plotly_chart(fig, use_container_width=True)
 
     
