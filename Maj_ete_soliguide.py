@@ -94,6 +94,21 @@ df_stacked_per_93 = pd.read_csv('ressources/Fig3_93.csv')
 df_stacked_per_94 = pd.read_csv('ressources/Fig3_94.csv')
 df_stacked_per_95 = pd.read_csv('ressources/Fig3_95.csv')
 
+# Données pour le pie chart:
+res_france = pd.read_csv('ressources/Fig4.csv')
+res_IDF = pd.read_csv('ressources/Fig4_IDF.csv')
+res_06 = pd.read_csv('ressources/Fig4_06.csv')
+res_33 = pd.read_csv('ressources/Fig4_33.csv')
+res_44 = pd.read_csv('ressources/Fig4_44.csv')
+res_67 = pd.read_csv('ressources/Fig4_67.csv')
+res_75 = pd.read_csv('ressources/Fig4_75.csv')
+res_77 = pd.read_csv('ressources/Fig4_77.csv')
+res_78 = pd.read_csv('ressources/Fig4_78.csv')
+res_91 = pd.read_csv('ressources/Fig4_91.csv')
+res_92 = pd.read_csv('ressources/Fig4_92.csv')
+res_93 = pd.read_csv('ressources/Fig4_93.csv')
+res_94 = pd.read_csv('ressources/Fig4_94.csv')
+res_95 = pd.read_csv('ressources/Fig4_95.csv')
 
 ###############
 ##  FRANCE   ##
@@ -167,7 +182,18 @@ if categorie == 'France':
 
     st.plotly_chart(fig, use_container_width=True)
 
+    
+    # Donnéés traitées pour construire graph 4
+    fig = px.pie(values=res.status, names=res_france.index, color_discrete_sequence=['palevioletred'])
+    fig.update_traces(textinfo="percent+label")
+    fig.update_layout(
+        title="Qui actualisent les données estivales ?",
+        font=dict(
+            size=18,
+        ))
+    st.plotly_chart(fig, use_container_width=True)
 
+    
     st.markdown(html_string, unsafe_allow_html=True)
 
     st.markdown(
