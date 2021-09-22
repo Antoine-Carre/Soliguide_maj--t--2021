@@ -267,9 +267,8 @@ if categorie == 'Alpes-Maritimes (06)':
 
     st.markdown(
         """
-
-        Durant l'été 2021, sur les **_8 727 structures_** accompagnées par Solinum, **_3 645 ont 
-        fermé_** et **_486 ont changé leurs horaires_**.
+        Durant l'été 2021, sur les **_576 structures_** accompagnées par Solinum, **_208 ont 
+        fermé_** et **_2 ont changé leurs horaires_**.
         """
     )
     # Filtrage pour ne garder que les données de la région
