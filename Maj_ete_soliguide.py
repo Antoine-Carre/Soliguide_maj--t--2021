@@ -560,6 +560,18 @@ if categorie == 'Loire-Atlantique (44)':
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
+    
+    
+    st.markdown("<h3 style='text-align: center; color: #3E3A71;'>La mise à jour été en quelques chiffres</h3>", unsafe_allow_html=True)
+
+
+    html_string = "<br>"
+
+    st.markdown(html_string, unsafe_allow_html=True)
+
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>767 &emsp;&emsp;&emsp; 95 &emsp;&emsp;&emsp;&ensp; 8 899</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherchés réalisées sur Soliguide<br> <br></font>"
+
+    st.markdown(html_string, unsafe_allow_html=True)
 
 ################
 ##  BAS-RHIN  ##
@@ -637,7 +649,18 @@ if categorie == 'Bas-Rhin (67)':
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
+    
+    st.markdown("<h3 style='text-align: center; color: #3E3A71;'>La mise à jour été en quelques chiffres</h3>", unsafe_allow_html=True)
 
+
+    html_string = "<br>"
+
+    st.markdown(html_string, unsafe_allow_html=True)
+
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>245 &emsp;&emsp;&emsp; 56 &emsp;&emsp;&emsp;&ensp; 11 501</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherchés réalisées sur Soliguide<br> <br></font>"
+
+    st.markdown(html_string, unsafe_allow_html=True)
+    
 ################
 ##  PARIS  ##
 ################
