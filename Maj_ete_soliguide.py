@@ -379,12 +379,6 @@ if categorie == 'Alpes-Maritimes (06)':
 
     html_string = "<h2>2 229 mails envoyés et au moins 840 appels réalisés</h2>"
 
-    st.markdown(html_string, unsafe_allow_html=True)
-
-    html_string = "<h2>94 065 recherches ont été effectuées sur soliguide cette été</h2>"
-
-    st.markdown(html_string, unsafe_allow_html=True)
-
     st.markdown("<h3 style='text-align: center; color: #3E3A71;'>La mise à jour été en quelques chiffres</h3>", unsafe_allow_html=True)
 
 
