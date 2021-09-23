@@ -115,20 +115,17 @@ res_95 = pd.read_csv('ressources/Fig4_95.csv')
 ###############
 
 if categorie == 'France':
-    st.title('Soliguide - Mise à jour été 2021')
-    st.subheader("100% de la base de données mise à jour pour l'été")
+    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été</h2>", unsafe_allow_html=True)
+
 
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    st.markdown(
-        """
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>11 678 &emsp;&emsp;&emsp; 6 228 &emsp;&emsp;&emsp;&ensp; 709</font><br/><font size='2'>structures accompagnées cette été &emsp;&emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
 
-        Durant l'été 2021, sur les **_11678 structures_** accompagnées par Solinum, **_6 228 ont fermé_** et **_709 ont changé leurs horaires_**.
-
-        """
-    )
+    st.markdown(html_string, unsafe_allow_html=True)
 
     # Création de la carte avec pour centre : le centre d ela France
     mappy = folium.Map(location=[46.227638, 2.213749],zoom_start=5.8)
@@ -220,21 +217,17 @@ if categorie == 'France':
 ###############
 
 if categorie == 'Ile-De-France':
-    st.title('Soliguide - Mise à jour été 2021 - Ile-de-France')
-    st.subheader("100% de la base de données mise à jour pour l'été")
+    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Île-de-France</h2>", unsafe_allow_html=True)
+
 
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    st.markdown(
-        """
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>8 727 &emsp;&emsp;&emsp; 3 645 &emsp;&emsp;&emsp;&ensp; 486</font><br/><font size='2'>&emsp;structures accompagnées cette été &emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
 
-        Durant l'été 2021, sur les **_8 727 structures_** accompagnées par Solinum, **_3 645 ont 
-        fermé_** et **_486 ont changé leurs horaires_**.
-        """
-    )
-   
+    st.markdown(html_string, unsafe_allow_html=True)
  
     # Création de la carte avec pour centre : le centre d ela France
     mappy = folium.Map(location=[df_fiches_IDF.latitude[0], df_fiches_IDF.longitude[0]],zoom_start=8.5)
@@ -311,20 +304,17 @@ if categorie == 'Ile-De-France':
 #######################
 
 if categorie == 'Alpes-Maritimes (06)':
-    st.title('Soliguide - Mise à jour été 2021 - Alpes-Maritimes')
-    st.subheader("100% de la base de données mise à jour pour l'été")
+    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Alpes-Maritimes</h2>", unsafe_allow_html=True)
+
 
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    st.markdown(
-        """
-        Durant l'été 2021, sur les **_576 structures_** accompagnées par Solinum, **_208 ont 
-        fermé_** et **_2 ont changé leurs horaires_**.
-        """
-    )
-    # Filtrage pour ne garder que les données de la région
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>576 &emsp;&emsp;&emsp;&ensp;&ensp; 208 &emsp;&emsp;&emsp;&emsp;&ensp; 2</font><br/><font size='2'>&emsp;structures accompagnées cette été &emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
+
+    st.markdown(html_string, unsafe_allow_html=True)
 
     # Création de la carte avec pour centre : le centre d ela France
     mappy = folium.Map(location=[df_fiches_06.latitude[0], df_fiches_06.longitude[0]],zoom_start=8.5)
@@ -402,21 +392,18 @@ if categorie == 'Alpes-Maritimes (06)':
 ###############
 
 if categorie == 'Gironde (33)':
-    st.title('Soliguide - Mise à jour été 2021 - Gironde')
-    st.subheader("100% de la base de données mise à jour pour l'été")
+   st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Gironde</h2>", unsafe_allow_html=True)
+
 
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    st.markdown(
-        """
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>972 &emsp;&emsp;&emsp;&emsp;&emsp; 583 &emsp;&emsp;&emsp;&emsp;&ensp; 104</font><br/><font size='2'>&emsp;structures accompagnées cette été &emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
 
-        Durant l'été 2021, sur les **_972 structures_** accompagnées par Solinum, **_583 ont 
-        fermé_** et **_104 ont changé leurs horaires_**.
-        """
-    )
-   
+    st.markdown(html_string, unsafe_allow_html=True)
+ 
  
     # Création de la carte avec pour centre : le centre d ela France
     mappy = folium.Map(location=[df_fiches_33.latitude[0], df_fiches_33.longitude[0]],zoom_start=8.5)
@@ -484,22 +471,18 @@ if categorie == 'Gironde (33)':
 ########################
 
 if categorie == 'Loire-Atlantique (44)':
-    st.title('Soliguide - Mise à jour été 2021 - Loire-Atlantique')
-    st.subheader("100% de la base de données mise à jour pour l'été")
+    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Loire-Atlantique</h2>", unsafe_allow_html=True)
+
 
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    st.markdown(
-        """
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>982 &emsp;&emsp;&emsp;&emsp; 662 &emsp;&emsp;&emsp;&emsp;&ensp; 78</font><br/><font size='2'>&emsp;structures accompagnées cette été &emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
 
-        Durant l'été 2021, sur les **_982 structures_** accompagnées par Solinum, **_662 ont 
-        fermé_** et **_78 ont changé leurs horaires_**.
-        """
-    )
+    st.markdown(html_string, unsafe_allow_html=True)
    
- 
     # Création de la carte avec pour centre : le centre d ela France
     mappy = folium.Map(location=[df_fiches_44.latitude[0], df_fiches_44.longitude[0]],zoom_start=8.2)
 
@@ -564,21 +547,17 @@ if categorie == 'Loire-Atlantique (44)':
 ################
 
 if categorie == 'Bas-Rhin (67)':
-    st.title('Soliguide - Mise à jour été 2021 - Bas-Rhin')
-    st.subheader("100% de la base de données mise à jour pour l'été")
+    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Bas-Rhin</h2>", unsafe_allow_html=True)
+
 
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    st.markdown(
-        """
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>421 &emsp;&emsp;&emsp;&emsp; 179 &emsp;&emsp;&emsp;&emsp;&ensp; 39</font><br/><font size='2'>&emsp;structures accompagnées cette été &emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
 
-        Durant l'été 2021, sur les **_421 structures_** accompagnées par Solinum, **_179 ont 
-        fermé_** et **_39 ont changé leurs horaires_**.
-        """
-    )
-   
+    st.markdown(html_string, unsafe_allow_html=True)
  
     # Création de la carte avec pour centre : le centre d ela France
     mappy = folium.Map(location=[df_fiches_67.latitude[0], df_fiches_67.longitude[0]],zoom_start=8.5)
@@ -645,22 +624,18 @@ if categorie == 'Bas-Rhin (67)':
 ################
 
 if categorie == 'Paris (75)':
-    st.title('Soliguide - Mise à jour été 2021 - Paris')
-    st.subheader("100% de la base de données mise à jour pour l'été")
+    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Paris</h2>", unsafe_allow_html=True)
+
 
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    st.markdown(
-        """
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>2 624 &emsp;&emsp;&emsp; 1 076 &emsp;&emsp;&emsp;&ensp;&ensp;  74</font><br/><font size='2'>&emsp;structures accompagnées cette été &emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
 
-        Durant l'été 2021, sur les **_2 624 structures_** accompagnées par Solinum, **_1 076 ont 
-        fermé_** et **_74 ont changé leurs horaires_**.
-        """
-    )
-   
- 
+    st.markdown(html_string, unsafe_allow_html=True)
+  
     # Création de la carte avec pour centre : le centre d ela France
     mappy = folium.Map(location=[48.856614, 2.3522219],zoom_start=12.1)
 
@@ -728,22 +703,18 @@ if categorie == 'Paris (75)':
 ######################
 
 if categorie == 'Seine-et-Marne (77)':
-    st.title('Soliguide - Mise à jour été 2021 - Seine-et-Marne ')
-    st.subheader("100% de la base de données mise à jour pour l'été")
+    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Seine-et-Marne</h2>", unsafe_allow_html=True)
+
 
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    st.markdown(
-        """
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>414 &emsp;&emsp;&emsp;&emsp; 29 &emsp;&emsp;&emsp;&emsp;&emsp;  5</font><br/><font size='2'>&emsp;structures accompagnées cette été &emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
 
-        Durant l'été 2021, sur les **_414 structures_** accompagnées par Solinum, **_29 ont 
-        fermé_** et **_5 ont changé leurs horaires_**.
-        """
-    )
+    st.markdown(html_string, unsafe_allow_html=True)
    
- 
     # Création de la carte avec pour centre : le centre d ela France
     mappy = folium.Map(location=[df_fiches_77.latitude[0], df_fiches_77.longitude[0]],zoom_start=8.2)
 
@@ -809,21 +780,17 @@ if categorie == 'Seine-et-Marne (77)':
 ################
 
 if categorie == 'Yvelines (78)':
-    st.title('Soliguide - Mise à jour été 2021 - Yvelines ')
-    st.subheader("100% de la base de données mise à jour pour l'été")
+    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Yvelines</h2>", unsafe_allow_html=True)
+
 
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    st.markdown(
-        """
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>1 008 &emsp;&emsp;&emsp;&emsp; 724 &emsp;&emsp;&emsp;&emsp;&ensp;  42</font><br/><font size='2'>&emsp;structures accompagnées cette été &emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
 
-        Durant l'été 2021, sur les **_1008 structures_** accompagnées par Solinum, **_724 ont 
-        fermé_** et **_42 ont changé leurs horaires_**.
-        """
-    )
-   
+    st.markdown(html_string, unsafe_allow_html=True)
  
     # Création de la carte avec pour centre : le centre d ela France
     mappy = folium.Map(location=[df_fiches_78.latitude[0], df_fiches_78.longitude[0]],zoom_start=8.5)
@@ -891,21 +858,17 @@ if categorie == 'Yvelines (78)':
 ################
 
 if categorie == 'Essonne (91)':
-    st.title('Soliguide - Mise à jour été 2021 - Essonne')
-    st.subheader("100% de la base de données mise à jour pour l'été")
+    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Essonne</h2>", unsafe_allow_html=True)
+
 
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    st.markdown(
-        """
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>482 &emsp;&emsp;&emsp;&emsp;&ensp; 89 &emsp;&emsp;&emsp;&emsp;&emsp; 24</font><br/><font size='2'>&emsp;structures accompagnées cette été &emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
 
-        Durant l'été 2021, sur les **_482 structures_** accompagnées par Solinum, **_89 ont 
-        fermé_** et **_24 ont changé leurs horaires_**.
-        """
-    )
-   
+    st.markdown(html_string, unsafe_allow_html=True)
  
     # Création de la carte avec pour centre : le centre d ela France
     mappy = folium.Map(location=[df_fiches_91.latitude[0], df_fiches_91.longitude[0]],zoom_start=9.5)
@@ -972,21 +935,22 @@ if categorie == 'Essonne (91)':
 ######################
 
 if categorie == 'Hauts-de-Seine (92)':
-    st.title('Soliguide - Mise à jour été 2021 - Hauts-de-Seine')
-    st.subheader("100% de la base de données mise à jour pour l'été")
+    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Hauts-de-Seine</h2>", unsafe_allow_html=True)
+
 
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    st.markdown(
-        """
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>1 365 &emsp;&emsp;&emsp;&emsp; 883 &emsp;&emsp;&emsp;&emsp;  54</font><br/><font size='2'>&emsp;structures accompagnées cette été &emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
 
-        Durant l'été 2021, sur les **_1 365 structures_** accompagnées par Solinum, **_883 ont 
-        fermé_** et **_54 ont changé leurs horaires_**.
-        """
-    )
+    st.markdown(html_string, unsafe_allow_html=True)
    
+    # Création de la carte avec pour centre : le centre d ela France
+    mappy = folium.Map(location=[48.828508, 2.2188068],zoom_start=11)
+
+    marker_cluster = MarkerCluster().add_to(mappy)
  
     # Création de la carte avec pour centre : le centre d ela France
     mappy = folium.Map(location=[48.828508, 2.2188068],zoom_start=11)
@@ -1052,22 +1016,18 @@ if categorie == 'Hauts-de-Seine (92)':
 #########################
 
 if categorie == 'Seine-Saint-Denis (93)':
-    st.title('Soliguide - Mise à jour été 2021 - Seine-Saint-Denis')
-    st.subheader("100% de la base de données mise à jour pour l'été")
+    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Seine-Saint-Denis</h2>", unsafe_allow_html=True)
+
 
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    st.markdown(
-        """
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>1 035 &emsp;&emsp;&emsp;&emsp; 645 &emsp;&emsp;&emsp;&emsp;  78</font><br/><font size='2'>&emsp;structures accompagnées cette été &emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
 
-        Durant l'été 2021, sur les **_1 035 structures_** accompagnées par Solinum, **_645 ont 
-        fermé_** et **_78 ont changé leurs horaires_**.
-        """
-    )
-   
- 
+    st.markdown(html_string, unsafe_allow_html=True)
+
     # Création de la carte avec pour centre : le centre d ela France
     mappy = folium.Map(location=[df_fiches_93.latitude[0], df_fiches_93.longitude[0]],zoom_start=11)
 
@@ -1133,22 +1093,18 @@ if categorie == 'Seine-Saint-Denis (93)':
 ####################
 
 if categorie == 'Val-de-Marne (94)':
-    st.title('Soliguide - Mise à jour été 2021 - Val-de-Marne')
-    st.subheader("100% de la base de données mise à jour pour l'été")
+    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Val-de-Marne</h2>", unsafe_allow_html=True)
+
 
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    st.markdown(
-        """
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>599 &emsp;&emsp;&emsp;&emsp; 343 &emsp;&emsp;&emsp;&emsp;&ensp; 18</font><br/><font size='2'>&emsp;structures accompagnées cette été &emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
 
-        Durant l'été 2021, sur les **_599 structures_** accompagnées par Solinum, **_343 ont 
-        fermé_** et **_18 ont changé leurs horaires_**.
-        """
-    )
+    st.markdown(html_string, unsafe_allow_html=True)
    
- 
     # Création de la carte avec pour centre : le centre d ela France
     mappy = folium.Map(location=[df_fiches_94.latitude[0], df_fiches_94.longitude[0]],zoom_start=11)
 
@@ -1213,22 +1169,18 @@ if categorie == 'Val-de-Marne (94)':
 ####################
 
 if categorie == 'Val-d\'Oise (95)':
-    st.title('Soliguide - Mise à jour été 2021 - Val-d\'Oise')
-    st.subheader("100% de la base de données mise à jour pour l'été")
+    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Val-d'Oise</h2>", unsafe_allow_html=True)
+
 
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    st.markdown(
-        """
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>1 052 &emsp;&emsp;&emsp;&emsp; 676 &emsp;&emsp;&emsp;&ensp;&ensp;  183</font><br/><font size='2'>&emsp;structures accompagnées cette été &emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
 
-        Durant l'été 2021, sur les **_1 052 structures_** accompagnées par Solinum, **_676 ont 
-        fermé_** et **_183 ont changé leurs horaires_**.
-        """
-    )
-   
- 
+    st.markdown(html_string, unsafe_allow_html=True)
+
     # Création de la carte avec pour centre 
     mappy = folium.Map(location=[df_fiches_95.latitude[0], df_fiches_95.longitude[0]],zoom_start=9.5)
 
