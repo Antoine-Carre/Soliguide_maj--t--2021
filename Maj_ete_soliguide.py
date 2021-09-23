@@ -200,15 +200,17 @@ if categorie == 'France':
     st.plotly_chart(fig, use_container_width=True)
 
     
+
+    st.markdown("<h3 style='text-align: center; color: #3E3A71;'>La mise à jour été en quelques chiffres</h3>", unsafe_allow_html=True)
+
+
+    html_string = "<br>"
+
     st.markdown(html_string, unsafe_allow_html=True)
 
-    st.markdown(
-        """
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>2 229 &emsp;&emsp;&emsp; 840 &emsp;&emsp;&emsp;&ensp; 153 236</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherchés réalisées sur Soliguide<br> <br></font>"
 
-        **_94 065 recherches_** ont été effectuées sur Soliguide cette été.
 
-        """
-    )
 
 
 
