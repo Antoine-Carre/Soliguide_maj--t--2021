@@ -392,8 +392,8 @@ if categorie == 'Alpes-Maritimes (06)':
 ###############
 
 if categorie == 'Gironde (33)':
-   st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
-   st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Gironde</h2>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Gironde</h2>", unsafe_allow_html=True)
 
 
     html_string = "<br>"
