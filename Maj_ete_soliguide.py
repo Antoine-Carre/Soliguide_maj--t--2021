@@ -396,8 +396,6 @@ if categorie == 'Alpes-Maritimes (06)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-
-
     
 ###############
 ##  GIRONDE  ##
@@ -476,7 +474,16 @@ if categorie == 'Gironde (33)':
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
+    
+    st.markdown("<h3 style='text-align: center; color: #3E3A71;'>La mise à jour été en quelques chiffres</h3>", unsafe_allow_html=True)
 
+    html_string = "<br>"
+
+    st.markdown(html_string, unsafe_allow_html=True)
+
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>597 &emsp;&emsp;&emsp; 268 &emsp;&emsp;&emsp;&ensp; 12 787</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherchés réalisées sur Soliguide<br> <br></font>"
+
+    st.markdown(html_string, unsafe_allow_html=True)
 
 ########################
 ##  LOIRE ATLANTIQUE  ##
