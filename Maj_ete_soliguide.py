@@ -580,7 +580,7 @@ if categorie == 'Bas-Rhin (67)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>421 &emsp;&emsp;&emsp;&emsp; 179 &emsp;&emsp;&emsp;&emsp;&ensp; 39</font><br/><font size='2'>&emsp;&emsp;&emsp;&emsp; structures &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>421 &emsp;&emsp;&emsp;&emsp; 179 &emsp;&emsp;&emsp;&emsp;&ensp; 39</font><br/><font size='2'>&emsp;&emsp;&emsp; structures &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
 
     st.markdown(html_string, unsafe_allow_html=True)
  
@@ -668,7 +668,7 @@ if categorie == 'Paris (75)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>2 624 &emsp;&emsp;&emsp; 1 076 &emsp;&emsp;&emsp;&ensp;&ensp;  74</font><br/><font size='2'>&emsp;&emsp;&emsp;&emsp; structures &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>2 624 &emsp;&emsp;&emsp; 1 076 &emsp;&emsp;&emsp;&ensp;&ensp;  74</font><br/><font size='2'>&emsp;&emsp;&emsp;&emsp;&emsp; structures &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
 
     st.markdown(html_string, unsafe_allow_html=True)
   
@@ -757,7 +757,7 @@ if categorie == 'Seine-et-Marne (77)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>414 &emsp;&emsp;&emsp;&emsp; 29 &emsp;&emsp;&emsp;&emsp;&emsp;  5</font><br/><font size='2'>&emsp;&emsp;&emsp;&emsp; structures &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>414 &emsp;&emsp;&emsp;&emsp; 29 &emsp;&emsp;&emsp;&emsp;&emsp;  5</font><br/><font size='2'>&emsp;&emsp;&emsp;&emsp;&emsp; structures &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
 
     st.markdown(html_string, unsafe_allow_html=True)
    
@@ -846,7 +846,7 @@ if categorie == 'Yvelines (78)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>1 008 &emsp;&emsp;&emsp;&emsp; 724 &emsp;&emsp;&emsp;&emsp;&ensp;  42</font><br/><font size='2'>&emsp;&emsp;&emsp;&emsp; structures &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>1 008 &emsp;&emsp;&emsp;&emsp; 724 &emsp;&emsp;&emsp;&emsp;&ensp;  42</font><br/><font size='2'>&emsp;&emsp;&emsp;&emsp;&emsp; structures &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
 
     st.markdown(html_string, unsafe_allow_html=True)
  
