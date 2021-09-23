@@ -161,17 +161,6 @@ if categorie == 'France':
     fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
     st.plotly_chart(fig, use_container_width=True)
 
-    st.markdown(html_string, unsafe_allow_html=True)
-
-    st.markdown(
-        """
-
-        **_2 229 mails_** envoyés et au moins **_840 appels réalisés_**.
-
-        """
-    )
-
-    
     
     # Donnéés traitées pour construire graph 3
 
