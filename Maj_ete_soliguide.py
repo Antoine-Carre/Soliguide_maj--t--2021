@@ -392,7 +392,7 @@ if categorie == 'Alpes-Maritimes (06)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>418 &emsp;&emsp;&emsp;  &emsp;&emsp;&emsp;&ensp; 4120</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherchés réalisées sur Soliguide<br> <br></font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>418 &emsp;&emsp;&emsp;  &emsp;&emsp;&emsp;&ensp; 4120</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp;  &emsp;&emsp;&emsp;&emsp; recherchés réalisées sur Soliguide<br> <br></font>"
 
     st.markdown(html_string, unsafe_allow_html=True)
 
