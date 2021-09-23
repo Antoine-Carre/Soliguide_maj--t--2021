@@ -1117,7 +1117,7 @@ if categorie == 'Seine-Saint-Denis (93)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>1 035 &emsp;&emsp;&emsp;&emsp; 645 &emsp;&emsp;&emsp;&emsp;  78</font><br/><font size='2'>&emsp;structures accompagnées cette été &emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>1 035 &emsp;&emsp;&emsp;&emsp; 645 &emsp;&emsp;&emsp;&emsp;  78</font><br/><font size='2'>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
 
     st.markdown(html_string, unsafe_allow_html=True)
 
@@ -1203,7 +1203,7 @@ if categorie == 'Val-de-Marne (94)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>599 &emsp;&emsp;&emsp;&emsp; 343 &emsp;&emsp;&emsp;&emsp;&ensp; 18</font><br/><font size='2'>&emsp;structures accompagnées cette été &emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>599 &emsp;&emsp;&emsp;&emsp; 343 &emsp;&emsp;&emsp;&emsp;&ensp; 18</font><br/><font size='2'> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
 
     st.markdown(html_string, unsafe_allow_html=True)
    
@@ -1290,7 +1290,7 @@ if categorie == 'Val-d\'Oise (95)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>1 052 &emsp;&emsp;&emsp;&emsp; 676 &emsp;&emsp;&emsp;&ensp;&ensp;  183</font><br/><font size='2'>&emsp;structures accompagnées cette été &emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>1 052 &emsp;&emsp;&emsp;&emsp; 676 &emsp;&emsp;&emsp;&ensp;&ensp;  183</font><br/><font size='2'> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
 
     st.markdown(html_string, unsafe_allow_html=True)
 
