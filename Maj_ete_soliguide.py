@@ -936,7 +936,7 @@ if categorie == 'Essonne (91)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>482 &emsp;&emsp;&emsp;&emsp; 89 &emsp;&emsp;&emsp;&emsp;&ensp;  24</font><br/><font size='2'>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>482 &emsp;&emsp;&emsp;&emsp; 89 &emsp;&emsp;&emsp;&emsp;&ensp;  24</font><br/><font size='2'>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
 
     st.markdown(html_string, unsafe_allow_html=True)
  
