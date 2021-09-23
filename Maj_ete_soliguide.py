@@ -123,7 +123,7 @@ if categorie == 'France':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>11 678 &emsp;&emsp;&emsp; 6 228 &emsp;&emsp;&emsp;&ensp; 709</font><br/><font size='2'> &emsp;&emsp;&emsp;&emsp; structures &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>11 678 &emsp;&emsp;&emsp; 6 228 &emsp;&emsp;&emsp;&ensp; 709</font><br/><font size='2'> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
 
     st.markdown(html_string, unsafe_allow_html=True)
 
