@@ -1025,7 +1025,7 @@ if categorie == 'Hauts-de-Seine (92)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>1 365 &emsp;&emsp;&emsp;&emsp; 883 &emsp;&emsp;&emsp;&emsp;  54</font><br/><font size='2'>&emsp;structures accompagnées cette été &emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>1 365 &emsp;&emsp;&emsp;&emsp; 883 &emsp;&emsp;&emsp;&emsp;  54</font><br/><font size='2'>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
 
     st.markdown(html_string, unsafe_allow_html=True)
    
