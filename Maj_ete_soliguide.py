@@ -566,7 +566,7 @@ if categorie == 'Loire-Atlantique (44)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>767 &emsp;&emsp;&emsp;&ensp; 95 &emsp;&emsp;&emsp;&ensp; 8 899</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br> <br></font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>767 &emsp;&emsp;&emsp;&ensp; 95 &emsp;&emsp;&emsp;&ensp; 8 899</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(du 1<sup>er</sup> Juillet au 31 août)</font>"
 
     st.markdown(html_string, unsafe_allow_html=True)
 
@@ -654,7 +654,7 @@ if categorie == 'Bas-Rhin (67)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>245 &emsp;&emsp;&emsp;&ensp; 56 &emsp;&emsp;&emsp;&ensp; 11 501</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br> <br></font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>245 &emsp;&emsp;&emsp;&ensp; 56 &emsp;&emsp;&emsp;&ensp; 11 501</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(du 1<sup>er</sup> Juillet au 31 août)</font>"
 
     st.markdown(html_string, unsafe_allow_html=True)
     
@@ -743,7 +743,7 @@ if categorie == 'Paris (75)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>1 259 &emsp;&emsp;&emsp;&ensp; 81 &emsp;&emsp;&emsp;&ensp; 67 561</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br> <br></font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>1 259 &emsp;&emsp;&emsp;&ensp; 81 &emsp;&emsp;&emsp;&ensp; 67 561</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(du 1<sup>er</sup> Juillet au 31 août)</font>"
 
     st.markdown(html_string, unsafe_allow_html=True)
 
@@ -1103,7 +1103,7 @@ if categorie == 'Hauts-de-Seine (92)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>774 &emsp;&emsp;&emsp;&ensp; 138 &emsp;&emsp;&emsp;&ensp; 11 068</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br> <br></font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>774 &emsp;&emsp;&emsp;&ensp; 138 &emsp;&emsp;&emsp;&ensp; 11 068</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(du 1<sup>er</sup> Juillet au 31 août)</font>"
 
     st.markdown(html_string, unsafe_allow_html=True)
     
@@ -1276,7 +1276,7 @@ if categorie == 'Val-de-Marne (94)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>704 &emsp;&emsp;&emsp;&ensp; 110 &emsp;&emsp;&emsp;&ensp; 20 716</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br> <br></font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>704 &emsp;&emsp;&emsp;&ensp; 110 &emsp;&emsp;&emsp;&ensp; 20 716</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(du 1<sup>er</sup> Juillet au 31 août)</font>"
 
     st.markdown(html_string, unsafe_allow_html=True)
         
@@ -1365,7 +1365,7 @@ if categorie == 'Val-d\'Oise (95)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>145 &emsp;&emsp;&emsp;&ensp; 60 &emsp;&emsp;&emsp;&ensp; 7 632</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br> <br></font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>145 &emsp;&emsp;&emsp;&ensp; 60 &emsp;&emsp;&emsp;&ensp; 7 632</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(du 1<sup>er</sup> Juillet au 31 août)</font>"
 
     st.markdown(html_string, unsafe_allow_html=True)
             
