@@ -183,7 +183,7 @@ if categorie == 'France':
     
     fig = px.pie(values=res_france.status, names=res_france.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
@@ -287,7 +287,7 @@ if categorie == 'Ile-De-France':
     
     fig = px.pie(values=res_IDF.status, names=res_IDF.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
@@ -377,7 +377,7 @@ if categorie == 'Alpes-Maritimes (06)':
     
     fig = px.pie(values=res_06.status, names=res_06.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
@@ -467,7 +467,7 @@ if categorie == 'Gironde (33)':
     
     fig = px.pie(values=res_33.status, names=res_33.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
@@ -553,7 +553,7 @@ if categorie == 'Loire-Atlantique (44)':
     
     fig = px.pie(values=res_44.status, names=res_44.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
@@ -642,7 +642,7 @@ if categorie == 'Bas-Rhin (67)':
     
     fig = px.pie(values=res_67.status, names=res_67.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
@@ -731,7 +731,7 @@ if categorie == 'Paris (75)':
     
     fig = px.pie(values=res_75.status, names=res_75.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
@@ -819,7 +819,7 @@ if categorie == 'Seine-et-Marne (77)':
     
     fig = px.pie(values=res_77.status, names=res_77.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
@@ -908,7 +908,7 @@ if categorie == 'Yvelines (78)':
     
     fig = px.pie(values=res_78.status, names=res_78.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
@@ -998,7 +998,7 @@ if categorie == 'Essonne (91)':
     
     fig = px.pie(values=res_91.status, names=res_91.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
@@ -1091,7 +1091,7 @@ if categorie == 'Hauts-de-Seine (92)':
     
     fig = px.pie(values=res_92.status, names=res_92.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
@@ -1178,7 +1178,7 @@ if categorie == 'Seine-Saint-Denis (93)':
     
     fig = px.pie(values=res_93.status, names=res_93.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
@@ -1264,7 +1264,7 @@ if categorie == 'Val-de-Marne (94)':
     
     fig = px.pie(values=res_94.status, names=res_94.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
@@ -1353,7 +1353,7 @@ if categorie == 'Val-d\'Oise (95)':
     
     fig = px.pie(values=res_95.status, names=res_95.index, color_discrete_sequence=['palevioletred'])
     fig.update_traces(textinfo="percent+label")
-    fig.update_layout(title="<b>Qui actualisent les données estivales ?</b>",
+    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
