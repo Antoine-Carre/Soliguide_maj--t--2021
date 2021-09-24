@@ -173,7 +173,7 @@ if categorie == 'France':
                         legend_title="Status",                     
                         xaxis_title="",
                         yaxis_title="",)
-    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text:%}', textposition='inside') 
+    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text}%', textposition='inside') 
 
     st.plotly_chart(fig, use_container_width=True)
 
@@ -279,7 +279,7 @@ if categorie == 'Ile-De-France':
                         legend_title="Status",                     
                         xaxis_title="",
                         yaxis_title="",)
-    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text:%}', textposition='inside') 
+    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text}%', textposition='inside') 
 
     st.plotly_chart(fig, use_container_width=True)
 
@@ -370,7 +370,7 @@ if categorie == 'Alpes-Maritimes (06)':
                         legend_title="Status",                     
                         xaxis_title="",
                         yaxis_title="",)
-    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text:%.2f}', textposition='inside') 
+    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text}%', textposition='inside') 
 
     st.plotly_chart(fig, use_container_width=True)
     
@@ -460,7 +460,7 @@ if categorie == 'Gironde (33)':
                         legend_title="Status",                     
                         xaxis_title="",
                         yaxis_title="",)
-    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text:%}', textposition='inside') 
+    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text}%', textposition='inside') 
 
     st.plotly_chart(fig, use_container_width=True)
     
@@ -547,7 +547,7 @@ if categorie == 'Loire-Atlantique (44)':
                         legend_title="Status",                     
                         xaxis_title="",
                         yaxis_title="",)
-    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text:%}', textposition='inside') 
+    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text}%', textposition='inside') 
 
     st.plotly_chart(fig, use_container_width=True)
 
@@ -637,7 +637,7 @@ if categorie == 'Bas-Rhin (67)':
                         legend_title="Status",                     
                         xaxis_title="",
                         yaxis_title="",)
-    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text:%}', textposition='inside') 
+    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text}%', textposition='inside') 
 
     st.plotly_chart(fig, use_container_width=True)
 
@@ -726,7 +726,7 @@ if categorie == 'Paris (75)':
                         legend_title="Status",                     
                         xaxis_title="",
                         yaxis_title="",)
-    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text:%}', textposition='inside') 
+    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text}%', textposition='inside') 
 
     st.plotly_chart(fig, use_container_width=True)
 
@@ -816,7 +816,7 @@ if categorie == 'Seine-et-Marne (77)':
                         legend_title="Status",                     
                         xaxis_title="",
                         yaxis_title="",)
-    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text:%}', textposition='inside') 
+    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text}%', textposition='inside') 
 
     st.plotly_chart(fig, use_container_width=True)
 
@@ -907,7 +907,7 @@ if categorie == 'Yvelines (78)':
                         legend_title="Status",                     
                         xaxis_title="",
                         yaxis_title="",)
-    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text:%}', textposition='inside') 
+    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text}%', textposition='inside') 
 
     st.plotly_chart(fig, use_container_width=True)
        
@@ -997,7 +997,7 @@ if categorie == 'Essonne (91)':
                         legend_title="Status",                     
                         xaxis_title="",
                         yaxis_title="",)
-    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text:%}', textposition='inside') 
+    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text}%', textposition='inside') 
 
     st.plotly_chart(fig, use_container_width=True)
 
@@ -1092,7 +1092,7 @@ if categorie == 'Hauts-de-Seine (92)':
                         legend_title="Status",                     
                         xaxis_title="",
                         yaxis_title="",)
-    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text:%}', textposition='inside') 
+    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text}%', textposition='inside') 
 
     st.plotly_chart(fig, use_container_width=True)
 
@@ -1180,7 +1180,7 @@ if categorie == 'Seine-Saint-Denis (93)':
                         legend_title="Status",                     
                         xaxis_title="",
                         yaxis_title="",)
-    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text:%}', textposition='inside') 
+    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text}%', textposition='inside') 
 
     st.plotly_chart(fig, use_container_width=True)
 
@@ -1267,7 +1267,7 @@ if categorie == 'Val-de-Marne (94)':
                         legend_title="Status",                     
                         xaxis_title="",
                         yaxis_title="",)
-    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text:%}', textposition='inside') 
+    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text}%', textposition='inside') 
 
     st.plotly_chart(fig, use_container_width=True)
 
@@ -1356,7 +1356,7 @@ if categorie == 'Val-d\'Oise (95)':
                         legend_title="Status",                     
                         xaxis_title="",
                         yaxis_title="",)
-    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text:%}', textposition='inside') 
+    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text}%', textposition='inside') 
 
     st.plotly_chart(fig, use_container_width=True)
 
