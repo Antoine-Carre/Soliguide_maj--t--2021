@@ -370,7 +370,7 @@ if categorie == 'Alpes-Maritimes (06)':
                         legend_title="Status",                     
                         xaxis_title="",
                         yaxis_title="",)
-    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text:%}', textposition='inside') 
+    fig.update_traces(hovertemplate='Catégorie de service: %{x}<br> Proportion :%{customdata}%', texttemplate='%{text:%.2f}', textposition='inside') 
 
     st.plotly_chart(fig, use_container_width=True)
     
