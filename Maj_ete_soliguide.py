@@ -921,7 +921,7 @@ if categorie == 'Yvelines (78)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>677 &emsp;&emsp;&emsp; 331 &emsp;&emsp;&emsp;&ensp; 11 32</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(du 1<sup>er</sup> Juillet au 31 août)</font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>677 &emsp;&emsp;&emsp; 331 &emsp;&emsp;&emsp;&ensp; 11 321</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(du 1<sup>er</sup> Juillet au 31 août)</font>"
                                                                                                                                                    
     st.markdown(html_string, unsafe_allow_html=True)    
 
