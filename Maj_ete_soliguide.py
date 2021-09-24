@@ -197,7 +197,7 @@ if categorie == 'France':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>6 000 &emsp;&emsp;&emsp; 840 &emsp;&emsp;&emsp;&ensp; 287 960</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(du 1<sup>er</sup> Juillet au 31 août)</font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>6 000 &emsp;&emsp;&emsp; 5 678 &emsp;&emsp;&emsp;&ensp; 287 960</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(du 1<sup>er</sup> Juillet au 31 août)</font>"
                                                                                                                                                                 
 
     st.markdown(html_string, unsafe_allow_html=True)
@@ -299,7 +299,7 @@ if categorie == 'Ile-De-France':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>4 351 &emsp;&emsp;&emsp; 421 &emsp;&emsp;&emsp;&ensp; 155 264</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(du 1<sup>er</sup> Juillet au 31 août)</font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>4 351 &emsp;&emsp;&emsp; 4 376 &emsp;&emsp;&emsp;&ensp; 155 264</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(du 1<sup>er</sup> Juillet au 31 août)</font>"
                                                                                                                                                                 
 
     st.markdown(html_string, unsafe_allow_html=True)
@@ -388,7 +388,7 @@ if categorie == 'Alpes-Maritimes (06)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>418 &emsp;&emsp;&emsp;  &emsp;&emsp;&emsp;&ensp; 4 120</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp;  &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(du 1<sup>er</sup> Juillet au 31 août)</font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>418 &emsp;&emsp;&emsp; 158 &emsp;&emsp;&emsp;&ensp; 4 120</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp;  &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(du 1<sup>er</sup> Juillet au 31 août)</font>"
                                                                                                                                                                 
 
     st.markdown(html_string, unsafe_allow_html=True)
@@ -478,7 +478,7 @@ if categorie == 'Gironde (33)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>597 &emsp;&emsp;&emsp;&ensp; 268 &emsp;&emsp;&emsp;&ensp; 12 787</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(du 1<sup>er</sup> Juillet au 31 août)</font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>597 &emsp;&emsp;&emsp;&ensp; 375 &emsp;&emsp;&emsp;&ensp; 12 787</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(du 1<sup>er</sup> Juillet au 31 août)</font>"
 
     st.markdown(html_string, unsafe_allow_html=True)
 
@@ -566,7 +566,7 @@ if categorie == 'Loire-Atlantique (44)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>767 &emsp;&emsp;&emsp;&ensp; 95 &emsp;&emsp;&emsp;&ensp; 8 899</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(du 1<sup>er</sup> Juillet au 31 août)</font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>767 &emsp;&emsp;&emsp;&ensp; 215 &emsp;&emsp;&emsp;&ensp; 8 899</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(du 1<sup>er</sup> Juillet au 31 août)</font>"
 
     st.markdown(html_string, unsafe_allow_html=True)
 
@@ -654,7 +654,7 @@ if categorie == 'Bas-Rhin (67)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>245 &emsp;&emsp;&emsp;&ensp; 56 &emsp;&emsp;&emsp;&ensp; 11 501</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(du 1<sup>er</sup> Juillet au 31 août)</font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>245 &emsp;&emsp;&emsp;&ensp; 176 &emsp;&emsp;&emsp;&ensp; 11 501</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(du 1<sup>er</sup> Juillet au 31 août)</font>"
 
     st.markdown(html_string, unsafe_allow_html=True)
     
@@ -743,7 +743,7 @@ if categorie == 'Paris (75)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>1 259 &emsp;&emsp;&emsp;&ensp; 81 &emsp;&emsp;&emsp;&ensp; 67 561</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(du 1<sup>er</sup> Juillet au 31 août)</font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>1 259 &emsp;&emsp;&emsp;&ensp; 1 365 &emsp;&emsp;&emsp;&ensp; 67 561</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(du 1<sup>er</sup> Juillet au 31 août)</font>"
 
     st.markdown(html_string, unsafe_allow_html=True)
 
@@ -832,7 +832,7 @@ if categorie == 'Seine-et-Marne (77)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>11 &emsp;&emsp;&emsp;  &emsp;&emsp;&emsp;&ensp; 3 672</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp;  &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br> <br></font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>11 &emsp;&emsp;&emsp; 403 &emsp;&emsp;&emsp;&ensp; 3 672</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp;  &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br> <br></font>"
 
     st.markdown(html_string, unsafe_allow_html=True)    
     
@@ -922,7 +922,7 @@ if categorie == 'Yvelines (78)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>677 &emsp;&emsp;&emsp;  &emsp;&emsp;&emsp;&ensp; 11 321</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp;  &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br> <br></font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>677 &emsp;&emsp;&emsp; 331 &emsp;&emsp;&emsp;&ensp; 11 321</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp;  &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br> <br></font>"
 
     st.markdown(html_string, unsafe_allow_html=True)    
 
@@ -1011,7 +1011,7 @@ if categorie == 'Essonne (91)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>4 &emsp;&emsp;&emsp;  &emsp;&emsp;&emsp;&ensp; 3 499</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp;  &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br> <br></font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>4 &emsp;&emsp;&emsp; 478 &emsp;&emsp;&emsp;&ensp; 3 499</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp;  &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br> <br></font>"
 
     st.markdown(html_string, unsafe_allow_html=True)
     
@@ -1189,7 +1189,7 @@ if categorie == 'Seine-Saint-Denis (93)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>777 &emsp;&emsp;&emsp;&ensp; 32 &emsp;&emsp;&emsp;&ensp; 29 795</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br> <br></font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>777 &emsp;&emsp;&emsp;&ensp; 258 &emsp;&emsp;&emsp;&ensp; 29 795</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br> <br></font>"
 
     st.markdown(html_string, unsafe_allow_html=True)
     
@@ -1365,7 +1365,7 @@ if categorie == 'Val-d\'Oise (95)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>145 &emsp;&emsp;&emsp;&ensp; 60 &emsp;&emsp;&emsp;&ensp; 7 632</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(du 1<sup>er</sup> Juillet au 31 août)</font>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>145 &emsp;&emsp;&emsp;&ensp; 907 &emsp;&emsp;&emsp;&ensp; 7 632</font><br/><font size='2'>e-mails et relances envoyées &emsp;&emsp;&emsp;&emsp; appels effectués &emsp;&emsp;&emsp;&emsp; recherches réalisées sur Soliguide<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(du 1<sup>er</sup> Juillet au 31 août)</font>"
 
     st.markdown(html_string, unsafe_allow_html=True)
             
