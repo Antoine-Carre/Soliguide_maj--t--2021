@@ -1,0 +1,886 @@
+name,Fermeture_Estivale,colors,longitude,latitude
+AIDES,Ouvert,green,-0.557124,44.830541
+ALIFS,Fermé,red,-0.575016,44.834939
+ANPAA 33 - CSAPA Bordeaux,Ouvert,green,-0.5956346000000394,44.84381130000001
+AFL Bordeaux Nord,Ouvert,green,-0.546481500000027,44.8733716
+ASTI Bordeaux,Modification,orange,-0.5610417,44.8238983
+Bibliothèque Bacalan,Fermé,red,-0.5461534697722,44.8730804059259
+Bibliothèque La Bastide,Fermé,red,-0.542122327198918,44.8441809608696
+Bibliothèque Jardin Public,Fermé,red,-0.5768094999999676,44.8467515
+Bibliothèque Mériadeck,Fermé,red,-0.58667256654969,44.8352894031204
+Atelier Graphite,Fermé,red,-0.5634698000000071,44.8609137
+Alsace,Ouvert,green,-0.569112670370342,44.838454308662
+Annexe Caudéran,Ouvert,green,-0.615162608139202,44.8521232663924
+Bibliothèque Aubiers Est,Ouvert,green,-0.572855794265409,44.8737831801318
+Bibliothèque Aubiers Ouest,Ouvert,green,-0.573212400039588,44.873678947015
+Bibliothèque Bastide,Ouvert,green,-0.542220092867005,44.8440508455854
+Bibliothèque du Grand Parc,Ouvert,green,-0.584254984261177,44.8578601494929
+Camille Julian,Ouvert,green,-0.571903305826729,44.8391103676243
+Centre Commercial du Grand Parc,Ouvert,green,-0.582288048099357,44.8599395812081
+Conservatoire,Ouvert,green,-0.560036618832484,44.8312524242836
+Ecole des beaux arts,Ouvert,green,-0.560807267688721,44.8307465140602
+Ecole des beaux arts annexe,Ouvert,green,-0.561617879610019,44.8306800957878
+Esplanade Sport,Ouvert,green,-0.559472483829691,44.8325362751921
+Halle des Chartrons,Ouvert,green,-0.572446978093307,44.8524145706
+Hangar 14,Ouvert,green,-0.565040125534483,44.8542727303211
+Hangar G2,Ouvert,green,-0.555275779834489,44.8631813311128
+Hôtel de Ville,Ouvert,green,-0.578910265324865,44.837711742468
+Ibaia,Ouvert,green,-0.56945597398709,44.8500304622651
+Jardin Botanique 1,Ouvert,green,-0.55827184189155,44.8443499096176
+Jardin Botanique 2,Ouvert,green,-0.55877795930834,44.8445693741644
+Jean Moulin,Ouvert,green,-0.577503495803707,44.8386324349361
+Maison éco-citoyenne (parvis 1),Ouvert,green,-0.567515736723729,44.8392620546689
+Maison éco-citoyenne (parvis 2),Ouvert,green,-0.567515736723729,44.8392620546689
+Maison éco-citoyenne (ponton honneur),Ouvert,green,-0.566992522704808,44.8392105406195
+Maison éco-citoyenne (toit),Ouvert,green,-0.567041126976586,44.8387641391926
+Marché des Chartrons,Ouvert,green,-0.572605659172594,44.8520594063995
+Martinique,Ouvert,green,-0.567433896865495,44.8524016896823
+Mirroir Eau Nord 1,Ouvert,green,-0.569721776676866,44.8422218729537
+Mirroir Eau Nord 2,Ouvert,green,-0.569721776676866,44.8422218729537
+Mirroir Eau Sud 1,Ouvert,green,-0.569200241364265,44.8410140620273
+Mirroir Eau Sud 2,Ouvert,green,-0.569200241364265,44.8410140620273
+Office de tourisme,Ouvert,green,-0.574260542405202,44.8435715822149
+Office de tourisme Quinconce,Ouvert,green,-0.574176061782873,44.8437230928344
+Patinoire Mériadeck,Ouvert,green,-0.588037974686414,44.835180548989
+Pey Berland Forges,Ouvert,green,-0.57614629380538,44.8379430250813
+Quai des Sport - Maison du Jardinier,Ouvert,green,-0.558416750698445,44.8321808329079
+Saint Michel,Ouvert,green,-0.566015567785078,44.8342984523836
+Saint Projet,Ouvert,green,-0.573949476945553,44.8389853203685
+Skate 2,Ouvert,green,-0.566037672243968,44.853716622717
+Skate 3,Ouvert,green,-0.565794139097888,44.8539034521056
+Victoire 1,Ouvert,green,-0.572389982423059,44.8307985828337
+Victoire 2,Ouvert,green,-0.572865956295554,44.8309830857822
+Sanitaire automatique,Ouvert,green,-0.610951424066316,44.8331408015695
+Sanitaire automatique ,Ouvert,green,-0.6028134,44.85188359999999
+Sanitaire automatique,Ouvert,green,-0.56594780098854,44.904904108173
+Sanitaire automatique,Ouvert,green,-0.572454186136095,44.8352494948124
+Sanitaire automatique,Ouvert,green,-0.60333974270816,44.8295117974338
+Sanitaire automatique,Ouvert,green,-0.621457009621074,44.8570338801172
+Sanitaire automatique,Ouvert,green,-0.582568237883878,44.8386928250834
+Sanitaire automatique,Ouvert,green,-0.594328151025758,44.8330130187272
+Sanitaire automatique,Ouvert,green,-0.616170914392001,44.8516061819138
+Sanitaire automatique,Ouvert,green,-0.582290857486657,44.8605917147978
+MDS PMI Bordeaux Bastide,Modification,orange,-0.5466293000000001,44.8481227
+MDS de Bègles,Modification,orange,-0.5495488,44.8064488
+MDS PMI Bordeaux Caudéran,Modification,orange,-0.61994,44.8555098
+MDS PMI Bordeaux Centre,Modification,orange,-0.583331,44.845913
+MDS PMI de Bordeaux Grand-Parc,Modification,orange,-0.5752962999999909,44.8616734
+MDS PMI Bordeaux Lac,Modification,orange,-0.5724761,44.8733254
+MDS PMI Bordeaux Saint-Augustin,Modification,orange,-0.5913707,44.832638
+MDS et PMI de Bordeaux Saint Jean,Modification,orange,-0.559199700000022,44.82871290000001
+MDSI de Bordeaux Saint-Michel,Modification,orange,-0.5743568000000001,44.834102
+MDS Eysines,Modification,orange,-0.6323268,44.881318
+MDS de Floirac,Modification,orange,-0.5233377,44.8324493
+MDS de Gradignan,Modification,orange,-0.6158685,44.7734655
+MDS Le Bouscat,Modification,orange,-0.5971348,44.86682799999999
+MDS et PMI de Lormont,Modification,orange,-0.5176484,44.8728145
+MDS de Mérignac,Modification,orange,-0.6411197,44.8415148
+MDS de Pessac,Modification,orange,-0.6312662,44.8019683
+MDS de Saint Médard-en-Jalles,Modification,orange,-0.7184343,44.893335
+MDS de Talence,Modification,orange,-0.5889104,44.8134922
+MDS de Villenave d'Ornon,Modification,orange,-0.5809016000000611,44.78769829999999
+MDPH de la Gironde,Ouvert,green,-0.577433,44.8652164
+MDS de Cenon,Modification,orange,-0.507173,44.8495968
+Centre des Restos du Coeur Bordeaux Fort Louis,Fermé,red,-0.5617826999999807,44.8302154
+Centre des Restos du Coeur Ambarès,Fermé,red,-0.4885112999999999,44.92778879999999
+Centre des Restos du Coeur Ambès,Fermé,red,-0.5332533,45.0120919
+Centre des Restos du Coeur Bassens,Ouvert,green,-0.5171387,44.8962049
+Centre des Restos du Coeur Blanquefort,Fermé,red,-0.634985,44.91169
+Centre des Restos du Cœur Cenon,Fermé,red,-0.5313641,44.8520447
+Centre des Restos du Cœur Lormont,Fermé,red,-0.5132266,44.8714934
+Centre des Restos du Cœur Pessac,Ouvert,green,-0.6310829999999896,44.8020063
+Centre des Restos du Cœur Saint Loubès,Fermé,red,-0.427705,44.9143137
+Centre des Restos du Cœur Talence,Fermé,red,-0.5854710000000001,44.801681
+Centre des Restos du Coeur Eysines,Fermé,red,-0.6379804,44.8909638
+Adolphe Buscaillet,Ouvert,green,-0.549668817580285,44.8705977268006
+Urinoir public,Ouvert,green,-0.563484428073626,44.8133891925777
+Urinoir public,Ouvert,green,-0.612880665162825,44.8246288668863
+Urinoir public,Ouvert,green,-0.562917322479597,44.829530512184
+Urinoir public,Ouvert,green,-0.588363598189398,44.830789557383
+Urinoir public,Ouvert,green,-0.546770710046757,44.8415949968253
+Urinoir public,Ouvert,green,-0.54438084445224,44.8750695649701
+Urinoir public,Ouvert,green,-0.550259965161317,44.8430567057489
+Urinoir public,Ouvert,green,-0.562906269718091,44.8224082278561
+Urinoir public,Ouvert,green,-0.564321470670066,44.8267129011554
+Urinoir public,Ouvert,green,-0.601448460338731,44.83155637711
+Urinoir public,Ouvert,green,-0.545190734088545,44.8429220037914
+Urinoir public,Ouvert,green,-0.607806284750287,44.835185610133
+Urinoir public,Ouvert,green,-0.545747531899173,44.849346248441
+Urinoir public,Ouvert,green,-0.586087834620069,44.8391943310741
+Urinoir public,Ouvert,green,-0.572012193533953,44.8202975395057
+Urinoir public,Ouvert,green,-0.571894569744631,44.8314301072816
+Urinoir public,Ouvert,green,-0.548211299705866,44.87699109038
+Urinoir public,Ouvert,green,-0.584577183300566,44.8611674592142
+Fontaine,Ouvert,green,-0.5814506,44.8385702
+Urinoir public,Ouvert,green,-0.577383972080092,44.8229896978552
+CACIS,Fermé,red,-0.5753571999999849,44.8601424
+La Bagagerie,Modification,orange,-0.5687107,44.8383554
+AFL Bastide,Ouvert,green,-0.552603,44.841688
+CDAFAL (Antenne Rive Gauche),Ouvert,green,-0.546651,44.873408
+CMP Bordeaux centre,Ouvert,green,-0.577416,44.83414
+CMP Bordeaux Gare,Ouvert,green,-0.564972,44.824023
+CMP Bordeaux Nord,Ouvert,green,-0.566499,44.857853
+CMP Bordeaux Bastide,Ouvert,green,-0.541631,44.850783
+CCAS de Bordeaux,Ouvert,green,-0.5825234999999793,44.8380748
+CCAS de Pessac,Ouvert,green,-0.6295883000000231,44.8036777
+CCAS de Saint-Médard-en-Jalles,Ouvert,green,-0.7171267,44.8958737
+CASO de Bordeaux,Fermé,red,-0.548299,44.870772
+"Centre Carrère - Département d'addictologie (CSAPA, HDJ)",Ouvert,green,-0.6013511999999537,44.8259487
+Equipe mobile de psychiatrie et précarité (EMPP),Ouvert,green,-0.568199000000049,44.8301014
+Permanence d'Accès aux Soins de Santé (PASS) Bordeaux,Ouvert,green,-0.600088,44.823925
+Service d'Evaluation de Crise et d'Orientation Psychiatrique (SECOP),Ouvert,green,-0.600088,44.823963
+PASS adulte du CHU de Pellegrin,Ouvert,green,-0.6028117,44.8303453
+Centre Régional d'Information Jeunesse Nouvelle Aquitaine (CRIJ NA),Modification,orange,-0.5758692000000001,44.8374995
+CIDFF de Bordeaux,Ouvert,green,-0.5858118999999999,44.8472246
+La CIMADE,Ouvert,green,-0.577205,44.835695
+Coffee Bus 33,Fermé,red,-0.57266,44.830918
+Caan'abus,Modification,orange,-0.571215,44.837446
+CAARUD Planterose,Ouvert,green,-0.565802,44.832999
+CSAPA Maurice Serisé,Ouvert,green,-0.571363799999971,44.8401371
+Emmaüs Connect Bordeaux,Fermé,red,-0.572248599999966,44.8729731
+Familles en Gironde,Fermé,red,-0.57587,44.841794
+Hom’Âge,Ouvert,green,-0.570042,44.836323
+Permanence d'Accès aux Soins de Santé (PASS) Bordeaux - Centre d'Albret,Ouvert,green,-0.5797566,44.833349
+Centre Hospitalier Universitaire de Bordeaux (CHU),Ouvert,green,-0.6028117,44.8303453
+Information Prévention Proximité Orientation,Ouvert,green,-0.577438,44.831139
+La Maison des Femmes,Fermé,red,-0.569676,44.839037
+La Marmite - Restaurant solidaire,Ouvert,green,-0.5679803,44.8343454
+Le Pain de l'Amitié,Fermé,red,-0.5733846,44.8265497
+Le 4 de Bordeaux,Fermé,red,-0.58174,44.830376
+Maison de l'avocat,Ouvert,green,-0.575424,44.835195
+Maison de l'europe,Ouvert,green,-0.57107243117208,44.8428045490531
+MSPB de Bagatelle,Ouvert,green,-0.5752081,44.8078754
+Maison Départamentale de la promotion de la santé Bordeaux Cauderan,Fermé,red,-0.6029279,44.8419819
+Maison des adolescents,Fermé,red,-0.576247,44.837157
+Maison de Justice et du Droit de Bordeaux (MJD),Fermé,red,-0.575278,44.866048
+Sanitaire automatique,Ouvert,green,-0.56727848446677,44.8387910517145
+La CASE - CAARUD Espace Saint James ,Ouvert,green,-0.5712467,44.83574249999999
+Oxygène,Fermé,red,-0.568066,44.838793
+Structure de Premier Accueil des demandeurs d’asile - SPADA,Ouvert,green,-0.559533,44.842303
+Centre de santé dentaire mutualiste Vital Carles,Ouvert,green,-0.577855,44.83865
+PIMMS Bordeaux,Fermé,red,-0.5589340999999877,44.8275763
+PIMMS Cenon,Ouvert,green,-0.5317273000000569,44.85717260000001
+Sanitaire automatique,Ouvert,green,-0.573821205338228,44.8445351150814
+PASS - Polyclinique Bordeaux Rive Droite,Ouvert,green,-0.5219329,44.8650685
+Promofemmes,Fermé,red,-0.5638234000000466,44.8342869
+Réseau Paul Bert,Fermé,red,-0.5743321,44.8367498
+Centre des Restos du Coeur Restos Bébés,Fermé,red,-0.543457,44.879753
+RUELLE,Ouvert,green,-0.5872689999999999,44.8350088
+AL Prado,Fermé,red,-0.5672391,44.8296041
+Secours Catholique - Halte de jour,Fermé,red,-0.5802989000000025,44.8455533
+Couscous de l'amitié,Ouvert,green,-0.567596,44.830869
+Antenne Amédée Alins,Fermé,red,-0.572779,44.8260953
+Conférence St Amand,Fermé,red,-0.6204242000000022,44.8490893
+Solidarité 33,Ouvert,green,-0.5712502,44.8535264
+Stop Misère,Ouvert,green,-0.5393351999999823,44.8297239
+VICT'AID Institut Don Bosco ,Ouvert,green,-0.578397,44.844569
+Centre des Restos du Coeur Bordeaux Daney,Fermé,red,-0.5605826999999408,44.87270639999999
+Accueil de jour des Restos du Coeur Bordeaux,Ouvert,green,-0.575577,44.8677249
+TAPAJ Bordeaux,Ouvert,green,-0.5658023,44.83299179999999
+Le Vestiaire - Espace Solidarité Malbec,Fermé,red,-0.5610649000000194,44.8279454
+Espace d'accueil PMI de Bordeaux,Ouvert,green,-0.5721372000000429,44.8375769
+Fontaine,Ouvert,green,-0.5826309000000265,44.821787
+Fontaine,Ouvert,green,-0.5791799999999512,44.837789
+Fontaine,Ouvert,green,-0.5588787000000366,44.8257911
+Fontaine,Ouvert,green,-0.5668970000000001,44.8322139
+Fontaine,Ouvert,green,-0.5779840000000149,44.8299325
+Fontaine,Ouvert,green,-0.5659904000000324,44.83375059999999
+Fontaine,Ouvert,green,-0.5665438999999424,44.83460830000001
+Fontaine et toilettes,Ouvert,green,-0.5775284999999712,44.82316549999999
+Fontaine,Ouvert,green,-0.5629139999999779,44.82266589999999
+Fontaine,Ouvert,green,-0.5615737000000536,44.8294645
+Fontaine,Ouvert,green,-0.5646509000000606,44.826552
+Fontaine,Ouvert,green,-0.5511933000000226,44.8243977
+Fontaine,Ouvert,green,-0.5565137999999479,44.8234624
+Fontaine,Ouvert,green,-0.5602304000000231,44.8324515
+Fontaine,Ouvert,green,-0.5644144999999999,44.8359257
+Fontaine,Ouvert,green,-0.5654520000000502,44.82129700000001
+Fontaine,Ouvert,green,-0.5892478000000665,44.7990891
+Fontaine,Ouvert,green,-0.5791799999999512,44.837789
+Fontaine,Ouvert,green,-0.5591627999999673,44.8406587
+Fontaine et toilettes,Ouvert,green,-0.5503178000000162,44.8431524
+Fontaine,Ouvert,green,-0.5805429999999998,44.83736599999999
+Fontaines,Ouvert,green,-0.5644055999999864,44.8472004
+Fontaine,Ouvert,green,-0.5791799999999512,44.837789
+Fontaine,Ouvert,green,-0.6114783000000443,44.8331279
+Fontaine,Ouvert,green,-0.6105999000000111,44.83358030000001
+Fontaine,Ouvert,green,-0.5670811,44.8358088
+Fontaine,Ouvert,green,-0.5673385999999709,44.8385555
+Fontaines,Ouvert,green,-0.5546048,44.82567299999999
+Toilettes et fontaine,Ouvert,green,-0.5773291000000427,44.8380313
+Fontaine,Ouvert,green,-0.5763546000000588,44.8377775
+Toilettes et fontaine,Ouvert,green,-0.6084953,44.823647
+Fontaine,Ouvert,green,-0.5735306999999921,44.8489698
+Fontaine,Ouvert,green,-0.577756499999964,44.83823899999999
+Fontaine,Ouvert,green,-0.5686024,44.8369262
+Fontaine,Ouvert,green,-0.5791799999999512,44.837789
+Toilettes et fontaine,Ouvert,green,-0.5673385999999709,44.8385555
+Toilettes et fontaine,Ouvert,green,-0.569963,44.8419435
+Toilettes et fontaine,Ouvert,green,-0.5611443999999892,44.8634553
+Toilettes et fontaine,Ouvert,green,-0.5669445999999425,44.8531181
+Fontaine,Ouvert,green,-0.5748300000000199,44.873709
+Fontaine,Ouvert,green,-0.5791799999999512,44.837789
+Toilettes et fontaine,Ouvert,green,-0.5741531999999552,44.8516188
+Fontaine,Ouvert,green,-0.5757038000000421,44.8505644
+Fontaine,Ouvert,green,-0.570715699999937,44.8455951
+Fontaine,Ouvert,green,-0.614044100000001,44.85139110000001
+Fontaine,Ouvert,green,-0.6002809999999954,44.8527049
+Douche publique et toilettes,Ouvert,green,-0.573475099999996,44.8447171
+Toilettes,Ouvert,green,-0.5749666000000389,44.9074558
+Toilettes et fontaine,Ouvert,green,-0.5788743000000522,44.87816830000001
+Toilettes,Ouvert,green,-0.5637232000000267,44.8911838
+Toilettes,Ouvert,green,-0.5803863999999521,44.8299137
+Toilettes,Ouvert,green,-0.548464899999999,44.8769524
+Toilettes,Ouvert,green,-0.5827216000000135,44.8599961
+Toilettes,Ouvert,green,-0.5847639999999501,44.8587295
+Fontaine,Ouvert,green,-0.5818435,44.8397614
+Toilettes,Ouvert,green,-0.5726369000000204,44.843945
+Toilettes,Ouvert,green,-0.5846553000000085,44.8423986
+Toilettes,Ouvert,green,-0.5732591999999386,44.8471917
+Toilettes,Ouvert,green,-0.5861194999999952,44.83866889999999
+Toilettes et fontaine,Ouvert,green,-0.5794396000000006,44.8351304
+Toilettes,Ouvert,green,-0.6028116999999611,44.8303453
+Toilettes,Ouvert,green,-0.6110843999999815,44.8331279
+Toilettes,Ouvert,green,-0.5947369000000435,44.8331087
+Toilettes,Ouvert,green,-0.6050215999999864,44.82268029999999
+Toilettes,Ouvert,green,-0.598939200000018,44.8248648
+Toilettes,Ouvert,green,-0.6130510000000413,44.8239002
+Le Repère de La Cloche,Fermé,red,-0.571023,44.83294699999999
+Centre socioculturel de l'Estey,Fermé,red,-0.5543324999999868,44.80885839999999
+ASTI de Pessac,Fermé,red,-0.6308059000000412,44.7908037
+Le Relais Talençais,Fermé,red,-0.5954738000000361,44.7966219
+Épicerie Solidaire La Bous-Sol,Fermé,red,-0.5987477999999555,44.86587909999999
+Comptoir d’Aliénor,Fermé,red,-0.5951383999999962,44.80795019999999
+Épicerie solidaire du CCAS de Floirac,Ouvert,green,-0.5312472000000525,44.84127720000001
+Le panier des 4 saisons,Fermé,red,-0.5140796000000591,44.85184489999999
+"Escale solidaire ""Ensemble""",Fermé,red,-0.5677118999999493,44.7820757
+Epicerie sociale et solidaire de Gradignan,Ouvert,green,-0.6191040999999586,44.7742788
+Le Comptoir,Ouvert,green,-0.499125700000036,44.858118
+Epicerie Sociale le p'tit plus de Taillan Médoc,Fermé,red,-0.6705074000000195,44.9048788
+Oasi's,Fermé,red,-0.7100834999999961,44.8972405
+Espace de vie sociale Envols,Ouvert,green,-0.9414249999999811,45.3070414
+La Passerelle,Fermé,red,-0.6332340000000158,44.91099139999999
+Pôle social Croix-Rouge de Bordeaux ,Fermé,red,-0.551781500000061,44.84400369999999
+Emmaüs 33 Urgence Sociale,Ouvert,green,-0.5723436000000675,44.8213501
+Graines de Solidarité,Fermé,red,-0.5700300999999399,44.8283511
+Le 4 de Bordeaux Restauration,Fermé,red,-0.5815916000000243,44.8301918
+CAUVA,Ouvert,green,-0.6028116999999611,44.8303453
+Conseil départemental de Saint Vincent de Paul,Fermé,red,-0.5773950999999897,44.8363215
+ASAÏS Bistrot Associatif,Ouvert,green,-0.5685395000000426,44.8385068
+Halte de jour Emmaüs,Ouvert,green,-0.5494905000000472,44.81986169999999
+L'académie de la coiffure,Ouvert,green,-0.5964381000000003,44.83122640000001
+Douches municipales,Ouvert,green,-0.5730817999999545,44.8463645
+Accueil de jour du Foyer Fraternel,Fermé,red,-0.5724636,44.8553737
+Vestiaire/Brocante La Benauge,Ouvert,green,-0.5427343000000064,44.84295929999999
+Point-relais de Bacalan,Ouvert,green,-0.547386500000016,44.87784
+Bibliothèque Flora Tristan,Fermé,red,-0.5507877000000008,44.8212608
+Secours Catholique du Saint Vivien de Médoc,Ouvert,green,-1.035867899999971,45.430502
+Secours Catholique  de Lesparre,Fermé,red,-0.9229765000000043,45.3028194
+Secours Catholique d'Hourtin,Ouvert,green,-1.055319700000041,45.18915459999999
+Secours Catholique de Pauillac,Fermé,red,-0.7482278999999608,45.2002069
+Secours Catholique de Saint-Médard-en-Jalles,Fermé,red,-0.7446472000000313,44.8993961
+"""La Cabane à projets"" Centre socioculturel intercommunal du Créonnais",Ouvert,green,-0.347424100000012,44.77392589999999
+Secours Catholique de Bordeaux Bastide,Fermé,red,-0.5136582999999746,44.8641531
+Secours Catholique Le Bouscat - Bruges,Fermé,red,-0.6012032999999519,44.8652574
+Secours Catholique de Bordeaux Nord Chartrons,Ouvert,green,-0.5790973000000577,44.8605238
+Secours Catholique de Blaye,Fermé,red,-0.6578650000000152,45.1357497
+Secours Catholique de Castillon-la-Bataille,Fermé,red,-0.0451366,44.8558154
+Secours catholique de Coutras,Fermé,red,-0.13606900000002042,45.0365049
+Secours Catholique de Libourne,Ouvert,green,-0.2417372,44.9342489
+Secours Catholique  Saint-André de Cubzac,Fermé,red,-0.44975699999997687,44.9996381
+Secours Catholique de la Réole,Ouvert,green,-0.03834549999999126,44.58186909999999
+Secours Catholique de Langon,Fermé,red,-0.2481712000000016,44.548616
+Secours Catholique de Monségur,Ouvert,green,0.08079490000000078,44.65111529999999
+Secours Catholique de Cadillac,Fermé,red,-0.3204636,44.6373628
+Secours Catholique de Gradignan,Fermé,red,-0.6139518999999609,44.7742964
+Secours Catholique des Graves - Léognan,Ouvert,green,-0.5970899999999801,44.727859
+Secours Catholique de Mérignac,Ouvert,green,-0.6469661999999516,44.85309540000001
+Secours Catholique à la Maison des Solidarités de Villenave d'Ornon,Fermé,red,-0.5726939999999558,44.7786409
+Secours Catholique  à l'église St Delphin de Villenave d’Ornon,Fermé,red,-0.5673208000000614,44.7891904
+Le Dôme Espace municipal de proximité citoyen,Ouvert,green,-0.592736000000059,44.7924631
+Secours Catholique de Talence,Fermé,red,-0.590842299999963,44.79736219999999
+Secours Catholique de Pessac,Fermé,red,-0.6294996999999967,44.7932655
+Secours Catholique d'Arcachon,Ouvert,green,-1.1464167999999972,44.6549597
+Secours Catholique de Biganos,Fermé,red,-0.9766190000000279,44.64211400000001
+Secours Catholique de Nord Bassin,Fermé,red,-1.1374256000000287,44.7652076
+Secours Catholique de Belin-Beliet,Ouvert,green,-0.7875377000000299,44.5094003
+Centre de santé dentaire mutualiste Blaye,Ouvert,green,-0.6570297000000664,45.1322142
+Centre de santé médical mutualiste Bordeaux Gallieni,Ouvert,green,-0.5915105999999923,44.8241744
+CLLAJ de Bordeaux,Ouvert,green,-0.5492274000000634,44.8438647
+CCAS d'Arcachon,Ouvert,green,-1.174554100000023,44.6599109
+La Miséricorde,Ouvert,green,-0.24531070000000454,44.9125281
+Unité Locale d'Arcachon et du Littoral,Ouvert,green,-1.172461500000054,44.6606886
+Equipes Saint-Vincent - Arcachon,Fermé,red,-1.156923900000038,44.6613604
+Centre des Restos du Cœur de La Teste-de-Buch,Ouvert,green,-1.1283265,44.6050889
+Centre des Restos du Coeur Blaye,Fermé,red,-0.6637971,45.1252971
+Centre des Restos du Cœur Bourg/Gironde,Fermé,red,-0.5575692,45.0387603
+Centre des Restos du Coeur Branne,Fermé,red,-0.1850436,44.8276243
+Centre des Restos du Coeur de Guitres,Fermé,red,-0.18459370000005038,45.0438224
+Centre des Restos du Cœur de Langoiran,Fermé,red,-0.4020911000000069,44.7066406
+Centre des Restos du Cœur de Mérignac,Fermé,red,-0.6468924000000698,44.85307639999999
+Centre des Restos du Cœur de Sainte Eulalie,Fermé,red,-0.4933774999999514,44.9004046
+Centre des Restos du Cœur de Sauveterre de Guyenne,Fermé,red,-0.08628049999992982,44.6920423
+MDS de Lesparre Médoc,Modification,orange,-0.9390263000000232,45.3078233
+MDS de Pauillac,Modification,orange,-0.7480646999999863,45.2006247
+MDS de Castelnau-du-Médoc,Modification,orange,-0.7985211000000163,45.0284305
+MDS et PMI du Teich,Modification,orange,-1.023945000000026,44.62269599999999
+MDS de Lanton,Modification,orange,-1.0134180000000015,44.6847528
+MDS de Bazas,Modification,orange,-0.204741199999944,44.4337218
+MDS de Langon,Modification,orange,-0.24395189999995637,44.55522469999999
+Antenne médico-sociale de Léognan - Maison du Département Solidarités (MDS) de Villenave d'Ornon,Ouvert,green,-0.602147000000059,44.7276043
+MDS de La Réole,Modification,orange,-0.0371560999999474,44.58385
+MDS de Cadillac,Modification,orange,-0.3124404999999797,44.6350936
+MDS de Créon,Modification,orange,-0.35461799999995947,44.7755326
+MDS de Libourne,Modification,orange,-0.2365868,44.9073613
+MDS de Coutras,Modification,orange,-0.12317719999998644,45.0407696
+MDS de Blaye,Modification,orange,-0.6623107000000346,45.1275207
+MDS de Sainte Foy la Grande,Modification,orange,0.2196994,44.8408424
+MDS de St André de Cubzac,Modification,orange,-0.4512226,44.9895392
+CALK (Comité d'Animation Lafontaine Kléber),Ouvert,green,-0.5709176000000298,44.83607629999999
+CMP de Coutras,Ouvert,green,-0.13195410000002994,45.0371173
+CMP de Castillon la Bataille,Ouvert,green,-0.04767949999995835,44.85443409999999
+CMP de Sainte Foy la Grande,Ouvert,green,0.21241869999994378,44.84098360000001
+CMPEA de Libourne,Ouvert,green,-0.2408735000000206,44.9283849
+CMP de Saint André de Cubzac,Ouvert,green,-0.4512226,44.9895392
+CMP Cenon,Ouvert,green,-0.5068119999999681,44.84946299999999
+CMP de Bègles,Ouvert,green,-0.5428683000000092,44.8101503
+CMP de Créon,Ouvert,green,-0.3497879000000239,44.7737738
+CMP de Lormont,Ouvert,green,-0.5269650000000183,44.8799799
+CMP de Merignac,Ouvert,green,-0.6394473,44.8406663
+CMP de Pessac,Ouvert,green,-0.6316322000000127,44.80167660000001
+CMP Biganos,Ouvert,green,-0.9661426999999999,44.639363
+CMP de Lesparre,Ouvert,green,-0.9361873999999943,45.3065029
+CMP de Talence,Ouvert,green,-0.5888290000000325,44.8112789
+CMP Eysines,Ouvert,green,-0.6481459000000314,44.8836322
+CMP Villenave-d'Ornon,Ouvert,green,-0.5658215999999356,44.7816384
+CMP de Cestas,Ouvert,green,-0.6863505,44.7412033
+CMP de Cadillac,Ouvert,green,-0.3189062000000149,44.6351237
+CMP Bazas,Ouvert,green,-0.20944510000003902,44.4334874
+CMP de La Réole,Ouvert,green,-0.03834499999993568,44.5844423
+CMP Saint Magne,Ouvert,green,-0.6291800000000194,44.54840129999999
+Emmaüs Communauté Parempuyre,Ouvert,green,-0.6212676999999758,44.94521
+La Frip' Solidaire,Ouvert,green,-0.6358229999999594,44.8057016
+Mission Locale Bordeaux Avenir Jeunes Antenne Sud,Ouvert,green,-0.5610417000000325,44.8238983
+MDS de Bassens,Modification,orange,-0.5147825999999895,44.9042853
+CCAS de Talence,Ouvert,green,-0.5884075999999823,44.80804159999999
+PSYCHIATRIE INTERSECTORIELLE - C.A.P. LIB,Ouvert,green,-0.22995509999998376,44.9197632
+CCAS de Mérignac,Ouvert,green,-0.6554674999999861,44.8449444
+CCAS de Langon,Ouvert,green,-0.24482699999998658,44.5530292
+CIAS de Blaye,Ouvert,green,-0.6570297000000664,45.1322142
+CCAS de Castillon-la-Bataille,Ouvert,green,-0.049501200000008794,44.8527419
+HAJPL - Habitat Jeunes en Pays,Modification,orange,-0.24561349999999038,44.9154021
+ADIL 33,Ouvert,green,-0.5750838999999814,44.859123
+Centre de distribution des Restos du Coeur Bègles,Fermé,red,-0.5457767999999998,44.8001544
+Emmaüs Bazas,Ouvert,green,-0.21613249999995787,44.4344923
+CCAS de Bazas,Ouvert,green,-0.2113632,44.4312299
+CCAS de Coutras,Ouvert,green,-0.12899140000001807,45.0400743
+Association MANA ,Fermé,red,-0.5725694000000203,44.8731598
+CCAS de Saint-André-de-Cubzac,Ouvert,green,-0.4461911999999302,44.9946358
+CCAS de Pauillac,Ouvert,green,-0.7465160000000424,45.19955239999999
+Camion du Cœur Bordeaux,Fermé,red,-0.5615737,44.8294645
+"Centre de Soins, d’Accompagnement et de Prévention en Addictologie (CSAPA) antenne d'Arcachon",Ouvert,green,-1.1650831,44.659328
+Gargantua,Fermé,red,-0.5490134000000353,44.87053579999999
+Groupement pour l’Insertion des personnes Handicapées Physiques Aquitaine,Ouvert,green,-0.6424290999999585,44.8407187
+CCAS de Blanquefort,Ouvert,green,-0.6323019000000158,44.909163
+Lormont Solidarité,Ouvert,green,-0.5194129999999859,44.87017789999999
+CCAS de Floirac,Ouvert,green,-0.5275133000000096,44.8307413
+Centre des Restos du Cœur Lanton,Ouvert,green,-1.0521005,44.71296779999999
+Unité Locale Le Bouscat - Bruges,Fermé,red,-0.6448858,44.8517644
+Centre des Restos du Cœur Lesparre,Fermé,red,-0.9386804,45.3081285
+La cabane à gratter,Modification,orange,-0.5625102000000197,44.8291578
+Secours Populaire Français_ Siège départemental,Ouvert,green,-0.5487921000000142,44.8260274
+Solidarité Logement Bordeaux-Boulevards,Fermé,red,-0.6159278000000001,44.85249049999999
+Relais popote,Ouvert,green,-0.5825234999999793,44.8380748
+MJD des Hauts de Garonne,Fermé,red,-0.5225199000000202,44.86792369999999
+Stop aux Violences Sexuelles 33,Ouvert,green,-0.6157472999999999,44.85464399999999
+Toutes à l'abri,Fermé,red,-0.5476858,44.86917649999999
+Accompagnement psychologique et Médiation Interculturelle (AMI),Fermé,red,-0.5387305,44.86473339999999
+Centre Social et Culturel la Colline,Fermé,red,-0.5204998000000387,44.8562755
+Centre d'accueil pour demandeurs d'asile (CADA) Foyer Quancard,Ouvert,green,-0.5464273999999705,44.77196
+Le Girofard Bordeaux,Fermé,red,-0.57019200000002,44.83664289999999
+Mission Locale Technowest Blanquefort,Ouvert,green,-0.6351424999999999,44.9291338
+Mission Locale de la Haute Gironde,Modification,orange,-0.6633510999999999,45.1244784
+Mission locale Langon,Ouvert,green,-0.24035449999996672,44.5445815
+Mission locale du Libournais,Ouvert,green,-0.2408113000000185,44.928512
+Mission locale Pessac,Ouvert,green,-0.6311820999999327,44.80486920000001
+Mission Locale de Talence,Ouvert,green,-0.5894663999999921,44.8103966
+Mission locale antenne Bègle,Ouvert,green,-0.5510673999999653,44.8126107
+Mission locale antenne de Villenave d'Ornon,Ouvert,green,-0.573330100000021,44.77849059999999
+Mission locale antenne de Gradignan,Ouvert,green,-0.6151984000000539,44.7713186
+Mission Locale du Médoc,Fermé,red,-0.9341563000000406,45.30580919999999
+Mission Locale des Hauts de Garonne,Ouvert,green,-0.5059986999999637,44.8477174
+L'Escale des familles - Espace Solidarité Malbec,Fermé,red,-0.561096799999973,44.8278959
+CAPC musée d'art contemporain de Bordeaux,Ouvert,green,-0.5730919999999742,44.848232
+Le musée d'Aquitaine,Ouvert,green,-0.5750600999999733,44.8355752
+"Le musée des Arts décoratifs et du design, madd",Ouvert,green,-0.5797089000000142,44.8389576
+Le musée des Beaux-Arts,Ouvert,green,-0.5805430000000342,44.83736599999999
+Musée national des douanes,Ouvert,green,-0.5699801000000662,44.8408346
+Cap Sciences,Modification,orange,-0.5542229000000134,44.8596602
+Mission locale Ambarès,Ouvert,green,-0.48969290000002275,44.9266599
+Mission locale Carbon-Blanc,Ouvert,green,-0.5037935999999945,44.8953165
+Mission locale Lormont,Ouvert,green,-0.519681300000002,44.876033
+Mission Locale du Bassin d'Arcachon et du Val de l'Eyre,Modification,orange,-1.1334171999999398,44.63407939999999
+Mission Locale Sud-gironde,Ouvert,green,-0.03560600000000001,44.582483
+Mission Locale Technowest - Mérignac ,Ouvert,green,-0.6531191999999919,44.8551473
+Mission Locale Saint-Médard-en-Jalles,Ouvert,green,-0.7132533,44.895301
+Mission Locale Technowest,Ouvert,green,-0.6506348000000344,44.8859114
+Mission locale Technowest Le Bouscat,Ouvert,green,-0.5989686000000347,44.8659173
+CMP Accueil adolescents rive droite,Ouvert,green,-0.5161157000000003,44.8759386
+Association Renovation,Ouvert,green,-0.6236884999999575,44.86227460000001
+"Ni putes, ni soumises",Ouvert,green,-0.5682256000000052,44.83192469999999
+Le Planning Familial - 33,Modification,orange,-0.5601297,44.8269392
+Institut Bergonié,Ouvert,green,-0.5803544000000329,44.8241121
+Plateforme autonomie seniors (CLIC - MAIA - CTA),Ouvert,green,-0.5825234999999793,44.8380748
+Auberge de Jeunesse de Bordeaux,Ouvert,green,-0.5637369999999464,44.826792
+Auberge de jeunesse Hostel 20 Bordeaux centre,Ouvert,green,-0.5686541000000034,44.85390750000001
+Otellia,Ouvert,green,-0.6318264000000227,44.9186659
+"Centre de Soins, d’Accompagnement et de Prévention en Addictologie (CSAPA) Maurice SERISÉ",Ouvert,green,-0.5713637999999719,44.84013710000001
+Service Addictologie CH Charles Perrens,Ouvert,green,-0.6007687999999689,44.82378749999999
+ANPAA 33 - Antenne Cenon,Ouvert,green,-0.5164612999999463,44.8537007
+ANPAA 33 - Antenne Libourne,Ouvert,green,-0.23658679999994092,44.9073613
+Médiathèque d'Ornon,Modification,orange,-0.5841120000000046,44.76475070000001
+La Médiathèque les Etoiles,Fermé,red,-0.5353598000000375,44.777764
+Médiathèque Castagnéra de Talence,Modification,orange,-0.5898750000000064,44.807376
+Médiathèque de Thouars / Talence,Ouvert,green,-0.592736000000059,44.7924631
+Ludo médiathèque,Ouvert,green,-0.7446472000000313,44.8993961
+Médiathèque Léopold Sédar Senghor,Ouvert,green,-0.7146321000000171,44.8938412
+Fontaine dans un square,Ouvert,green,2.465561100000059,48.8071874
+Médiathèque de Saint-Louis-de-Montferrand,Fermé,red,-0.5348341999999999,44.95243639999999
+Culture et bibliothèques pour tous Saint-Aubin de Médoc,Fermé,red,-0.7206241000000091,44.91174819999999
+Bibliothèque Pablo Neruda de Pessac,Modification,orange,-0.6313628999999992,44.7905851
+Médiathèque Jacques Ellul de Pessac,Modification,orange,-0.6425626999999849,44.79953219999999
+Bibliothèque municipale de Parempuyre,Fermé,red,-0.6040309999999636,44.94949299999999
+Bibliothèque du Burck - Mérignac,Modification,orange,-0.6371656999999686,44.8180937
+Bibliothèque de Beutre - Mérignac,Fermé,red,-0.7006031999999323,44.8180571
+Médiathèque municipale de Mérignac (Michel Sainte-Marie),Ouvert,green,-0.6467969000000267,44.8412499
+Bibliothèque de Beaudésert - Mérignac,Modification,orange,-0.6829377999999906,44.84465970000001
+Bibliothèque Lucie Aubrac de Martignas-sur-Jalle,Fermé,red,-0.7788286,44.8437688
+Médiathèque du Bois Fleuri de Lormont,Fermé,red,-0.5224481999999853,44.8765754
+Médiathèque municipale du Taillan-Médoc,Fermé,red,-0.6795717999999624,44.9129958
+Bibliothèque du Haillan,Ouvert,green,-0.6762237000000368,44.8741008
+Médiathèque La Source,Ouvert,green,-0.5999997000000121,44.86522919999999
+Centre de Documentation de Bordeaux Sciences Agro,Fermé,red,-0.6053213000000142,44.7905263
+Médiathèque Jean Vautrin,Modification,orange,-0.6115872000000309,44.7679535
+Médiathèque M270 - Jean Darriet de Floirac,Fermé,red,-0.5314921000000368,44.8364713
+Médiathèque Roland Barthes de Floirac,Fermé,red,-0.508939899999973,44.8453598
+Médiathèque Jean Degoul d'Eysines,Modification,orange,-0.6474468999999772,44.8851364
+Ludomédiathèque de Cenon,Modification,orange,-0.5201687999999649,44.85519009999999
+Médiathèque municipale de Carbon-Blanc,Fermé,red,-0.5037935999999945,44.8953165
+Bibliothèque Grand Parc,Fermé,red,-0.5842367999999851,44.8577573
+Bibliothèque Bordeaux-Lac,Fermé,red,-0.5724763000000621,44.8734549
+Bibliothèque Jean de la Ville de Mirmont,Fermé,red,-0.6105082999999922,44.8323512
+Bibliothèque Capucins / Saint Michel,Fermé,red,-0.5669970999999805,44.83073519999999
+Médiathèque Assia Djebar de Blanquefort,Modification,orange,-0.6327797999999802,44.9103781
+Bibliothèque municipale de Bègles,Fermé,red,-0.5430472000000464,44.8057599
+Médiathèque François Mitterrand de Bassens,Ouvert,green,-0.5162129999999934,44.899623
+Médiathèque Gabriela Mistral d'Artigues-près-Bordeaux,Fermé,red,-0.49823029999993196,44.85858409999999
+Médiathèque François Mitterrand d'Ambès,Fermé,red,-0.532691800000066,45.0115263
+Bibliothèque François Mitterrand d'Ambarès-et-Lagrave,Fermé,red,-0.4883345000000645,44.9252987
+"CHORALE ""Au Clair de la Rue""",Ouvert,green,-0.5682834000000412,44.8326048
+Bibliothèque municipale de Bouliac,Fermé,red,-0.504476899999986,44.81805600000001
+CCAS d'Aillas,Ouvert,green,-0.072979499999974,44.4739864
+CCAS d'Ambarès-et-Lagrave,Modification,orange,-0.4904579999999896,44.926404
+CCAS d'Ambès,Ouvert,green,-0.530408800000032,45.0129591
+Centre des Restos du Cœur Saint Louis de Montferrand,Fermé,red,-0.5337187,44.9522914
+CCAS d'Andernos-les-Bains,Ouvert,green,-1.101246500000002,44.744097
+CCAS d'Arès,Ouvert,green,-1.1392903999999362,44.7651569
+CCAS d'Audenge,Ouvert,green,-1.0138558999999532,44.6846867
+CCAS de Bassens,Ouvert,green,-0.5171993999999813,44.9003693
+CCAS de Beautiran,Modification,orange,-0.4487811999999849,44.7043729
+CCAS de Bègles,Ouvert,green,-0.5486303999999791,44.80769979999999
+CCAS de Belin-Béliet,Ouvert,green,-0.7887375000000247,44.49839490000001
+Le CCAS de Biganos,Ouvert,green,-0.9768020000000206,44.64226559999999
+Service d'Action Sociale à Saint André de Cubzac,Ouvert,green,-0.5601030000000264,45.0390469
+CCAS de Branne,Ouvert,green,-0.18728790000000117,44.830102
+CCAS de Braud-et-Saint-Louis,Ouvert,green,-0.6259600999999293,45.2480226
+CCAS de Bruges,Ouvert,green,-0.5863630000000057,44.8787359
+CCAS de Cabanac-et-Villagrains,Ouvert,green,-0.553307000000018,44.606708
+CCAS de Cadillac,Ouvert,green,-0.3203637000000299,44.63706559999999
+CCAS de Camblanes-et-Meynac,Modification,orange,-0.4871459999999388,44.765075
+CCAS de Canéjan,Ouvert,green,-0.6475584,44.76251990000001
+CCAS de Captieux,Ouvert,green,-0.2611736999999721,44.2917568
+CCAS de Carbon-Blanc,Ouvert,green,-0.5081700000000637,44.8954239
+CCAS  de Castelnau-de-Médoc,Ouvert,green,-0.7971678999999767,45.0260404
+Centre Communal d'Action Sociale de Cenon,Ouvert,green,-0.5305418000000373,44.8567593
+CCAS de Cestas,Ouvert,green,-0.6855520000000297,44.74160569999999
+CCAS de Créon,Ouvert,green,-0.3485934999999927,44.7744042
+CCAS d'Eysines,Ouvert,green,-0.6476735999999619,44.8854231
+CCAS de Genissac,Ouvert,green,-0.25809589999994387,44.85772830000001
+CCAS de Grignols,Modification,orange,-0.04209709999997813,44.3895017
+La Maison de Simone,Ouvert,green,-0.6327165999999806,44.7911699
+CCAS de Guitres,Modification,orange,-0.18580580000002556,45.0413593
+CCAS de l'Isle Saint-Georges,Fermé,red,-0.47174599999993916,44.7249161
+CCAS de Gujan-Mestras,Ouvert,green,-1.0628377000000455,44.6387341
+CCAS d'Izon,Ouvert,green,-0.36163299999998344,44.92013069999999
+CCAS de La Brède,Ouvert,green,-0.5274246000000176,44.681259
+CCAS de la Reole,Fermé,red,-0.04176680000000488,44.5811161
+CCAS de La Teste-de-Buch,Ouvert,green,-1.1334171999999398,44.63407939999999
+CCAS de Lacanau,Ouvert,green,-1.074363700000049,44.9792212
+CCAS de Landiras,Modification,orange,-0.4148729999999432,44.5667972
+CCAS de Langoiran,Ouvert,green,-0.3999307000000272,44.7081538
+CCAS de Lanton,Ouvert,green,-1.0355187000000114,44.7022225
+CCAS de Le Barp,Ouvert,green,-0.7708534999999301,44.6056269
+CCAS du Bouscat,Ouvert,green,-0.5960669999999482,44.86687599999999
+CREPI Gironde,Ouvert,green,-0.5751660999999331,44.8665236
+Merci pour l'invit',Ouvert,green,-0.5872689999999999,44.8350088
+CCAS du Haillan,Ouvert,green,-0.6777329000000236,44.872899
+CCAS du Taillan-Médoc,Ouvert,green,-0.6701468999999634,44.90409469999999
+CCAS de Le Teich,Ouvert,green,-1.0214039999999613,44.6351999
+CCAS du Tourne,Ouvert,green,-0.40239470000005895,44.71116199999999
+CCAS de Lege Cap Ferret,Ouvert,green,-1.1476723000000675,44.79543839999999
+CCAS de Léognan,Ouvert,green,-0.5972176999999874,44.7276838
+CCAS de Lesparre-Médoc,Ouvert,green,-0.9360910000000331,45.3057323
+CCAS de Libourne,Ouvert,green,-0.24058070000000953,44.9147727
+CCAS de Lormont,Ouvert,green,-0.5176581000000624,44.8728407
+CCAS de Ludon-Médoc,Ouvert,green,-0.6037435000000642,44.9816788
+CCAS de Marcheprime,Ouvert,green,-0.8537143999999444,44.6924925
+CCAS de Martignas-sur-Jalle,Ouvert,green,-0.7766956000000391,44.8408329
+CCAS de Mios,Ouvert,green,-0.9392238000000361,44.6054788
+CCAS de Montussan,Ouvert,green,-0.4283887000000277,44.8816812
+CCAS de Paillet,Ouvert,green,-0.36557909999999083,44.6854156
+CCAS de Podensac,Fermé,red,-0.3557015000000092,44.65322880000001
+CCAS de Pompignac,Ouvert,green,-0.43452769999998964,44.8512985
+Pôle Habitat,Ouvert,green,-0.5832989000000453,44.8346474
+RHVS Study Hôtel,Ouvert,green,-0.5238640000000032,44.882298
+AIME,Ouvert,green,-0.5718288000000484,44.83127939999999
+CCAS de Saint-Aubin-de-Médoc,Fermé,red,-0.7236227999999301,44.91308859999999
+CCAS de Saint-Denis-de-Pile,Ouvert,green,-0.20358250000003864,44.9920687
+CCAS de Saint-Germain-du-Puch,Ouvert,green,-0.3224113999999645,44.8571116
+CCAS de Saint Jean d'Illac,Ouvert,green,-0.782195999999999,44.8120629
+CCAS de Saint-Macaire,Ouvert,green,-0.2264329,44.5653824
+CCAS  de Saint-Morillon,Ouvert,green,-0.5030831000000001,44.6500104
+CCAS de Saint-Pierre-d'Aurillac,Ouvert,green,-0.1902956,44.5723573
+Wanted Café,Ouvert,green,-0.5667716000000382,44.830759
+CCAS de Saint-Symphorien,Ouvert,green,-0.48987290000002304,44.42756939999999
+CCAS de Sainte-Eulalie,Ouvert,green,-0.47366169999997965,44.9082523
+CCAS de Salles,Ouvert,green,-0.867376199999967,44.55045429999999
+CCAS de Saucats,Ouvert,green,-0.5976724999999999,44.65098500000001
+CCAS de Soulac-Sur-Mer,Ouvert,green,-1.118534,45.4970948
+CCAS de Toulenne,Ouvert,green,-0.2615642000000662,44.55844019999999
+CCAS de Talais,Ouvert,green,-1.0573954000000185,45.4723212
+CCAS de Vayres,Ouvert,green,-0.3189496999999619,44.8967351
+CCAS de Villandraut,Ouvert,green,-0.37295700000004217,44.457866
+CCAS de Villenave-d'Ornon,Ouvert,green,-0.5677737999999408,44.78053329999999
+CCAS de Soussans,Ouvert,green,-0.6996879999999999,45.056021
+CCAS de Saint-Savin,Ouvert,green,-0.4457442999999999,45.13941139999999
+CCAS de Saint-Caprais-de-Bordeaux,Ouvert,green,-0.4364233,44.7503487
+CCAS de  Saint Seurin-sur-l'Isle,Ouvert,green,-0.001464,45.013928
+CCAS de Parempuyre,Ouvert,green,-0.608833900000036,44.94680839999999
+CCAS de Saint-Louis-de-Montferrand,Ouvert,green,-0.5350166,44.9527399
+Etu'Récup,Fermé,red,-0.6126345999999999,44.7939756
+Secours Catholique Bordeaux Bastide à la Maison des Associations de Cenon,Ouvert,green,-0.5140796000000591,44.85184489999999
+Secours Catholique de Salles,Ouvert,green,-0.8729141000000027,44.55066809999999
+Épicerie des Capucins,Ouvert,green,-0.566594699999996,44.8304347
+Secours Catholique de Bordeaux Cauderan,Fermé,red,-0.6159278000000001,44.85249049999999
+Secours Catholique  de Villandraut Saint Symphorien,Modification,orange,-0.3755476000000044,44.45802539999999
+Secours Catholique La Presqu’île,Fermé,red,-0.4305177999999614,44.9170524
+Secours Catholique Les Coteaux,Ouvert,green,-0.46533069999998133,44.8468454
+Bordeaux accueille,Ouvert,green,-0.578812599999992,44.8442988
+Intermed Gironde,Ouvert,green,-0.5238894999999999,44.8696115
+Alliance Guinée Aquitaine,Ouvert,green,-0.5131718000000092,44.8720209
+Ovale Citoyen,Fermé,red,-0.5691716,44.8276235
+Le Marché des Douves,Fermé,red,-0.56577249999998,44.8306052
+Les P'tits Gratteurs,Ouvert,green,-0.5611632999999756,44.83048180000001
+Service d'Action Sociale et Insertion (SASI) du CIAS de la Communauté de Communes de l'Estuaire,Ouvert,green,-0.6115701999999601,45.2909416
+Boulevard des Potes Bordeaux,Fermé,red,-0.5682256000000052,44.83192469999999
+Unité Locale de Bordeaux,Ouvert,green,-0.5746424000000161,44.8477381
+e-graine Nouvelle Aquitaine,Ouvert,green,-0.561047599999938,44.8305249
+Maison d'Ella,Fermé,red,-0.5944067000000359,44.85291809999999
+CCAS de Galgon,Ouvert,green,-0.27319680000005064,44.99252269999999
+Secours Catholique de Bordeaux Nord Chartrons à St Louis des Chartrons,Ouvert,green,-0.5721849000000248,44.85160959999999
+"Secours Catholique La Presqu’île ""Le petit café""",Fermé,red,-0.4274925,44.9158931
+CCAS de Gradignan,Ouvert,green,-0.6083399999999983,44.772464
+CCAS d'Artigues-près-Bordeaux,Ouvert,green,-0.4991300000000365,44.85821600000001
+Fontaine,Ouvert,green,-0.5826729000000341,44.8216308
+Fontaine,Ouvert,green,-0.5597811000000092,44.83264719999999
+Fontaine,Ouvert,green,-0.5775932,44.8202995
+Fontaine,Ouvert,green,-0.5565137999999479,44.8234624
+Fontaines,Ouvert,green,-0.5552711999999929,44.8364002
+Fontaines,Ouvert,green,-0.5639046999999664,44.8465306
+Fontaine,Ouvert,green,-0.6113058999999339,44.8332182
+Fontaine,Ouvert,green,-0.6113059,44.8332182
+Fontaine,Ouvert,green,-0.5768094999999676,44.8467515
+Fontaine et toilettes,Ouvert,green,-0.582673600000021,44.84014320000001
+Fontaine,Ouvert,green,-0.5668219000000363,44.8532237
+Fontaine,Ouvert,green,-0.5499803999999813,44.8703254
+Fontaine,Ouvert,green,-0.5748300000000199,44.873709
+Fontaine,Ouvert,green,-0.5460956,44.8732642
+Fontaine,Ouvert,green,-0.6148481000000174,44.8519034
+Secours Catholique de Créon,Ouvert,green,-0.34673650000002,44.7755507
+Secours Catholique Portes du Médoc,Ouvert,green,-0.6357739000000038,44.90971039999999
+Centre des Restos du Coeur Captieux,Fermé,red,-0.2606785,44.2916402
+Centre des Restos du Coeur Castelnau de Médoc,Ouvert,green,-0.8031432,45.02615429999999
+Camion du Médoc Castelnau,Ouvert,green,-0.8029822999999396,45.02622049999999
+Centre des Restos du Cœur de Hourtin,Fermé,red,-1.0565922000000683,45.18746779999999
+Centre des Restos du Cœur de La Réole,Ouvert,green,-0.06798279999998158,44.5795491
+Camion du Coeur la Teste de Buch,Ouvert,green,-1.1283251,44.6050954
+Centre des Restos du Cœur de Martillac,Ouvert,green,-0.534272900000019,44.7218317
+Centre des Restos du Cœur de Pauillac,Fermé,red,-0.743485899999996,45.1918593
+Centre des Restos du Cœur de Pineuilh,Fermé,red,0.22635170000000926,44.84041909999999
+Centre des Restos du Cœur de Saint André de Cubzac,Fermé,red,-0.4511764999999741,44.9920261
+Centre des Restos du Cœur de Saint Symphorien,Ouvert,green,-0.48728059999996276,44.426902
+Centre des Restos du Cœur de Saint Yzan de Soudiac,Fermé,red,-0.39098760000001676,45.1440618
+Centre des Restos du Cœur de Toulenne,Fermé,red,-0.27783580000004804,44.55516220000001
+Camion du Coeur de Toulenne,Ouvert,green,-0.2778358,44.55516220000001
+Centre des Restos du Cœur de Villenave-d'Ornon,Fermé,red,-0.5726941000000352,44.7786409
+Le Refuge - Délégation de Gironde,Ouvert,green,-0.5676502000000028,44.8336397
+Centre d'animation Bacalan,Ouvert,green,-0.5436443999999483,44.8793201
+Centre d'animation Sarah Bernhardt,Ouvert,green,-0.5710219000000052,44.879043
+Maison de Quartier Union Sportive Chartrons,Fermé,red,-0.5540257000000111,44.8609145
+Centre Social Bagatelle,Ouvert,green,-0.5753632999999354,44.8077894
+Ludothèque Berges du Lac,Fermé,red,-0.5710219000000052,44.879043
+Bibliothèque Pierre Veilletet,Fermé,red,-0.6240511999999399,44.85693269999999
+Biblio.sport,Ouvert,green,-0.5614170000000058,44.8337677
+Biblio.plage,Fermé,red,-0.5860462000000553,44.8855019
+Café des pères,Ouvert,green,-0.5727868999999828,44.8393707
+Amos Bordeaux - Saint Michel,Ouvert,green,-0.5675452000000405,44.8331157
+Amos Bordeaux - Victoire,Ouvert,green,-0.5735446999999567,44.82989329999999
+Amos Bordeaux - St Catherine,Ouvert,green,-0.5735385000000406,44.8363625
+Amos Bordeaux - Counord,Ouvert,green,-0.576325,44.860057
+Amos Mérignac Centre,Ouvert,green,-0.6463228000000072,44.8412433
+Centre d'animation Saint Pierre,Modification,orange,-0.5727868999999828,44.8393707
+APAFED,Ouvert,green,-0.5164736,44.85448900000001
+RepEyre,Ouvert,green,-0.8178000999999995,44.5269977
+Maison de l'Emploi (PLIE),Ouvert,green,-0.5753574000000299,44.8601424
+Force Femmes,Ouvert,green,-0.5725722999999999,44.85191469999999
+AIM,Ouvert,green,-0.5580574000000524,44.83993590000001
+MDS d'Ambarès et Lagrave,Modification,orange,-0.48786710000001676,44.9273268
+Clubhouse Bordeaux,Ouvert,green,-0.582184600000005,44.84791939999999
+Centre d'Accueil pour Demandeurs d'Asile (CADA) COS Quancard,Ouvert,green,-0.5464273999999705,44.77196
+L'Atelier Remuménage,Ouvert,green,-0.5683120999999574,44.8296298
+Le Club Delord (COJ),Ouvert,green,-0.5600428000000193,44.8610021
+Le Club Gambetta (COJ),Ouvert,green,-0.5399775999999292,44.842911
+Le Club Mozart (COJ),Ouvert,green,-0.582918100000029,44.86128069999999
+GEM Métamorphose,Fermé,red,-0.5884414000000001,44.8117468
+GEM Entre Acte,Ouvert,green,-0.3185166000000663,44.6355787
+GEM Le 7ème Café,Ouvert,green,-0.5896542000000409,44.8387069
+GEM Le Kiosque 12,Modification,orange,-0.2429924,44.9080535
+Oxygem Médoc,Ouvert,green,-0.9376366000000189,45.30614560000001
+GEM Tertio,Fermé,red,-0.5754010000000562,44.853372
+GEM L'amitié,Ouvert,green,-0.2471020000000408,44.5501286
+Antenne de Blaye,Fermé,red,-0.6602322999999615,45.1282379
+Antenne de Langon,Fermé,red,-0.24529280000001563,44.55380219999999
+Antenne de Loupiac,Fermé,red,-0.2959034000000429,44.6287679
+Antenne de Paillet,Fermé,red,-0.36503429999993386,44.6846857
+Antenne St Suplice et Cameyrac,Fermé,red,-0.3785079,44.9080407
+Antenne de St Léger de Balson,Ouvert,green,-0.46649090000005344,44.43192750000001
+Antenne de St Pierre d'Aurillac,Ouvert,green,-0.1906068000000687,44.57461780000001
+Antenne de Villenave d'Ornon,Fermé,red,-0.5726941000000352,44.7786409
+Antenne de la Teste de Buch,Fermé,red,-1.1461417000000438,44.62608549999999
+Comité de Bègles,Fermé,red,-0.5427471000000423,44.81625559999999
+Comité de Cenon,Ouvert,green,-0.5090483000000177,44.84950860000001
+Comité de Coutras,Fermé,red,-0.12771650000001955,45.0454431
+Comité des Graves,Ouvert,green,-0.5996579999999999,44.729177
+Boutique Solidaire de Martillac,Ouvert,green,-0.5414557999999943,44.712377
+Secours Populaire Comité de Libourne,Fermé,red,-0.24283059999993384,44.8983556
+Comité de Lormont,Fermé,red,-0.5209801999999399,44.87563039999999
+Comité de Mérignac,Fermé,red,-0.6469661999999516,44.85309540000001
+Comité de Pauillac,Fermé,red,-0.743485899999996,45.1918593
+Comité de Pessac-Cestas,Fermé,red,-0.6295883000000231,44.8036777
+Comité de St André de Cubzac,Ouvert,green,-0.4445690000000013,44.99400199999999
+Comité de St Ciers sur Gironde,Fermé,red,-0.6142270999999937,45.2919658
+Comité de St Médard en Jalles,Fermé,red,-0.7446472000000313,44.8993961
+Comité de Talence,Fermé,red,-0.5904826999999386,44.81721880000001
+Espace Familial La Parentèle,Fermé,red,-0.5886427000000367,44.83762780000001
+Pass'Mirail,Fermé,red,-0.5707979999999679,44.8330265
+AFL des Créonnais,Ouvert,green,-0.396557600000051,44.8408297
+AFL Sud Gironde,Ouvert,green,-0.3853202999999894,44.5341335
+AFL Portes du Médoc,Ouvert,green,-0.6436006000000134,44.94800149999999
+AFL ASCOPA,Ouvert,green,-0.6040309999999999,44.94949299999999
+AFL Outils,Fermé,red,-0.7661123,44.6058421
+Résidence Le Levain,Ouvert,green,-0.5759067999999843,44.8339646
+Résidence Rosa Parks,Ouvert,green,-0.5759270999999444,44.83559
+Centre Papillon,Ouvert,green,-0.5753574000000299,44.8601424
+Le Garage Moderne,Fermé,red,-0.5507089999999835,44.865281
+La Chiffonne Rit,Ouvert,green,-0.5383203000000094,44.8501476
+Délégation Territoriale de la Gironde,Ouvert,green,-0.4960645999999999,44.8447703
+Unité Locale Cœur Entre Deux Mers (Saint-Loubès),Fermé,red,-0.4622947999999951,44.9240238
+Unité Locale de Coutras,Ouvert,green,-0.11861680000004071,45.03946210000001
+Unité Locale de Gradignan,Fermé,red,-0.6127495000000636,44.77868970000001
+Unité Locale de Libourne,Ouvert,green,-0.23041560000001482,44.9111564
+Unité Locale de Mérignac,Ouvert,green,-0.6469661999999516,44.85309540000001
+Unité Locale Terres de Montesquieu (Pessac),Fermé,red,-0.6311734999999317,44.8013211
+Unité Locale des Portes Océanes (Eysines),Ouvert,green,-0.6328109999999469,44.88071300000001
+Unité Locale de Sainte-Foy-La-Grande,Ouvert,green,0.21599600000001828,44.8406944
+Unité Locale Sud Gironde (Langon),Fermé,red,-0.24991869999996652,44.5516401
+Unité Locale Terre de Montesquieu (Villenave d'Ornon),Fermé,red,-0.5726941000000352,44.7786409
+Unité Locale Terres du Médoc (Lesparre),Ouvert,green,-0.9313672000000679,45.2992645
+Unité Locale Terres du Médoc (Hourtin),Ouvert,green,-1.0565922000000683,45.18746779999999
+Unité Locale Terres du Médoc (Talais),Ouvert,green,-0.9432587999999669,45.3059039
+Croix Rouge Sur Roues (Médoc),Ouvert,green,-0.9313672000000679,45.2992645
+Dispensaire pour animaux de Bordeaux,Fermé,red,-0.5813450000000557,44.84167799999999
+COS Quancard - Plateforme Intégration Réfugié,Ouvert,green,-0.5855309999999463,44.8393678
+RAD du TJ de Bordeaux,Ouvert,green,-0.5804487999999992,44.8360075
+RAD du TJ de Libourne,Ouvert,green,-0.24464239999997517,44.9138446
+PAD de Mérignac,Fermé,red,-0.6541353000000072,44.8458574
+PAD de la CALI,Ouvert,green,-0.23902799999996205,44.9103034
+PAD de Langon,Fermé,red,-0.24637689999997292,44.5551809
+PAD de la COBAS,Ouvert,green,-1.1459477999999308,44.6386782
+RAD de Castillon-Pujols,Fermé,red,-0.04947500000002947,44.85283
+Espace France Services à Sainte Foy la Grande,Ouvert,green,0.2195357000000513,44.8391113
+CIAS Latitude Nord Gironde,Ouvert,green,-0.3963403999999855,45.141219
+RAD de Blaye,Ouvert,green,-0.6570297000000664,45.1322142
+PAD de Saint-Ciers-Sur-Gironde,Ouvert,green,-0.6091982000000371,45.29089740000001
+PAD de Lesparre-Médoc,Ouvert,green,-0.9370585999999999,45.3063539
+Le Nom Lieu,Fermé,red,-0.5704283000000032,44.84041260000001
+CAF Bordeaux,Ouvert,green,-0.557635800000071,44.8906041
+ATUTÊTS,Ouvert,green,-0.5851265000000012,44.8324594
+La Tablée Populaire et Solidaire,Ouvert,green,-0.5725751999999602,44.8311575
+Les Compagnons Bâtisseurs,Ouvert,green,-0.5469748000000436,44.8805085
+Ludothèque Interlude Bastide,Fermé,red,-0.5617571000000225,44.8450674
+Centre d'animation Bastide Benauge,Modification,orange,-0.5434476000000359,44.8438725
+CPCT Aquitaine,Fermé,red,-0.5239361999999801,44.8605335
+Secours Catholique Cadaujac,Ouvert,green,-0.5296971000000212,44.75581539999999
+France Services antenne Monségur,Ouvert,green,0.08044389999997748,44.65032799999999
+France Services La Réole,Ouvert,green,-0.0406394999999975,44.5820618
+France Services antenne Auros,Ouvert,green,-0.1419637,44.4930531
+Relais Popote de la Maison des Familles,Fermé,red,-0.570350899999994,44.8264285
+Relais Popote du MJC centre de loisirs,Fermé,red,-0.6308698999999933,44.8453904
+Relais Popote du 4,Ouvert,green,-0.589573200000018,44.8307344
+Relais Popote du centre d'animation Bastide Benauge,Ouvert,green,-0.5434476000000359,44.8438725
+Relais Popote du centre d'animation Bastide Queyries,Fermé,red,-0.5630404999999428,44.84534499999999
+Relais Popote du centre d'animation Saint-Pierre,Ouvert,green,-0.5727868999999828,44.8393707
+CAIO,Ouvert,green,-0.5626967000000604,44.831284
+Planning Familial Antenne de Bazas,Ouvert,green,-0.21123999999997523,44.4315525
+Planning Familial Antenne de Langon,Ouvert,green,-0.24637689999997292,44.5551809
+SAMSAH,Ouvert,green,-0.5411138999999999,44.82032629999999
+La Maison des enfants,Ouvert,green,-0.5764788,44.8331707
+La Maison Soleil,Ouvert,green,-0.5520803,44.8415063
+CARSAT Aquitaine,Ouvert,green,-0.5553445000000465,44.895459
+La Maison de Marie,Ouvert,green,-0.565552900000057,44.858214
+Le refuge des clochards poilus,Ouvert,green,-0.3922648999999865,44.7252926
+La maison des familles,Fermé,red,-0.570350899999994,44.8264285
+"Le café social ""Au Petit Monde""",Ouvert,green,-0.552609,44.8416953
+AGIRabcd Gironde,Ouvert,green,-0.6541505999999998,44.8457888
+Les Fées Papillons,Fermé,red,-0.5745131,44.8741105
+Espoir Bordeaux rive droite,Fermé,red,-0.5137780000000001,44.8787914
+Association NQT,Ouvert,green,-0.5753574000000001,44.8601424
+La cravate solidaire Bordeaux,Fermé,red,-0.5682260000000001,44.8794115
+D2C  Sud Gironde,Fermé,red,-0.2482452,44.5504905
+D2C Lormont,Fermé,red,-0.5202128000000001,44.87561059999999
+D2C Créon,Fermé,red,-0.3481783,44.77524200000001
+D2C Graves,Fermé,red,-0.5654517,44.7818817
+D2C Médoc,Fermé,red,-0.9373286999999999,45.3086748
+D2C Bassin,Fermé,red,-1.1443755,44.63530230000001
+La Maison d'Elizabeth,Fermé,red,-0.5653576,44.8581648
+La MDPH de la Gironde,Ouvert,green,-0.5865606,44.83672900000001
+Fontaine,Ouvert,green,-0.5934863999999999,44.8621542
+Fontaine,Ouvert,green,-0.607407,44.836865
+Fontaine,Ouvert,green,-0.5566542999999999,44.8141292
+Fontaine,Ouvert,green,-0.5453467999999999,44.85055029999999
+Fontaine,Ouvert,green,-0.5726277000000001,44.87790810000001
+Fontaine,Ouvert,green,-0.5708605,44.8790056
+Fontaine,Ouvert,green,-0.5668473,44.8136716
+Fontaine,Ouvert,green,-0.5718109000000001,44.8369316
+Fontaine + sanitaire automatique,Ouvert,green,-0.5645387999999999,44.8345729
+Sanitaire automatique,Ouvert,green,-0.5515627,44.82389089999999
+Sanitaire automatique,Ouvert,green,-0.567596,44.83086899999999
+Sanitaire automatique,Ouvert,green,-0.5635067999999999,44.83486809999999
+Sanitaire automatique,Ouvert,green,-0.2586622000000001,44.5513227
+sanitaire automatique,Ouvert,green,-0.5725752,44.8311575
+sanitaire automatique,Ouvert,green,-0.5577508,44.8264886
+Sanitaire public,Ouvert,green,-0.5683844000000001,44.8354226
+Sanitaire automatique,Ouvert,green,-0.5649601,44.8471932
+sanitaire automatique,Ouvert,green,-0.5646925999999999,44.845796
+sanitaire automatique,Ouvert,green,-0.6020808,44.82061040000001
+sanitaires automatiques,Ouvert,green,-0.5745211,44.8437624
+Fontaine et Sanitaire automatique,Ouvert,green,-0.5761719999999999,44.8412121
+sanitaire automatique,Ouvert,green,-0.5710685,44.8474099
+Fontaine,Ouvert,green,-0.5642679999999999,44.8458194
+Fontaine,Ouvert,green,-0.5819884,44.8249594
+Fontaine,Ouvert,green,-0.5983965000000001,44.8263876
+Douches,Ouvert,green,-0.5701413,44.86839889999999
+MDPH maison du département solidarité Bassin,Ouvert,green,-1.0360357,44.7061588
+MDPH Maison du département solidarité Haute Gironde,Ouvert,green,-0.4512226,44.9895392
+Solidarité Femmes Bassin,Ouvert,green,-1.0079976,44.6782599
+Epi C’Tout,Fermé,red,-0.5763182,44.8600498
+Epicerie sociale d'Arcachon,Fermé,red,-1.1744808,44.6606656
+Fontaine,Ouvert,green,-0.552708,44.8659151
+Le Petit Grain,Fermé,red,-0.5650389999999998,44.82690399999999
+Diamant Cité Nord,Ouvert,green,-0.5725692,44.8817342
+Toilette Publique,Ouvert,green,-0.5790979999999999,44.877221
+Le Carillon,Ouvert,green,-0.5712046,44.83295129999999
+Les Clochettes,Ouvert,green,-0.57918,44.837789
+Association La Cloche,Ouvert,green,-0.57918,44.837789
+Boutique bric à brac Emmaüs Nansouty,Ouvert,green,-0.572295,44.8209347
+Fontaine,Ouvert,green,-0.5933254,44.8422642
+Fontaine,Ouvert,green,-0.5690575,44.8405683
+Centre d'Animation Bordeaux Lac,Ouvert,green,-0.5724245,44.8723712
+Dispositif prostitution Poppy,Fermé,red,-0.5704272000000001,44.8389327
+Centre d'animation Bastide Queyries,Ouvert,green,-0.5630405,44.84534499999999
+CIDFF Antenne de Libourne,Ouvert,green,-0.2446198,44.9154843
+Espace de Vie Sociale Chantelude,Fermé,red,-0.5623939000000001,44.86268399999999
+Ludothèque Sablonat,Fermé,red,-0.5741837,44.817594
+Amicale Laïque de Bacalan,Fermé,red,-0.5462241999999999,44.8740741
+Centre d'animation Monséjour,Ouvert,green,-0.629717,44.85421599999999
+Centre d'animation Argonne Nansouty Saint-Genès,Ouvert,green,-0.5779557,44.8240446
+CeGIDD Libourne,Fermé,red,-0.2299551,44.9197632
+Fontaine,Ouvert,green,-0.5767403999999999,44.8249279
+Fontaine,Ouvert,green,-0.5543902999999999,44.83586999999999
+Fontaine,Ouvert,green,-0.5461832999999999,44.8449301
+Fontaine,Ouvert,green,-0.5709141999999999,44.8790641
+Fontaine,Ouvert,green,-0.5709428,44.8723671
+Fontaine,Ouvert,green,-0.5719113,44.8786763
+Fontaine,Ouvert,green,-0.5633528999999999,44.906977
+Fontaine,Ouvert,green,-0.5664179999999999,44.906514
+Fontaine,Ouvert,green,-0.5874412,44.85507179999999
+Régie de Quartier Habiter Bacalan,Ouvert,green,-0.5469815,44.8709473
+Point Info Femmes,Ouvert,green,-0.5861089,44.8351315
+Mission Locale antenne de la communauté de communes de Montesquieu (Léognan),Ouvert,green,-0.602147,44.7276043
+Mission Locale antenne de Cestas-Canejan,Ouvert,green,-0.6862749,44.752864
+FAM Triade,Ouvert,green,-0.6152031,44.86346349999999
+La CASE - CAARUD Espace Bastide ,Ouvert,green,-0.5614136999999999,44.8409368
+École de la Deuxième Chance (E2C),Fermé,red,-0.5960902,44.84451199999999
+La Ressourcerie,Fermé,red,-0.5724984,44.84266849999999
+Maman tu es belle,Ouvert,green,-0.5515382,44.8800561
+Centre Social Sud Gironde,Ouvert,green,-0.2611248,44.5592193
+La Porte Ouverte Bordeaux,Fermé,red,-0.5864944,44.8422081
+DITEP Rive Gauche,Ouvert,green,-0.6148241999999999,44.8127444
+CMP Entretemps,Ouvert,green,-0.6353522,44.8777661
+GEM Médiagora Bordeaux,Ouvert,green,-0.5565203,44.8591548
+CPEF Aliénor d'Aquitaine,Ouvert,green,-0.6028077,44.830361
+Diapason Sud ,Fermé,red,-0.5703509,44.8264285
+Diapason Nord,Fermé,red,-0.5748445999999999,44.8731948
+Psy'hope,Fermé,red,-0.5963876,44.8668258
+Phénix écoute et paroles/SOS Suicide Phénix,Modification,orange,-0.6080023,44.84075029999999
+Vestiboutique de la Croix Rouge,Ouvert,green,-0.246316,44.9158056
+Conférence de Libourne,Fermé,red,-0.2210756,44.9039923
+Centre d'animation Saint Michel,Ouvert,green,-0.5682845,44.8326734
+EAJE Pitchoun’ globe-trotteurs,Ouvert,green,-0.5722638000000001,44.8258917
+Centre dépistage Covid,Ouvert,green,-0.5768106,44.8430044
+Centre dépistage Covid - Gare saint Jean,Ouvert,green,-0.5565668,44.8268205
+EBS Le Relais Gironde,Ouvert,green,-0.5544817,44.8753256
+WeJob,Ouvert,green,-0.5937479999999999,44.8530392
+Friperie Solidaire Ding Fring - Bordeaux Victor Hugo,Ouvert,green,-0.5704315999999999,44.83526819999999
+Friperie Solidaire Ding Fring - Cenon,Ouvert,green,-0.534377,44.8564386
+Friperie Solidaire Ding Fring - Pessac,Ouvert,green,-0.6326748999999999,44.8064697
+Espoir Pour Tous,Fermé,red,-0.5927359999999999,44.7924631
+PHARMA Solidaires - Gironde,Ouvert,green,-0.723511,44.91313
+Le Kfé des Familles,Fermé,red,-0.5502762,44.8697932
+La Fringalerie ,Fermé,red,-0.587867,44.80483599999999
+Accueil Pey Berland de Saint-Vincent-de-Paul,Modification,orange,-0.5773950999999999,44.8363215
+Accueil social du Diaconat de Bordeaux,Ouvert,green,-0.5852018999999999,44.8288095
+Konexio Bordeaux,Ouvert,green,-0.550639,44.8143849
+Femmes Solidaires,Ouvert,green,-1.1414795,44.6295215
+CCAS de Bouliac,Ouvert,green,-0.5037817000000001,44.8146188
+CIDFF Antenne Hauts de Garonne,Ouvert,green,-0.5209334000000001,44.856132
+Les Cygnes de Vie ,Ouvert,green,-0.243249,44.9170677
+Plateforme Mobilité du Libournais,Fermé,red,-0.2455228,44.92025359999999
+Dynamots ,Ouvert,green,-0.2443946,44.9140271
+Chanodé,Fermé,red,-0.5736876,44.84811300000001
+SOCIETE DE SAINT VINCENT DE PAUL -CONFERENCE D'ANDERNOS,Ouvert,green,-1.0835732,44.7453764
+France Services antenne Caudrot,Ouvert,green,-0.143041,44.57675700000001
+SOLACMI (Solidarité Accompagnement Migrants) ,Ouvert,green,-0.7181,44.895295
+Centre des Restos du Cœur Bruges,Ouvert,green,-0.6205104999999999,44.8862848
+Camion du Coeur Blaye,Ouvert,green,-0.6637971,45.1252971
+Camion du Coeur Bourg sur Gironde,Ouvert,green,-0.5575690999999999,45.0387979
+Bubble Box,Ouvert,green,-0.5729339,44.8455848
+Plateforme Mobilité du Médoc,Ouvert,green,-0.9446804,45.3034839
+APREVA,Ouvert,green,-0.5303067999999999,44.882426
+Relais Popote du Kfé des Familles,Fermé,red,-0.5502762,44.8697932
+PLIE Portes du Sud (Plan Local pour l'Insertion et l'Emploi),Ouvert,green,-0.6157163999999999,44.7738051
+L'EYpicerie,Ouvert,green,-0.6332215,44.8686498
+Mairie de quartier Bordeaux Sud,Ouvert,green,-0.5715601,44.83070559999999
+La Boutique APEFEM,Fermé,red,-0.03757539999999999,44.5826553
+Les Coteaux Paysage,Ouvert,green,-0.5094721999999999,44.8844888
+@PEFEM RURAL'IT,Ouvert,green,-0.03570279999999999,44.5825409
