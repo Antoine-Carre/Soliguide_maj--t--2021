@@ -137,6 +137,10 @@ if categorie == 'France':
 
     col3.markdown(html_string, unsafe_allow_html=True)
 
+    html_string = "<br>"
+
+    st.markdown(html_string, unsafe_allow_html=True)
+
     # Création de la carte avec pour centre : le centre d ela France
     mappy = folium.Map(location=[46.227638, 2.213749],zoom_start=5.8)
 
