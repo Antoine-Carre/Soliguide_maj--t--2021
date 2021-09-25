@@ -676,7 +676,7 @@ if categorie == 'Bas-Rhin (67)':
 
  
     # Création de la carte avec pour centre : le centre d ela France
-    mappy = folium.Map(location=[df_fiches_67.latitude[0], df_fiches_67.longitude[0]],zoom_start=8.5)
+    mappy = folium.Map(location=[df_fiches_67.latitude[0], df_fiches_67.longitude[0]],zoom_start=9)
 
     marker_cluster = MarkerCluster().add_to(mappy)
 
