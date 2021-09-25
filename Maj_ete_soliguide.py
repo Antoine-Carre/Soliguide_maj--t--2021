@@ -760,9 +760,25 @@ if categorie == 'Paris (75)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>2 448 &emsp;&emsp;&emsp; 1067 &emsp;&emsp;&emsp;&ensp;&ensp;  74</font><br/><font size='2'>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
+
+    col1, col2, col3 = st.columns(3)
+
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>2 448</font><br><font size='2'>structures</font></center>"
+
+    col1.markdown(html_string, unsafe_allow_html=True)
+
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>361</font><br/><font size='2'>structures ont fermé<br></font></center>"
+
+    col2.markdown(html_string, unsafe_allow_html=True)
+
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>46</font><br/><font size='2'>structures ont changé d'horaire<br>(du 1<sup>er</sup>juillet au 31 août)</font></center>"
+
+    col3.markdown(html_string, unsafe_allow_html=True)
+
+    html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
+
   
     # Création de la carte avec pour centre : le centre d ela France
     mappy = folium.Map(location=[48.856614, 2.3522219],zoom_start=12.1)
@@ -850,7 +866,22 @@ if categorie == 'Seine-et-Marne (77)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>127 &emsp;&emsp;&emsp;&emsp; 27 &emsp;&emsp;&emsp;&emsp;&emsp;  5</font><br/><font size='2'>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
+
+    col1, col2, col3 = st.columns(3)
+
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>127</font><br><font size='2'>structures</font></center>"
+
+    col1.markdown(html_string, unsafe_allow_html=True)
+
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>5</font><br/><font size='2'>structures ont fermé<br></font></center>"
+
+    col2.markdown(html_string, unsafe_allow_html=True)
+
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>5</font><br/><font size='2'>structures ont changé d'horaire<br>(du 1<sup>er</sup>juillet au 31 août)</font></center>"
+
+    col3.markdown(html_string, unsafe_allow_html=True)
+
+    html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
    
@@ -940,7 +971,21 @@ if categorie == 'Yvelines (78)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>829 &emsp;&emsp;&emsp;&emsp; 661 &emsp;&emsp;&emsp;&emsp;&ensp;  42</font><br/><font size='2'>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
+    col1, col2, col3 = st.columns(3)
+
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>829</font><br><font size='2'>structures</font></center>"
+
+    col1.markdown(html_string, unsafe_allow_html=True)
+
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>174</font><br/><font size='2'>structures ont fermé<br></font></center>"
+
+    col2.markdown(html_string, unsafe_allow_html=True)
+
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>31</font><br/><font size='2'>structures ont changé d'horaire<br>(du 1<sup>er</sup>juillet au 31 août)</font></center>"
+
+    col3.markdown(html_string, unsafe_allow_html=True)
+
+    html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
  
