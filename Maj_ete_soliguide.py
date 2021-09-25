@@ -164,7 +164,7 @@ if categorie == 'France':
     # Donnéés traitées pour construire graph 2
     df_comparaison_France['Part de service fermé'] = df_comparaison_France['Part de service fermé'].round(1)
 
-    fig = px.bar(df_comparaison_France.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+    fig = px.bar(df_comparaison_France.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
     fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
@@ -275,7 +275,7 @@ if categorie == 'Ile-De-France':
     # Donnéés traitées pour construire graph 2
     df_comparaison_IDF['Part de service fermé'] = df_comparaison_IDF['Part de service fermé'].round(1)
 
-    fig = px.bar(df_comparaison_IDF.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+    fig = px.bar(df_comparaison_IDF.head(10).sort_values(by='Part de service fermé', ascending=True), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
     fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
@@ -388,7 +388,7 @@ if categorie == 'Alpes-Maritimes (06)':
     # Donnéés traitées pour construire graph 2
     df_comparaison_06['Part de service fermé'] = df_comparaison_06['Part de service fermé'].round(1)
 
-    fig = px.bar(df_comparaison_06.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+    fig = px.bar(df_comparaison_06.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
     fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
@@ -490,7 +490,7 @@ if categorie == 'Gironde (33)':
     # Donnéés traitées pour construire graph 2
     df_comparaison_33['Part de service fermé'] = df_comparaison_33['Part de service fermé'].round(1)
 
-    fig = px.bar(df_comparaison_33.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+    fig = px.bar(df_comparaison_33.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
     fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
@@ -593,7 +593,7 @@ if categorie == 'Loire-Atlantique (44)':
     # Donnéés traitées pour construire graph 2
     df_comparaison_44['Part de service fermé'] = df_comparaison_44['Part de service fermé'].round(1)
 
-    fig = px.bar(df_comparaison_44.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+    fig = px.bar(df_comparaison_44.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
     fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
@@ -698,7 +698,7 @@ if categorie == 'Bas-Rhin (67)':
      # Donnéés traitées pour construire graph 2
     df_comparaison_67['Part de service fermé'] = df_comparaison_67['Part de service fermé'].round(1)
 
-    fig = px.bar(df_comparaison_67.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+    fig = px.bar(df_comparaison_67.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
     fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
@@ -803,7 +803,7 @@ if categorie == 'Paris (75)':
      # Donnéés traitées pour construire graph 2
     df_comparaison_75['Part de service fermé'] = df_comparaison_75['Part de service fermé'].round(1)
 
-    fig = px.bar(df_comparaison_75.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+    fig = px.bar(df_comparaison_75.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
     fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
@@ -908,7 +908,7 @@ if categorie == 'Seine-et-Marne (77)':
      # Donnéés traitées pour construire graph 2
     df_comparaison_77['Part de service fermé'] = df_comparaison_77['Part de service fermé'].round(1)
 
-    fig = px.bar(df_comparaison_77.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+    fig = px.bar(df_comparaison_77.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
     fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
@@ -1013,7 +1013,7 @@ if categorie == 'Yvelines (78)':
      # Donnéés traitées pour construire graph 2
     df_comparaison_78['Part de service fermé'] = df_comparaison_78['Part de service fermé'].round(1)
 
-    fig = px.bar(df_comparaison_78.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+    fig = px.bar(df_comparaison_78.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
     fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
@@ -1117,7 +1117,7 @@ if categorie == 'Essonne (91)':
      # Donnéés traitées pour construire graph 2
     df_comparaison_91['Part de service fermé'] = df_comparaison_91['Part de service fermé'].round(1)
 
-    fig = px.bar(df_comparaison_91.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+    fig = px.bar(df_comparaison_91.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
     fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
@@ -1226,7 +1226,7 @@ if categorie == 'Hauts-de-Seine (92)':
      # Donnéés traitées pour construire graph 2
     df_comparaison_92['Part de service fermé'] = df_comparaison_92['Part de service fermé'].round(1)
 
-    fig = px.bar(df_comparaison_92.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+    fig = px.bar(df_comparaison_92.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
     fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
@@ -1328,7 +1328,7 @@ if categorie == 'Seine-Saint-Denis (93)':
      # Donnéés traitées pour construire graph 2
     df_comparaison_93['Part de service fermé'] = df_comparaison_93['Part de service fermé'].round(1)
 
-    fig = px.bar(df_comparaison_93.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+    fig = px.bar(df_comparaison_93.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
     fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
@@ -1430,7 +1430,7 @@ if categorie == 'Val-de-Marne (94)':
      # Donnéés traitées pour construire graph 2
     df_comparaison_94['Part de service fermé'] = df_comparaison_94['Part de service fermé'].round(1)
 
-    fig = px.bar(df_comparaison_94.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+    fig = px.bar(df_comparaison_94.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
     fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
@@ -1533,7 +1533,7 @@ if categorie == 'Val-d\'Oise (95)':
      # Donnéés traitées pour construire graph 2
     df_comparaison_95['Part de service fermé'] = df_comparaison_95['Part de service fermé'].round(1)
 
-    fig = px.bar(df_comparaison_95.head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
+    fig = px.bar(df_comparaison_95.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
     fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
