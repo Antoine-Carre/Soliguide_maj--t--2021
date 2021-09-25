@@ -347,9 +347,21 @@ if categorie == 'Alpes-Maritimes (06)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>341 &emsp;&emsp;&emsp;&ensp;&ensp; 189 &emsp;&emsp;&emsp;&emsp;&ensp; 2</font><br/><font size='2'>  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
+    col1, col2, col3 = st.columns(3)
 
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>341</font><br><font size='2'>structures</font></center>"
 
+    col1.markdown(html_string, unsafe_allow_html=True)
+
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>17</font><br/><font size='2'>structures ont fermé<br></font></center>"
+
+    col2.markdown(html_string, unsafe_allow_html=True)
+
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>2</font><br/><font size='2'>structures ont changé d'horaire<br>(du 1<sup>er</sup>juillet au 31 août)</font></center>"
+
+    col3.markdown(html_string, unsafe_allow_html=True)
+
+    html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
 
@@ -437,11 +449,24 @@ if categorie == 'Gironde (33)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>885 &emsp;&emsp;&emsp;&emsp;&emsp; 567 &emsp;&emsp;&emsp;&emsp;&ensp; 104</font><br/><font size='2'> &emsp;&emsp;&emsp;&emsp; structures &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
+    col1, col2, col3 = st.columns(3)
+
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>885</font><br><font size='2'>structures</font></center>"
+
+    col1.markdown(html_string, unsafe_allow_html=True)
+
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>212</font><br/><font size='2'>structures ont fermé<br></font></center>"
+
+    col2.markdown(html_string, unsafe_allow_html=True)
+
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>69</font><br/><font size='2'>structures ont changé d'horaire<br>(du 1<sup>er</sup>juillet au 31 août)</font></center>"
+
+    col3.markdown(html_string, unsafe_allow_html=True)
+
+    html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
- 
- 
+
     # Création de la carte avec pour centre : le centre d ela France
     mappy = folium.Map(location=[df_fiches_33.latitude[0], df_fiches_33.longitude[0]],zoom_start=8.5)
 
@@ -526,9 +551,24 @@ if categorie == 'Loire-Atlantique (44)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>921 &emsp;&emsp;&emsp;&emsp; 651 &emsp;&emsp;&emsp;&emsp;&ensp; 78</font><br/><font size='2'> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
+    col1, col2, col3 = st.columns(3)
+
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>921</font><br><font size='2'>structures</font></center>"
+
+    col1.markdown(html_string, unsafe_allow_html=True)
+
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>147</font><br/><font size='2'>structures ont fermé<br></font></center>"
+
+    col2.markdown(html_string, unsafe_allow_html=True)
+
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>58</font><br/><font size='2'>structures ont changé d'horaire<br>(du 1<sup>er</sup>juillet au 31 août)</font></center>"
+
+    col3.markdown(html_string, unsafe_allow_html=True)
+
+    html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
+
    
     # Création de la carte avec pour centre : le centre d ela France
     mappy = folium.Map(location=[df_fiches_44.latitude[0], df_fiches_44.longitude[0]],zoom_start=8.2)
@@ -615,9 +655,25 @@ if categorie == 'Bas-Rhin (67)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>253 &emsp;&emsp;&emsp;&emsp; 166 &emsp;&emsp;&emsp;&emsp;&ensp; 35</font><br/><font size='2'>&emsp;&emsp;&emsp;&emsp;&emsp; structures &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; structures ont fermé &emsp;&emsp;&emsp;&emsp;&emsp; structures ont changé d'horaire<br> <br></font>"
+
+    col1, col2, col3 = st.columns(3)
+
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>252</font><br><font size='2'>structures</font></center>"
+
+    col1.markdown(html_string, unsafe_allow_html=True)
+
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>46</font><br/><font size='2'>structures ont fermé<br></font></center>"
+
+    col2.markdown(html_string, unsafe_allow_html=True)
+
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>30</font><br/><font size='2'>structures ont changé d'horaire<br>(du 1<sup>er</sup>juillet au 31 août)</font></center>"
+
+    col3.markdown(html_string, unsafe_allow_html=True)
+
+    html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
+
  
     # Création de la carte avec pour centre : le centre d ela France
     mappy = folium.Map(location=[df_fiches_67.latitude[0], df_fiches_67.longitude[0]],zoom_start=8.5)
