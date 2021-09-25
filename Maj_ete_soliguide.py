@@ -299,16 +299,6 @@ if categorie == 'Ile-De-France':
     fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
     st.plotly_chart(fig, use_container_width=True)
  
-
-    html_string = "<h2>2 229 mails envoyés et au moins 840 appels réalisés</h2>"
-
-    st.markdown(html_string, unsafe_allow_html=True)
-
-
-    html_string = "<h2>94 065 recherches ont été effectuées sur soliguide cette été</h2>"
-
-    st.markdown(html_string, unsafe_allow_html=True)
-
    # Donnéés traitées pour construire graph 3
 
     df_stacked_per_IDF = df_stacked_per_IDF.round()
