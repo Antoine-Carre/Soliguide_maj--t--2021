@@ -935,7 +935,7 @@ if categorie == 'Paris (75)':
 
     st.markdown(html_string, unsafe_allow_html=True)
     
-   col1, col2, col3 = st.columns(3)
+    col1, col2, col3 = st.columns(3)
 
     html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>1 259</font><br><font size='2'>e-mails et relances envoyées</font></center>"
 
