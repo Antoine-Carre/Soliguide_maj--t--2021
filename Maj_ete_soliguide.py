@@ -178,7 +178,7 @@ if categorie == 'France':
     
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_france.rename(columns={'Ouvert':'Service ouvert'})
+    df_stacked_per_france.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
 
     fig = px.bar(df_stacked_per_france, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
