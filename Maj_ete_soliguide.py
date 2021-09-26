@@ -180,7 +180,7 @@ if categorie == 'France':
 
     df_stacked_per_france.rename(columns={'Ouvert':'Service ouvert'})
 
-    fig = px.bar(df_stacked_per_france, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+    fig = px.bar(df_stacked_per_france, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
