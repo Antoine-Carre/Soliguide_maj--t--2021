@@ -303,7 +303,7 @@ if categorie == 'Ile-De-France':
 
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_IDF.rename(columns={'Ouvert':'Service ouvert'})
+    df_stacked_per_IDF.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
 
     fig = px.bar(df_stacked_per_IDF, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
