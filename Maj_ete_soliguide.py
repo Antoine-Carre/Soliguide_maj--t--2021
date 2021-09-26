@@ -536,7 +536,7 @@ if categorie == 'Gironde (33)':
     
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_33.rename(columns={'Ouvert':'Service ouvert'})
+    df_stacked_per_33.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
 
     fig = px.bar(df_stacked_per_33, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
