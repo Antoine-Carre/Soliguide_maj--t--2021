@@ -420,7 +420,7 @@ if categorie == 'Alpes-Maritimes (06)':
  
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_06.rename(columns={'Ouvert':'Service ouvert'})
+    df_stacked_per_06.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
 
     fig = px.bar(df_stacked_per_06, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
@@ -653,7 +653,7 @@ if categorie == 'Loire-Atlantique (44)':
 
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_44.rename(columns={'Ouvert':'Service ouvert'})
+    df_stacked_per_44.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
 
     fig = px.bar(df_stacked_per_44, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
@@ -773,7 +773,7 @@ if categorie == 'Bas-Rhin (67)':
 
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_67.rename(columns={'Ouvert':'Service ouvert'})
+    df_stacked_per_67.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
 
     fig = px.bar(df_stacked_per_67, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
@@ -893,7 +893,7 @@ if categorie == 'Paris (75)':
 
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_75.rename(columns={'Ouvert':'Service ouvert'})
+    df_stacked_per_75.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
 
     fig = px.bar(df_stacked_per_75, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
@@ -1015,7 +1015,7 @@ if categorie == 'Seine-et-Marne (77)':
 
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_77.rename(columns={'Ouvert':'Service ouvert'})
+    df_stacked_per_77.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
 
     fig = px.bar(df_stacked_per_77, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
@@ -1136,7 +1136,7 @@ if categorie == 'Yvelines (78)':
 
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_78.rename(columns={'Ouvert':'Service ouvert'})
+    df_stacked_per_78.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
 
     fig = px.bar(df_stacked_per_78, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
@@ -1254,7 +1254,7 @@ if categorie == 'Essonne (91)':
 
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_91.rename(columns={'Ouvert':'Service ouvert'})
+    df_stacked_per_91.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
 
     fig = px.bar(df_stacked_per_91, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
@@ -1376,7 +1376,7 @@ if categorie == 'Hauts-de-Seine (92)':
 
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_92.rename(columns={'Ouvert':'Service ouvert'})
+    df_stacked_per_92.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
 
     fig = px.bar(df_stacked_per_92, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
@@ -1493,7 +1493,7 @@ if categorie == 'Seine-Saint-Denis (93)':
 
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_93.rename(columns={'Ouvert':'Service ouvert'})
+    df_stacked_per_93.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
 
     fig = px.bar(df_stacked_per_93, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'], text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
@@ -1607,7 +1607,7 @@ if categorie == 'Val-de-Marne (94)':
 
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_94.rename(columns={'Ouvert':'Service ouvert'})
+    df_stacked_per_94.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
 
     fig = px.bar(df_stacked_per_94, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
@@ -1725,7 +1725,7 @@ if categorie == 'Val-d\'Oise (95)':
 
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_95.rename(columns={'Ouvert':'Service ouvert'})
+    df_stacked_per_95.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
 
     fig = px.bar(df_stacked_per_95, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
