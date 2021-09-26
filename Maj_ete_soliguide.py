@@ -178,10 +178,10 @@ if categorie == 'France':
     
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_france = df_stacked_per_france.round()
+    df_stacked_per_france.rename(columns={'Ouvert':'Service ouvert'})
 
-    fig = px.bar(df_stacked_per_france, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], custom_data=['value'],
-                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    fig = px.bar(df_stacked_per_france, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
@@ -301,10 +301,12 @@ if categorie == 'Ile-De-France':
  
    # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_IDF = df_stacked_per_IDF.round()
-    
-    fig = px.bar(df_stacked_per_france, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], custom_data=['value'],
-                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    # Donnéés traitées pour construire graph 3
+
+    df_stacked_per_IDF.rename(columns={'Ouvert':'Service ouvert'})
+
+    fig = px.bar(df_stacked_per_IDF, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
@@ -416,12 +418,12 @@ if categorie == 'Alpes-Maritimes (06)':
     fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
     st.plotly_chart(fig, use_container_width=True)
  
-  # Donnéés traitées pour construire graph 3
+    # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_06 = df_stacked_per_06.round()
-    
-    fig = px.bar(df_stacked_per_06, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], custom_data=['value'],
-                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    df_stacked_per_06.rename(columns={'Ouvert':'Service ouvert'})
+
+    fig = px.bar(df_stacked_per_06, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
@@ -532,12 +534,12 @@ if categorie == 'Gironde (33)':
     st.plotly_chart(fig, use_container_width=True)
     
     
-   # Donnéés traitées pour construire graph 3
+    # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_33 = df_stacked_per_33.round()
+    df_stacked_per_33.rename(columns={'Ouvert':'Service ouvert'})
 
-    fig = px.bar(df_stacked_per_33, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], custom_data=['value'],
-                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    fig = px.bar(df_stacked_per_33, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
@@ -649,12 +651,12 @@ if categorie == 'Loire-Atlantique (44)':
     fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
     st.plotly_chart(fig, use_container_width=True)
 
-   # Donnéés traitées pour construire graph 3
+    # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_44 = df_stacked_per_44.round()
+    df_stacked_per_44.rename(columns={'Ouvert':'Service ouvert'})
 
-    fig = px.bar(df_stacked_per_44, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], custom_data=['value'],
-                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    fig = px.bar(df_stacked_per_44, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
@@ -769,13 +771,12 @@ if categorie == 'Bas-Rhin (67)':
     fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
     st.plotly_chart(fig, use_container_width=True)
 
+    # Donnéés traitées pour construire graph 3
 
-   # Donnéés traitées pour construire graph 3
+    df_stacked_per_67.rename(columns={'Ouvert':'Service ouvert'})
 
-    df_stacked_per_67 = df_stacked_per_67.round()
-    
-    fig = px.bar(df_stacked_per_67, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], custom_data=['value'],
-                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    fig = px.bar(df_stacked_per_67, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
@@ -890,13 +891,12 @@ if categorie == 'Paris (75)':
     fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
     st.plotly_chart(fig, use_container_width=True)
 
+    # Donnéés traitées pour construire graph 3
 
-   # Donnéés traitées pour construire graph 3
+    df_stacked_per_75.rename(columns={'Ouvert':'Service ouvert'})
 
-    df_stacked_per_75 = df_stacked_per_75.round()
-    
-    fig = px.bar(df_stacked_per_75, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], custom_data=['value'],
-                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    fig = px.bar(df_stacked_per_75, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
@@ -1012,12 +1012,13 @@ if categorie == 'Seine-et-Marne (77)':
     st.plotly_chart(fig, use_container_width=True)
 
 
-   # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_77 = df_stacked_per_77.round()
+    # Donnéés traitées pour construire graph 3
 
-    fig = px.bar(df_stacked_per_77, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], custom_data=['value'],
-                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    df_stacked_per_77.rename(columns={'Ouvert':'Service ouvert'})
+
+    fig = px.bar(df_stacked_per_77, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
@@ -1132,12 +1133,13 @@ if categorie == 'Yvelines (78)':
     st.plotly_chart(fig, use_container_width=True)
 
 
-   # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_78 = df_stacked_per_78.round()
+    # Donnéés traitées pour construire graph 3
 
-    fig = px.bar(df_stacked_per_78, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], custom_data=['value'],
-                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    df_stacked_per_78.rename(columns={'Ouvert':'Service ouvert'})
+
+    fig = px.bar(df_stacked_per_78, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
@@ -1250,12 +1252,12 @@ if categorie == 'Essonne (91)':
     st.plotly_chart(fig, use_container_width=True)
 
 
-   # Donnéés traitées pour construire graph 3
+    # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_91 = df_stacked_per_91.round()
-    
-    fig = px.bar(df_stacked_per_91, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], custom_data=['value'],
-                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    df_stacked_per_91.rename(columns={'Ouvert':'Service ouvert'})
+
+    fig = px.bar(df_stacked_per_91, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
@@ -1372,13 +1374,12 @@ if categorie == 'Hauts-de-Seine (92)':
     fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
     st.plotly_chart(fig, use_container_width=True)
 
+    # Donnéés traitées pour construire graph 3
 
-   # Donnéés traitées pour construire graph 3
+    df_stacked_per_92.rename(columns={'Ouvert':'Service ouvert'})
 
-    df_stacked_per_92 = df_stacked_per_92.round()
-
-    fig = px.bar(df_stacked_per_92, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], custom_data=['value'],
-                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    fig = px.bar(df_stacked_per_92, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
@@ -1490,13 +1491,12 @@ if categorie == 'Seine-Saint-Denis (93)':
     fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
     st.plotly_chart(fig, use_container_width=True)
 
+    # Donnéés traitées pour construire graph 3
 
-   # Donnéés traitées pour construire graph 3
+    df_stacked_per_93.rename(columns={'Ouvert':'Service ouvert'})
 
-    df_stacked_per_93 = df_stacked_per_93.round()
-
-    fig = px.bar(df_stacked_per_93, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], custom_data=['value'],
-                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    fig = px.bar(df_stacked_per_93, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
@@ -1606,13 +1606,12 @@ if categorie == 'Val-de-Marne (94)':
     fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
     st.plotly_chart(fig, use_container_width=True)
 
+    # Donnéés traitées pour construire graph 3
 
-   # Donnéés traitées pour construire graph 3
+    df_stacked_per_94.rename(columns={'Ouvert':'Service ouvert'})
 
-    df_stacked_per_94 = df_stacked_per_94.round()
-
-    fig = px.bar(df_stacked_per_94, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], custom_data=['value'],
-                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    fig = px.bar(df_stacked_per_94, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
@@ -1725,13 +1724,12 @@ if categorie == 'Val-d\'Oise (95)':
     fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
     st.plotly_chart(fig, use_container_width=True)
 
+    # Donnéés traitées pour construire graph 3
 
-   # Donnéés traitées pour construire graph 3
+    df_stacked_per_95.rename(columns={'Ouvert':'Service ouvert'})
 
-    df_stacked_per_95 = df_stacked_per_95.round()
-
-    fig = px.bar(df_stacked_per_95, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Ouvert"], custom_data=['value'],
-                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#d8576b', '#ed7953'])
+    fig = px.bar(df_stacked_per_95, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
