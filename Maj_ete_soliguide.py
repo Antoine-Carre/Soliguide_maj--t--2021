@@ -282,7 +282,7 @@ if categorie == 'Ile-De-France':
                             ).add_to( mappy )
 
     url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
-    FloatImage(url, bottom=75, left=80).add_to(mappy)
+    FloatImage(url, bottom=65, left=70).add_to(mappy)
 
     mappy.save('map.html')
 
@@ -399,7 +399,7 @@ if categorie == 'Alpes-Maritimes (06)':
         ).add_to( mappy )
         
     url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
-    FloatImage(url, bottom=75, left=80).add_to(mappy)
+    FloatImage(url, bottom=65, left=70).add_to(mappy)
         
     mappy.save('map.html')
 
@@ -637,7 +637,7 @@ if categorie == 'Loire-Atlantique (44)':
 
 
     url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
-    FloatImage(url, bottom=75, left=80).add_to(mappy)
+    FloatImage(url, bottom=65, left=70).add_to(mappy)
         
     mappy.save('map.html')
 
@@ -757,7 +757,7 @@ if categorie == 'Bas-Rhin (67)':
                             ).add_to( mappy )
 
     url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
-    FloatImage(url, bottom=75, left=80).add_to(mappy)
+    FloatImage(url, bottom=65, left=70).add_to(mappy)
         
     mappy.save('map.html')
 
@@ -879,7 +879,7 @@ if categorie == 'Paris (75)':
 
 
     url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
-    FloatImage(url, bottom=75, left=80).add_to(mappy)
+    FloatImage(url, bottom=65, left=70).add_to(mappy)
  
     mappy.save('map.html')
 
@@ -1000,7 +1000,7 @@ if categorie == 'Seine-et-Marne (77)':
 
 
     url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
-    FloatImage(url, bottom=75, left=80).add_to(mappy)
+    FloatImage(url, bottom=65, left=70).add_to(mappy)
  
     mappy.save('map.html')
 
@@ -1119,7 +1119,7 @@ if categorie == 'Yvelines (78)':
                             ).add_to( mappy )
 
     url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
-    FloatImage(url, bottom=75, left=80).add_to(mappy)
+    FloatImage(url, bottom=65, left=70).add_to(mappy)
 
     mappy.save('map.html')
 
@@ -1238,7 +1238,7 @@ if categorie == 'Essonne (91)':
                             ).add_to( mappy )
 
     url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
-    FloatImage(url, bottom=75, left=80).add_to(mappy)
+    FloatImage(url, bottom=65, left=70).add_to(mappy)
  
     mappy.save('map.html')
 
@@ -1360,7 +1360,7 @@ if categorie == 'Hauts-de-Seine (92)':
                             ).add_to( mappy )
 
     url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
-    FloatImage(url, bottom=75, left=80).add_to(mappy)
+    FloatImage(url, bottom=65, left=70).add_to(mappy)
 
     mappy.save('map.html')
 
@@ -1476,7 +1476,7 @@ if categorie == 'Seine-Saint-Denis (93)':
                             ).add_to( mappy )
 
     url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
-    FloatImage(url, bottom=75, left=80).add_to(mappy)
+    FloatImage(url, bottom=65, left=70).add_to(mappy)
 
     mappy.save('map.html')
 
@@ -1590,7 +1590,7 @@ if categorie == 'Val-de-Marne (94)':
                             ).add_to( mappy )
 
     url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
-    FloatImage(url, bottom=75, left=80).add_to(mappy)
+    FloatImage(url, bottom=65, left=70).add_to(mappy)
 
     mappy.save('map.html')
 
@@ -1705,7 +1705,7 @@ if categorie == 'Val-d\'Oise (95)':
                             ).add_to( mappy )
 
     url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
-    FloatImage(url, bottom=75, left=80).add_to(mappy)
+    FloatImage(url, bottom=65, left=70).add_to(mappy)
 
     mappy.save('map.html')
 
