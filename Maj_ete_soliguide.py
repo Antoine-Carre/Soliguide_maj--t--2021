@@ -759,18 +759,23 @@ if categorie == 'Bas-Rhin (67)':
                             ).add_to( mappy )
 
    
-    group0 = folium.FeatureGroup(name='<span style=\\"color: red;\\">red circles</span>')
-    for lat, lng in zip(range(500, 520), range(50,70)):
-        folium.CircleMarker((lat/10, lng/10), color='red', radius=2).add_to(group0)
-    group0.add_to(mappy)
+    feature_group = FeatureGroup(name='Fermé')
+    feature_group2 = FeatureGroup(name='Ouvert')
+    
+    # coordinates to locate your marker
+    COORDINATE = [(333,333)] # example coordinate
+    COORDINATE2 = [(444,444)]
 
-    group1 = folium.FeatureGroup(name='<span style=\\"color: blue;\\">blue circles</span>')
-    for lat, lng in zip(range(500,520), range(70,50,-1)):
-        folium.CircleMarker((lat/10, lng/10), color='blue', radius=2).add_to(group1)
-    group1.add_to(mappy)
+    # add marker to your map
+    folium.CircleMarker(location=COORDINATE).add_to(feature_group)
+    folium.CircleMarker(location=COORDINATE2).add_to(feature_group2)
 
-    folium.map.LayerControl('topright', collapsed=False).add_to(mappy)
-   
+    mappy.add_child(feature_group)
+    mappy.add_child(feature_group2)
+
+    # turn on layer control
+    map.add_child(folium.map.LayerControl())
+
 
     mappy.save('map.html')
 
