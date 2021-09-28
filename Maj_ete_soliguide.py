@@ -159,7 +159,7 @@ if categorie == 'France':
                             popup=df_france['name'][en]
                             ).add_to( mappy )
 
-    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
     FloatImage(url, bottom=75, left=80).add_to(mappy)
 
     mappy.save('map.html')
@@ -281,7 +281,7 @@ if categorie == 'Ile-De-France':
                             popup=df_fiches_IDF['name'][en]
                             ).add_to( mappy )
 
-    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
     FloatImage(url, bottom=75, left=80).add_to(mappy)
 
     mappy.save('map.html')
@@ -398,7 +398,7 @@ if categorie == 'Alpes-Maritimes (06)':
         popup=df_fiches_06['name'][en]
         ).add_to( mappy )
         
-    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
     FloatImage(url, bottom=75, left=80).add_to(mappy)
         
     mappy.save('map.html')
@@ -516,7 +516,7 @@ if categorie == 'Gironde (33)':
                             ).add_to( mappy )
 
 
-    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
     FloatImage(url, bottom=75, left=80).add_to(mappy)
 
     mappy.save('map.html')
@@ -636,7 +636,7 @@ if categorie == 'Loire-Atlantique (44)':
                             ).add_to( mappy )
 
 
-    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
     FloatImage(url, bottom=75, left=80).add_to(mappy)
         
     mappy.save('map.html')
@@ -756,7 +756,7 @@ if categorie == 'Bas-Rhin (67)':
                             popup=df_fiches_67['name'][en]
                             ).add_to( mappy )
 
-    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
     FloatImage(url, bottom=75, left=80).add_to(mappy)
         
     mappy.save('map.html')
@@ -878,7 +878,7 @@ if categorie == 'Paris (75)':
                             ).add_to( mappy )
 
 
-    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
     FloatImage(url, bottom=75, left=80).add_to(mappy)
  
     mappy.save('map.html')
@@ -999,7 +999,7 @@ if categorie == 'Seine-et-Marne (77)':
                             ).add_to( mappy )
 
 
-    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
     FloatImage(url, bottom=75, left=80).add_to(mappy)
  
     mappy.save('map.html')
@@ -1118,7 +1118,7 @@ if categorie == 'Yvelines (78)':
                             popup=df_fiches_78['name'][en]
                             ).add_to( mappy )
 
-    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
     FloatImage(url, bottom=75, left=80).add_to(mappy)
 
     mappy.save('map.html')
@@ -1237,7 +1237,7 @@ if categorie == 'Essonne (91)':
                             popup=df_fiches_91['name'][en]
                             ).add_to( mappy )
 
-    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
     FloatImage(url, bottom=75, left=80).add_to(mappy)
  
     mappy.save('map.html')
@@ -1359,7 +1359,7 @@ if categorie == 'Hauts-de-Seine (92)':
                             popup=df_fiches_92['name'][en]
                             ).add_to( mappy )
 
-    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
     FloatImage(url, bottom=75, left=80).add_to(mappy)
 
     mappy.save('map.html')
@@ -1475,7 +1475,7 @@ if categorie == 'Seine-Saint-Denis (93)':
                             popup=df_fiches_93['name'][en]
                             ).add_to( mappy )
 
-    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
     FloatImage(url, bottom=75, left=80).add_to(mappy)
 
     mappy.save('map.html')
@@ -1589,7 +1589,7 @@ if categorie == 'Val-de-Marne (94)':
                             popup=df_fiches_94['name'][en]
                             ).add_to( mappy )
 
-    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
     FloatImage(url, bottom=75, left=80).add_to(mappy)
 
     mappy.save('map.html')
@@ -1662,7 +1662,7 @@ if categorie == 'Val-de-Marne (94)':
 ####################
 
 if categorie == 'Val-d\'Oise (95)':
-    st.markdown("<center><h1> Soliguide - Mise à jour été 2021 Ddans le Val d'Oise/h1></center>", unsafe_allow_html=True)
+    st.markdown("<center><h1> Soliguide - Mise à jour été 2021 dans le Val d'Oise</h1></center>", unsafe_allow_html=True)
     st.markdown("Chaque été et chaque hiver, l'équipe de Solinum met à jour la totalité de la base de données de Soliguide sur ses territoires d'implantation, afin d'orienter les publics en situation de précarité au mieux dans ces périodes de changement. Retrouvez ici toutes les statistiques de cette mise à jour été !")
 
 
@@ -1704,7 +1704,7 @@ if categorie == 'Val-d\'Oise (95)':
                             popup=df_fiches_95['name'][en]
                             ).add_to( mappy )
 
-    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
     FloatImage(url, bottom=75, left=80).add_to(mappy)
 
     mappy.save('map.html')
