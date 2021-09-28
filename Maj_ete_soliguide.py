@@ -390,7 +390,7 @@ if categorie == 'Alpes-Maritimes (06)':
         ).add_to( mappy )
         
     from folium.plugins import FloatImage
-    image_file = 'ressources/legend_map_summer.jpg'
+    image_file = 'ressources/legend_map_summer.PNG'
 
     FloatImage(image_file, bottom=15, left=86).add_to(mappy)    
         
