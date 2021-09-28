@@ -758,25 +758,6 @@ if categorie == 'Bas-Rhin (67)':
                             popup=df_fiches_67['name'][en]
                             ).add_to( mappy )
 
-   
-    feature_group = FeatureGroup(name='Fermé')
-    feature_group2 = FeatureGroup(name='Ouvert')
-    
-    # coordinates to locate your marker
-    COORDINATE = [(333,333)] # example coordinate
-    COORDINATE2 = [(444,444)]
-
-    # add marker to your map
-    folium.CircleMarker(location=COORDINATE).add_to(feature_group)
-    folium.CircleMarker(location=COORDINATE2).add_to(feature_group2)
-
-    mappy.add_child(feature_group)
-    mappy.add_child(feature_group2)
-
-    # turn on layer control
-    map.add_child(folium.map.LayerControl())
-
-
     mappy.save('map.html')
 
     #Affichage de la carte
