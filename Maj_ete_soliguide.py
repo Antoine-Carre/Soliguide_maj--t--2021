@@ -757,6 +757,21 @@ if categorie == 'Bas-Rhin (67)':
                             tooltip=df_fiches_67['Fermeture_Estivale'][en], 
                             popup=df_fiches_67['name'][en]
                             ).add_to( mappy )
+
+   
+    group0 = folium.FeatureGroup(name='<span style=\\"color: red;\\">red circles</span>')
+    for lat, lng in zip(range(500, 520), range(50,70)):
+        folium.CircleMarker((lat/10, lng/10), color='red', radius=2).add_to(group0)
+    group0.add_to(mappy)
+
+    group1 = folium.FeatureGroup(name='<span style=\\"color: blue;\\">blue circles</span>')
+    for lat, lng in zip(range(500,520), range(70,50,-1)):
+        folium.CircleMarker((lat/10, lng/10), color='blue', radius=2).add_to(group1)
+    group1.add_to(mappy)
+
+    folium.map.LayerControl('topright', collapsed=False).add_to(m)
+   
+
     mappy.save('map.html')
 
     #Affichage de la carte
