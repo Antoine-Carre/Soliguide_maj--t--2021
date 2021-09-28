@@ -158,6 +158,10 @@ if categorie == 'France':
                             tooltip=df_france['Fermeture_Estivale'][en], 
                             popup=df_france['name'][en]
                             ).add_to( mappy )
+
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    FloatImage(url, bottom=75, left=80).add_to(mappy)
+
     mappy.save('map.html')
 
     #Affichage de la carte
@@ -276,6 +280,10 @@ if categorie == 'Ile-De-France':
                             tooltip=df_fiches_IDF['Fermeture_Estivale'][en], 
                             popup=df_fiches_IDF['name'][en]
                             ).add_to( mappy )
+
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    FloatImage(url, bottom=75, left=80).add_to(mappy)
+
     mappy.save('map.html')
 
     #Affichage de la carte
@@ -390,10 +398,8 @@ if categorie == 'Alpes-Maritimes (06)':
         popup=df_fiches_06['name'][en]
         ).add_to( mappy )
         
-    from folium.plugins import FloatImage
-    image_file = 'ressources/legend_map_summer.PNG'
-
-    FloatImage(image_file, bottom=15, left=86).add_to(mappy)    
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    FloatImage(url, bottom=75, left=80).add_to(mappy)
         
     mappy.save('map.html')
 
@@ -508,6 +514,11 @@ if categorie == 'Gironde (33)':
                             tooltip=df_fiches_33['Fermeture_Estivale'][en], 
                             popup=df_fiches_33['name'][en]
                             ).add_to( mappy )
+
+
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    FloatImage(url, bottom=75, left=80).add_to(mappy)
+
     mappy.save('map.html')
 
     #Affichage de la carte
@@ -623,6 +634,11 @@ if categorie == 'Loire-Atlantique (44)':
                             tooltip=df_fiches_44['Fermeture_Estivale'][en], 
                             popup=df_fiches_44['name'][en]
                             ).add_to( mappy )
+
+
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    FloatImage(url, bottom=75, left=80).add_to(mappy)
+        
     mappy.save('map.html')
 
     #Affichage de la carte
@@ -860,6 +876,11 @@ if categorie == 'Paris (75)':
                             tooltip=df_fiches_75['Fermeture_Estivale'][en], 
                             popup=df_fiches_75['name'][en]
                             ).add_to( mappy )
+
+
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    FloatImage(url, bottom=75, left=80).add_to(mappy)
+ 
     mappy.save('map.html')
 
     #Affichage de la carte
@@ -976,6 +997,11 @@ if categorie == 'Seine-et-Marne (77)':
                             tooltip=df_fiches_77['Fermeture_Estivale'][en], 
                             popup=df_fiches_77['name'][en]
                             ).add_to( mappy )
+
+
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    FloatImage(url, bottom=75, left=80).add_to(mappy)
+ 
     mappy.save('map.html')
 
     #Affichage de la carte
@@ -1091,6 +1117,10 @@ if categorie == 'Yvelines (78)':
                             tooltip=df_fiches_78['Fermeture_Estivale'][en], 
                             popup=df_fiches_78['name'][en]
                             ).add_to( mappy )
+
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    FloatImage(url, bottom=75, left=80).add_to(mappy)
+
     mappy.save('map.html')
 
     #Affichage de la carte
@@ -1206,6 +1236,10 @@ if categorie == 'Essonne (91)':
                             tooltip=df_fiches_91['Fermeture_Estivale'][en], 
                             popup=df_fiches_91['name'][en]
                             ).add_to( mappy )
+
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    FloatImage(url, bottom=75, left=80).add_to(mappy)
+ 
     mappy.save('map.html')
 
     #Affichage de la carte
@@ -1324,6 +1358,10 @@ if categorie == 'Hauts-de-Seine (92)':
                             tooltip=df_fiches_92['Fermeture_Estivale'][en], 
                             popup=df_fiches_92['name'][en]
                             ).add_to( mappy )
+
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    FloatImage(url, bottom=75, left=80).add_to(mappy)
+
     mappy.save('map.html')
 
     #Affichage de la carte
@@ -1436,6 +1474,10 @@ if categorie == 'Seine-Saint-Denis (93)':
                             tooltip=df_fiches_93['Fermeture_Estivale'][en], 
                             popup=df_fiches_93['name'][en]
                             ).add_to( mappy )
+
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    FloatImage(url, bottom=75, left=80).add_to(mappy)
+
     mappy.save('map.html')
 
     #Affichage de la carte
@@ -1546,6 +1588,10 @@ if categorie == 'Val-de-Marne (94)':
                             tooltip=df_fiches_94['Fermeture_Estivale'][en], 
                             popup=df_fiches_94['name'][en]
                             ).add_to( mappy )
+
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    FloatImage(url, bottom=75, left=80).add_to(mappy)
+
     mappy.save('map.html')
 
     #Affichage de la carte
@@ -1657,6 +1703,10 @@ if categorie == 'Val-d\'Oise (95)':
                             tooltip=df_fiches_95['Fermeture_Estivale'][en], 
                             popup=df_fiches_95['name'][en]
                             ).add_to( mappy )
+
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    FloatImage(url, bottom=75, left=80).add_to(mappy)
+
     mappy.save('map.html')
 
     #Affichage de la carte
