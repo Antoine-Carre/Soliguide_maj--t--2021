@@ -845,10 +845,9 @@ if categorie == 'Paris (75)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-
     col1, col2, col3 = st.columns(3)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>2 448</font><br><font size='2'>structures en ligne sur Soliguide"</font></center>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>2 448</font><br><font size='2'>structures en ligne sur Soliguide</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
