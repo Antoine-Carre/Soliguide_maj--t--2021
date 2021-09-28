@@ -676,10 +676,13 @@ if categorie == 'Loire-Atlantique (44)':
     
     res_44.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
     
-    fig = px.pie(values=res_44.status, names=res_44.index, color_discrete_sequence= [ '#3E3A71', '#2896A0'],
-                custom_data=['value'])
-    fig.update_traces(textinfo="percent+label",
-                     hovertemplate = "Proportion:%{customdata}")
+    fig = px.pie(res_44, values='status', names='index',
+             custom_data=['value'], labels={'lifeExp':'life expectancy','iso_num':'iso num'
+                                                      })
+    fig.update_traces(textposition='inside', textinfo='percent+label',\
+                     hovertemplate = "Country:%{label}: <br>Population: %{customdata}")
+    
+ 
     
     fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
