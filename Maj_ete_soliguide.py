@@ -126,7 +126,7 @@ if categorie == 'France':
 
     col1, col2, col3 = st.columns(3)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>9 626</font><br><font size='2'>structures</font></center>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>9 626</font><br><font size='2'>structures en ligne sur Soliguide</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
@@ -242,13 +242,15 @@ if categorie == 'Ile-De-France':
     st.markdown("Chaque été et chaque hiver, l'équipe de Solinum met à jour la totalité de la base de données de Soliguide sur ses territoires d'implantation, afin d'orienter les publics en situation de précarité au mieux dans ces périodes de changement. Retrouvez ici toutes les statistiques de cette mise à jour été !")
 
 
+    st.markdown("**Attention**, sur certains grands territoires le dashboard peut mettre quelques minutes à charger : profitez-en pour prendre un café ☕, ça arrive tout de suite.")
+                
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
 
     col1, col2, col3 = st.columns(3)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>7 197</font><br><font size='2'>structures</font></center>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>7 197</font><br><font size='2'>structures en ligne sur Soliguide</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
@@ -369,7 +371,7 @@ if categorie == 'Alpes-Maritimes (06)':
 
     col1, col2, col3 = st.columns(3)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>341</font><br><font size='2'>structures</font></center>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>341</font><br><font size='2'>structures en ligne sur Soliguide</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
@@ -485,7 +487,7 @@ if categorie == 'Gironde (33)':
 
     col1, col2, col3 = st.columns(3)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>885</font><br><font size='2'>structures</font></center>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>885</font><br><font size='2'>structures en ligne sur Soliguide</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
@@ -603,7 +605,7 @@ if categorie == 'Loire-Atlantique (44)':
 
     col1, col2, col3 = st.columns(3)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>921</font><br><font size='2'>structures</font></center>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>921</font><br><font size='2'>structures en ligne sur Soliguide</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
@@ -723,7 +725,7 @@ if categorie == 'Bas-Rhin (67)':
 
     col1, col2, col3 = st.columns(3)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>252</font><br><font size='2'>structures</font></center>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>252</font><br><font size='2'>structures en ligne sur Soliguide</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
@@ -836,6 +838,9 @@ if categorie == 'Paris (75)':
     st.markdown("Chaque été et chaque hiver, l'équipe de Solinum met à jour la totalité de la base de données de Soliguide sur ses territoires d'implantation, afin d'orienter les publics en situation de précarité au mieux dans ces périodes de changement. Retrouvez ici toutes les statistiques de cette mise à jour été !")
 
 
+
+    st.markdown("**Attention**, sur certains grands territoires le dashboard peut mettre quelques minutes à charger : profitez-en pour prendre un café ☕, ça arrive tout de suite.")
+                
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
@@ -843,7 +848,7 @@ if categorie == 'Paris (75)':
 
     col1, col2, col3 = st.columns(3)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>2 448</font><br><font size='2'>structures</font></center>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>2 448</font><br><font size='2'>structures en ligne sur Soliguide"</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
@@ -965,7 +970,7 @@ if categorie == 'Seine-et-Marne (77)':
 
     col1, col2, col3 = st.columns(3)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>127</font><br><font size='2'>structures</font></center>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>127</font><br><font size='2'>structures en ligne sur Soliguide</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
@@ -1086,7 +1091,7 @@ if categorie == 'Yvelines (78)':
 
     col1, col2, col3 = st.columns(3)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>829</font><br><font size='2'>structures</font></center>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>829</font><br><font size='2'>structures en ligne sur Soliguide</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
@@ -1207,7 +1212,7 @@ if categorie == 'Essonne (91)':
     
     col1, col2, col3 = st.columns(3)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>194</font><br><font size='2'>structures</font></center>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>194</font><br><font size='2'>structures en ligne sur Soliguide</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
@@ -1326,7 +1331,7 @@ if categorie == 'Hauts-de-Seine (92)':
 
     col1, col2, col3 = st.columns(3)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>1 155</font><br><font size='2'>structures</font></center>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>1 155</font><br><font size='2'>structures en ligne sur Soliguide</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
@@ -1449,7 +1454,7 @@ if categorie == 'Seine-Saint-Denis (93)':
 
     col1, col2, col3 = st.columns(3)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>925</font><br><font size='2'>structures</font></center>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>925</font><br><font size='2'>structures en ligne sur Soliguide</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
@@ -1563,7 +1568,7 @@ if categorie == 'Val-de-Marne (94)':
 
     col1, col2, col3 = st.columns(3)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>944</font><br><font size='2'>structures</font></center>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>944</font><br><font size='2'>structures en ligne sur Soliguide</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
@@ -1680,7 +1685,7 @@ if categorie == 'Val-d\'Oise (95)':
 
     col1, col2, col3 = st.columns(3)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>431</font><br><font size='2'>structures</font></center>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>431</font><br><font size='2'>structures en ligne sur Soliguide</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
