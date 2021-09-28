@@ -123,7 +123,7 @@ if categorie == 'France':
     st.markdown(html_string, unsafe_allow_html=True)
     
     
-    st.markdown("*Attention**, sur certains grands territoires le dashboard peut mettre quelques minutes à charger : profitez-en pour prendre un café ☕, ça arrive tout de suite.")
+    st.markdown("**Attention**, sur certains grands territoires le dashboard peut mettre quelques minutes à charger : profitez-en pour prendre un café ☕, ça arrive tout de suite.")
                 
     html_string = "<br>"
 
