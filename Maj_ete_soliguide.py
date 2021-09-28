@@ -115,8 +115,8 @@ res_95 = pd.read_csv('ressources/Fig4_95.csv')
 ###############
 
 if categorie == 'France':
-    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
-    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été</h2>", unsafe_allow_html=True)
+    st.markdown("# Soliguide - Mise à jour été 2021")
+    st.markdown("Chaque été et chaque hiver, l'équipe de Solinum met à jour la totalité de la base de données de Soliguide sur ses territoires d'implantation, afin d'orienter les publics en situation de précarité au mieux dans ces périodes de changement. Retrouvez ici toutes les statistiques de cette mise à jour été !")
 
 
     html_string = "<br>"
