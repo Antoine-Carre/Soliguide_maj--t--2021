@@ -118,7 +118,13 @@ if categorie == 'France':
     st.markdown("<center><h1> Soliguide - Mise à jour été 2021</h1></center>", unsafe_allow_html=True)
     st.markdown("Chaque été et chaque hiver, l'équipe de Solinum met à jour la totalité de la base de données de Soliguide sur ses territoires d'implantation, afin d'orienter les publics en situation de précarité au mieux dans ces périodes de changement. Retrouvez ici toutes les statistiques de cette mise à jour été !")
 
+    html_string = "<br>"
 
+    st.markdown(html_string, unsafe_allow_html=True)
+    
+    
+    st.markdown("*Attention**, sur certains grands territoires le dashboard peut mettre quelques minutes à charger : profitez-en pour prendre un café ☕, ça arrive tout de suite.")
+                
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
@@ -137,12 +143,6 @@ if categorie == 'France':
 
     col3.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<br>"
-
-    st.markdown(html_string, unsafe_allow_html=True)
-
-    st.markdown("*Attention*, sur certains grands territoires le dashboard peut mettre quelques minutes à charger : profitez-en pour prendre un café ☕, ça arrive tout de suite.")
-                
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
