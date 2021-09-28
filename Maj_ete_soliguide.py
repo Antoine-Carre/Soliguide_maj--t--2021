@@ -677,7 +677,7 @@ if categorie == 'Loire-Atlantique (44)':
     
     fig = px.pie(values=res_44.status, names=res_44.index, color_discrete_sequence= [ '#3E3A71', '#2896A0'],custom_data=['value'], text='value')
     fig.update_traces(textinfo="percent+label")
-    fig.update_traces(hovertemplate='%{customdata} structures mises à jour par %{label}') 
+    fig.update_traces(hovertemplate='%{customdata} structures mises à jour par %{names}') 
     fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
