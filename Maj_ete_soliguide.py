@@ -388,6 +388,12 @@ if categorie == 'Alpes-Maritimes (06)':
         tooltip=df_fiches_06['Fermeture_Estivale'][en], 
         popup=df_fiches_06['name'][en]
         ).add_to( mappy )
+        
+    from folium.plugins import FloatImage
+    image_file = 'ressources/legend_map_summer.jpg'
+
+    FloatImage(image_file, bottom=0, left=86).add_to(mappy)    
+        
     mappy.save('map.html')
 
     #Affichage de la carte
@@ -405,6 +411,7 @@ if categorie == 'Alpes-Maritimes (06)':
                             xaxis_title="Nombre de services",
                             legend_title="Statut",)
     fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
+    
     st.plotly_chart(fig, use_container_width=True)
  
     # Donnéés traitées pour construire graph 3
