@@ -12,6 +12,7 @@ import plotly.express as px
 from bson import ObjectId
 import folium
 from folium.plugins import MarkerCluster
+from folium.plugins import FloatImage
 
 @st.cache
 def load_df(url):
@@ -739,6 +740,9 @@ if categorie == 'Bas-Rhin (67)':
                             popup=df_fiches_67['name'][en]
                             ).add_to( mappy )
 
+    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_summer.png')
+    FloatImage(url, bottom=75, left=80).add_to(mappy)
+        
     mappy.save('map.html')
 
     #Affichage de la carte
