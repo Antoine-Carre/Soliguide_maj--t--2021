@@ -237,8 +237,8 @@ if categorie == 'France':
 #####################
 
 if categorie == 'Ile-De-France':
-    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
-    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Île-de-France</h2>", unsafe_allow_html=True)
+    st.markdown("<center><h1> Soliguide - Mise à jour été 2021 en Île-de-France</h1></center>", unsafe_allow_html=True)
+    st.markdown("Chaque été et chaque hiver, l'équipe de Solinum met à jour la totalité de la base de données de Soliguide sur ses territoires d'implantation, afin d'orienter les publics en situation de précarité au mieux dans ces périodes de changement. Retrouvez ici toutes les statistiques de cette mise à jour été !")
 
 
     html_string = "<br>"
@@ -358,8 +358,8 @@ if categorie == 'Ile-De-France':
 #######################
 
 if categorie == 'Alpes-Maritimes (06)':
-    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
-    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Alpes-Maritimes</h2>", unsafe_allow_html=True)
+    st.markdown("<center><h1> Soliguide - Mise à jour été 2021 en Alpes-Maritimes</h1></center>", unsafe_allow_html=True)
+    st.markdown("Chaque été et chaque hiver, l'équipe de Solinum met à jour la totalité de la base de données de Soliguide sur ses territoires d'implantation, afin d'orienter les publics en situation de précarité au mieux dans ces périodes de changement. Retrouvez ici toutes les statistiques de cette mise à jour été !")
 
 
     html_string = "<br>"
@@ -473,8 +473,9 @@ if categorie == 'Alpes-Maritimes (06)':
 ###############
 
 if categorie == 'Gironde (33)':
-    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
-    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Gironde</h2>", unsafe_allow_html=True)
+    st.markdown("<center><h1> Soliguide - Mise à jour été 2021 en Gironde</h1></center>", unsafe_allow_html=True)
+    st.markdown("Chaque été et chaque hiver, l'équipe de Solinum met à jour la totalité de la base de données de Soliguide sur ses territoires d'implantation, afin d'orienter les publics en situation de précarité au mieux dans ces périodes de changement. Retrouvez ici toutes les statistiques de cette mise à jour été !")
+
 
 
     html_string = "<br>"
@@ -590,8 +591,9 @@ if categorie == 'Gironde (33)':
 ########################
 
 if categorie == 'Loire-Atlantique (44)':
-    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
-    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Loire-Atlantique</h2>", unsafe_allow_html=True)
+    st.markdown("<center><h1> Soliguide - Mise à jour été 2021 en Loire-Atlantique</h1></center>", unsafe_allow_html=True)
+    st.markdown("Chaque été et chaque hiver, l'équipe de Solinum met à jour la totalité de la base de données de Soliguide sur ses territoires d'implantation, afin d'orienter les publics en situation de précarité au mieux dans ces périodes de changement. Retrouvez ici toutes les statistiques de cette mise à jour été !")
+
 
 
     html_string = "<br>"
@@ -709,8 +711,8 @@ if categorie == 'Loire-Atlantique (44)':
 ################
 
 if categorie == 'Bas-Rhin (67)':
-    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
-    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Bas-Rhin</h2>", unsafe_allow_html=True)
+    st.markdown("<center><h1> Soliguide - Mise à jour été 2021 dans le Bas-Rhin</h1></center>", unsafe_allow_html=True)
+    st.markdown("Chaque été et chaque hiver, l'équipe de Solinum met à jour la totalité de la base de données de Soliguide sur ses territoires d'implantation, afin d'orienter les publics en situation de précarité au mieux dans ces périodes de changement. Retrouvez ici toutes les statistiques de cette mise à jour été !")
 
 
     html_string = "<br>"
@@ -829,8 +831,8 @@ if categorie == 'Bas-Rhin (67)':
 ################
 
 if categorie == 'Paris (75)':
-    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
-    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Paris</h2>", unsafe_allow_html=True)
+    st.markdown("<center><h1> Soliguide - Mise à jour été 2021 à Paris</h1></center>", unsafe_allow_html=True)
+    st.markdown("Chaque été et chaque hiver, l'équipe de Solinum met à jour la totalité de la base de données de Soliguide sur ses territoires d'implantation, afin d'orienter les publics en situation de précarité au mieux dans ces périodes de changement. Retrouvez ici toutes les statistiques de cette mise à jour été !")
 
 
     html_string = "<br>"
@@ -950,8 +952,9 @@ if categorie == 'Paris (75)':
 ######################
 
 if categorie == 'Seine-et-Marne (77)':
-    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
-    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Seine-et-Marne</h2>", unsafe_allow_html=True)
+    st.markdown("<center><h1> Soliguide - Mise à jour été 2021 en Seine-et-Marne</h1></center>", unsafe_allow_html=True)
+    st.markdown("Chaque été et chaque hiver, l'équipe de Solinum met à jour la totalité de la base de données de Soliguide sur ses territoires d'implantation, afin d'orienter les publics en situation de précarité au mieux dans ces périodes de changement. Retrouvez ici toutes les statistiques de cette mise à jour été !")
+
 
 
     html_string = "<br>"
@@ -1071,8 +1074,9 @@ if categorie == 'Seine-et-Marne (77)':
 ################
 
 if categorie == 'Yvelines (78)':
-    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
-    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Yvelines</h2>", unsafe_allow_html=True)
+    st.markdown("<center><h1> Soliguide - Mise à jour été 2021 dans les Yvelines</h1></center>", unsafe_allow_html=True)
+    st.markdown("Chaque été et chaque hiver, l'équipe de Solinum met à jour la totalité de la base de données de Soliguide sur ses territoires d'implantation, afin d'orienter les publics en situation de précarité au mieux dans ces périodes de changement. Retrouvez ici toutes les statistiques de cette mise à jour été !")
+
 
 
     html_string = "<br>"
@@ -1191,8 +1195,9 @@ if categorie == 'Yvelines (78)':
 ################
 
 if categorie == 'Essonne (91)':
-    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
-    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Essonne</h2>", unsafe_allow_html=True)
+    st.markdown("<center><h1> Soliguide - Mise à jour été 2021 dans l'Essonne</h1></center>", unsafe_allow_html=True)
+    st.markdown("Chaque été et chaque hiver, l'équipe de Solinum met à jour la totalité de la base de données de Soliguide sur ses territoires d'implantation, afin d'orienter les publics en situation de précarité au mieux dans ces périodes de changement. Retrouvez ici toutes les statistiques de cette mise à jour été !")
+
 
 
     html_string = "<br>"
@@ -1309,8 +1314,9 @@ if categorie == 'Essonne (91)':
 ######################
 
 if categorie == 'Hauts-de-Seine (92)':
-    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
-    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Hauts-de-Seine</h2>", unsafe_allow_html=True)
+    st.markdown("<center><h1> Soliguide - Mise à jour été 2021 dans les Hauts-de-Seine</h1></center>", unsafe_allow_html=True)
+    st.markdown("Chaque été et chaque hiver, l'équipe de Solinum met à jour la totalité de la base de données de Soliguide sur ses territoires d'implantation, afin d'orienter les publics en situation de précarité au mieux dans ces périodes de changement. Retrouvez ici toutes les statistiques de cette mise à jour été !")
+
 
 
     html_string = "<br>"
@@ -1431,8 +1437,9 @@ if categorie == 'Hauts-de-Seine (92)':
 #########################
 
 if categorie == 'Seine-Saint-Denis (93)':
-    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
-    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Seine-Saint-Denis</h2>", unsafe_allow_html=True)
+    st.markdown("<center><h1> Soliguide - Mise à jour été 2021 en Seine-Saint-Denis</h1></center>", unsafe_allow_html=True)
+    st.markdown("Chaque été et chaque hiver, l'équipe de Solinum met à jour la totalité de la base de données de Soliguide sur ses territoires d'implantation, afin d'orienter les publics en situation de précarité au mieux dans ces périodes de changement. Retrouvez ici toutes les statistiques de cette mise à jour été !")
+
 
 
     html_string = "<br>"
@@ -1544,8 +1551,8 @@ if categorie == 'Seine-Saint-Denis (93)':
 ####################
 
 if categorie == 'Val-de-Marne (94)':
-    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
-    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Val-de-Marne</h2>", unsafe_allow_html=True)
+    st.markdown("<center><h1> Soliguide - Mise à jour été 2021 dans le Val-de-Marne</h1></center>", unsafe_allow_html=True)
+    st.markdown("Chaque été et chaque hiver, l'équipe de Solinum met à jour la totalité de la base de données de Soliguide sur ses territoires d'implantation, afin d'orienter les publics en situation de précarité au mieux dans ces périodes de changement. Retrouvez ici toutes les statistiques de cette mise à jour été !")
 
 
     html_string = "<br>"
@@ -1662,8 +1669,8 @@ if categorie == 'Val-de-Marne (94)':
 ####################
 
 if categorie == 'Val-d\'Oise (95)':
-    st.markdown("<h1 style='text-align: center; color: #3E3A71;'>Soliguide - Mise à jour été 2021</h1>", unsafe_allow_html=True)
-    st.markdown("<h2 style='text-align: center; color: #3E3A71;'>100% de la base de données mise à jour pour l'été - Val-d'Oise</h2>", unsafe_allow_html=True)
+    st.markdown("<center><h1> Soliguide - Mise à jour été 2021 Ddans le Val d'Oise/h1></center>", unsafe_allow_html=True)
+    st.markdown("Chaque été et chaque hiver, l'équipe de Solinum met à jour la totalité de la base de données de Soliguide sur ses territoires d'implantation, afin d'orienter les publics en situation de précarité au mieux dans ces périodes de changement. Retrouvez ici toutes les statistiques de cette mise à jour été !")
 
 
     html_string = "<br>"
