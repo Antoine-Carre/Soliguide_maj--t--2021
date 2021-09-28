@@ -678,7 +678,7 @@ if categorie == 'Loire-Atlantique (44)':
     
     fig = px.pie(res_44, values='status', names=res_44.index,)
     fig.update_traces(textposition='inside', textinfo='percent+label',\
-                     hovertemplate = "Country:%{label}: <br>Population: %{value}")
+                     hovertemplate = "%{value} structures mises à jour par %{label}")
     
  
     
