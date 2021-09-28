@@ -677,7 +677,7 @@ if categorie == 'Loire-Atlantique (44)':
     res_44.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
     
     fig = px.pie(values=res_44.status, names=res_44.index, color_discrete_sequence= [ '#3E3A71', '#2896A0'],
-                custom_data=label)
+                custom_data='value')
     fig.update_traces(textinfo="percent+label",
                      hovertemplate = "'':%{customdata}")
     
