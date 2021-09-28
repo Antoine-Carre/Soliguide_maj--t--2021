@@ -168,7 +168,7 @@ if categorie == 'France':
     fig = px.bar(df_comparaison_France.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
-    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été ?</b>",
                           margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                             yaxis_title="",
                             xaxis_title="Nombre de services",
@@ -183,7 +183,7 @@ if categorie == 'France':
 
     fig = px.bar(df_stacked_per_france, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
-    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+    fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
                         xaxis_title="",
@@ -294,7 +294,7 @@ if categorie == 'Ile-De-France':
     fig = px.bar(df_comparaison_IDF.head(10).sort_values(by='Part de service fermé', ascending=True), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
-    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été ?</b>",
                           margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                             yaxis_title="",
                             xaxis_title="Nombre de services",
@@ -310,7 +310,7 @@ if categorie == 'Ile-De-France':
 
     fig = px.bar(df_stacked_per_IDF, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
-    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+    fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
                         xaxis_title="",
@@ -413,7 +413,7 @@ if categorie == 'Alpes-Maritimes (06)':
     fig = px.bar(df_comparaison_06.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
-    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été ?</b>",
                           margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                             yaxis_title="",
                             xaxis_title="Nombre de services",
@@ -427,7 +427,7 @@ if categorie == 'Alpes-Maritimes (06)':
 
     fig = px.bar(df_stacked_per_06, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
-    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+    fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
                         xaxis_title="",
@@ -529,7 +529,7 @@ if categorie == 'Gironde (33)':
     fig = px.bar(df_comparaison_33.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
-    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été ?</b>",
                           margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                             yaxis_title="",
                             xaxis_title="Nombre de services",
@@ -544,7 +544,7 @@ if categorie == 'Gironde (33)':
 
     fig = px.bar(df_stacked_per_33, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
-    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+    fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
                         xaxis_title="",
@@ -648,7 +648,7 @@ if categorie == 'Loire-Atlantique (44)':
     fig = px.bar(df_comparaison_44.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
-    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été ?</b>",
                           margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                             yaxis_title="",
                             xaxis_title="Nombre de services",
@@ -662,7 +662,7 @@ if categorie == 'Loire-Atlantique (44)':
 
     fig = px.bar(df_stacked_per_44, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
-    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+    fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
                         xaxis_title="",
@@ -769,7 +769,7 @@ if categorie == 'Bas-Rhin (67)':
     fig = px.bar(df_comparaison_67.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
-    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été ?</b>",
                           margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                             yaxis_title="",
                             xaxis_title="Nombre de services",
@@ -784,7 +784,7 @@ if categorie == 'Bas-Rhin (67)':
 
     fig = px.bar(df_stacked_per_67, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
-    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+    fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
                         xaxis_title="",
@@ -892,7 +892,7 @@ if categorie == 'Paris (75)':
     fig = px.bar(df_comparaison_75.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
-    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été ?</b>",
                           margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                             yaxis_title="",
                             xaxis_title="Nombre de services",
@@ -906,7 +906,7 @@ if categorie == 'Paris (75)':
 
     fig = px.bar(df_stacked_per_75, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
-    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+    fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
                         xaxis_title="",
@@ -1013,7 +1013,7 @@ if categorie == 'Seine-et-Marne (77)':
     fig = px.bar(df_comparaison_77.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
-    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été ?</b>",
                           margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                             yaxis_title="",
                             xaxis_title="Nombre de services",
@@ -1029,7 +1029,7 @@ if categorie == 'Seine-et-Marne (77)':
 
     fig = px.bar(df_stacked_per_77, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
-    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+    fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
                         xaxis_title="",
@@ -1135,7 +1135,7 @@ if categorie == 'Yvelines (78)':
     fig = px.bar(df_comparaison_78.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
-    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été ?</b>",
                           margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                             yaxis_title="",
                             xaxis_title="Nombre de services",
@@ -1151,7 +1151,7 @@ if categorie == 'Yvelines (78)':
 
     fig = px.bar(df_stacked_per_78, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
-    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+    fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
                         xaxis_title="",
@@ -1255,7 +1255,7 @@ if categorie == 'Essonne (91)':
     fig = px.bar(df_comparaison_91.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
-    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été ?</b>",
                           margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                             yaxis_title="",
                             xaxis_title="Nombre de services",
@@ -1270,7 +1270,7 @@ if categorie == 'Essonne (91)':
 
     fig = px.bar(df_stacked_per_91, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
-    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+    fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
                         xaxis_title="",
@@ -1379,7 +1379,7 @@ if categorie == 'Hauts-de-Seine (92)':
     fig = px.bar(df_comparaison_92.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
-    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été ?</b>",
                           margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                             yaxis_title="",
                             xaxis_title="Nombre de services",
@@ -1393,7 +1393,7 @@ if categorie == 'Hauts-de-Seine (92)':
 
     fig = px.bar(df_stacked_per_92, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
-    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+    fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
                         xaxis_title="",
@@ -1497,7 +1497,7 @@ if categorie == 'Seine-Saint-Denis (93)':
     fig = px.bar(df_comparaison_93.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
-    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été ?</b>",
                           margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                             yaxis_title="",
                             xaxis_title="Nombre de services",
@@ -1510,7 +1510,7 @@ if categorie == 'Seine-Saint-Denis (93)':
     df_stacked_per_93.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
 
     fig = px.bar(df_stacked_per_93, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'], text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
-    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+    fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
                         xaxis_title="",
@@ -1611,7 +1611,7 @@ if categorie == 'Val-de-Marne (94)':
     fig = px.bar(df_comparaison_94.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
-    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été ?</b>",
                           margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                             yaxis_title="",
                             xaxis_title="Nombre de services",
@@ -1625,7 +1625,7 @@ if categorie == 'Val-de-Marne (94)':
 
     fig = px.bar(df_stacked_per_94, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
-    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+    fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
                         xaxis_title="",
@@ -1729,7 +1729,7 @@ if categorie == 'Val-d\'Oise (95)':
     fig = px.bar(df_comparaison_95.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
                  custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
 
-    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été</b>",
+    fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été ?</b>",
                           margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                             yaxis_title="",
                             xaxis_title="Nombre de services",
@@ -1743,7 +1743,7 @@ if categorie == 'Val-d\'Oise (95)':
 
     fig = px.bar(df_stacked_per_95, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
-    fig.update_layout(title="<b>Quels impacts à l'été sur les services</b>",
+    fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
                         xaxis_title="",
