@@ -769,7 +769,7 @@ if categorie == 'Bas-Rhin (67)':
         folium.CircleMarker((lat/10, lng/10), color='blue', radius=2).add_to(group1)
     group1.add_to(mappy)
 
-    folium.map.LayerControl('topright', collapsed=False).add_to(m)
+    folium.map.LayerControl('topright', collapsed=False).add_to(mappy)
    
 
     mappy.save('map.html')
@@ -789,6 +789,7 @@ if categorie == 'Bas-Rhin (67)':
                             xaxis_title="Nombre de services",
                             legend_title="Statut",)
     fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
+    
     st.plotly_chart(fig, use_container_width=True)
 
     # Donnéés traitées pour construire graph 3
