@@ -322,12 +322,6 @@ if categorie == 'Ile-De-France':
 
     st.plotly_chart(fig, use_container_width=True)
     
-    st.markdown("<h3 style='text-align: center; color: #3E3A71;'>La mise à jour été en quelques chiffres</h3>", unsafe_allow_html=True)
-
-
-    html_string = "<br>"
-
-    st.markdown(html_string, unsafe_allow_html=True)       
 
     col1, col2, col3 = st.columns(3)
 
@@ -440,11 +434,6 @@ if categorie == 'Alpes-Maritimes (06)':
 
     st.plotly_chart(fig, use_container_width=True)
 
-    st.markdown("<h3 style='text-align: center; color: #3E3A71;'>La mise à jour été en quelques chiffres</h3>", unsafe_allow_html=True)
-
-    html_string = "<br>"
-    
-    st.markdown(html_string, unsafe_allow_html=True)                                                                                                                              
 
     col1, col2, col3 = st.columns(3)
 
@@ -558,11 +547,6 @@ if categorie == 'Gironde (33)':
 
     st.plotly_chart(fig, use_container_width=True)
     
-    st.markdown("<h3 style='text-align: center; color: #3E3A71;'>La mise à jour été en quelques chiffres</h3>", unsafe_allow_html=True)
-
-    html_string = "<br>"
-
-    st.markdown(html_string, unsafe_allow_html=True)
     
     col1, col2, col3 = st.columns(3)
 
@@ -679,14 +663,7 @@ if categorie == 'Loire-Atlantique (44)':
 
     st.plotly_chart(fig, use_container_width=True)
     
-    
-    st.markdown("<h3 style='text-align: center; color: #3E3A71;'>La mise à jour été en quelques chiffres</h3>", unsafe_allow_html=True)
-
-
-    html_string = "<br>"
-
-    st.markdown(html_string, unsafe_allow_html=True)
-    
+      
     col1, col2, col3 = st.columns(3)
 
     html_string = "<center><font face='Helvetica' size='6'>767</font><br><font size='2'>e-mails et relances envoyées</font></center>"
@@ -801,13 +778,6 @@ if categorie == 'Bas-Rhin (67)':
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
-    
-    st.markdown("<h3 style='text-align: center; color: #3E3A71;'>La mise à jour été en quelques chiffres</h3>", unsafe_allow_html=True)
-
-
-    html_string = "<br>"
-
-    st.markdown(html_string, unsafe_allow_html=True)
     
 
     col1, col2, col3 = st.columns(3)
@@ -926,12 +896,6 @@ if categorie == 'Paris (75)':
 
     st.plotly_chart(fig, use_container_width=True)
 
-    st.markdown("<h3 style='text-align: center; color: #3E3A71;'>La mise à jour été en quelques chiffres</h3>", unsafe_allow_html=True)
-
-
-    html_string = "<br>"
-
-    st.markdown(html_string, unsafe_allow_html=True)
     
     col1, col2, col3 = st.columns(3)
 
@@ -1049,14 +1013,7 @@ if categorie == 'Seine-et-Marne (77)':
 
     st.plotly_chart(fig, use_container_width=True)
 
-
-    st.markdown("<h3 style='text-align: center; color: #3E3A71;'>La mise à jour été en quelques chiffres</h3>", unsafe_allow_html=True)
-
-
-    html_string = "<br>"
-
-    st.markdown(html_string, unsafe_allow_html=True)
-  
+ 
     col1, col2, col3 = st.columns(3)
 
     html_string = "<center><font face='Helvetica' size='6'>11</font><br><font size='2'>e-mails et relances envoyées</font></center>"
@@ -1173,13 +1130,6 @@ if categorie == 'Yvelines (78)':
 
 
 
-    st.markdown("<h3 style='text-align: center; color: #3E3A71;'>La mise à jour été en quelques chiffres</h3>", unsafe_allow_html=True)
-
-
-    html_string = "<br>"
-
-    st.markdown(html_string, unsafe_allow_html=True)
-
     col1, col2, col3 = st.columns(3)
 
     html_string = "<center><font face='Helvetica' size='6'>677</font><br><font size='2'>e-mails et relances envoyées</font></center>"
@@ -1292,14 +1242,7 @@ if categorie == 'Essonne (91)':
 
     st.plotly_chart(fig, use_container_width=True)
 
-
-    st.markdown("<h3 style='text-align: center; color: #3E3A71;'>La mise à jour été en quelques chiffres</h3>", unsafe_allow_html=True)
-
-
-    html_string = "<br>"
-
-    st.markdown(html_string, unsafe_allow_html=True)
-
+    
     col1, col2, col3 = st.columns(3)
 
     html_string = "<center><font face='Helvetica' size='6'>4</font><br><font size='2'>e-mails et relances envoyées</font></center>"
@@ -1415,14 +1358,7 @@ if categorie == 'Hauts-de-Seine (92)':
 
     st.plotly_chart(fig, use_container_width=True)
 
-    st.markdown("<h3 style='text-align: center; color: #3E3A71;'>La mise à jour été en quelques chiffres</h3>", unsafe_allow_html=True)
-
-
-    html_string = "<br>"
-
-    st.markdown(html_string, unsafe_allow_html=True)
-    
-
+ 
     col1, col2, col3 = st.columns(3)
 
     html_string = "<center><font face='Helvetica' size='6'>774</font><br><font size='2'>e-mails et relances envoyées</font></center>"
@@ -1533,12 +1469,7 @@ if categorie == 'Seine-Saint-Denis (93)':
 
     st.plotly_chart(fig, use_container_width=True)
 
-    st.markdown("<h3 style='text-align: center; color: #3E3A71;'>La mise à jour été en quelques chiffres</h3>", unsafe_allow_html=True)
-
-    html_string = "<br>"
-
-    st.markdown(html_string, unsafe_allow_html=True)
-
+ 
     col1, col2, col3 = st.columns(3)
 
     html_string = "<center><font face='Helvetica' size='6'>777</font><br><font size='2'>e-mails et relances envoyées</font></center>"
@@ -1649,13 +1580,6 @@ if categorie == 'Val-de-Marne (94)':
 
     st.plotly_chart(fig, use_container_width=True)
 
-
-    st.markdown("<h3 style='text-align: center; color: #3E3A71;'>La mise à jour été en quelques chiffres</h3>", unsafe_allow_html=True)
-
-    html_string = "<br>"
-
-    st.markdown(html_string, unsafe_allow_html=True)
-    
 
     col1, col2, col3 = st.columns(3)
 
@@ -1770,12 +1694,6 @@ if categorie == 'Val-d\'Oise (95)':
     st.plotly_chart(fig, use_container_width=True)
 
 
-    st.markdown("<h3 style='text-align: center; color: #3E3A71;'>La mise à jour été en quelques chiffres</h3>", unsafe_allow_html=True)
-
-    html_string = "<br>"
-
-    st.markdown(html_string, unsafe_allow_html=True)
-    
    
 
     col1, col2, col3 = st.columns(3)
