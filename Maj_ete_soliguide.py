@@ -677,8 +677,7 @@ if categorie == 'Loire-Atlantique (44)':
     res_44.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
     
     fig = px.pie(res_44, values='status', names='index',
-             custom_data=['value'], labels={'lifeExp':'life expectancy','iso_num':'iso num'
-                                                      })
+             custom_data=['value'],)
     fig.update_traces(textposition='inside', textinfo='percent+label',\
                      hovertemplate = "Country:%{label}: <br>Population: %{customdata}")
     
