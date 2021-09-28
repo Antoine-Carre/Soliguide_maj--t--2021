@@ -126,15 +126,15 @@ if categorie == 'France':
 
     col1, col2, col3 = st.columns(3)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>9 626</font><br><font size='2'>structures en ligne sur Soliguide</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>9 626</font><br><font size='2'>structures en ligne sur Soliguide</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>1 955</font><br/><font size='2'>structures ont fermé<br></font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>1 955</font><br/><font size='2'>structures ont fermé<br></font></center>"
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>491</font><br/><font size='2'>structures ont effectué des changements<br>(du 1<sup>er</sup>juillet au 31 août)</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>491</font><br/><font size='2'>structures ont effectué des changements<br>(du 1<sup>er</sup>juillet au 31 août)</font></center>"
 
     col3.markdown(html_string, unsafe_allow_html=True)
 
@@ -195,10 +195,11 @@ if categorie == 'France':
     
     # Donnéés traitées pour construire graph 4
     
-    res_france.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    res_france.rename(index={0: 'l\équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
-    fig = px.pie(values=res_france.status, names=res_france.index, color_discrete_sequence=['palevioletred'])
-    fig.update_traces(textinfo="percent+label")
+    fig = px.pie(res_france, values='status', names=res_france.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
+    fig.update_traces(textposition='inside', textinfo='percent+label',\
+                     hovertemplate = "%{value} structures mises à jour par %{label}")
     fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
@@ -216,15 +217,15 @@ if categorie == 'France':
 
     col1, col2, col3 = st.columns(3)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>6 000</font><br><font size='2'>e-mails et relances envoyées</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>6 000</font><br><font size='2'>e-mails et relances envoyées</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>5 678</font><br/><font size='2'>appels effectués<br></font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>5 678</font><br/><font size='2'>appels effectués<br></font></center>"
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>287 960</font><br/><font size='2'>recherches réalisées sur Soliguide</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>287 960</font><br/><font size='2'>recherches réalisées sur Soliguide</font></center>"
 
     col3.markdown(html_string, unsafe_allow_html=True)
 
@@ -250,15 +251,15 @@ if categorie == 'Ile-De-France':
 
     col1, col2, col3 = st.columns(3)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>7 197</font><br><font size='2'>structures en ligne sur Soliguide</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>7 197</font><br><font size='2'>structures en ligne sur Soliguide</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>1 533</font><br/><font size='2'>structures ont fermé<br></font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>1 533</font><br/><font size='2'>structures ont fermé<br></font></center>"
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>332</font><br/><font size='2'>structures ont effectué des changements<br>(du 1<sup>er</sup>juillet au 31 août)</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>332</font><br/><font size='2'>structures ont effectué des changements<br>(du 1<sup>er</sup>juillet au 31 août)</font></center>"
 
     col3.markdown(html_string, unsafe_allow_html=True)
 
@@ -304,8 +305,6 @@ if categorie == 'Ile-De-France':
  
    # Donnéés traitées pour construire graph 3
 
-    # Donnéés traitées pour construire graph 3
-
     df_stacked_per_IDF.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
 
     fig = px.bar(df_stacked_per_IDF, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
@@ -321,10 +320,11 @@ if categorie == 'Ile-De-France':
 
     # Donnéés traitées pour construire graph 4
     
-    res_IDF.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    res_IDF.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
-    fig = px.pie(values=res_IDF.status, names=res_IDF.index, color_discrete_sequence=['palevioletred'])
-    fig.update_traces(textinfo="percent+label")
+    fig = px.pie(res_IDF, values='status', names=res_IDF.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
+    fig.update_traces(textposition='inside', textinfo='percent+label',\
+                     hovertemplate = "%{value} structures mises à jour par %{label}")
     fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
@@ -371,15 +371,15 @@ if categorie == 'Alpes-Maritimes (06)':
 
     col1, col2, col3 = st.columns(3)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>341</font><br><font size='2'>structures en ligne sur Soliguide</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>341</font><br><font size='2'>structures en ligne sur Soliguide</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>17</font><br/><font size='2'>structures ont fermé<br></font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>17</font><br/><font size='2'>structures ont fermé<br></font></center>"
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>2</font><br/><font size='2'>structures ont effectué des changements<br>(du 1<sup>er</sup>juillet au 31 août)</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>2</font><br/><font size='2'>structures ont effectué des changements<br>(du 1<sup>er</sup>juillet au 31 août)</font></center>"
 
     col3.markdown(html_string, unsafe_allow_html=True)
 
@@ -438,10 +438,11 @@ if categorie == 'Alpes-Maritimes (06)':
     
     # Donnéés traitées pour construire graph 4
     
-    res_06.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    res_06.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
-    fig = px.pie(values=res_06.status, names=res_06.index, color_discrete_sequence=['palevioletred'])
-    fig.update_traces(textinfo="percent+label")
+    fig = px.pie(res_06, values='status', names=res_06.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
+    fig.update_traces(textposition='inside', textinfo='percent+label',\
+                     hovertemplate = "%{value} structures mises à jour par %{label}")
     fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
@@ -555,10 +556,11 @@ if categorie == 'Gironde (33)':
     
     # Donnéés traitées pour construire graph 4
     
-    res_33.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    res_33.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
-    fig = px.pie(values=res_33.status, names=res_33.index, color_discrete_sequence=['palevioletred'])
-    fig.update_traces(textinfo="percent+label")
+    fig = px.pie(res_33, values='status', names=res_33.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
+    fig.update_traces(textposition='inside', textinfo='percent+label',\
+                     hovertemplate = "%{value} structures mises à jour par %{label}")
     fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
@@ -674,14 +676,12 @@ if categorie == 'Loire-Atlantique (44)':
     
     # Donnéés traitées pour construire graph 4
     
-    res_44.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    res_44.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_44, values='status', names=res_44.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
                      hovertemplate = "%{value} structures mises à jour par %{label}")
-    
- 
-    
+        
     fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
@@ -800,10 +800,11 @@ if categorie == 'Bas-Rhin (67)':
 
     # Donnéés traitées pour construire graph 4
     
-    res_67.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    res_67.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
-    fig = px.pie(values=res_67.status, names=res_67.index, color_discrete_sequence=['palevioletred'])
-    fig.update_traces(textinfo="percent+label")
+    fig = px.pie(res_67, values='status', names=res_67.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
+    fig.update_traces(textposition='inside', textinfo='percent+label',\
+                     hovertemplate = "%{value} structures mises à jour par %{label}")
     fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
@@ -923,10 +924,11 @@ if categorie == 'Paris (75)':
     
     # Donnéés traitées pour construire graph 4
     
-    res_75.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    res_75.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
-    fig = px.pie(values=res_75.status, names=res_75.index, color_discrete_sequence=['palevioletred'])
-    fig.update_traces(textinfo="percent+label")
+    fig = px.pie(res_75, values='status', names=res_75.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
+    fig.update_traces(textposition='inside', textinfo='percent+label',\
+                     hovertemplate = "%{value} structures mises à jour par %{label}")
     fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
@@ -1045,10 +1047,11 @@ if categorie == 'Seine-et-Marne (77)':
 
        
     # Donnéés traitées pour construire graph 3
-    res_77.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    res_77.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
-    fig = px.pie(values=res_77.status, names=res_77.index, color_discrete_sequence=['palevioletred'])
-    fig.update_traces(textinfo="percent+label")
+    fig = px.pie(res_77, values='status', names=res_77.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
+    fig.update_traces(textposition='inside', textinfo='percent+label',\
+                     hovertemplate = "%{value} structures mises à jour par %{label}")
     fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
@@ -1166,10 +1169,11 @@ if categorie == 'Yvelines (78)':
     st.plotly_chart(fig, use_container_width=True)
        
     # Donnéés traitées pour construire graph 4
-    res_78.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    res_78.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
-    fig = px.pie(values=res_78.status, names=res_78.index, color_discrete_sequence=['palevioletred'])
-    fig.update_traces(textinfo="percent+label")
+    fig = px.pie(res_78, values='status', names=res_78.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
+    fig.update_traces(textposition='inside', textinfo='percent+label',\
+                     hovertemplate = "%{value} structures mises à jour par %{label}")
     fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
@@ -1286,10 +1290,11 @@ if categorie == 'Essonne (91)':
 
        
     # Donnéés traitées pour construire graph 4
-    res_91.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    res_91.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
-    fig = px.pie(values=res_91.status, names=res_91.index, color_discrete_sequence=['palevioletred'])
-    fig.update_traces(textinfo="percent+label")
+    fig = px.pie(res_91, values='status', names=res_91.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
+    fig.update_traces(textposition='inside', textinfo='percent+label',\
+                     hovertemplate = "%{value} structures mises à jour par %{label}")
     fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
@@ -1408,10 +1413,11 @@ if categorie == 'Hauts-de-Seine (92)':
     st.plotly_chart(fig, use_container_width=True)
 
     # Donnéés traitées pour construire graph 4
-    res_92.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    res_92.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
-    fig = px.pie(values=res_92.status, names=res_92.index, color_discrete_sequence=['palevioletred'])
-    fig.update_traces(textinfo="percent+label")
+    fig = px.pie(res_92, values='status', names=res_92.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
+    fig.update_traces(textposition='inside', textinfo='percent+label',\
+                     hovertemplate = "%{value} structures mises à jour par %{label}")
     fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
@@ -1525,10 +1531,11 @@ if categorie == 'Seine-Saint-Denis (93)':
     st.plotly_chart(fig, use_container_width=True)
 
     # Donnéés traitées pour construire graph 4
-    res_93.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    res_93.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
-    fig = px.pie(values=res_93.status, names=res_93.index, color_discrete_sequence=['palevioletred'])
-    fig.update_traces(textinfo="percent+label")
+    fig = px.pie(res_93, values='status', names=res_93.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
+    fig.update_traces(textposition='inside', textinfo='percent+label',\
+                     hovertemplate = "%{value} structures mises à jour par %{label}")
     fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
@@ -1640,10 +1647,11 @@ if categorie == 'Val-de-Marne (94)':
     st.plotly_chart(fig, use_container_width=True)
 
     # Donnéés traitées pour construire graph 4
-    res_94.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    res_94.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
-    fig = px.pie(values=res_94.status, names=res_94.index, color_discrete_sequence=['palevioletred'])
-    fig.update_traces(textinfo="percent+label")
+    fig = px.pie(res_94, values='status', names=res_94.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
+    fig.update_traces(textposition='inside', textinfo='percent+label',\
+                     hovertemplate = "%{value} structures mises à jour par %{label}")
     fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
@@ -1759,10 +1767,11 @@ if categorie == 'Val-d\'Oise (95)':
 
 
     # Donnéés traitées pour construire graph 4
-    res_95.rename(index={0: 'Soliguide', 1:'Acteurs'}, inplace=True)
+    res_95.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
-    fig = px.pie(values=res_95.status, names=res_95.index, color_discrete_sequence=['palevioletred'])
-    fig.update_traces(textinfo="percent+label")
+    fig = px.pie(res_95, values='status', names=res_95.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
+    fig.update_traces(textposition='inside', textinfo='percent+label',\
+                     hovertemplate = "%{value} structures mises à jour par %{label}")
     fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
