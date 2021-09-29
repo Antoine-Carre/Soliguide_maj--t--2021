@@ -127,11 +127,11 @@ if categorie == 'France':
 
     col1, col2, col3 = st.columns(3)
 
-    html_string = "<center><font face='Helvetica' size='6'>9 626</font><br><font size='2'>structures en ligne sur Soliguide</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>9 626</font><br><font size='2'>structures en ligne sur Soliguide<br>(au 31 août 2021)</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>1 955</font><br/><font size='2'>structures ont fermé<br></font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>1 955</font><br/><font size='2'>structures ont fermé<br>(du 1<sup>er</sup>juillet au 31 août)</font></center>"
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
@@ -216,15 +216,15 @@ if categorie == 'France':
 
     col1, col2, col3, col4 = st.columns(4)
 
-    html_string = "<center><font face='Helvetica' size='6'>6 000</font><br><font size='2'>e-mails et relances envoyés par l'équipe Solinum</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>6 000</font><br><font size='2'>e-mails et relances envoyés par l'équipe Solinum<br>(du 1<sup>er</sup>juillet au 31 août)</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>5 678</font><br/><font size='2'>appels effectués par l'équipe Solinum<br></font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>5 678</font><br/><font size='2'>appels effectués par l'équipe Solinum<br>(du 1<sup>er</sup>juillet au 31 août)<br></font></center>"
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>287 960</font><br/><font size='2'>recherches réalisées sur Soliguide</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>287 960</font><br/><font size='2'>recherches réalisées sur Soliguide <br>(du 1<sup>er</sup>juillet au 31 août)</font></center>"
 
     col3.markdown(html_string, unsafe_allow_html=True)
 
