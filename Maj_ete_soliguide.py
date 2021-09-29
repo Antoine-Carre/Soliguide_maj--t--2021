@@ -1475,7 +1475,7 @@ if categorie == 'Hauts-de-Seine (92)':
 
     col3.markdown(html_string, unsafe_allow_html=True)
 
-     html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
 
     col4.markdown(html_string, unsafe_allow_html=True)
     
