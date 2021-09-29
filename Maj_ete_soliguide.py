@@ -968,7 +968,7 @@ if categorie == 'Paris (75)':
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>67 561</font><br/><font size='2'>recherches réalisées sur Soliguide</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>15 685</font><br/><font size='2'>recherches réalisées sur Soliguide</font></center>"
 
     col3.markdown(html_string, unsafe_allow_html=True)
 
