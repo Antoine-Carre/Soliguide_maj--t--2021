@@ -216,7 +216,7 @@ if categorie == 'France':
 
     col1, col2, col3, col4 = st.columns(4)
 
-    html_string = "<center><font face='Helvetica' size='6'>6 000</font><br><font size='2'>e-mails et relances envoyées</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>6 000</font><br><font size='2'>e-mails et relances envoyés</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
@@ -341,7 +341,7 @@ if categorie == 'Ile-De-France':
 
     col1, col2, col3, col4 = st.columns(4)
 
-    html_string = "<center><font face='Helvetica' size='6'>4 351</font><br><font size='2'>e-mails et relances envoyées</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>4 351</font><br><font size='2'>e-mails et relances envoyés</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
@@ -463,7 +463,7 @@ if categorie == 'Alpes-Maritimes (06)':
 
     col1, col2, col3 = st.columns(3)
 
-    html_string = "<center><font face='Helvetica' size='6'>418</font><br><font size='2'>e-mails et relances envoyées</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>418</font><br><font size='2'>e-mails et relances envoyés</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
@@ -586,7 +586,7 @@ if categorie == 'Gironde (33)':
     
     col1, col2, col3, col4 = st.columns(4)
 
-    html_string = "<center><font face='Helvetica' size='6'>597</font><br><font size='2'>e-mails et relances envoyées</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>597</font><br><font size='2'>e-mails et relances envoyés</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
@@ -711,7 +711,7 @@ if categorie == 'Loire-Atlantique (44)':
       
     col1, col2, col3, col4 = st.columns(4)
 
-    html_string = "<center><font face='Helvetica' size='6'>767</font><br><font size='2'>e-mails et relances envoyées</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>767</font><br><font size='2'>e-mails et relances envoyés</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
@@ -836,7 +836,7 @@ if categorie == 'Bas-Rhin (67)':
 
     col1, col2, col3, col4 = st.columns(4)
 
-    html_string = "<center><font face='Helvetica' size='6'>245</font><br><font size='2'>e-mails et relances envoyées</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>245</font><br><font size='2'>e-mails et relances envoyés</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
@@ -961,7 +961,7 @@ if categorie == 'Paris (75)':
     
     col1, col2, col3, col4 = st.columns(4)
 
-    html_string = "<center><font face='Helvetica' size='6'>1 259</font><br><font size='2'>e-mails et relances envoyées</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>1 259</font><br><font size='2'>e-mails et relances envoyés</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
@@ -1089,7 +1089,7 @@ if categorie == 'Seine-et-Marne (77)':
  
     col1, col2, col3, col4 = st.columns(4)
 
-    html_string = "<center><font face='Helvetica' size='6'>11</font><br><font size='2'>e-mails et relances envoyées</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>11</font><br><font size='2'>e-mails et relances envoyés</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
@@ -1215,7 +1215,7 @@ if categorie == 'Yvelines (78)':
 
     col1, col2, col3, col4 = st.columns(4)
 
-    html_string = "<center><font face='Helvetica' size='6'>677</font><br><font size='2'>e-mails et relances envoyées</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>677</font><br><font size='2'>e-mails et relances envoyés</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
@@ -1338,7 +1338,7 @@ if categorie == 'Essonne (91)':
     
     col1, col2, col3, col4 = st.columns(4)
 
-    html_string = "<center><font face='Helvetica' size='6'>4</font><br><font size='2'>e-mails et relances envoyées</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>4</font><br><font size='2'>e-mails et relances envoyés</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
@@ -1465,7 +1465,7 @@ if categorie == 'Hauts-de-Seine (92)':
 
     col1, col2, col3, col4 = st.columns(4)
 
-    html_string = "<center><font face='Helvetica' size='6'>774</font><br><font size='2'>e-mails et relances envoyées</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>774</font><br><font size='2'>e-mails et relances envoyés</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
@@ -1587,7 +1587,7 @@ if categorie == 'Seine-Saint-Denis (93)':
  
     col1, col2, col3, col4 = st.columns(4)
 
-    html_string = "<center><font face='Helvetica' size='6'>777</font><br><font size='2'>e-mails et relances envoyées</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>777</font><br><font size='2'>e-mails et relances envoyés</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
@@ -1711,7 +1711,7 @@ if categorie == 'Val-de-Marne (94)':
 
     col1, col2, col3, col4 = st.columns(4)
 
-    html_string = "<center><font face='Helvetica' size='6'>704</font><br><font size='2'>e-mails et relances envoyées</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>704</font><br><font size='2'>e-mails et relances envoyés</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
@@ -1837,7 +1837,7 @@ if categorie == 'Val-d\'Oise (95)':
 
     col1, col2, col3, col4 = st.columns(4)
 
-    html_string = "<center><font face='Helvetica' size='6'>145</font><br><font size='2'>e-mails et relances envoyées</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>145</font><br><font size='2'>e-mails et relances envoyés</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
