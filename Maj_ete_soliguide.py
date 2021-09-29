@@ -184,9 +184,9 @@ if categorie == 'France':
     
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_france.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
+    df_stacked_per_france.rename(columns={'Ouvert':'Structure ouverte entièrement', 'Service fermé': 'Structure ouverte mais avec des services fermés'}, inplace=True)
 
-    fig = px.bar(df_stacked_per_france, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+    fig = px.bar(df_stacked_per_france, x="Categories", y=["Structure fermée", "Changement d'horaire", "Structure ouverte mais avec des services fermés", "Structure ouverte entièrement"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
