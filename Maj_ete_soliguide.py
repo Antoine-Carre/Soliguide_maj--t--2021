@@ -212,7 +212,7 @@ if categorie == 'France':
 
     
 
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
 
     html_string = "<center><font face='Helvetica' size='6'>6 000</font><br><font size='2'>e-mails et relances envoyées</font></center>"
 
@@ -222,10 +222,14 @@ if categorie == 'France':
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>287 960</font><br/><font size='2'>recherches réalisées sur Soliguide</font></center>"
 
     col3.markdown(html_string, unsafe_allow_html=True)
 
+    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+
+    col4.markdown(html_string, unsafe_allow_html=True)
+    
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)    
