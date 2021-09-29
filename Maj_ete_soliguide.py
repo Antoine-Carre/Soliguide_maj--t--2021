@@ -160,7 +160,7 @@ if categorie == 'France':
                             ).add_to( mappy )
 
     url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
-    FloatImage(url, bottom=50, left=70).add_to(mappy)
+    FloatImage(url, bottom=30, left=70).add_to(mappy)
     
     mappy.save('map.html')
 
