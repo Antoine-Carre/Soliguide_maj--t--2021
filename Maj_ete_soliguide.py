@@ -312,9 +312,9 @@ if categorie == 'Ile-De-France':
  
    # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_IDF.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
+    df_stacked_per_IDF.rename(columns={'Ouvert':'Structure ouverte entièrement', 'Service fermé': 'Structure ouverte mais avec des services fermés'}, inplace=True)
 
-    fig = px.bar(df_stacked_per_IDF, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+    fig = px.bar(df_stacked_per_IDF, x="Categories", y=["Structure fermée", "Changement d'horaire", "Structure ouverte mais avec des services fermés", "Structure ouverte entièrement"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
@@ -435,9 +435,9 @@ if categorie == 'Alpes-Maritimes (06)':
  
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_06.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
+    df_stacked_per_06.rename(columns={'Ouvert':'Structure ouverte entièrement', 'Service fermé': 'Structure ouverte mais avec des services fermés'}, inplace=True)
 
-    fig = px.bar(df_stacked_per_06, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+    fig = px.bar(df_stacked_per_06, x="Categories", y=["Structure fermée", "Changement d'horaire", "Structure ouverte mais avec des services fermés", "Structure ouverte entièrement"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
@@ -557,9 +557,9 @@ if categorie == 'Gironde (33)':
     
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_33.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
+    df_stacked_per_33.rename(columns={'Ouvert':'Structure ouverte entièrement', 'Service fermé': 'Structure ouverte mais avec des services fermés'}, inplace=True)
 
-    fig = px.bar(df_stacked_per_33, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+    fig = px.bar(df_stacked_per_33, x="Categories", y=["Structure fermée", "Changement d'horaire", "Structure ouverte mais avec des services fermés", "Structure ouverte entièrement"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
@@ -680,10 +680,10 @@ if categorie == 'Loire-Atlantique (44)':
     st.plotly_chart(fig, use_container_width=True)
 
     # Donnéés traitées pour construire graph 3
+ 
+    df_stacked_per_44.rename(columns={'Ouvert':'Structure ouverte entièrement', 'Service fermé': 'Structure ouverte mais avec des services fermés'}, inplace=True)
 
-    df_stacked_per_44.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
-
-    fig = px.bar(df_stacked_per_44, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+    fig = px.bar(df_stacked_per_44, x="Categories", y=["Structure fermée", "Changement d'horaire", "Structure ouverte mais avec des services fermés", "Structure ouverte entièrement"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
@@ -807,9 +807,9 @@ if categorie == 'Bas-Rhin (67)':
 
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_67.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
+    df_stacked_per_67.rename(columns={'Ouvert':'Structure ouverte entièrement', 'Service fermé': 'Structure ouverte mais avec des services fermés'}, inplace=True)
 
-    fig = px.bar(df_stacked_per_67, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+    fig = px.bar(df_stacked_per_67, x="Categories", y=["Structure fermée", "Changement d'horaire", "Structure ouverte mais avec des services fermés", "Structure ouverte entièrement"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
@@ -931,9 +931,9 @@ if categorie == 'Paris (75)':
 
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_75.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
+    df_stacked_per_75.rename(columns={'Ouvert':'Structure ouverte entièrement', 'Service fermé': 'Structure ouverte mais avec des services fermés'}, inplace=True)
 
-    fig = px.bar(df_stacked_per_75, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+    fig = px.bar(df_stacked_per_75, x="Categories", y=["Structure fermée", "Changement d'horaire", "Structure ouverte mais avec des services fermés", "Structure ouverte entièrement"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
@@ -957,7 +957,6 @@ if categorie == 'Paris (75)':
                      hovertemplate = "%{value} mises à jour par %{label}")
 
     st.plotly_chart(fig, use_container_width=True)
-
     
     col1, col2, col3, col4 = st.columns(4)
 
@@ -1056,12 +1055,11 @@ if categorie == 'Seine-et-Marne (77)':
     st.plotly_chart(fig, use_container_width=True)
 
 
-
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_77.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
+    df_stacked_per_77.rename(columns={'Ouvert':'Structure ouverte entièrement', 'Service fermé': 'Structure ouverte mais avec des services fermés'}, inplace=True)
 
-    fig = px.bar(df_stacked_per_77, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+    fig = px.bar(df_stacked_per_77, x="Categories", y=["Structure fermée", "Changement d'horaire", "Structure ouverte mais avec des services fermés", "Structure ouverte entièrement"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
@@ -1185,9 +1183,9 @@ if categorie == 'Yvelines (78)':
 
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_78.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
+    df_stacked_per_78.rename(columns={'Ouvert':'Structure ouverte entièrement', 'Service fermé': 'Structure ouverte mais avec des services fermés'}, inplace=True)
 
-    fig = px.bar(df_stacked_per_78, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+    fig = px.bar(df_stacked_per_78, x="Categories", y=["Structure fermée", "Changement d'horaire", "Structure ouverte mais avec des services fermés", "Structure ouverte entièrement"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
@@ -1308,9 +1306,9 @@ if categorie == 'Essonne (91)':
 
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_91.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
+    df_stacked_per_91.rename(columns={'Ouvert':'Structure ouverte entièrement', 'Service fermé': 'Structure ouverte mais avec des services fermés'}, inplace=True)
 
-    fig = px.bar(df_stacked_per_91, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+    fig = px.bar(df_stacked_per_91, x="Categories", y=["Structure fermée", "Changement d'horaire", "Structure ouverte mais avec des services fermés", "Structure ouverte entièrement"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
@@ -1435,9 +1433,9 @@ if categorie == 'Hauts-de-Seine (92)':
 
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_92.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
+    df_stacked_per_92.rename(columns={'Ouvert':'Structure ouverte entièrement', 'Service fermé': 'Structure ouverte mais avec des services fermés'}, inplace=True)
 
-    fig = px.bar(df_stacked_per_92, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+    fig = px.bar(df_stacked_per_92, x="Categories", y=["Structure fermée", "Changement d'horaire", "Structure ouverte mais avec des services fermés", "Structure ouverte entièrement"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
@@ -1558,9 +1556,10 @@ if categorie == 'Seine-Saint-Denis (93)':
 
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_93.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
+    df_stacked_per_93.rename(columns={'Ouvert':'Structure ouverte entièrement', 'Service fermé': 'Structure ouverte mais avec des services fermés'}, inplace=True)
 
-    fig = px.bar(df_stacked_per_93, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'], text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
+    fig = px.bar(df_stacked_per_93, x="Categories", y=["Structure fermée", "Changement d'horaire", "Structure ouverte mais avec des services fermés", "Structure ouverte entièrement"], custom_data=['value'],
+                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
@@ -1681,9 +1680,9 @@ if categorie == 'Val-de-Marne (94)':
     
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_94.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
+    df_stacked_per_94.rename(columns={'Ouvert':'Structure ouverte entièrement', 'Service fermé': 'Structure ouverte mais avec des services fermés'}, inplace=True)
 
-    fig = px.bar(df_stacked_per_94, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+    fig = px.bar(df_stacked_per_94, x="Categories", y=["Structure fermée", "Changement d'horaire", "Structure ouverte mais avec des services fermés", "Structure ouverte entièrement"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
@@ -1807,9 +1806,9 @@ if categorie == 'Val-d\'Oise (95)':
     
     # Donnéés traitées pour construire graph 3
 
-    df_stacked_per_95.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
+    df_stacked_per_95.rename(columns={'Ouvert':'Structure ouverte entièrement', 'Service fermé': 'Structure ouverte mais avec des services fermés'}, inplace=True)
 
-    fig = px.bar(df_stacked_per_95, x="Categories", y=["Structure fermée", "Changement d'horaire", "Service fermé", "Service ouvert"], custom_data=['value'],
+    fig = px.bar(df_stacked_per_95, x="Categories", y=["Structure fermée", "Changement d'horaire", "Structure ouverte mais avec des services fermés", "Structure ouverte entièrement"], custom_data=['value'],
                 text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
