@@ -200,13 +200,15 @@ if categorie == 'France':
     
     # Donnéés traitées pour construire graph 4
     
+    st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
+
     res_france.rename(index={0: 'l\équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_france, values='status', names=res_france.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
-                     hovertemplate = "%{value} structures mises à jour par %{label}")
-    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
+                     hovertemplate = "%{value} mises à jour par %{label}")
+
 
     st.plotly_chart(fig, use_container_width=True)
 
@@ -222,7 +224,7 @@ if categorie == 'France':
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>287 960</font><br/><font size='2'>recherches réalisées sur Soliguide</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>287 960</font><br/><font size='2'>recherches réalisées sur Soliguide</font></center>"
 
     col3.markdown(html_string, unsafe_allow_html=True)
 
@@ -324,32 +326,37 @@ if categorie == 'Ile-De-France':
     st.plotly_chart(fig, use_container_width=True)
 
     # Donnéés traitées pour construire graph 4
+
+    st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
     
     res_IDF.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_IDF, values='status', names=res_IDF.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
-                     hovertemplate = "%{value} structures mises à jour par %{label}")
-    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
+                     hovertemplate = "%{value} mises à jour par %{label}")
 
     st.plotly_chart(fig, use_container_width=True)
     
 
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>4 351</font><br><font size='2'>e-mails et relances envoyées</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>4 351</font><br><font size='2'>e-mails et relances envoyées</font></center>"
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font color='#3E3A71' face='Helvetica' size='6'>4 376</font><br/><font size='2'>appels effectués<br></font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>4 376</font><br/><font size='2'>appels effectués<br></font></center>"
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>155 264</font><br/><font size='2'>recherches réalisées sur Soliguide</font></center>"
 
     col3.markdown(html_string, unsafe_allow_html=True)
 
+    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+
+    col4.markdown(html_string, unsafe_allow_html=True)    
+    
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)    
@@ -463,10 +470,14 @@ if categorie == 'Alpes-Maritimes (06)':
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>4 120</font><br/><font size='2'>recherches réalisées sur Soliguide</font></center>"
 
     col3.markdown(html_string, unsafe_allow_html=True)
 
+    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+
+    col4.markdown(html_string, unsafe_allow_html=True)    
+    
     html_string = "<br>"
   
     st.markdown(html_string, unsafe_allow_html=True)                                                                                                                              
@@ -559,19 +570,20 @@ if categorie == 'Gironde (33)':
     st.plotly_chart(fig, use_container_width=True)
     
     # Donnéés traitées pour construire graph 4
+  
+    st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
     
     res_33.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_33, values='status', names=res_33.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
-                     hovertemplate = "%{value} structures mises à jour par %{label}")
-    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
+                     hovertemplate = "%{value} mises à jour par %{label}")
 
     st.plotly_chart(fig, use_container_width=True)
     
     
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
 
     html_string = "<center><font face='Helvetica' size='6'>597</font><br><font size='2'>e-mails et relances envoyées</font></center>"
 
@@ -581,9 +593,13 @@ if categorie == 'Gironde (33)':
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>12 787</font><br/><font size='2'>recherches réalisées sur Soliguide</font></center>"
 
     col3.markdown(html_string, unsafe_allow_html=True)
+    
+    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+
+    col4.markdown(html_string, unsafe_allow_html=True)
 
     html_string = "<br>"
 
@@ -680,19 +696,19 @@ if categorie == 'Loire-Atlantique (44)':
     
     # Donnéés traitées pour construire graph 4
     
+    st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
+    
     res_44.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_44, values='status', names=res_44.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
                      hovertemplate = "%{value} structures mises à jour par %{label}")
-        
-    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
     
       
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
 
     html_string = "<center><font face='Helvetica' size='6'>767</font><br><font size='2'>e-mails et relances envoyées</font></center>"
 
@@ -702,9 +718,13 @@ if categorie == 'Loire-Atlantique (44)':
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>8 899</font><br/><font size='2'>recherches réalisées sur Soliguide</font></center>"
 
     col3.markdown(html_string, unsafe_allow_html=True)
+    
+    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+
+    col4.markdown(html_string, unsafe_allow_html=True)
 
     html_string = "<br>"
 
@@ -800,18 +820,19 @@ if categorie == 'Bas-Rhin (67)':
 
     # Donnéés traitées pour construire graph 4
     
+    st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
+    
     res_67.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_67, values='status', names=res_67.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
-                     hovertemplate = "%{value} structures mises à jour par %{label}")
-    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
+                     hovertemplate = "%{value} mises à jour par %{label}")
 
     st.plotly_chart(fig, use_container_width=True)
     
 
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
 
     html_string = "<center><font face='Helvetica' size='6'>245</font><br><font size='2'>e-mails et relances envoyées</font></center>"
 
@@ -821,10 +842,14 @@ if categorie == 'Bas-Rhin (67)':
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>11 501</font><br/><font size='2'>recherches réalisées sur Soliguide</font></center>"
 
     col3.markdown(html_string, unsafe_allow_html=True)
 
+    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+
+    col4.markdown(html_string, unsafe_allow_html=True)    
+    
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)  
@@ -921,19 +946,20 @@ if categorie == 'Paris (75)':
 
     
     # Donnéés traitées pour construire graph 4
-    
+   
+    st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
+
     res_75.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_75, values='status', names=res_75.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
-                     hovertemplate = "%{value} structures mises à jour par %{label}")
-    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
+                     hovertemplate = "%{value} mises à jour par %{label}")
 
     st.plotly_chart(fig, use_container_width=True)
 
     
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
 
     html_string = "<center><font face='Helvetica' size='6'>1 259</font><br><font size='2'>e-mails et relances envoyées</font></center>"
 
@@ -943,10 +969,14 @@ if categorie == 'Paris (75)':
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>67 561</font><br/><font size='2'>recherches réalisées sur Soliguide</font></center>"
 
     col3.markdown(html_string, unsafe_allow_html=True)
 
+    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+
+    col4.markdown(html_string, unsafe_allow_html=True)    
+    
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)  
@@ -1044,18 +1074,20 @@ if categorie == 'Seine-et-Marne (77)':
 
        
     # Donnéés traitées pour construire graph 3
+    
+    st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
+
     res_77.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_77, values='status', names=res_77.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
                      hovertemplate = "%{value} structures mises à jour par %{label}")
-    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
 
  
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
 
     html_string = "<center><font face='Helvetica' size='6'>11</font><br><font size='2'>e-mails et relances envoyées</font></center>"
 
@@ -1065,10 +1097,14 @@ if categorie == 'Seine-et-Marne (77)':
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>3 672</font><br/><font size='2'>recherches réalisées sur Soliguide</font></center>"
 
     col3.markdown(html_string, unsafe_allow_html=True)
 
+    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+
+    col4.markdown(html_string, unsafe_allow_html=True)    
+    
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)  
@@ -1163,19 +1199,21 @@ if categorie == 'Yvelines (78)':
     st.plotly_chart(fig, use_container_width=True)
        
     # Donnéés traitées pour construire graph 4
+    
+    st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
+
     res_78.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_78, values='status', names=res_78.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
-                     hovertemplate = "%{value} structures mises à jour par %{label}")
-    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
+                     hovertemplate = "%{value} mises à jour par %{label}")
 
     st.plotly_chart(fig, use_container_width=True)
 
 
 
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
 
     html_string = "<center><font face='Helvetica' size='6'>677</font><br><font size='2'>e-mails et relances envoyées</font></center>"
 
@@ -1185,9 +1223,13 @@ if categorie == 'Yvelines (78)':
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>1 321</font><br/><font size='2'>recherches réalisées sur Soliguide</font></center>"
 
     col3.markdown(html_string, unsafe_allow_html=True)
+    
+    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+
+    col4.markdown(html_string, unsafe_allow_html=True)    
 
     html_string = "<br>"
 
@@ -1200,8 +1242,6 @@ if categorie == 'Yvelines (78)':
 if categorie == 'Essonne (91)':
     st.markdown("<center><h1> Soliguide - Mise à jour été 2021 dans l'Essonne</h1></center>", unsafe_allow_html=True)
     st.markdown("Chaque été et chaque hiver, l'équipe de Solinum met à jour la totalité de la base de données de Soliguide sur ses territoires d'implantation, afin d'orienter les publics en situation de précarité au mieux dans ces périodes de changement. Retrouvez ici toutes les statistiques de cette mise à jour été !")
-
-
 
     html_string = "<br>"
 
@@ -1281,18 +1321,20 @@ if categorie == 'Essonne (91)':
 
        
     # Donnéés traitées pour construire graph 4
+    
+    st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
+
     res_91.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_91, values='status', names=res_91.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
-                     hovertemplate = "%{value} structures mises à jour par %{label}")
-    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
+                     hovertemplate = "%{value} mises à jour par %{label}")
 
     st.plotly_chart(fig, use_container_width=True)
 
     
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
 
     html_string = "<center><font face='Helvetica' size='6'>4</font><br><font size='2'>e-mails et relances envoyées</font></center>"
 
@@ -1305,6 +1347,10 @@ if categorie == 'Essonne (91)':
     html_string = "<center><font face='Helvetica' size='6'>3 499</font><br/><font size='2'>recherches réalisées sur Soliguide</font></center>"
 
     col3.markdown(html_string, unsafe_allow_html=True)
+    
+    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+
+    col4.markdown(html_string, unsafe_allow_html=True)
 
     html_string = "<br>"
 
@@ -1400,19 +1446,22 @@ if categorie == 'Hauts-de-Seine (92)':
 
     st.plotly_chart(fig, use_container_width=True)
 
+    
     # Donnéés traitées pour construire graph 4
+    
+    st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
+
     res_92.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_92, values='status', names=res_92.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
-                     hovertemplate = "%{value} structures mises à jour par %{label}")
-    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
+                     hovertemplate = "%{value} mises à jour par %{label}")
 
     st.plotly_chart(fig, use_container_width=True)
-
  
-    col1, col2, col3 = st.columns(3)
+
+    col1, col2, col3, col4 = st.columns(4)
 
     html_string = "<center><font face='Helvetica' size='6'>774</font><br><font size='2'>e-mails et relances envoyées</font></center>"
 
@@ -1422,10 +1471,14 @@ if categorie == 'Hauts-de-Seine (92)':
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>1 068</font><br/><font size='2'>recherches réalisées sur Soliguide</font></center>"
 
     col3.markdown(html_string, unsafe_allow_html=True)
 
+     html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+
+    col4.markdown(html_string, unsafe_allow_html=True)
+    
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)         
@@ -1438,7 +1491,6 @@ if categorie == 'Hauts-de-Seine (92)':
 if categorie == 'Seine-Saint-Denis (93)':
     st.markdown("<center><h1> Soliguide - Mise à jour été 2021 en Seine-Saint-Denis</h1></center>", unsafe_allow_html=True)
     st.markdown("Chaque été et chaque hiver, l'équipe de Solinum met à jour la totalité de la base de données de Soliguide sur ses territoires d'implantation, afin d'orienter les publics en situation de précarité au mieux dans ces périodes de changement. Retrouvez ici toutes les statistiques de cette mise à jour été !")
-
 
 
     html_string = "<br>"
@@ -1515,19 +1567,22 @@ if categorie == 'Seine-Saint-Denis (93)':
 
     st.plotly_chart(fig, use_container_width=True)
 
+    
     # Donnéés traitées pour construire graph 4
+    
+    st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
+
     res_93.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_93, values='status', names=res_93.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
-                     hovertemplate = "%{value} structures mises à jour par %{label}")
-    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
+                     hovertemplate = "%{value} mises à jour par %{label}")
 
     st.plotly_chart(fig, use_container_width=True)
 
  
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
 
     html_string = "<center><font face='Helvetica' size='6'>777</font><br><font size='2'>e-mails et relances envoyées</font></center>"
 
@@ -1537,10 +1592,14 @@ if categorie == 'Seine-Saint-Denis (93)':
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>29 795</font><br/><font size='2'>recherches réalisées sur Soliguide</font></center>"
 
     col3.markdown(html_string, unsafe_allow_html=True)
 
+    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+
+    col4.markdown(html_string, unsafe_allow_html=True)
+    
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)        
@@ -1552,7 +1611,6 @@ if categorie == 'Seine-Saint-Denis (93)':
 if categorie == 'Val-de-Marne (94)':
     st.markdown("<center><h1> Soliguide - Mise à jour été 2021 dans le Val-de-Marne</h1></center>", unsafe_allow_html=True)
     st.markdown("Chaque été et chaque hiver, l'équipe de Solinum met à jour la totalité de la base de données de Soliguide sur ses territoires d'implantation, afin d'orienter les publics en situation de précarité au mieux dans ces périodes de changement. Retrouvez ici toutes les statistiques de cette mise à jour été !")
-
 
     html_string = "<br>"
 
@@ -1615,6 +1673,7 @@ if categorie == 'Val-de-Marne (94)':
     fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
     st.plotly_chart(fig, use_container_width=True)
 
+    
     # Donnéés traitées pour construire graph 3
 
     df_stacked_per_94.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
@@ -1630,19 +1689,22 @@ if categorie == 'Val-de-Marne (94)':
 
     st.plotly_chart(fig, use_container_width=True)
 
+    
     # Donnéés traitées pour construire graph 4
+    
+    st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
+
     res_94.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_94, values='status', names=res_94.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
                      hovertemplate = "%{value} structures mises à jour par %{label}")
-    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
 
     st.plotly_chart(fig, use_container_width=True)
 
 
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
 
     html_string = "<center><font face='Helvetica' size='6'>704</font><br><font size='2'>e-mails et relances envoyées</font></center>"
 
@@ -1652,10 +1714,14 @@ if categorie == 'Val-de-Marne (94)':
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>20 716</font><br/><font size='2'>recherches réalisées sur Soliguide</font></center>"
 
     col3.markdown(html_string, unsafe_allow_html=True)
 
+    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+
+    col4.markdown(html_string, unsafe_allow_html=True)
+    
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
@@ -1668,7 +1734,6 @@ if categorie == 'Val-de-Marne (94)':
 if categorie == 'Val-d\'Oise (95)':
     st.markdown("<center><h1> Soliguide - Mise à jour été 2021 dans le Val d'Oise</h1></center>", unsafe_allow_html=True)
     st.markdown("Chaque été et chaque hiver, l'équipe de Solinum met à jour la totalité de la base de données de Soliguide sur ses territoires d'implantation, afin d'orienter les publics en situation de précarité au mieux dans ces périodes de changement. Retrouvez ici toutes les statistiques de cette mise à jour été !")
-
 
     html_string = "<br>"
 
@@ -1692,6 +1757,7 @@ if categorie == 'Val-d\'Oise (95)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
+    
     # Création de la carte avec pour centre 
     mappy = folium.Map(location=[df_fiches_95.latitude[0], df_fiches_95.longitude[0]],zoom_start=9.5)
 
@@ -1731,6 +1797,7 @@ if categorie == 'Val-d\'Oise (95)':
     fig.update_traces(hovertemplate='Catégorie de service: %{y}<br> Nbre de service: %{x}  <br>Taux de fermeture :%{customdata}%') 
     st.plotly_chart(fig, use_container_width=True)
 
+    
     # Donnéés traitées pour construire graph 3
 
     df_stacked_per_95.rename(columns={'Ouvert':'Service ouvert'}, inplace=True)
@@ -1748,20 +1815,22 @@ if categorie == 'Val-d\'Oise (95)':
 
 
     # Donnéés traitées pour construire graph 4
+    
+    st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
+
     res_95.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_95, values='status', names=res_95.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
-                     hovertemplate = "%{value} structures mises à jour par %{label}")
-    fig.update_layout(title="<b>Qui a mis à jour les structures pendant l'été ?</b>",
-                      margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,)
+                     hovertemplate = "%{value} mises à jour par %{label}")
 
     st.plotly_chart(fig, use_container_width=True)
 
 
    
 
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
 
     html_string = "<center><font face='Helvetica' size='6'>145</font><br><font size='2'>e-mails et relances envoyées</font></center>"
 
@@ -1771,10 +1840,14 @@ if categorie == 'Val-d\'Oise (95)':
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>7 632</font><br/><font size='2'>recherches réalisées sur Soliguide</font></center>"
 
     col3.markdown(html_string, unsafe_allow_html=True)
 
+    html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
+
+    col4.markdown(html_string, unsafe_allow_html=True)
+    
     html_string = "<br>"
 
     st.markdown(html_string, unsafe_allow_html=True)
