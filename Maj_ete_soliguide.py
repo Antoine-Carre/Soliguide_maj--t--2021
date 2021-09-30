@@ -461,7 +461,7 @@ if categorie == 'Alpes-Maritimes (06)':
     st.plotly_chart(fig, use_container_width=True)
 
 
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
 
     html_string = "<center><font face='Helvetica' size='6'>418</font><br><font size='2'>e-mails et relances envoyés par l'équipe Solinum</font></center>"
 
