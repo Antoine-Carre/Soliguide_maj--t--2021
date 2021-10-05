@@ -27,7 +27,7 @@ st.set_page_config(page_title="Soliguide 2021 - Mise à jour été",
 #############
 ## sidebar ##
 ############# 
-st.sidebar.image("https://s3.us-west-2.amazonaws.com/secure.notion-static.com/caeabe8c-f726-4dfe-ac9e-aaa9c4099e07/Soliguide_RVB_Original_PurpleOrange4x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210921%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210921T140607Z&X-Amz-Expires=86400&X-Amz-Signature=3021703b71b396e5cf7dc4de84318ef5df3c46df80febb9ccea6d44d255bf447&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Soliguide_RVB_Original_PurpleOrange4x.png%22", use_column_width=True)
+st.sidebar.image("https://soliguide.fr/assets/images/logo.png", use_column_width=True)
 st.sidebar.title('Soliguide 2021')
 st.sidebar.subheader('Mise à jour été')
 
