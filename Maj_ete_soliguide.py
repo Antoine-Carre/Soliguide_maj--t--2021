@@ -345,7 +345,7 @@ if categorie == 'Ile-De-France':
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>4 376</font><br/><font size='2'>appels effectués par l'équipe Solinum<br></font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>6 505</font><br/><font size='2'>appels effectués par l'équipe Solinum<br></font></center>"
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
