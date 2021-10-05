@@ -467,7 +467,7 @@ if categorie == 'Alpes-Maritimes (06)':
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>158</font><br/><font size='2'>appels effectués par l'équipe Solinum</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>339</font><br/><font size='2'>appels effectués par l'équipe Solinum</font></center>"
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
@@ -590,7 +590,7 @@ if categorie == 'Gironde (33)':
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>375</font><br/><font size='2'>appels effectués par l'équipe Solinum</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>787</font><br/><font size='2'>appels effectués par l'équipe Solinum</font></center>"
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
@@ -715,7 +715,7 @@ if categorie == 'Loire-Atlantique (44)':
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>215</font><br/><font size='2'>appels effectués par l'équipe Solinum</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>855</font><br/><font size='2'>appels effectués par l'équipe Solinum</font></center>"
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
@@ -964,7 +964,7 @@ if categorie == 'Paris (75)':
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>1 365</font><br/><font size='2'>appels effectués par l'équipe Solinum</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>2 243</font><br/><font size='2'>appels effectués par l'équipe Solinum</font></center>"
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
@@ -1091,7 +1091,7 @@ if categorie == 'Seine-et-Marne (77)':
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>403</font><br/><font size='2'>appels effectués par l'équipe Solinum</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>123</font><br/><font size='2'>appels effectués par l'équipe Solinum</font></center>"
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
@@ -1217,7 +1217,7 @@ if categorie == 'Yvelines (78)':
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>331</font><br/><font size='2'>appels effectués par l'équipe Solinum</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>750</font><br/><font size='2'>appels effectués par l'équipe Solinum</font></center>"
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
@@ -1340,7 +1340,7 @@ if categorie == 'Essonne (91)':
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>478</font><br/><font size='2'>appels effectués par l'équipe Solinum</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>192</font><br/><font size='2'>appels effectués par l'équipe Solinum</font></center>"
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
@@ -1467,7 +1467,7 @@ if categorie == 'Hauts-de-Seine (92)':
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>138</font><br/><font size='2'>appels effectués par l'équipe Solinum</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>1 072</font><br/><font size='2'>appels effectués par l'équipe Solinum</font></center>"
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
@@ -1590,7 +1590,7 @@ if categorie == 'Seine-Saint-Denis (93)':
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>258</font><br/><font size='2'>appels effectués par l'équipe Solinum</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>839</font><br/><font size='2'>appels effectués par l'équipe Solinum</font></center>"
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
@@ -1714,7 +1714,7 @@ if categorie == 'Val-de-Marne (94)':
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>110</font><br/><font size='2'>appels effectués par l'équipe Solinum</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>870</font><br/><font size='2'>appels effectués par l'équipe Solinum</font></center>"
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
@@ -1840,7 +1840,7 @@ if categorie == 'Val-d\'Oise (95)':
 
     col1.markdown(html_string, unsafe_allow_html=True)
 
-    html_string = "<center><font face='Helvetica' size='6'>907</font><br/><font size='2'>appels effectués par l'équipe Solinum</font></center>"
+    html_string = "<center><font face='Helvetica' size='6'>416</font><br/><font size='2'>appels effectués par l'équipe Solinum</font></center>"
 
     col2.markdown(html_string, unsafe_allow_html=True)
 
