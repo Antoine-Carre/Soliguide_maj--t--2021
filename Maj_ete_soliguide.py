@@ -203,7 +203,7 @@ if categorie == 'France':
     st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
 
-    res_france.rename(index={0: 'l\équipe Soliguide', 1:'les acteurs'}, inplace=True)
+    res_france.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_france, values='status', names=res_france.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
