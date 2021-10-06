@@ -225,7 +225,7 @@ if categorie == 'France':
     col2.markdown(html_string, unsafe_allow_html=True)
 
     html_string = "<center><font face='Helvetica' size='6'>87 442</font><br/><font size='2'>recherches réalisées sur Soliguide </font></center>"
-7 418    col3.markdown(html_string, unsafe_allow_html=True)
+    col3.markdown(html_string, unsafe_allow_html=True)
 
     html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
 
