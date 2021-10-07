@@ -253,7 +253,7 @@ if categorie == 'Ile-De-France':
 
 
     # Création de la carte avec pour centre : le centre d ela France
-    HtmlFile = open("mapIDF.html", 'r', encoding='utf-8')
+    HtmlFile = open("ressources/mapIDF.html", 'r', encoding='utf-8')
     source_code = HtmlFile.read() 
     components.html(source_code, height = 600)
 
