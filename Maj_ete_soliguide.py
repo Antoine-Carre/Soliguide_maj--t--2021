@@ -50,7 +50,7 @@ categorie = st.sidebar.selectbox("Choisissez votre territoire :", ("France",  "I
 
 # Données pour cartes :
 HtmlFile = open("map.html", 'r', encoding='utf-8')
-df_fiches_IDF = pd.read_csv('ressources/df_IDF.csv')
+HtmlFileIDF = open("mapIDF.html", 'r', encoding='utf-8')
 df_fiches_06 = pd.read_csv('ressources/df_fiches_06.csv')
 df_fiches_33 = pd.read_csv('ressources/df_fiches_33.csv')
 df_fiches_44 = pd.read_csv('ressources/df_fiches_44.csv')
@@ -145,7 +145,7 @@ if categorie == 'France':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    # Création de la carte avec pour centre : le centre d ela France
+    # Création de la carte avec pour centre : le centre de la France
     source_code = HtmlFile.read() 
     components.html(source_code, height = 600)
     
@@ -254,28 +254,8 @@ if categorie == 'Ile-De-France':
 
 
     # Création de la carte avec pour centre : le centre d ela France
-    mappy = folium.Map(location=[df_fiches_IDF.latitude[0], df_fiches_IDF.longitude[0]],zoom_start=8.5)
-
-    marker_cluster = MarkerCluster().add_to(mappy)
-
-    # Ajout des différents markers :
-    for en in range(len(df_fiches_IDF['colors'])):
-        folium.CircleMarker([df_fiches_IDF.latitude[en], df_fiches_IDF.longitude[en]],
-                            fill = True,
-                            color = df_fiches_IDF['colors'][en],
-                            radius = 5,
-                            fill_color = df_fiches_IDF['colors'][en],
-                            tooltip=df_fiches_IDF['Fermeture_Estivale'][en], 
-                            popup=df_fiches_IDF['name'][en]
-                            ).add_to( mappy )
-
-    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
-    FloatImage(url, bottom=65, left=70).add_to(mappy)
-
-    mappy.save('map.html')
-
-    #Affichage de la carte
-    folium_static(mappy)
+    source_code = HtmlFileIDF.read() 
+    components.html(source_code, height = 600)
 
 
     # Donnéés traitées pour construire graph 2
