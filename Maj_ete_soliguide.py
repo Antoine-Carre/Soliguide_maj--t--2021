@@ -13,6 +13,8 @@ from bson import ObjectId
 import folium
 from folium.plugins import MarkerCluster
 from folium.plugins import FloatImage
+import streamlit.components.v1 as components
+
 
 @st.cache
 def load_df(url):
