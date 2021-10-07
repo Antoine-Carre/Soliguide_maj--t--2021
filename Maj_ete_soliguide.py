@@ -1417,10 +1417,8 @@ if categorie == 'Val-de-Marne (94)':
     source_code = HtmlFile_94.read() 
     components.html(source_code, height = 600)
 
-    #Affichage de la carte
-    folium_static(mappy)
 
-     # Donnéés traitées pour construire graph 2
+    # Donnéés traitées pour construire graph 2
     df_comparaison_94['Part de service fermé'] = df_comparaison_94['Part de service fermé'].round(1)
 
     fig = px.bar(df_comparaison_94.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
