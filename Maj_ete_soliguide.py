@@ -149,10 +149,6 @@ if categorie == 'France':
     source_code = HtmlFile.read() 
     components.html(source_code, height = 600)
     
-    mappy.save('map.html')
-
-    #Affichage de la carte
-    folium_static(mappy)
 
     # Donnéés traitées pour construire graph 2
     df_comparaison_France['Part de service fermé'] = df_comparaison_France['Part de service fermé'].round(1)
