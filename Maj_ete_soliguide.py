@@ -49,6 +49,9 @@ categorie = st.sidebar.selectbox("Choisissez votre territoire :", ("France",  "I
 # Importation des fichier .csv en pandas
 
 # Données pour cartes :
+HtmlFile = open("ressources/map.html", 'r', encoding='utf-8')
+HtmlFile_IDF = open("ressources/mapIDF.html", 'r', encoding='utf-8')
+
 df_fiches_06 = pd.read_csv('ressources/df_fiches_06.csv')
 df_fiches_33 = pd.read_csv('ressources/df_fiches_33.csv')
 df_fiches_44 = pd.read_csv('ressources/df_fiches_44.csv')
@@ -144,7 +147,6 @@ if categorie == 'France':
     st.markdown(html_string, unsafe_allow_html=True)
 
     # Création de la carte avec pour centre : le centre de la France
-    HtmlFile = open("ressources/map.html", 'r', encoding='utf-8')
     source_code = HtmlFile.read() 
     components.html(source_code, height = 600)
     
@@ -253,8 +255,7 @@ if categorie == 'Ile-De-France':
 
 
     # Création de la carte avec pour centre : le centre d ela France
-    HtmlFile = open("ressources/mapIDF.html", 'r', encoding='utf-8')
-    source_code = HtmlFile.read() 
+    source_code = HtmlFile_IDF.read() 
     components.html(source_code, height = 600)
 
 
