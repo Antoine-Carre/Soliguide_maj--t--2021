@@ -58,6 +58,10 @@ HtmlFile_67 = open("ressources/map67.html", 'r', encoding='utf-8')
 HtmlFile_75 = open("ressources/map75.html", 'r', encoding='utf-8')
 HtmlFile_77 = open("ressources/map77.html", 'r', encoding='utf-8')
 HtmlFile_78 = open("ressources/map78.html", 'r', encoding='utf-8')
+HtmlFile_91 = open("ressources/map91.html", 'r', encoding='utf-8')
+HtmlFile_92 = open("ressources/map92.html", 'r', encoding='utf-8')
+HtmlFile_93 = open("ressources/map93.html", 'r', encoding='utf-8')
+
 
 df_fiches_06 = pd.read_csv('ressources/df_fiches_06.csv')
 df_fiches_33 = pd.read_csv('ressources/df_fiches_33.csv')
@@ -1094,29 +1098,9 @@ if categorie == 'Essonne (91)':
 
     st.markdown(html_string, unsafe_allow_html=True)
  
-    # Création de la carte avec pour centre : le centre d ela France
-    mappy = folium.Map(location=[df_fiches_91.latitude[0], df_fiches_91.longitude[0]],zoom_start=9.5)
-
-    marker_cluster = MarkerCluster().add_to(mappy)
-
-    # Ajout des différents markers :
-    for en in range(len(df_fiches_91['colors'])):
-        folium.CircleMarker([df_fiches_91.latitude[en], df_fiches_91.longitude[en]],
-                            fill = True,
-                            color = df_fiches_91['colors'][en],
-                            radius = 5,
-                            fill_color = df_fiches_91['colors'][en],
-                            tooltip=df_fiches_91['Fermeture_Estivale'][en], 
-                            popup=df_fiches_91['name'][en]
-                            ).add_to( mappy )
-
-    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
-    FloatImage(url, bottom=65, left=70).add_to(mappy)
- 
-    mappy.save('map.html')
-
-    #Affichage de la carte
-    folium_static(mappy)
+    # Création de la carte avec pour centre : le centre de l'Essonne
+    source_code = HtmlFile_91.read() 
+    components.html(source_code, height = 600)
 
      # Donnéés traitées pour construire graph 2
     df_comparaison_91['Part de service fermé'] = df_comparaison_91['Part de service fermé'].round(1)
@@ -1222,29 +1206,9 @@ if categorie == 'Hauts-de-Seine (92)':
 
     marker_cluster = MarkerCluster().add_to(mappy)
  
-    # Création de la carte avec pour centre : le centre d ela France
-    mappy = folium.Map(location=[48.828508, 2.2188068],zoom_start=11)
-
-    marker_cluster = MarkerCluster().add_to(mappy)
-
-    # Ajout des différents markers :
-    for en in range(len(df_fiches_92['colors'])):
-        folium.CircleMarker([df_fiches_92.latitude[en], df_fiches_92.longitude[en]],
-                            fill = True,
-                            color = df_fiches_92['colors'][en],
-                            radius = 5,
-                            fill_color = df_fiches_92['colors'][en],
-                            tooltip=df_fiches_92['Fermeture_Estivale'][en], 
-                            popup=df_fiches_92['name'][en]
-                            ).add_to( mappy )
-
-    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
-    FloatImage(url, bottom=65, left=70).add_to(mappy)
-
-    mappy.save('map.html')
-
-    #Affichage de la carte
-    folium_static(mappy)
+    # Création de la carte avec pour centre : le centre des Hauts de Seine
+    source_code = HtmlFile_92.read() 
+    components.html(source_code, height = 600)
 
      # Donnéés traitées pour construire graph 2
     df_comparaison_92['Part de service fermé'] = df_comparaison_92['Part de service fermé'].round(1)
@@ -1345,29 +1309,9 @@ if categorie == 'Seine-Saint-Denis (93)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    # Création de la carte avec pour centre : le centre d ela France
-    mappy = folium.Map(location=[df_fiches_93.latitude[0], df_fiches_93.longitude[0]],zoom_start=11)
-
-    marker_cluster = MarkerCluster().add_to(mappy)
-
-    # Ajout des différents markers :
-    for en in range(len(df_fiches_93['colors'])):
-        folium.CircleMarker([df_fiches_93.latitude[en], df_fiches_93.longitude[en]],
-                            fill = True,
-                            color = df_fiches_93['colors'][en],
-                            radius = 5,
-                            fill_color = df_fiches_93['colors'][en],
-                            tooltip=df_fiches_93['Fermeture_Estivale'][en], 
-                            popup=df_fiches_93['name'][en]
-                            ).add_to( mappy )
-
-    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
-    FloatImage(url, bottom=65, left=70).add_to(mappy)
-
-    mappy.save('map.html')
-
-    #Affichage de la carte
-    folium_static(mappy)
+    # Création de la carte avec pour centre : le centre de la Seine Saint Denis
+    source_code = HtmlFile_93.read() 
+    components.html(source_code, height = 600)
 
      # Donnéés traitées pour construire graph 2
     df_comparaison_93['Part de service fermé'] = df_comparaison_93['Part de service fermé'].round(1)
