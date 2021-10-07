@@ -61,7 +61,8 @@ HtmlFile_78 = open("ressources/map78.html", 'r', encoding='utf-8')
 HtmlFile_91 = open("ressources/map91.html", 'r', encoding='utf-8')
 HtmlFile_92 = open("ressources/map92.html", 'r', encoding='utf-8')
 HtmlFile_93 = open("ressources/map93.html", 'r', encoding='utf-8')
-
+HtmlFile_94 = open("ressources/map94.html", 'r', encoding='utf-8')
+HtmlFile_95 = open("ressources/map95.html", 'r', encoding='utf-8')
 
 df_fiches_06 = pd.read_csv('ressources/df_fiches_06.csv')
 df_fiches_33 = pd.read_csv('ressources/df_fiches_33.csv')
@@ -1412,26 +1413,9 @@ if categorie == 'Val-de-Marne (94)':
 
     st.markdown(html_string, unsafe_allow_html=True)
    
-    # Création de la carte avec pour centre : le centre d ela France
-    mappy = folium.Map(location=[df_fiches_94.latitude[0], df_fiches_94.longitude[0]],zoom_start=11)
-
-    marker_cluster = MarkerCluster().add_to(mappy)
-
-    # Ajout des différents markers :
-    for en in range(len(df_fiches_94['colors'])):
-        folium.CircleMarker([df_fiches_94.latitude[en], df_fiches_94.longitude[en]],
-                            fill = True,
-                            color = df_fiches_94['colors'][en],
-                            radius = 5,
-                            fill_color = df_fiches_94['colors'][en],
-                            tooltip=df_fiches_94['Fermeture_Estivale'][en], 
-                            popup=df_fiches_94['name'][en]
-                            ).add_to( mappy )
-
-    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
-    FloatImage(url, bottom=65, left=70).add_to(mappy)
-
-    mappy.save('map.html')
+    # Création de la carte avec pour centre : le centre du Val de Marne
+    source_code = HtmlFile_94.read() 
+    components.html(source_code, height = 600)
 
     #Affichage de la carte
     folium_static(mappy)
@@ -1537,29 +1521,9 @@ if categorie == 'Val-d\'Oise (95)':
     st.markdown(html_string, unsafe_allow_html=True)
 
     
-    # Création de la carte avec pour centre 
-    mappy = folium.Map(location=[df_fiches_95.latitude[0], df_fiches_95.longitude[0]],zoom_start=9.5)
-
-    marker_cluster = MarkerCluster().add_to(mappy)
-
-    # Ajout des différents markers :
-    for en in range(len(df_fiches_95['colors'])):
-        folium.CircleMarker([df_fiches_95.latitude[en], df_fiches_95.longitude[en]],
-                            fill = True,
-                            color = df_fiches_95['colors'][en],
-                            radius = 5,
-                            fill_color = df_fiches_95['colors'][en],
-                            tooltip=df_fiches_95['Fermeture_Estivale'][en], 
-                            popup=df_fiches_95['name'][en]
-                            ).add_to( mappy )
-
-    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
-    FloatImage(url, bottom=65, left=70).add_to(mappy)
-
-    mappy.save('map.html')
-
-    #Affichage de la carte
-    folium_static(mappy)
+    # Création de la carte avec pour centre du Val d'Oise
+    source_code = HtmlFile_95.read() 
+    components.html(source_code, height = 600)
 
     
      # Donnéés traitées pour construire graph 2
