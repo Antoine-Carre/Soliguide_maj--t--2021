@@ -144,7 +144,7 @@ if categorie == 'France':
     st.markdown(html_string, unsafe_allow_html=True)
 
     # Création de la carte avec pour centre : le centre de la France
-    HtmlFile = open("map.html", 'r', encoding='utf-8')
+    HtmlFile = open("ressources/map.html", 'r', encoding='utf-8')
     source_code = HtmlFile.read() 
     components.html(source_code, height = 600)
     
