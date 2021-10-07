@@ -47,7 +47,7 @@ categorie = st.sidebar.selectbox("Choisissez votre territoire :", ("France",  "I
 # Importation des fichier .csv en pandas
 
 # Données pour cartes :
-df_france = pd.read_csv('ressources/df_france.csv')
+HtmlFile = open("map.html", 'r', encoding='utf-8')
 df_fiches_IDF = pd.read_csv('ressources/df_IDF.csv')
 df_fiches_06 = pd.read_csv('ressources/df_fiches_06.csv')
 df_fiches_33 = pd.read_csv('ressources/df_fiches_33.csv')
@@ -144,23 +144,8 @@ if categorie == 'France':
     st.markdown(html_string, unsafe_allow_html=True)
 
     # Création de la carte avec pour centre : le centre d ela France
-    mappy = folium.Map(location=[46.227638, 2.213749],zoom_start=5.8)
-
-    marker_cluster = MarkerCluster().add_to(mappy)
-
-    # Ajout des différents markers :
-    for en in range(len(df_france['colors'])):
-        folium.CircleMarker([df_france.latitude[en], df_france.longitude[en]],
-                            fill = True,
-                            color = df_france['colors'][en],
-                            radius = 5,
-                            fill_color = df_france['colors'][en],
-                            tooltip=df_france['Fermeture_Estivale'][en], 
-                            popup=df_france['name'][en]
-                            ).add_to( mappy )
-
-    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
-    FloatImage(url, bottom=40, left=70).add_to(mappy)
+    source_code = HtmlFile.read() 
+    components.html(source_code, height = 600)
     
     mappy.save('map.html')
 
