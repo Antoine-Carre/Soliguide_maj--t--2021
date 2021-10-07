@@ -476,7 +476,7 @@ if categorie == 'Alpes-Maritimes (06)':
 
     html_string = "<center><font face='Helvetica' size='6'>100 %</font><br/><font size='2'>de la base de données mise à jour cet été</font></center>"
 
-    #col4.markdown(html_string, unsafe_allow_html=True)    
+    col4.markdown(html_string, unsafe_allow_html=True)    
     
     html_string = "<br>"
   
