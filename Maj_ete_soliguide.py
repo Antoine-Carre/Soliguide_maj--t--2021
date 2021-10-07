@@ -51,6 +51,12 @@ categorie = st.sidebar.selectbox("Choisissez votre territoire :", ("France",  "I
 # Données pour cartes :
 HtmlFile = open("ressources/map.html", 'r', encoding='utf-8')
 HtmlFile_IDF = open("ressources/mapIDF.html", 'r', encoding='utf-8')
+HtmlFile_06 = open("ressources/map06.html", 'r', encoding='utf-8')
+HtmlFile_33 = open("ressources/map33.html", 'r', encoding='utf-8')
+HtmlFile_44 = open("ressources/map44.html", 'r', encoding='utf-8')
+HtmlFile_67 = open("ressources/map67.html", 'r', encoding='utf-8')
+HtmlFile_75 = open("ressources/map75.html", 'r', encoding='utf-8')
+
 
 df_fiches_06 = pd.read_csv('ressources/df_fiches_06.csv')
 df_fiches_33 = pd.read_csv('ressources/df_fiches_33.csv')
@@ -254,7 +260,7 @@ if categorie == 'Ile-De-France':
     st.markdown(html_string, unsafe_allow_html=True)
 
 
-    # Création de la carte avec pour centre : le centre d ela France
+    # Création de la carte avec pour centre : le centre de l'Ile de France
     source_code = HtmlFile_IDF.read() 
     components.html(source_code, height = 600)
 
@@ -357,29 +363,10 @@ if categorie == 'Alpes-Maritimes (06)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    # Création de la carte avec pour centre : le centre d ela France
-    mappy = folium.Map(location=[df_fiches_06.latitude[0], df_fiches_06.longitude[0]],zoom_start=8.5)
-
-    marker_cluster = MarkerCluster().add_to(mappy)
-
-    # Ajout des différents markers :
-    for en in range(len(df_fiches_06['colors'])):
-        folium.CircleMarker([df_fiches_06.latitude[en], df_fiches_06.longitude[en]],
-        fill = True,
-        color = df_fiches_06['colors'][en],
-        radius = 5,
-        fill_color = df_fiches_06['colors'][en],
-        tooltip=df_fiches_06['Fermeture_Estivale'][en], 
-        popup=df_fiches_06['name'][en]
-        ).add_to( mappy )
-        
-    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
-    FloatImage(url, bottom=65, left=70).add_to(mappy)
-        
-    mappy.save('map.html')
-
-    #Affichage de la carte
-    folium_static(mappy)
+    # Création de la carte avec pour centre : le centre des Alpes Maritimes
+    source_code = HtmlFile_06.read() 
+    components.html(source_code, height = 600)
+    
 
     # Donnéés traitées pour construire graph 2
     df_comparaison_06['Part de service fermé'] = df_comparaison_06['Part de service fermé'].round(1)
@@ -478,30 +465,10 @@ if categorie == 'Gironde (33)':
 
     st.markdown(html_string, unsafe_allow_html=True)
 
-    # Création de la carte avec pour centre : le centre d ela France
-    mappy = folium.Map(location=[df_fiches_33.latitude[0], df_fiches_33.longitude[0]],zoom_start=8.5)
-
-    marker_cluster = MarkerCluster().add_to(mappy)
-
-    # Ajout des différents markers :
-    for en in range(len(df_fiches_33['colors'])):
-        folium.CircleMarker([df_fiches_33.latitude[en], df_fiches_33.longitude[en]],
-                            fill = True,
-                            color = df_fiches_33['colors'][en],
-                            radius = 5,
-                            fill_color = df_fiches_33['colors'][en],
-                            tooltip=df_fiches_33['Fermeture_Estivale'][en], 
-                            popup=df_fiches_33['name'][en]
-                            ).add_to( mappy )
-
-
-    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
-    FloatImage(url, bottom=65, left=70).add_to(mappy)
-
-    mappy.save('map.html')
-
-    #Affichage de la carte
-    folium_static(mappy)
+    # Création de la carte avec pour centre : le centre de la Gironde
+    source_code = HtmlFile_33.read() 
+    components.html(source_code, height = 600)
+    
     
     # Donnéés traitées pour construire graph 2
     df_comparaison_33['Part de service fermé'] = df_comparaison_33['Part de service fermé'].round(1)
@@ -603,30 +570,10 @@ if categorie == 'Loire-Atlantique (44)':
     st.markdown(html_string, unsafe_allow_html=True)
 
    
-    # Création de la carte avec pour centre : le centre d ela France
-    mappy = folium.Map(location=[df_fiches_44.latitude[0], df_fiches_44.longitude[0]],zoom_start=8.2)
-
-    marker_cluster = MarkerCluster().add_to(mappy)
-
-    # Ajout des différents markers :
-    for en in range(len(df_fiches_33['colors'])):
-        folium.CircleMarker([df_fiches_44.latitude[en], df_fiches_44.longitude[en]],
-                            fill = True,
-                            color = df_fiches_44['colors'][en],
-                            radius = 5,
-                            fill_color = df_fiches_44['colors'][en],
-                            tooltip=df_fiches_44['Fermeture_Estivale'][en], 
-                            popup=df_fiches_44['name'][en]
-                            ).add_to( mappy )
-
-
-    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
-    FloatImage(url, bottom=65, left=70).add_to(mappy)
-        
-    mappy.save('map.html')
-
-    #Affichage de la carte
-    folium_static(mappy)
+    # Création de la carte avec pour centre : le centre de la Loire Atlantique
+    source_code = HtmlFile_44.read() 
+    components.html(source_code, height = 600)
+    
     
     # Donnéés traitées pour construire graph 2
     df_comparaison_44['Part de service fermé'] = df_comparaison_44['Part de service fermé'].round(1)
@@ -729,29 +676,9 @@ if categorie == 'Bas-Rhin (67)':
     st.markdown(html_string, unsafe_allow_html=True)
 
  
-    # Création de la carte avec pour centre : le centre d ela France
-    mappy = folium.Map(location=[df_fiches_67.latitude[0], df_fiches_67.longitude[0]],zoom_start=11)
-
-    marker_cluster = MarkerCluster().add_to(mappy)
-
-    # Ajout des différents markers :
-    for en in range(len(df_fiches_67['colors'])):
-        folium.CircleMarker([df_fiches_67.latitude[en], df_fiches_67.longitude[en]],
-                            fill = True,
-                            color = df_fiches_67['colors'][en],
-                            radius = 5,
-                            fill_color = df_fiches_67['colors'][en],
-                            tooltip=df_fiches_67['Fermeture_Estivale'][en], 
-                            popup=df_fiches_67['name'][en]
-                            ).add_to( mappy )
-
-    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
-    FloatImage(url, bottom=65, left=70).add_to(mappy)
-        
-    mappy.save('map.html')
-
-    #Affichage de la carte
-    folium_static(mappy)
+    # Création de la carte avec pour centre : le centre du Bas-Rhin
+    source_code = HtmlFile_67.read() 
+    components.html(source_code, height = 600)
 
      # Donnéés traitées pour construire graph 2
     df_comparaison_67['Part de service fermé'] = df_comparaison_67['Part de service fermé'].round(1)
@@ -853,30 +780,9 @@ if categorie == 'Paris (75)':
     st.markdown(html_string, unsafe_allow_html=True)
 
   
-    # Création de la carte avec pour centre : le centre d ela France
-    mappy = folium.Map(location=[48.856614, 2.3522219],zoom_start=12.1)
-
-    marker_cluster = MarkerCluster().add_to(mappy)
-
-    # Ajout des différents markers :
-    for en in range(len(df_fiches_75['colors'])):
-        folium.CircleMarker([df_fiches_75.latitude[en], df_fiches_75.longitude[en]],
-                            fill = True,
-                            color = df_fiches_75['colors'][en],
-                            radius = 5,
-                            fill_color = df_fiches_75['colors'][en],
-                            tooltip=df_fiches_75['Fermeture_Estivale'][en], 
-                            popup=df_fiches_75['name'][en]
-                            ).add_to( mappy )
-
-
-    url = ('https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_ete.png')
-    FloatImage(url, bottom=65, left=70).add_to(mappy)
- 
-    mappy.save('map.html')
-
-    #Affichage de la carte
-    folium_static(mappy)
+    # Création de la carte avec pour centre : le centre de Paris
+    source_code = HtmlFile_75.read() 
+    components.html(source_code, height = 600)
 
      # Donnéés traitées pour construire graph 2
     df_comparaison_75['Part de service fermé'] = df_comparaison_75['Part de service fermé'].round(1)
