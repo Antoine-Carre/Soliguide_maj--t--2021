@@ -64,20 +64,6 @@ HtmlFile_93 = open("ressources/map93.html", 'r', encoding='utf-8')
 HtmlFile_94 = open("ressources/map94.html", 'r', encoding='utf-8')
 HtmlFile_95 = open("ressources/map95.html", 'r', encoding='utf-8')
 
-df_fiches_06 = pd.read_csv('ressources/df_fiches_06.csv')
-df_fiches_33 = pd.read_csv('ressources/df_fiches_33.csv')
-df_fiches_44 = pd.read_csv('ressources/df_fiches_44.csv')
-df_fiches_67 = pd.read_csv('ressources/df_fiches_67.csv')
-df_fiches_75 = pd.read_csv('ressources/df_fiches_75.csv')
-df_fiches_77 = pd.read_csv('ressources/df_fiches_77.csv')
-df_fiches_78 = pd.read_csv('ressources/df_fiches_78.csv')
-df_fiches_91 = pd.read_csv('ressources/df_fiches_91.csv')
-df_fiches_92 = pd.read_csv('ressources/df_fiches_92.csv')
-df_fiches_93 = pd.read_csv('ressources/df_fiches_93.csv')
-df_fiches_94 = pd.read_csv('ressources/df_fiches_94.csv')
-df_fiches_95 = pd.read_csv('ressources/df_fiches_95.csv')
-
-
 # Données pour le barchart horizontal:
 df_comparaison_France = pd.read_csv('ressources/Fig2.csv')
 df_comparaison_IDF = pd.read_csv('ressources/Fig2_IDF.csv')
