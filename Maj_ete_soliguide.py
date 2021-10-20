@@ -169,7 +169,7 @@ if categorie == 'France':
     df_stacked_per_france.rename(columns={'Ouvert':'Structure ouverte entièrement', 'Service fermé': 'Structure ouverte mais avec des services fermés'}, inplace=True)
 
     fig = px.bar(df_stacked_per_france, x="Categories", y=["Structure fermée", "Changement d'horaire", "Structure ouverte mais avec des services fermés", "Structure ouverte entièrement"], custom_data=['value'],
-                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
+                text='value', color_discrete_sequence= [ '#3E3A71', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
@@ -261,7 +261,7 @@ if categorie == 'Ile-De-France':
     df_comparaison_IDF['Part de service fermé'] = df_comparaison_IDF['Part de service fermé'].round(1)
 
     fig = px.bar(df_comparaison_IDF.head(10).sort_values(by='Part de service fermé', ascending=True), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
-                 custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
+                 custom_data=['Part de service fermé'], color_discrete_sequence= [ '#3E3A71', '#E65A46']) 
 
     fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été ?</b>",
                           margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
@@ -276,7 +276,7 @@ if categorie == 'Ile-De-France':
     df_stacked_per_IDF.rename(columns={'Ouvert':'Structure ouverte entièrement', 'Service fermé': 'Structure ouverte mais avec des services fermés'}, inplace=True)
 
     fig = px.bar(df_stacked_per_IDF, x="Categories", y=["Structure fermée", "Changement d'horaire", "Structure ouverte mais avec des services fermés", "Structure ouverte entièrement"], custom_data=['value'],
-                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
+                text='value', color_discrete_sequence= [ '#3E3A71', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
@@ -364,7 +364,7 @@ if categorie == 'Alpes-Maritimes (06)':
     df_comparaison_06['Part de service fermé'] = df_comparaison_06['Part de service fermé'].round(1)
 
     fig = px.bar(df_comparaison_06.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
-                 custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
+                 custom_data=['Part de service fermé'], color_discrete_sequence= [ '#3E3A71', '#E65A46']) 
 
     fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été ?</b>",
                           margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
@@ -466,7 +466,7 @@ if categorie == 'Gironde (33)':
     df_comparaison_33['Part de service fermé'] = df_comparaison_33['Part de service fermé'].round(1)
 
     fig = px.bar(df_comparaison_33.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
-                 custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
+                 custom_data=['Part de service fermé'], color_discrete_sequence= [ '#3E3A71', '#E65A46']) 
 
     fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été ?</b>",
                           margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
@@ -482,7 +482,7 @@ if categorie == 'Gironde (33)':
     df_stacked_per_33.rename(columns={'Ouvert':'Structure ouverte entièrement', 'Service fermé': 'Structure ouverte mais avec des services fermés'}, inplace=True)
 
     fig = px.bar(df_stacked_per_33, x="Categories", y=["Structure fermée", "Changement d'horaire", "Structure ouverte mais avec des services fermés", "Structure ouverte entièrement"], custom_data=['value'],
-                text='value', color_discrete_sequence= [ '#7201a8', '#bd3786', '#E65A46', '#2896A0'])
+                text='value', color_discrete_sequence= [ '#3E3A71', '#bd3786', '#E65A46', '#2896A0'])
     fig.update_layout(title="<b>Quels impacts a l'été sur les services ?</b>",
                         margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                         legend_title="Status",                     
