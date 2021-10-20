@@ -185,7 +185,7 @@ if categorie == 'France':
     st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
 
-    res_france.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
+    res_france.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_france, values='status', names=res_france.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
@@ -291,7 +291,7 @@ if categorie == 'Ile-De-France':
     st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
     
-    res_IDF.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
+    res_IDF.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_IDF, values='status', names=res_IDF.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
@@ -392,7 +392,7 @@ if categorie == 'Alpes-Maritimes (06)':
     
     # Donnéés traitées pour construire graph 4
     
-    res_06.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
+    res_06.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_06, values='status', names=res_06.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
@@ -497,7 +497,7 @@ if categorie == 'Gironde (33)':
     st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
     
-    res_33.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
+    res_33.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_33, values='status', names=res_33.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
@@ -602,7 +602,7 @@ if categorie == 'Loire-Atlantique (44)':
     st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
     
-    res_44.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
+    res_44.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_44, values='status', names=res_44.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
@@ -707,7 +707,7 @@ if categorie == 'Bas-Rhin (67)':
     st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
     
-    res_67.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
+    res_67.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_67, values='status', names=res_67.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
@@ -811,7 +811,7 @@ if categorie == 'Paris (75)':
     st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
 
-    res_75.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
+    res_75.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_75, values='status', names=res_75.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
@@ -916,7 +916,7 @@ if categorie == 'Seine-et-Marne (77)':
     st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
 
-    res_77.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
+    res_77.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_77, values='status', names=res_77.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
@@ -1021,7 +1021,7 @@ if categorie == 'Yvelines (78)':
     st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
 
-    res_78.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
+    res_78.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_78, values='status', names=res_78.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
@@ -1125,7 +1125,7 @@ if categorie == 'Essonne (91)':
     st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
 
-    res_91.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
+    res_91.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_91, values='status', names=res_91.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
@@ -1232,7 +1232,7 @@ if categorie == 'Hauts-de-Seine (92)':
     st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
 
-    res_92.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
+    res_92.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_92, values='status', names=res_92.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
@@ -1335,7 +1335,7 @@ if categorie == 'Seine-Saint-Denis (93)':
     st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
 
-    res_93.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
+    res_93.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_93, values='status', names=res_93.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
@@ -1440,7 +1440,7 @@ if categorie == 'Val-de-Marne (94)':
     st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
 
-    res_94.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
+    res_94.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_94, values='status', names=res_94.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
@@ -1546,7 +1546,7 @@ if categorie == 'Val-d\'Oise (95)':
     st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
 
-    res_95.rename(index={0: 'l\'équipe Soliguide', 1:'les acteurs'}, inplace=True)
+    res_95.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
     
     fig = px.pie(res_95, values='status', names=res_95.index, color_discrete_sequence= [ '#3E3A71', '#E65A46'])
     fig.update_traces(textposition='inside', textinfo='percent+label',\
