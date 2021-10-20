@@ -153,7 +153,7 @@ if categorie == 'France':
     df_comparaison_France['Part de service fermé'] = df_comparaison_France['Part de service fermé'].round(1)
 
     fig = px.bar(df_comparaison_France.sort_values(by='Part de service fermé', ascending=False).head(10), y="catégorie", x=["ouvert", "Service fermé"],orientation='h', 
-                 custom_data=['Part de service fermé'], color_discrete_sequence= [ '#7201a8', '#d8576b']) 
+                 custom_data=['Part de service fermé'], color_discrete_sequence= [ '#3E3A71', '#E65A46']) 
 
     fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'été ?</b>",
                           margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
