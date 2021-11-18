@@ -182,7 +182,7 @@ if categorie == 'France':
     
     # Donnéés traitées pour construire graph 4
     
-    st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center><b>Qui a réalisé les mises à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
 
     res_france.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
@@ -288,7 +288,7 @@ if categorie == 'Ile-De-France':
 
     # Donnéés traitées pour construire graph 4
 
-    st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center><b>Qui a réalisé les mises à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
     
     res_IDF.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
@@ -391,6 +391,9 @@ if categorie == 'Alpes-Maritimes (06)':
     st.plotly_chart(fig, use_container_width=True)
     
     # Donnéés traitées pour construire graph 4
+
+    st.markdown("<center><b>Qui a réalisé les mises à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
     
     res_06.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
     
@@ -494,7 +497,7 @@ if categorie == 'Gironde (33)':
     
     # Donnéés traitées pour construire graph 4
   
-    st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center><b>Qui a réalisé les mises à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
     
     res_33.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
@@ -599,7 +602,7 @@ if categorie == 'Loire-Atlantique (44)':
     
     # Donnéés traitées pour construire graph 4
     
-    st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center><b>Qui a réalisé les mises à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
     
     res_44.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
@@ -704,7 +707,7 @@ if categorie == 'Bas-Rhin (67)':
 
     # Donnéés traitées pour construire graph 4
     
-    st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center><b>Qui a réalisé les mises à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
     
     res_67.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
@@ -808,7 +811,7 @@ if categorie == 'Paris (75)':
     
     # Donnéés traitées pour construire graph 4
    
-    st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center><b>Qui a réalisé les mises à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
 
     res_75.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
@@ -913,7 +916,7 @@ if categorie == 'Seine-et-Marne (77)':
        
     # Donnéés traitées pour construire graph 3
     
-    st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center><b>Qui a réalisé les mises à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
 
     res_77.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
@@ -1018,7 +1021,7 @@ if categorie == 'Yvelines (78)':
        
     # Donnéés traitées pour construire graph 4
     
-    st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center><b>Qui a réalisé les mises à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
 
     res_78.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
@@ -1122,7 +1125,7 @@ if categorie == 'Essonne (91)':
        
     # Donnéés traitées pour construire graph 4
     
-    st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center><b>Qui a réalisé les mises à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
 
     res_91.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
@@ -1229,7 +1232,7 @@ if categorie == 'Hauts-de-Seine (92)':
     
     # Donnéés traitées pour construire graph 4
     
-    st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center><b>Qui a réalisé les mises à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
 
     res_92.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
@@ -1332,7 +1335,7 @@ if categorie == 'Seine-Saint-Denis (93)':
     
     # Donnéés traitées pour construire graph 4
     
-    st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center><b>Qui a réalisé les mises à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
 
     res_93.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
@@ -1437,7 +1440,7 @@ if categorie == 'Val-de-Marne (94)':
     
     # Donnéés traitées pour construire graph 4
     
-    st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center><b>Qui a réalisé les mises à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
 
     res_94.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
@@ -1543,7 +1546,7 @@ if categorie == 'Val-d\'Oise (95)':
 
     # Donnéés traitées pour construire graph 4
     
-    st.markdown("<center><b>Qui a réalisé les mis à jour pendant l'été ?</b>", unsafe_allow_html=True)
+    st.markdown("<center><b>Qui a réalisé les mises à jour pendant l'été ?</b>", unsafe_allow_html=True)
     st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
 
     res_95.rename(index={0: 'l\'équipe Solinum', 1:'les acteurs'}, inplace=True)
